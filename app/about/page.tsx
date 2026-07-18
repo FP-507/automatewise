@@ -46,27 +46,40 @@ export default function AboutPage() {
         </p>
 
         <h2>What We Cover</h2>
+        <p>
+          With <strong>50+ in-depth articles</strong> across five categories,
+          we cover the full spectrum of workflow automation:
+        </p>
         <ul>
           <li>
             <strong>No-Code Automation Platforms</strong> — Deep dives into
-            tools like n8n, Zapier, Make (Integromat), Power Automate, and
-            IFTTT
+            n8n, Zapier, Make, Power Automate, Airtable, Notion, and IFTTT
           </li>
           <li>
-            <strong>Step-by-Step Tutorials</strong> — Practical guides that
-            walk you through building real automations from scratch
+            <strong>Step-by-Step Tutorials</strong> — From{" "}
+            <Link href="/blog/webhook-automation-guide">webhooks</Link> and{" "}
+            <Link href="/blog/api-integration-without-code">API integrations</Link>{" "}
+            to{" "}
+            <Link href="/blog/ai-workflow-automation">AI-powered workflows</Link>
           </li>
           <li>
-            <strong>Tool Comparisons</strong> — Honest, data-driven
-            comparisons to help you choose the right tool for your needs
+            <strong>Tool Comparisons</strong> — Honest, data-driven{" "}
+            <Link href="/tools">comparisons</Link> to help you choose the
+            right platform
           </li>
           <li>
-            <strong>Industry Use Cases</strong> — Automation strategies
-            tailored to freelancers, agencies, ecommerce, HR, and more
+            <strong>Industry Use Cases</strong> — Automation strategies for{" "}
+            <Link href="/blog/automation-for-saas-startups">SaaS startups</Link>,{" "}
+            <Link href="/blog/automation-for-real-estate">real estate</Link>,{" "}
+            <Link href="/blog/automation-for-content-creators">content creators</Link>,{" "}
+            <Link href="/blog/automation-for-accounting">accounting</Link>, and more
           </li>
           <li>
-            <strong>Advanced Strategies</strong> — ROI calculations, API
-            integrations, and scaling techniques for power users
+            <strong>Advanced Strategies</strong> —{" "}
+            <Link href="/blog/error-handling-automation">Error handling</Link>,{" "}
+            <Link href="/blog/automation-security-best-practices">security</Link>,{" "}
+            <Link href="/blog/scaling-automation-workflows">scaling</Link>, and{" "}
+            <Link href="/blog/workflow-automation-roi">ROI analysis</Link>
           </li>
         </ul>
 

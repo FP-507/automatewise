@@ -2,6 +2,7 @@
 title: "No-Code Automation Explained: Build Workflows Without Programming"
 description: "Discover how no-code automation lets anyone build powerful workflows without writing code. Learn about visual builders, top platforms, and limitations."
 date: "2025-10-02"
+updated: "2026-07-18"
 category: "getting-started"
 tags: ["no-code", "automation tools", "visual workflow builder", "beginner guide"]
 keywords: ["no-code automation", "no-code workflow builder", "automation without coding"]

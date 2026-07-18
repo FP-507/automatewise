@@ -11,6 +11,7 @@ export const SITE = {
 
 export const NAV_LINKS = [
   { href: "/blog", label: "Articles" },
+  { href: "/tools", label: "Tools" },
   { href: "/categories/getting-started", label: "Start Here" },
   { href: "/categories/how-to", label: "Tutorials" },
   { href: "/categories/tool-comparisons", label: "Comparisons" },

@@ -76,6 +76,31 @@ export const metadata: Metadata = {
   },
 };
 
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE.name,
+  url: SITE.url,
+  description: SITE.description,
+  publisher: {
+    "@type": "Organization",
+    name: SITE.name,
+    url: SITE.url,
+    logo: {
+      "@type": "ImageObject",
+      url: `${SITE.url}/icon.svg`,
+    },
+  },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: `${SITE.url}/blog?q={search_term_string}`,
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -87,6 +112,10 @@ export default function RootLayout({
       className={`${bricolage.variable} ${dmSans.variable} ${lora.variable} ${geistMono.variable}`}
     >
       <body className="min-h-dvh flex flex-col antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
         <Analytics />
         <Header />
         <main className="flex-1">{children}</main>

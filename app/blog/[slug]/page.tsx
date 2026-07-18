@@ -66,11 +66,15 @@ export default async function ArticlePage({
   const related = getRelatedArticles(slug, article.category);
   const categoryInfo = CATEGORY_INFO[article.category];
 
-  const date = new Date(article.date).toLocaleDateString("en-US", {
+  const dateFormatOptions: Intl.DateTimeFormatOptions = {
     year: "numeric",
     month: "long",
     day: "numeric",
-  });
+  };
+  const date = new Date(article.date).toLocaleDateString("en-US", dateFormatOptions);
+  const updatedDate = article.updated
+    ? new Date(article.updated).toLocaleDateString("en-US", dateFormatOptions)
+    : null;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -96,6 +100,48 @@ export default async function ArticlePage({
     keywords: article.keywords.join(", "),
   };
 
+  const faqEntries: { q: string; a: string }[] = [];
+  if (article.category === "tool-comparisons" || article.category === "getting-started") {
+    const headings = article.content.match(/<h2>(.*?)<\/h2>/g) || [];
+    const sections = article.content.split(/<h2>/);
+    sections.slice(1).forEach((section, i) => {
+      const heading = headings[i]
+        ?.replace(/<\/?h2>/g, "")
+        .replace(/<[^>]*>/g, "");
+      if (!heading) return;
+      const isQuestion =
+        heading.includes("?") ||
+        /^(What|Why|How|When|Which|Is|Can|Do|Should|Where)/i.test(heading);
+      if (isQuestion) {
+        const text = section
+          .split(/<h[23]>/)[0]
+          .replace(/<[^>]*>/g, "")
+          .replace(/\s+/g, " ")
+          .trim()
+          .slice(0, 300);
+        if (text.length > 50) {
+          faqEntries.push({ q: heading, a: text });
+        }
+      }
+    });
+  }
+
+  const faqJsonLd =
+    faqEntries.length >= 2
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqEntries.slice(0, 6).map((faq) => ({
+            "@type": "Question",
+            name: faq.q,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: faq.a,
+            },
+          })),
+        }
+      : null;
+
   const contentWithIds = article.content.replace(
     /<h([23])>(.*?)<\/h[23]>/g,
     (_, level: string, text: string) => {
@@ -114,6 +160,12 @@ export default async function ArticlePage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
 
       <article className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
         <Breadcrumbs
@@ -143,6 +195,17 @@ export default async function ArticlePage({
               </svg>
               <time dateTime={article.date}>{date}</time>
             </span>
+            {updatedDate && (
+              <>
+                <span className="h-1 w-1 rounded-full bg-text-muted" />
+                <span className="inline-flex items-center gap-1.5 text-accent">
+                  <svg viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5 opacity-70">
+                    <path d="M1.705 8.005a.75.75 0 01.834.656 5.5 5.5 0 009.592 2.97l-1.204-1.204a.25.25 0 01.177-.427h3.646a.25.25 0 01.25.25v3.646a.25.25 0 01-.427.177l-1.38-1.38A7.001 7.001 0 011.05 8.84a.75.75 0 01.656-.834zM8 2.5a5.487 5.487 0 00-4.131 1.869l1.204 1.204A.25.25 0 014.896 6H1.25A.25.25 0 011 5.75V2.104a.25.25 0 01.427-.177l1.38 1.38A7.001 7.001 0 0114.95 7.16a.75.75 0 11-1.49.178A5.5 5.5 0 008 2.5z" />
+                  </svg>
+                  Updated <time dateTime={article.updated}>{updatedDate}</time>
+                </span>
+              </>
+            )}
             <span className="h-1 w-1 rounded-full bg-text-muted" />
             <span className="inline-flex items-center gap-1.5">
               <svg viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5 opacity-60">

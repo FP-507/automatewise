@@ -105,7 +105,7 @@ export default function HomePage() {
                 <svg viewBox="0 0 16 16" fill="currentColor" className="h-4 w-4 text-accent">
                   <path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm11.78-1.72a.75.75 0 00-1.06-1.06L7 8.94 5.28 7.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.06 0l4.25-4.25z" />
                 </svg>
-                30+ in-depth guides
+                50+ in-depth guides
               </span>
               <span className="h-3 w-px bg-border" />
               <span className="flex items-center gap-1.5">

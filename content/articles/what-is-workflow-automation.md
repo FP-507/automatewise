@@ -2,6 +2,7 @@
 title: "What Is Workflow Automation? A Complete Beginner's Guide"
 description: "Learn what workflow automation is, how it works, and why businesses use it. This beginner's guide covers types, benefits, tools, and how to get started."
 date: "2025-09-15"
+updated: "2026-07-18"
 category: "getting-started"
 tags: ["workflow automation", "automation basics", "beginner guide", "business automation"]
 keywords: ["what is workflow automation", "workflow automation definition", "automation for beginners"]
