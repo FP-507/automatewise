@@ -44,6 +44,7 @@ const TOOLS = [
       { href: "/blog/make-vs-zapier", label: "Make vs Zapier" },
       { href: "/blog/power-automate-vs-zapier", label: "Power Automate vs Zapier" },
       { href: "/blog/ifttt-vs-zapier-vs-make", label: "IFTTT vs Zapier vs Make" },
+      { href: "/blog/zapier-vs-pipedream", label: "Zapier vs Pipedream" },
     ],
   },
   {
@@ -70,9 +71,35 @@ const TOOLS = [
     bestFor: "Microsoft-centric organizations, enterprise, desktop RPA",
     color: "#0066ff",
     articles: [
+      { href: "/blog/getting-started-with-power-automate", label: "Getting Started Guide" },
       { href: "/blog/power-automate-vs-zapier", label: "Power Automate vs Zapier" },
       { href: "/blog/n8n-vs-power-automate", label: "n8n vs Power Automate" },
       { href: "/blog/make-vs-power-automate", label: "Make vs Power Automate" },
+    ],
+  },
+  {
+    name: "IFTTT",
+    tagline: "Simple automations for everyone",
+    description:
+      "The simplest automation platform with 800+ services. Trigger-action model makes it perfect for personal automations, smart home control, and social media workflows. The most affordable paid plan in the market.",
+    pricing: "Free (2 applets) / From $3.49/mo",
+    bestFor: "Beginners, personal automation, smart home, social media",
+    color: "#33ccff",
+    articles: [
+      { href: "/blog/getting-started-with-ifttt", label: "Getting Started Guide" },
+      { href: "/blog/ifttt-vs-zapier-vs-make", label: "IFTTT vs Zapier vs Make" },
+    ],
+  },
+  {
+    name: "Pipedream",
+    tagline: "Code-first automation for developers",
+    description:
+      "Developer-friendly automation platform with a generous free tier of 10,000 invocations/month. Write custom code in Node.js, Python, Go, or Bash alongside visual steps. 2,000+ API integrations.",
+    pricing: "Free (10K invocations/mo) / From $29/mo",
+    bestFor: "Developers, API integrations, code-first workflows",
+    color: "#27ae60",
+    articles: [
+      { href: "/blog/zapier-vs-pipedream", label: "Zapier vs Pipedream" },
     ],
   },
   {

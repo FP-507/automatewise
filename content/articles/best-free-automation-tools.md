@@ -2,7 +2,7 @@
 title: "10 Best Free Workflow Automation Tools in 2025"
 description: "Discover the 10 best free workflow automation tools in 2025. Compare features, limitations, and use cases for n8n, Zapier, Make, and more."
 date: "2026-02-15"
-updated: "2026-07-18"
+updated: "2026-08-10"
 category: "tool-comparisons"
 tags: ["free automation tools", "workflow automation", "no-code tools", "open source automation", "zapier alternatives"]
 keywords: ["free automation tools", "best free workflow automation", "free zapier alternatives"]

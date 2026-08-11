@@ -2,6 +2,7 @@
 title: "Ecommerce Automation: 12 Workflows Every Online Store Needs"
 description: "Discover 12 essential ecommerce automation workflows for order processing, inventory, abandoned carts, reviews, and more. Tools and setup tips included."
 date: "2026-03-28"
+updated: "2026-08-10"
 category: "use-cases"
 tags: ["ecommerce", "Shopify", "online store", "order management", "inventory"]
 keywords: ["ecommerce automation", "online store automation", "automate shopify", "ecommerce workflow"]

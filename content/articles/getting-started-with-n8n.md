@@ -2,6 +2,7 @@
 title: "Getting Started with n8n: Build Your First Automation in 15 Minutes"
 description: "Learn how to set up n8n and build your first automated workflow in under 15 minutes. Step-by-step tutorial for complete beginners."
 date: "2025-10-20"
+updated: "2026-08-10"
 category: "getting-started"
 tags: ["n8n", "tutorial", "beginner guide", "workflow builder", "first automation"]
 keywords: ["getting started with n8n", "n8n tutorial", "n8n beginner guide", "first n8n workflow"]

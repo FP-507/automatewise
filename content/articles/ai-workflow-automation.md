@@ -2,6 +2,7 @@
 title: "How to Use AI in Your Workflow Automations: A Practical Guide"
 description: "Learn how to integrate AI models like ChatGPT, Claude, and Gemini into your automation workflows using n8n, Make, and Zapier. Real examples and step-by-step instructions."
 date: "2026-06-18"
+updated: "2026-08-10"
 category: "how-to"
 tags: ["AI", "ChatGPT", "Claude", "workflow automation", "no-code AI"]
 keywords: ["ai workflow automation", "chatgpt automation", "ai no-code", "automate with ai", "ai in workflows"]

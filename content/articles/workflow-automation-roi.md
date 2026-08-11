@@ -2,6 +2,7 @@
 title: "How to Calculate Workflow Automation ROI (With Free Template)"
 description: "Learn how to measure the ROI of workflow automation with a step-by-step framework. Includes formulas, real examples, and a free calculation template."
 date: "2026-05-22"
+updated: "2026-08-10"
 category: "advanced"
 tags: ["ROI", "automation strategy", "business case", "cost analysis"]
 keywords: ["workflow automation roi", "automation return on investment", "calculate automation savings", "automation cost benefit"]

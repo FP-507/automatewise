@@ -2,6 +2,7 @@
 title: "How to Automate Email Marketing Campaigns Step by Step"
 description: "Learn how to automate email marketing campaigns using no-code tools. Build welcome sequences, abandoned cart flows, and segmented campaigns that run on autopilot."
 date: "2026-01-10"
+updated: "2026-08-10"
 category: "how-to"
 tags: ["email marketing", "automation", "no-code", "campaigns"]
 keywords: ["automate email marketing", "email automation workflow", "automated email campaigns"]

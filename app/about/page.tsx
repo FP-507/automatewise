@@ -47,7 +47,7 @@ export default function AboutPage() {
 
         <h2>What We Cover</h2>
         <p>
-          With <strong>50+ in-depth articles</strong> across five categories,
+          With <strong>70+ in-depth articles</strong> across five categories,
           we cover the full spectrum of workflow automation:
         </p>
         <ul>
@@ -70,9 +70,13 @@ export default function AboutPage() {
           <li>
             <strong>Industry Use Cases</strong> — Automation strategies for{" "}
             <Link href="/blog/automation-for-saas-startups">SaaS startups</Link>,{" "}
+            <Link href="/blog/automation-for-healthcare">healthcare</Link>,{" "}
             <Link href="/blog/automation-for-real-estate">real estate</Link>,{" "}
-            <Link href="/blog/automation-for-content-creators">content creators</Link>,{" "}
-            <Link href="/blog/automation-for-accounting">accounting</Link>, and more
+            <Link href="/blog/automation-for-law-firms">law firms</Link>,{" "}
+            <Link href="/blog/automation-for-education">education</Link>,{" "}
+            <Link href="/blog/automation-for-nonprofits">nonprofits</Link>,{" "}
+            <Link href="/blog/automation-for-restaurants">restaurants</Link>,{" "}
+            and more
           </li>
           <li>
             <strong>Advanced Strategies</strong> —{" "}

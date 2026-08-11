@@ -2,6 +2,7 @@
 title: "How to Integrate ChatGPT into Your Automation Workflows"
 description: "Step-by-step guide to adding ChatGPT and GPT-4 to your automations. Build AI-powered email responders, content generators, data extractors, and more."
 date: "2026-06-16"
+updated: "2026-08-10"
 category: "how-to"
 tags: ["ChatGPT", "GPT-4", "OpenAI", "AI automation", "no-code AI"]
 keywords: ["chatgpt automation", "gpt-4 workflow", "chatgpt zapier", "chatgpt n8n", "automate with chatgpt"]

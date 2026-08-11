@@ -2,6 +2,7 @@
 title: "Getting Started with Make (Integromat): Build Visual Automations from Scratch"
 description: "A complete beginner's guide to Make.com. Learn how to build your first scenario, connect apps, and automate workflows with Make's visual builder."
 date: "2026-06-15"
+updated: "2026-08-10"
 category: "getting-started"
 tags: ["Make", "Integromat", "beginner guide", "visual automation", "no-code"]
 keywords: ["getting started with make", "make.com tutorial", "integromat beginner guide", "make automation tutorial", "make.com guide"]
