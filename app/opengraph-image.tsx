@@ -85,7 +85,7 @@ export default function Image() {
             maxWidth: "700px",
           }}
         >
-          Step-by-step guides to n8n, Zapier, Make, and more. 70+ in-depth tutorials — 100% free.
+          Step-by-step guides to n8n, Zapier, Make, and more. 85+ in-depth tutorials — 100% free.
         </div>
 
         {/* Bottom accent line */}
