@@ -1,7 +1,8 @@
 ---
 title: "API Integration Without Code: A Practical Guide for Non-Developers"
-description: "Learn how to connect APIs without programming using no-code tools like n8n and Zapier. Understand REST APIs, authentication, and build real integrations step by step."
+description: "Learn how to connect APIs without code using n8n and Zapier. Understand REST APIs, authentication, and build real integrations."
 date: "2026-05-12"
+updated: "2026-09-01"
 category: "advanced"
 tags: ["API", "integration", "no-code", "REST API"]
 keywords: ["api integration without code", "no-code api connection", "connect apis without programming", "rest api no-code"]

@@ -3,7 +3,7 @@ export const SITE = {
   tagline: "Master Workflow Automation Without Writing Code",
   description:
     "Learn workflow automation, compare no-code tools, and build powerful automations with step-by-step guides. Master n8n, Zapier, Make, and more.",
-  url: "https://automatewise.vercel.app",
+  url: "https://automatewise-six.vercel.app",
   locale: "en_US",
   author: "AutomateWise",
   twitter: "@automatewise",

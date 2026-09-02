@@ -145,7 +145,7 @@ export default async function Image({
             </span>
           </div>
           <span style={{ fontSize: "16px", color: "#71717a" }}>
-            automatewise.vercel.app
+            automatewise-six.vercel.app
           </span>
         </div>
       </div>

@@ -5,6 +5,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: `Privacy Policy for ${SITE.name}. Learn how we collect, use, and protect your information.`,
+  robots: { index: false, follow: true },
 };
 
 export default function PrivacyPage() {

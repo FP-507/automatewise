@@ -1,7 +1,8 @@
 ---
 title: "How to Automate Appointment Scheduling and Booking"
-description: "Learn how to automate appointment scheduling using Calendly, Cal.com, and automation platforms. Build booking workflows with confirmations, reminders, and follow-ups."
+description: "Automate appointment scheduling with Calendly, Cal.com, and no-code tools. Build booking workflows with reminders and follow-ups."
 date: "2026-06-02"
+updated: "2026-09-01"
 category: "how-to"
 tags: ["scheduling", "appointments", "Calendly", "Cal.com", "automation"]
 keywords: ["automate appointment scheduling", "booking automation", "calendly automation", "automated scheduling", "appointment workflow"]
