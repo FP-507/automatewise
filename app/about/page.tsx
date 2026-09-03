@@ -47,7 +47,7 @@ export default function AboutPage() {
 
         <h2>What We Cover</h2>
         <p>
-          With <strong>85+ in-depth articles</strong> across five categories,
+          With <strong>100+ in-depth articles</strong> across five categories,
           we cover the full spectrum of workflow automation:
         </p>
         <ul>
