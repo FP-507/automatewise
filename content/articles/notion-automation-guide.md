@@ -1,7 +1,8 @@
 ---
-title: "How to Automate Notion Workflows and Databases"
-description: "Complete guide to automating Notion with built-in features, the Notion API, and platforms like n8n, Make, and Zapier. Automate databases, pages, and team workflows."
+title: "Notion Automation: Workflows & Databases (2026)"
+description: "Automate Notion databases and workflows with built-in features, the API, and no-code tools like Make and Zapier. Free step-by-step guide."
 date: "2026-06-10"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["Notion", "automation", "databases", "productivity", "no-code"]
 keywords: ["notion automation", "automate notion", "notion api automation", "notion workflow", "notion zapier integration"]

@@ -1,8 +1,8 @@
 ---
-title: "Getting Started with Zapier: Your First Automation in 10 Minutes"
-description: "Complete beginner's guide to Zapier. Learn how to create your first Zap, connect apps, and automate repetitive tasks with Zapier's simple interface."
+title: "How to Use Zapier: First Zap in 10 Minutes (2026)"
+description: "Create your first Zap in under 10 minutes. Connect 7,000+ apps, automate repetitive tasks, and save hours every week. Free guide with examples."
 date: "2026-06-14"
-updated: "2026-08-10"
+updated: "2026-09-03"
 category: "getting-started"
 tags: ["Zapier", "beginner guide", "tutorial", "no-code", "automation basics"]
 keywords: ["getting started with zapier", "zapier tutorial for beginners", "how to use zapier", "zapier beginner guide", "first zap"]

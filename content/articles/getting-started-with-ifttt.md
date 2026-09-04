@@ -1,10 +1,11 @@
 ---
-title: "Getting Started with IFTTT: Simple Automations for Beginners"
-description: "Learn how to use IFTTT to create simple automations. Step-by-step guide to applets, triggers, actions, and connecting your favorite apps and devices."
+title: "How to Use IFTTT: Beginner's Guide (2026)"
+description: "Learn to use IFTTT in 10 minutes. Create your first applet, connect 900+ apps, and automate daily tasks — no coding needed. Free step-by-step guide."
 date: "2026-08-08"
+updated: "2026-09-03"
 category: "getting-started"
 tags: ["IFTTT", "IFTTT tutorial", "simple automation", "smart home automation"]
-keywords: ["getting started with IFTTT", "IFTTT tutorial", "IFTTT beginner guide"]
+keywords: ["how to use ifttt", "getting started with IFTTT", "IFTTT tutorial", "IFTTT beginner guide"]
 featured: false
 ---
 
