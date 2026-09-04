@@ -191,3 +191,15 @@ For a broader overview of available tools and pricing, see our [best automation 
 Restaurant automation is not about removing the personal touch that defines great hospitality. It is about ensuring that operational mechanics — order routing, inventory tracking, scheduling, and platform management — run reliably so your team can focus on cooking excellent food and creating memorable dining experiences.
 
 Start with the workflow that causes the most daily frustration. For most restaurants, that is multi-platform order management or inventory tracking. Build confidence with one successful automation, then expand systematically. The restaurants that thrive on thin margins are the ones that eliminate waste — of ingredients, of time, and of staff energy spent on tasks that software handles better.
+
+## What restaurant tasks can be automated?
+
+The most impactful restaurant automations include multi-platform order management (consolidating DoorDash, Uber Eats, and Grubhub orders into one system), inventory tracking with low-stock alerts, reservation confirmations and reminders, staff scheduling, review monitoring and response, tip pool calculations, and daily sales report generation. These cover the core operational tasks that consume manager time.
+
+## How much does restaurant automation cost?
+
+Most restaurant automation can be implemented for $50-150 per month total. Tools like Toast or Square handle POS and basic automation natively. MarketMan or BlueCart automate inventory for $100-300 per month. [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make) connect these systems for $20-50 per month. The time saved (typically 10-15 manager hours per week) far exceeds the tool costs.
+
+## Can small restaurants benefit from automation?
+
+Yes — small restaurants often benefit the most because they have fewer staff to handle administrative tasks. A single-location restaurant can automate online review monitoring, reservation reminders, inventory alerts, and daily reporting without any technical expertise. These automations save the owner or manager 1-2 hours daily, which directly translates to better service, more menu development time, or reduced overtime costs.

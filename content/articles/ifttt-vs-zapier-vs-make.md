@@ -206,3 +206,11 @@ IFTTT, Zapier, and Make each dominate their respective niches. IFTTT is the best
 Start by identifying your primary use case. If it is personal, go with IFTTT. If it is business and you value simplicity, go with Zapier. If it is business and you value power and value, go with Make. All three offer free plans, so you can test your choice before committing.
 
 For comparisons that go deeper into specific pairs, see our [Make vs Zapier](/blog/make-vs-zapier) guide and our [n8n vs Make](/blog/n8n-vs-make) comparison. And if you want to explore even more options, our guide on the [benefits of workflow automation](/blog/workflow-automation-benefits) explains what you stand to gain regardless of which platform you choose.
+
+## Which is cheaper: IFTTT, Zapier, or Make?
+
+IFTTT is the cheapest for personal use at $3.49 per month for unlimited applets. Make offers the best value for business workflows at $10.59 per month for 10,000 operations. Zapier is the most expensive, starting at $19.99 per month for 750 tasks. However, Zapier's per-step task counting means complex workflows cost significantly more than the same workflow on Make, where operations scale more predictably.
+
+## Is IFTTT good for business automation?
+
+IFTTT works for basic business tasks like posting to social media or getting notifications, but it lacks the multi-step logic, error handling, and data transformation features that business workflows require. Zapier and Make are far better suited for business automation with features like conditional branching, multiple action steps, webhook support, and enterprise-grade integrations. IFTTT is best reserved for personal and IoT automations.

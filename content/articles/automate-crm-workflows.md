@@ -237,3 +237,15 @@ CRM automation is not about replacing salespeople — it is about freeing them f
 Start with one workflow — lead capture or follow-up sequences are the highest-value starting points — and measure the impact. Then systematically automate each stage of your pipeline.
 
 For more sales-related automation, see our guide on [building an automated sales pipeline](/blog/build-automated-sales-pipeline) and [automation for lead generation](/blog/automate-lead-generation).
+
+## What CRM workflows should I automate first?
+
+Start with lead capture automation — connecting your web forms, landing pages, and email to your CRM so new contacts are created automatically with proper tagging. Next, automate follow-up email sequences triggered by pipeline stage changes. These two workflows eliminate the biggest source of lost leads (manual data entry delays) and forgotten follow-ups.
+
+## Does CRM automation replace salespeople?
+
+No. CRM automation handles administrative tasks — data entry, email sequencing, task creation, and reporting — so salespeople can focus on relationship building and closing deals. Studies show sales reps spend only 35% of their time actually selling; automation can increase that to 60%+ by eliminating manual CRM updates, scheduling, and status tracking.
+
+## Which CRM is best for automation?
+
+HubSpot offers the most accessible built-in automation with its visual workflow builder (free CRM + paid automation features). Salesforce provides the most powerful automation through Flow Builder but has a steeper learning curve. Pipedrive is the simplest for small sales teams with straightforward deal-based automations. All three integrate with [Zapier](/blog/getting-started-with-zapier) and [Make](/blog/getting-started-with-make) for cross-platform automation.

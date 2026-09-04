@@ -220,3 +220,15 @@ For more tool comparisons, see our [best automation tools for small businesses](
 Legal workflow automation is not about turning law into a factory. It is about recovering the hours that attorneys lose to administrative work and redirecting that time to the strategic thinking, advocacy, and client relationships that define excellent legal practice.
 
 The firms that will dominate the next decade are not necessarily the ones with the most brilliant lawyers — they are the ones that build operational systems allowing their lawyers to actually practice law for more than 3 hours per day. Start with client intake and deadline tracking, prove the value in recovered time and reduced risk, and then expand into document assembly, billing, and case management automation. The data consistently shows that the investment pays for itself within the first quarter.
+
+## What legal tasks can be automated?
+
+The highest-impact automations for law firms include client intake form processing, deadline and statute of limitations tracking, document assembly from templates, conflict-of-interest checks, billing and time entry, client communication updates, and court filing reminders. These administrative tasks consume 40-60% of an attorney's workday and are prime candidates for automation.
+
+## Is legal automation secure enough for client data?
+
+Yes, when using the right tools. Self-hosted platforms like [n8n](/blog/getting-started-with-n8n) keep all data on your own infrastructure, meeting the strictest confidentiality requirements. Cloud-based tools like Clio and PracticePanther are designed for legal use with SOC 2 compliance, AES-256 encryption, and access controls. The key requirement is choosing platforms that support role-based access and audit trails for client data.
+
+## How much time do lawyers waste on admin tasks?
+
+Studies consistently show that attorneys spend only 2.5-3.5 billable hours per 8-hour workday — the rest goes to administrative tasks, email, scheduling, and document management. At billing rates of $200-500 per hour, each recovered billable hour from automation represents significant revenue. Automating intake, scheduling, and document assembly typically recovers 1-2 additional billable hours per day per attorney.

@@ -251,3 +251,15 @@ This is where automation shifts from [personal productivity tool](/blog/automati
 Automating recurring tasks is not about complex technology — it is about honest observation. Track what you actually do for two weeks, score each task for automation potential, and start building from the top of the list. Daily automations deliver the fastest payoff. Weekly automations save the most cumulative time. Monthly automations prevent the most costly mistakes.
 
 The tools — n8n, Zapier, Make — are mature enough that the limiting factor is not technology but attention. Most people know they should automate their recurring tasks. The ones who actually do it are the ones who block out an afternoon, audit their work, and build the first workflow. Start with one task today. The hour you invest will pay for itself within the week.
+
+## What are the best tasks to automate?
+
+The best candidates for automation are tasks that are repetitive (happen on a schedule), rule-based (follow clear if-then logic), time-consuming (take more than 5 minutes each time), and error-prone (mistakes have consequences). Common examples include daily report generation, weekly email digests, monthly invoice processing, file backups, data synchronization between tools, and routine notifications.
+
+## How do I identify which tasks to automate?
+
+Track everything you do for two weeks in a simple spreadsheet with columns for task name, frequency, time spent, and complexity. Score each task from 1-10 on automation potential (high frequency + low complexity = high score). Start with the top 3-5 tasks. Most people discover they spend 15-20 hours per week on tasks that can be automated within an afternoon using [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make).
+
+## Can recurring tasks be automated for free?
+
+Yes. [Make](/blog/getting-started-with-make) offers 1,000 free operations per month, enough for most personal recurring task automation. Google Apps Script is free for Google Workspace users and handles scheduled tasks within the Google ecosystem. [n8n](/blog/getting-started-with-n8n) is free to self-host with unlimited workflows and executions. IFTTT's free plan supports 2 automated applets. Combined, these cover most recurring task automation needs without any subscription cost.

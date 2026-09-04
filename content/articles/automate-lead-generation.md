@@ -227,3 +227,15 @@ Building an automated lead generation workflow is one of the highest-ROI project
 Start with the basics: connect your primary lead capture form to your CRM and set up a simple welcome email sequence. Once that foundation is working reliably, layer on scoring, multi-channel capture, and advanced nurture logic. The key is to start simple, measure everything, and optimize continuously.
 
 The technology is accessible, the tools are affordable, and the impact on your bottom line is substantial. Every day you operate without automated lead generation is a day you leave potential revenue on the table.
+
+## How does automated lead generation work?
+
+Automated lead generation captures contact information from multiple channels (website forms, social media, ads, referrals), scores leads based on their engagement and fit, nurtures them with targeted content sequences, and routes qualified leads to your sales team. The entire pipeline runs without manual intervention — from first touch to sales handoff, automation handles data capture, segmentation, and follow-up.
+
+## How much does lead generation automation cost?
+
+Basic lead gen automation is free using tools like Google Forms, Mailchimp (free for 500 contacts), and [Make](/blog/getting-started-with-make) (1,000 free operations per month). A more robust setup with a CRM, email platform, and integration tool typically costs $50-200 per month. At enterprise scale with advanced scoring and multi-channel attribution, costs range from $500-2,000 per month. The ROI is typically 5-10x within the first quarter.
+
+## What is lead scoring and why does it matter?
+
+Lead scoring assigns numerical values to leads based on their characteristics (job title, company size, industry) and behaviors (pages visited, emails opened, content downloaded). Higher scores indicate stronger purchase intent. This matters because it lets your sales team focus on the leads most likely to convert rather than treating all leads equally — teams using lead scoring see 77% more revenue from lead generation according to MarketingSherpa.

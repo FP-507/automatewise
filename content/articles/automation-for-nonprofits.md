@@ -230,3 +230,15 @@ Nonprofits exist to create impact, not to process paperwork. Yet administrative 
 The organizations that automate effectively do not just save time — they deliver a more professional, consistent experience to their donors, volunteers, and beneficiaries. A donor who receives a personalized thank-you within minutes of giving feels valued. A volunteer who gets reliable shift reminders feels respected. A funder who receives well-organized reports on time feels confident in continued support.
 
 Start with the workflow that consumes the most staff time or carries the most risk if forgotten. For most nonprofits, that is donor acknowledgment or grant deadline tracking. Build one reliable automation, demonstrate the time savings to your board, and expand from there. The mission deserves every hour you can reclaim.
+
+## What nonprofit tasks can be automated?
+
+The most impactful nonprofit automations include donor thank-you emails, recurring donation receipts, grant deadline tracking, volunteer shift reminders, event registration confirmations, board meeting scheduling, and impact report data collection. These administrative tasks consume 15-25 hours per week at most organizations and can be automated with tools like [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make) at little or no cost.
+
+## Are automation tools free for nonprofits?
+
+Many platforms offer free or discounted plans for nonprofits. Google Workspace for Nonprofits is free. Zapier offers a 15% discount. Make and n8n have free tiers that cover most small nonprofit needs. TechSoup provides discounted software for registered nonprofits. Combined, these resources let most organizations automate their core workflows for under $50 per month total.
+
+## How does automation help with fundraising?
+
+Automation dramatically improves donor engagement and retention. Instant thank-you emails after donations increase repeat giving by 20-30%. Automated drip campaigns nurture lapsed donors with personalized impact stories. Recurring donation management reduces payment failure churn. Grant deadline tracking prevents missed applications. Together, these automations help nonprofits raise more money while spending less staff time on fundraising administration.

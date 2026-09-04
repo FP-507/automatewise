@@ -216,3 +216,15 @@ Do not try to build all twenty automations at once. Start with the ones that add
 **Build as needed:** Social media scheduling, habit tracking, and specialized automations depend on your personal workflow. Build them only if they address a real friction point in your routine.
 
 The common thread across all twenty automations is the same: identify a repetitive task, define the trigger and desired outcome, build the simplest workflow that achieves it, and iterate based on how well it works in practice. Personal productivity automation is not about building complex systems — it is about reclaiming small chunks of time that compound into meaningful freedom.
+
+## What personal tasks should I automate first?
+
+Start with email filtering and file organization — these are the two tasks everyone does daily that offer the fastest payoff. Set up Gmail filters to auto-label and archive routine emails, then use [Zapier](/blog/getting-started-with-zapier) or [IFTTT](/blog/getting-started-with-ifttt) to auto-sort downloaded files into folders. These two automations save 30-60 minutes daily with a 10-minute setup.
+
+## Can I automate my daily routine?
+
+Yes, partially. Morning briefings (weather, calendar, news digest sent to your phone), task list generation from your calendar, daily journal prompts, and end-of-day summaries can all be automated. Physical activities and creative work cannot be automated, but the administrative overhead around them can. The goal is removing decision fatigue and manual data gathering from your routine.
+
+## What is the easiest automation tool for personal use?
+
+IFTTT is the easiest personal automation tool with its simple "if this, then that" logic and 900+ app integrations including smart home devices, social media, and productivity apps. The free plan allows 2 applets and the Pro plan ($3.49 per month) allows unlimited applets. For more complex personal workflows, [Make](/blog/getting-started-with-make) offers a visual builder with a generous free tier of 1,000 operations per month.

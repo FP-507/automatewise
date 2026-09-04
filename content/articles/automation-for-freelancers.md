@@ -234,3 +234,15 @@ Start with the five workflows that deliver the biggest impact: auto-responses, i
 The 10+ hours you reclaim each week can go toward billable work that directly increases revenue, business development that builds your pipeline, skill development that increases your rates, or personal time that prevents burnout.
 
 The tools are accessible, the setup time is measured in hours rather than weeks, and the payoff begins immediately. Every week you delay is another $500 to $750 left on the table. Start with one workflow today and build from there.
+
+## What should freelancers automate first?
+
+Start with invoicing and time tracking — these directly impact your cash flow and take 3-5 hours per week when done manually. Tools like FreshBooks, Wave, or Toggl combined with [Zapier](/blog/getting-started-with-zapier) can automate time-to-invoice workflows, payment reminders, and expense categorization. After that, automate client onboarding (welcome emails, contracts, questionnaires) and social media scheduling.
+
+## How much time can freelancers save with automation?
+
+Most freelancers save 10-15 hours per week by automating invoicing, scheduling, email follow-ups, social media posting, and client communication. At a typical freelancer rate of $50-75 per hour, that translates to $500-1,125 per week in recovered billable time. Even if you reinvest only half of that time into client work, the revenue impact exceeds the cost of automation tools by 10-20x.
+
+## Are automation tools worth it for solo freelancers?
+
+Yes. Free tiers from [Make](/blog/getting-started-with-make) (1,000 operations per month), Zapier (100 tasks per month), and dedicated tools like Calendly (free for one event type) cover most solo freelancer needs at zero cost. If you need more capacity, $20-50 per month in tool subscriptions typically replaces 10+ hours of manual work — making it one of the highest-ROI investments a freelancer can make.

@@ -226,3 +226,15 @@ Accounting automation transforms a month-end scramble into a smooth, continuous 
 Start with the highest-volume task — usually invoice processing or expense categorization — and expand systematically. Each automation reduces errors, saves time, and gives you a clearer, more timely picture of your financial position.
 
 For related guides, see [automation for freelancers](/blog/automation-for-freelancers), [automation ROI analysis](/blog/workflow-automation-roi), and the [best automation tools for small businesses](/blog/best-automation-tools-small-business).
+
+## What accounting tasks can be automated?
+
+The most commonly automated accounting tasks include invoice processing, expense categorization, bank reconciliation, receipt data extraction, recurring billing, accounts payable and receivable tracking, and financial report generation. Tools like QuickBooks, Xero, and FreshBooks handle many of these natively, while platforms like [Zapier](/blog/getting-started-with-zapier) and [n8n](/blog/getting-started-with-n8n) connect them to your broader workflow.
+
+## Is automation safe for financial data?
+
+Yes, when implemented properly. Major automation platforms use bank-level encryption and comply with SOC 2 and GDPR standards. Automated processes are actually more reliable than manual data entry — they eliminate typos, transposition errors, and missed entries that cause reconciliation problems. The key safeguard is setting up approval workflows for high-value transactions so a human reviews anything above your defined threshold.
+
+## How much time does accounting automation save?
+
+Most small businesses save 10-20 hours per month by automating invoice processing, expense categorization, and report generation. A bookkeeper spending 5 hours per week on manual data entry can reduce that to under 1 hour with automation. At typical bookkeeper rates of $25-40 per hour, that translates to $400-640 in monthly savings against a tool subscription of $20-50.

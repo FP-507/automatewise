@@ -172,3 +172,15 @@ Automating social media posting is one of the most impactful productivity improv
 Start with a Google Sheets content calendar connected to one publishing platform. Add cross-platform posting once that workflow is stable. Layer in analytics tracking after you have a month of data to work with. Each step builds on the last, and within a few weeks you will have a system that runs your social media distribution on autopilot.
 
 For more workflow ideas that complement your social media automation, explore how to [automate lead generation](/blog/automate-lead-generation) from your social channels or learn how [marketing agencies](/blog/automation-for-marketing-agencies) are building comprehensive automation stacks that handle everything from content creation to client reporting.
+
+## What is the best tool for social media automation?
+
+Buffer is the best all-around choice for small teams — its free plan supports 3 channels and 10 scheduled posts per channel. Hootsuite is better for larger teams with analytics needs. For maximum flexibility, use [Make](/blog/getting-started-with-make) or [n8n](/blog/getting-started-with-n8n) to build custom workflows that pull content from a Google Sheet or CMS and post to multiple platforms simultaneously.
+
+## How often should I post on social media?
+
+Optimal posting frequency varies by platform: Instagram 1-2 times per day, Twitter/X 3-5 times per day, LinkedIn 1-2 times per day, Facebook 1-2 times per day, and TikTok 1-3 times per day. Consistency matters more than volume — posting 3 times per week every week outperforms posting 10 times one week and disappearing the next. Automation ensures you maintain your schedule regardless of how busy you get.
+
+## Can I automate social media content creation?
+
+Partially. AI tools can generate caption variations, hashtag suggestions, and post descriptions from blog content. Canva's automation features create platform-sized graphics from templates. [Zapier](/blog/getting-started-with-zapier) can repurpose blog posts into social snippets automatically. However, the best-performing content still requires human creative direction — use automation for distribution and formatting, not as a replacement for strategic content planning.

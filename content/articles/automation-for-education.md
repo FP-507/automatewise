@@ -219,3 +219,15 @@ Track these metrics to quantify the value of your education automation:
 The most successful online course creators are not necessarily the best teachers in their field — they are the ones who build systems that deliver a consistent, engaging experience at scale. Automation is how you build those systems without hiring a team.
 
 Start by automating the enrollment and onboarding flow, because that is where first impressions form and where manual errors are most costly. Then layer on drip content delivery, assignment management, and feedback collection. Each automation you add creates more time for what actually differentiates your course: your expertise, your community, and the transformation you help students achieve.
+
+## What education tasks can be automated?
+
+The most impactful education automations include student enrollment and onboarding, drip content delivery (releasing lessons on a schedule), assignment reminders and deadline notifications, grading for multiple-choice assessments, attendance tracking, certificate generation upon course completion, and feedback collection surveys. These free up 10-15 hours per week for instructors and course creators.
+
+## Is automation good for online courses?
+
+Yes — automation is essential for scaling online courses beyond a handful of students. Without it, course creators spend more time on administrative tasks than teaching. Automated enrollment, content delivery, and progress tracking allow one instructor to serve hundreds of students with a consistent experience. The key is automating administration while keeping personal interaction where it matters: live sessions, feedback on projects, and community engagement.
+
+## How do I automate student communications?
+
+Use email marketing platforms like ConvertKit, Mailchimp, or ActiveCampaign to create automated email sequences triggered by student actions — enrollment, lesson completion, inactivity, or approaching deadlines. Connect your LMS (Teachable, Thinkific, Kajabi) to your email platform via [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make) to sync student data and trigger the right message at the right time.

@@ -231,3 +231,15 @@ The free plan is great for learning but limited to single-step Zaps (one trigger
 Zapier is the fastest way to start automating. Its guided interface and massive app library mean you can build practical automations in minutes, not hours. Start with the email-to-spreadsheet Zap above, then explore the template library for inspiration.
 
 As your needs grow, you might explore platforms with more advanced features. Our guides on [n8n](/blog/getting-started-with-n8n) and [Make](/blog/getting-started-with-make) cover alternatives with different strengths. And for a comprehensive overview, check our [best automation tools guide](/blog/best-automation-tools-small-business).
+
+## Is Zapier free to use?
+
+Zapier offers a free plan with 100 tasks per month and up to 5 single-step Zaps. This is enough to test the platform and run basic automations, but most users outgrow it within a few weeks. Paid plans start at $19.99 per month for 750 tasks with multi-step Zap support. Tasks are counted per action step, so a 5-step Zap running once uses 5 tasks.
+
+## How long does it take to set up a Zap?
+
+Most simple Zaps take 5-15 minutes to build from scratch. Zapier's guided builder walks you through each step, and connecting your apps takes just a few clicks via OAuth. Using a pre-built template is even faster — choose a template, connect your accounts, and customize the fields. Complex multi-step Zaps with conditional logic may take 30-60 minutes.
+
+## What happens when a Zap fails?
+
+Zapier automatically retries failed actions and sends you an email notification when a Zap encounters an error. You can view detailed error logs in the Task History page, which shows the exact data at each step. Common failures include expired app connections, missing required fields, and API rate limits. Zapier's error handling features on paid plans let you define custom retry behavior and fallback actions.
