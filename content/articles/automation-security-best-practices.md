@@ -282,3 +282,15 @@ Start with the basics: use your platform's credential management, secure your we
 Every automation you build should answer the question: "What is the worst thing that could happen if this workflow was compromised?" and have protections against that scenario.
 
 For more advanced automation topics, see our guides on [error handling](/blog/error-handling-automation), [scaling automations](/blog/scaling-automation-workflows), and [automation ROI](/blog/workflow-automation-roi).
+
+## Are automation platforms secure?
+
+Major platforms like [Zapier](/blog/getting-started-with-zapier), [Make](/blog/getting-started-with-make), and [n8n](/blog/getting-started-with-n8n) implement industry-standard security measures including AES-256 encryption, SOC 2 compliance, and OAuth-based authentication. Self-hosted n8n gives you full control over data handling. The biggest security risks come from user configuration mistakes — overly broad API permissions, hardcoded credentials, and unencrypted data in transit — not from the platforms themselves.
+
+## How do I secure API keys in automation workflows?
+
+Never hardcode API keys in workflow configurations. Use each platform's built-in credential management system, which stores keys encrypted and injects them at runtime. Rotate keys quarterly and immediately after any team member leaves. Apply the principle of least privilege — give each API key only the permissions the specific workflow needs, not full admin access. Set up alerts for unusual API usage patterns that could indicate a compromised key.
+
+## What are the biggest automation security risks?
+
+The three highest risks are: credential exposure (API keys stored in plain text or shared insecurely), excessive permissions (workflows with admin-level access when read-only would suffice), and unvalidated inputs (webhooks and forms accepting unfiltered data that could trigger unintended actions). Address these by using encrypted credential stores, applying least-privilege access, and validating all incoming data before processing.

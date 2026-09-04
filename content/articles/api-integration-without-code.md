@@ -239,3 +239,15 @@ API integration without code is not just possible — it is practical, reliable,
 Start with the APIs you already use — your CRM, email tool, or project management platform. Practice with simple GET requests. Then progressively build more complex integrations as your confidence grows.
 
 For more automation strategies, explore our guides on [building automated sales pipelines](/blog/build-automated-sales-pipeline) and [calculating automation ROI](/blog/workflow-automation-roi).
+
+## What is an API integration?
+
+An API (Application Programming Interface) integration connects two software applications so they can share data automatically. When you connect your CRM to your email platform so new contacts receive a welcome email, that is an API integration. No-code platforms like [Zapier](/blog/getting-started-with-zapier) and [Make](/blog/getting-started-with-make) handle the technical complexity — you just configure which data goes where.
+
+## Can I connect APIs without coding?
+
+Yes. No-code platforms provide visual interfaces for API connections. Zapier and Make offer pre-built connectors for 2,000-7,000+ apps. For apps without pre-built connectors, both platforms support HTTP/webhook modules that let you make API calls by filling in forms (URL, method, headers, body) rather than writing code. The platforms handle authentication, error handling, and data formatting automatically.
+
+## How many API integrations can I create for free?
+
+[Make](/blog/getting-started-with-make) allows 2 active scenarios on the free plan with 1,000 operations per month. [Zapier](/blog/getting-started-with-zapier) allows 5 single-step Zaps with 100 tasks per month. [n8n](/blog/getting-started-with-n8n) self-hosted is unlimited. For most small businesses testing integrations, the free tiers provide enough capacity. Paid plans start at $10-20 per month for significantly higher limits.

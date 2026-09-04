@@ -213,3 +213,15 @@ For platform comparison help, see our [Make vs Zapier guide](/blog/make-vs-zapie
 Airtable's flexibility as a database makes it an ideal automation hub. Whether you use built-in automations for simple notifications or connect to n8n, Make, or Zapier for complex multi-tool workflows, the goal is the same: eliminate manual data handling so your team can focus on work that matters.
 
 Start with one high-value automation — usually the task your team does most frequently — and expand from there. For more automation ideas, explore our [how-to guides](/categories/how-to) and [use case examples](/categories/use-cases).
+
+## Does Airtable have built-in automation?
+
+Yes. Airtable offers a visual automation builder with triggers (record matches conditions, record created/updated, button pressed, on schedule) and actions (send email, send Slack message, create/update records, run JavaScript scripts, call webhooks). Paid plans include 25,000 automation runs per month. The scripting action makes Airtable's automation surprisingly powerful for a no-code tool.
+
+## What can I automate with Airtable?
+
+Common Airtable automations include: sending notifications when record status changes, creating linked records across tables automatically, triggering email campaigns from database events, syncing data with external tools (CRM, project management, accounting), generating reports on schedules, and processing form submissions with conditional routing. The combination of structured data and automation makes Airtable ideal for operational workflows.
+
+## How does Airtable compare to Google Sheets for automation?
+
+Airtable is significantly better for automation than Google Sheets. Airtable has a built-in automation engine with triggers, actions, and scripting — Google Sheets requires Apps Script for similar functionality. Airtable enforces data types (number fields reject text), has linked records for relational data, and offers views (Kanban, Calendar, Gallery) that update automatically. Google Sheets is better for complex calculations and familiar spreadsheet formulas. For automation-heavy workflows, Airtable wins; for data analysis, Sheets wins.

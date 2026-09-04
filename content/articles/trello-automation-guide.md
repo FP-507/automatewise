@@ -270,3 +270,15 @@ For more notification automation patterns, see our [notifications and alerts gui
 Trello automation through Butler covers the majority of on-board workflow needs — card rules handle real-time events, board buttons handle batch operations, and scheduled commands handle recurring tasks. For cross-platform workflows, connect Trello to [Zapier](/blog/getting-started-with-zapier), [Make](/blog/getting-started-with-make), or [n8n](/blog/getting-started-with-n8n) to route data between Trello and your other tools.
 
 Start with the card rule that eliminates your most repetitive manual step. For most teams, that is either auto-assigning cards when they move to a specific list or sending notifications when status changes. Build from there, adding scheduled commands for recurring maintenance and external integrations for cross-tool workflows. For broader project management automation strategies, see our [project management automation guide](/blog/automate-project-management).
+
+## Is Trello automation free?
+
+Yes, Butler (Trello's built-in automation engine) is available on all plans including the free tier. Free plans include a limited number of automation runs per month (approximately 250 rule executions). Paid plans (Standard at $5/user/month, Premium at $10/user/month) include unlimited automation runs plus additional Butler features like scheduled commands and custom buttons.
+
+## What can Butler automate in Trello?
+
+Butler automates card movements, member assignments, label changes, due date management, checklist creation, comment posting, and list sorting — all triggered by card events, schedules, or button clicks. Common automations include: auto-assigning reviewers when cards move to a Review list, sending Slack notifications on status changes, and archiving completed cards weekly.
+
+## How do I connect Trello to other apps?
+
+Use [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make) to connect Trello to 2,000+ apps. Popular integrations include Trello-to-Slack (status notifications), Gmail-to-Trello (create cards from emails), Google Forms-to-Trello (form submissions create cards), and Trello-to-Google Sheets (log completed cards for reporting). Setup takes 5-10 minutes per integration with no coding required.

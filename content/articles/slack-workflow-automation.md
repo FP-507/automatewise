@@ -285,3 +285,15 @@ For project management automation patterns, see our [project management automati
 Slack automation starts with Workflow Builder for internal processes — standup collection, request management, onboarding — and expands through external platforms for cross-tool workflows. The combination of Slack's reach (everyone is already there) and automation platforms' flexibility (any trigger, any action) makes Slack the natural hub for team automation.
 
 Start with one high-friction process. If your team spends 15 minutes every morning on standup meetings, automate the collection. If approvals sit in email for days, move them to Slack with buttons. Each workflow you automate removes a manual step that someone was doing every day, and those daily savings compound fast.
+
+## Is Slack Workflow Builder free?
+
+Slack Workflow Builder is included with all paid Slack plans (Pro, Business+, Enterprise Grid) at no additional cost. It is not available on the free Slack plan. If you are on the free plan, you can still automate Slack through external platforms like [Zapier](/blog/getting-started-with-zapier) or [n8n](/blog/getting-started-with-n8n), which connect to Slack via its API and work on any Slack plan.
+
+## What can I automate in Slack?
+
+Common Slack automations include: automated standup collection (daily forms posted to channels), onboarding sequences for new channel members, request management with structured forms, approval workflows with interactive buttons, notification routing from external tools, scheduled messages and reminders, and channel management (archiving inactive channels). Workflow Builder handles internal Slack processes, while external tools handle cross-platform workflows.
+
+## How do I send automated Slack messages from other apps?
+
+Use [Zapier](/blog/getting-started-with-zapier), [Make](/blog/getting-started-with-make), or [n8n](/blog/getting-started-with-n8n) to send Slack messages triggered by events in any app. Common patterns: CRM deal closed → Slack celebration message, support ticket created → Slack alert to team channel, deployment completed → Slack notification with status. Messages can include rich formatting, buttons, and attachments using Slack's Block Kit format.

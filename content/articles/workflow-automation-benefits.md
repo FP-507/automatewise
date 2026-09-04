@@ -158,3 +158,15 @@ Workflow automation is not a luxury for large enterprises — it is a practical 
 The tools are more accessible and affordable than ever. Whether you choose [n8n](/blog/getting-started-with-n8n), [Zapier](/blog/n8n-vs-zapier), or [Make](/blog/make-vs-zapier), the investment in setting up your first automations pays for itself quickly.
 
 Start with one workflow. Measure the results. Then keep going.
+
+## What are the main benefits of workflow automation?
+
+The seven core benefits are: time savings (40-75% reduction in task completion time), error reduction (near-zero manual entry mistakes), cost savings ($3,000-10,000+ monthly for small businesses), scalability (handle 10x volume without additional staff), employee satisfaction (less busywork, more meaningful work), better data (real-time dashboards and reporting), and competitive advantage (faster response times and consistent quality).
+
+## How much time does workflow automation save?
+
+On average, workflow automation saves 10-25 hours per employee per week on repetitive administrative tasks. Data entry drops from hours to minutes, report generation goes from manual compilation to automatic delivery, and communication workflows (follow-ups, notifications, updates) happen instantly instead of requiring someone to remember. Teams typically see the biggest time savings in their first month as they automate their highest-frequency manual tasks.
+
+## Is workflow automation worth it for small businesses?
+
+Yes — small businesses often see the highest ROI from automation because they have fewer staff absorbing administrative overhead. A 5-person team automating invoicing, email follow-ups, and reporting can save 15-30 hours per week collectively. At an average cost of $20-50 per month for automation tools, the return is 50-100x the investment. Free tiers from [Make](/blog/getting-started-with-make), [Zapier](/blog/getting-started-with-zapier), and [n8n](/blog/getting-started-with-n8n) let you start without any financial risk.

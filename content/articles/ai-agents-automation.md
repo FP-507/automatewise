@@ -197,3 +197,15 @@ Start small. Pick a single repetitive task that currently requires human judgmen
 Measure the results. Track how often the agent makes correct decisions, how long it takes, how much it costs per execution, and how many interactions require human intervention. Use these metrics to decide whether to expand the agent's responsibilities or optimize its configuration.
 
 AI agents are not a replacement for well-structured [workflow automation](/blog/what-is-workflow-automation) — they are the next layer on top of it. Master the fundamentals first, then add intelligence where it delivers real value.
+
+## What are AI agents in automation?
+
+AI agents are autonomous software programs that use large language models (LLMs) to make decisions, take actions, and handle multi-step tasks without explicit programming for each scenario. Unlike traditional automation (fixed rules: if X then Y), AI agents interpret context, choose from available tools, and adapt their approach based on results. They excel at tasks requiring judgment — classifying support tickets, drafting responses, routing requests, and summarizing complex data.
+
+## Are AI agents reliable enough for production?
+
+AI agents are reliable for tasks with clear success criteria and human oversight. Customer support triage, data classification, and content summarization work well because errors are easily caught and corrected. Critical financial or medical decisions require human-in-the-loop validation. The key is starting with low-risk tasks, measuring accuracy over hundreds of runs, and expanding scope only when performance consistently exceeds 95%.
+
+## How much do AI agents cost to run?
+
+Costs depend on the LLM provider and usage volume. GPT-4o processes approximately 1,000 customer support tickets for $5-15 in API costs. Claude handles similar volumes at comparable prices. Simpler tasks using GPT-4o-mini or Claude Haiku cost 10-20x less. For most business applications processing 100-500 items per day, monthly AI agent costs range from $20-200 — significantly less than the human labor they supplement.

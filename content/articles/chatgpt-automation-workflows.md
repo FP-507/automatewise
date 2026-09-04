@@ -335,3 +335,15 @@ Start with one high-volume, low-risk task (like email classification or data ext
 The key to successful ChatGPT automation is good prompt engineering. Invest time in writing clear, structured prompts with examples, and your automations will produce consistent, reliable results.
 
 For more on building AI-powered workflows, see our [AI automation guide](/blog/ai-workflow-automation), [n8n getting started](/blog/getting-started-with-n8n), and [webhook integration guide](/blog/webhook-automation-guide).
+
+## Can ChatGPT be used in automated workflows?
+
+Yes. ChatGPT integrates into automation workflows through the OpenAI API, which platforms like [n8n](/blog/getting-started-with-n8n), [Zapier](/blog/getting-started-with-zapier), and [Make](/blog/getting-started-with-make) support natively. You can trigger AI processing based on any event — new email, form submission, Slack message — and use ChatGPT to classify, summarize, draft, translate, or extract data before passing results to the next step.
+
+## How much does ChatGPT automation cost?
+
+OpenAI API pricing is usage-based. GPT-4o costs approximately $2.50-10 per 1 million tokens (roughly 750,000 words). For typical automation tasks processing 100 items per day with short prompts, monthly costs range from $5-30. Using GPT-4o-mini reduces costs by 10-15x with minimal quality loss for straightforward tasks like classification and extraction. Most small businesses spend under $50 per month on API costs.
+
+## What are the best ChatGPT automation use cases?
+
+The highest-ROI use cases are email classification and routing (saving 2-3 hours daily), content summarization (meeting notes, articles, reports), customer support draft responses (reducing response time by 60%), data extraction from unstructured text (invoices, contracts, feedback), and translation for multilingual workflows. These tasks benefit most from AI because they require language understanding but follow consistent patterns.

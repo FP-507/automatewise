@@ -304,3 +304,15 @@ HubSpot automation is most effective when workflows handle the system-level oper
 Start with three workflows that deliver immediate value: a lead nurture sequence triggered by your highest-traffic form, a deal stage automation for your primary sales pipeline, and a lead scoring system that routes qualified leads to sales. These three cover the full funnel and provide a foundation for more advanced automations.
 
 For teams that need to connect HubSpot with tools outside the ecosystem, [n8n](/blog/getting-started-with-n8n) and Zapier bridge the gaps without requiring custom development. The combination of HubSpot's CRM intelligence and external automation platform flexibility handles most B2B marketing and sales automation needs.
+
+## Is HubSpot automation free?
+
+HubSpot's free CRM includes basic automation: form follow-up emails, meeting scheduling, and simple task creation. Advanced workflow automation (multi-step sequences, conditional branching, lead scoring) requires Marketing Hub Starter ($20/month) or Professional ($890/month). Most small businesses start with the free CRM and upgrade when they need multi-step nurture sequences or complex lead routing.
+
+## What can I automate in HubSpot?
+
+HubSpot automation covers the full customer lifecycle: lead capture and nurture sequences, deal stage progression, task assignment for sales reps, email marketing campaigns, lead scoring and qualification, customer onboarding sequences, ticket routing for support, and internal notifications. The workflow builder supports if/then branching, delays, enrollment triggers, and re-enrollment for ongoing processes.
+
+## How does HubSpot compare to Zapier for automation?
+
+HubSpot handles internal CRM workflows (lead nurture, deal management, email sequences) natively and excels at marketing-sales alignment. [Zapier](/blog/getting-started-with-zapier) connects HubSpot to 7,000+ external tools for cross-platform workflows. They complement rather than replace each other — use HubSpot workflows for CRM-centric automation and Zapier or [Make](/blog/getting-started-with-make) for connecting HubSpot to your broader tool stack.

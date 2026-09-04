@@ -128,3 +128,15 @@ The better approach follows a consistent pattern:
 7. **Maintain regularly** to prevent silent degradation
 
 Every experienced automation builder has made at least half of the mistakes on this list. The goal is not to avoid all mistakes — it is to recognize them quickly, fix them systematically, and build better habits for the next workflow you create.
+
+## What is the biggest automation mistake beginners make?
+
+The most common mistake is automating a broken process. If your manual workflow has unclear steps, missing handoffs, or inconsistent logic, automating it just makes those problems run faster. Before building any automation, map out the current process, identify bottlenecks and redundancies, and fix the process itself. Then automate the optimized version.
+
+## How do I know if my automation is working correctly?
+
+Set up monitoring from day one. Check error logs weekly, track success rates (percentage of runs completing without errors), measure processing times, and compare outputs against expected results. Most platforms ([Zapier](/blog/getting-started-with-zapier), [Make](/blog/getting-started-with-make), [n8n](/blog/getting-started-with-n8n)) provide execution history dashboards. Set up Slack or email alerts for failures so you catch issues within minutes rather than discovering them days later.
+
+## Should I automate everything?
+
+No. Some tasks are not worth automating — they happen too rarely, involve too much judgment, or would cost more to automate than they save. A good rule: automate tasks that happen at least weekly, follow consistent rules, and take more than 5 minutes each time. Tasks requiring creative thinking, relationship building, or complex decision-making are better served by human attention.

@@ -281,3 +281,15 @@ Start with naming and documentation for your existing workflows. Then invest in 
 The organizations that get the most value from automation are not the ones that build the most workflows — they are the ones that build sustainable, maintainable systems that grow with the business.
 
 For related topics, see [error handling in automation](/blog/error-handling-automation), [security best practices](/blog/automation-security-best-practices), and [automation ROI](/blog/workflow-automation-roi).
+
+## When should I scale my automations?
+
+Scale when you hit platform limits (task quotas, execution timeouts, rate limiting), when manual oversight becomes a bottleneck (spending more time monitoring than the automation saves), or when business growth demands higher throughput. Warning signs include frequent failures, increasing error rates, and workflows taking longer to complete. Address these proactively rather than waiting for failures.
+
+## How do I handle high-volume automation?
+
+For high volume, implement queuing (process items in batches rather than individually), use webhook-based triggers instead of polling (eliminates unnecessary API calls), add rate limiting to respect API quotas, and implement retry logic with exponential backoff. [n8n](/blog/getting-started-with-n8n) self-hosted handles unlimited volume, while cloud platforms like [Make](/blog/getting-started-with-make) and Zapier scale through higher-tier plans with increased operation limits.
+
+## Should I use one automation platform or multiple?
+
+Use one platform as your primary orchestration layer and add a second only when the first cannot handle a specific requirement (e.g., self-hosting requirements, specific integrations, or cost optimization at scale). Running workflows across multiple platforms increases debugging complexity, monitoring overhead, and the risk of cascading failures. If you must use multiple, designate clear ownership for which workflows run where.

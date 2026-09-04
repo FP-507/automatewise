@@ -186,3 +186,15 @@ Generate weekly summaries from your Notion data:
 Notion's combination of flexibility and API access makes it an excellent automation hub. Start with built-in automations for simple notifications and status changes, then expand to external platforms like [n8n](/blog/getting-started-with-n8n), [Make](/blog/getting-started-with-make), or [Zapier](/blog/getting-started-with-zapier) for cross-tool workflows.
 
 The best Notion automations eliminate the repetitive database maintenance that prevents teams from using Notion to its full potential. Pick the workflow that causes the most friction today and automate it first.
+
+## Does Notion have built-in automation?
+
+Yes. Notion offers native automation triggers (when a property changes, when a page is added) and actions (update properties, add pages, send notifications). These cover basic use cases like status-based notifications and property auto-fill. For more complex workflows — multi-step sequences, cross-tool integrations, conditional logic — connect Notion to [Zapier](/blog/getting-started-with-zapier), [Make](/blog/getting-started-with-make), or [n8n](/blog/getting-started-with-n8n).
+
+## What Notion tasks can be automated?
+
+The most impactful Notion automations include: database status updates triggering notifications, new page creation from templates, recurring task generation on schedules, cross-database syncing (project status updates reflecting in team dashboards), Slack notifications when database properties change, and automatic content publishing workflows from Notion to CMS or social media platforms.
+
+## How do I connect Notion to other apps?
+
+Use [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make) for no-code connections — both offer Notion integrations supporting triggers (new/updated database items) and actions (create pages, update properties, search databases). The Notion API also supports direct integration for developers. Common connections include Notion-to-Slack, Google Calendar-to-Notion, and Notion-to-Google Sheets for reporting. See our [Notion API integrations guide](/blog/notion-api-integrations) for details.
