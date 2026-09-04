@@ -229,3 +229,11 @@ The key to becoming proficient is practice. Start with simple, practical workflo
 n8n's community is one of its greatest strengths. The forum, workflow templates library, and documentation are all excellent resources as you continue learning. And because n8n is open source, the platform keeps improving with contributions from developers worldwide.
 
 Ready to explore more? Our [no-code automation guide](/blog/no-code-automation-explained) covers the broader landscape of building without code, and the [automation glossary](/blog/automation-glossary) will help you navigate the terminology as you dive deeper.
+
+## Is n8n free to use?
+
+n8n offers two free options: self-hosted (completely free, unlimited workflows and executions, you manage the server) and n8n Cloud free tier (limited to 5 active workflows). Self-hosting requires Docker and a server ($5-10/month VPS), but gives you full control with no execution limits. Cloud plans start at $24/month for teams wanting managed hosting. For beginners, start with Docker locally — it runs on any computer with no cost.
+
+## How long does it take to learn n8n?
+
+Most users build their first working automation within 1-2 hours. The visual workflow builder is intuitive — drag nodes, connect them, map data fields. Basic proficiency (triggers, conditions, loops, error handling) takes 1-2 weeks of regular use. Advanced features (custom code nodes, sub-workflows, API integrations) take 1-2 months. n8n's community forum and 900+ workflow templates accelerate learning significantly.

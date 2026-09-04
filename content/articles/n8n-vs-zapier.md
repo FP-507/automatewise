@@ -212,3 +212,15 @@ There is no universally "better" tool — the right choice depends on your prior
 For many users, the best approach is to start with one and switch or supplement with the other as needs evolve. Both platforms serve the same core purpose — [automating your workflows](/blog/what-is-workflow-automation) — and either one will save you significant time compared to doing everything manually.
 
 Want to explore more comparisons? See how n8n and Zapier each stack up against [Make](/blog/make-vs-zapier) and [Power Automate](/blog/power-automate-vs-zapier), or browse our list of [free automation tools](/blog/best-free-automation-tools) to find alternatives.
+
+## Is n8n really free?
+
+Yes, self-hosted n8n is completely free with no limits on workflows, executions, or connected apps. You pay only for your hosting infrastructure (a $5-10/month VPS handles most workloads). n8n Cloud offers a limited free tier (5 workflows) and paid plans starting at $24/month. In contrast, [Zapier](/blog/getting-started-with-zapier) limits its free plan to 100 tasks/month and 5 single-step Zaps, with paid plans starting at $19.99/month.
+
+## Should I switch from Zapier to n8n?
+
+Switch to n8n if: you're spending $50+/month on Zapier and want to reduce costs, you need complex workflows with branching and error handling, you handle sensitive data requiring on-premise processing, or you're technical enough to manage a Docker deployment. Stay on Zapier if: your team is non-technical, you need maximum app integration breadth (7,000+ vs 400+), or you value zero-maintenance managed hosting over cost savings.
+
+## Can n8n connect to as many apps as Zapier?
+
+Zapier has more native integrations (7,000+ vs n8n's 400+), but n8n's HTTP Request node connects to any app with an API — effectively unlimited integrations. The difference is setup time: Zapier's pre-built connectors take seconds to configure, while n8n's HTTP node requires reading API documentation and configuring requests manually. For common business tools (Google, Slack, CRM, email), both platforms offer equivalent native support.

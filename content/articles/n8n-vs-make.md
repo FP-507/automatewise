@@ -204,3 +204,15 @@ n8n and Make are both outstanding automation platforms that approach the same pr
 For technical users, privacy-conscious organizations, and high-volume automation needs, n8n is the stronger choice. For non-technical users, small teams, and those who want a managed solution they can trust, Make delivers exceptional value.
 
 The good news is that both platforms offer free tiers, so you can try each one and see which fits your workflow and mindset. For a comparison that includes Zapier alongside these two, check our [n8n vs Zapier](/blog/n8n-vs-zapier) guide, and for the broadest view, read our [IFTTT vs Zapier vs Make](/blog/ifttt-vs-zapier-vs-make) three-way comparison.
+
+## Is n8n better than Make?
+
+It depends on your priorities. [n8n](/blog/getting-started-with-n8n) is better for: self-hosting and data control, unlimited executions at fixed cost, custom code integration, and technical teams who want maximum flexibility. [Make](/blog/getting-started-with-make) is better for: non-technical users, polished UI and onboarding, managed cloud reliability, and teams who want to start automating immediately without infrastructure setup.
+
+## Can I self-host Make like n8n?
+
+No. Make is a cloud-only platform with no self-hosting option. If data sovereignty, on-premise deployment, or avoiding per-operation costs are requirements, n8n is your only option between these two. n8n runs via Docker on any server, VPS, or even a Raspberry Pi. For teams that need managed hosting but want n8n, n8n Cloud ($24/month) provides a fully hosted solution.
+
+## Which is more cost-effective at scale, n8n or Make?
+
+Self-hosted n8n is dramatically cheaper at scale — unlimited executions for only your server cost ($10-20/month handles most workloads). Make charges per operation: 10,000 operations cost $10.59/month, but high-volume workflows consuming 100,000+ operations/month reach $99+/month. If you run 50+ workflows with frequent triggers, self-hosted n8n saves $500-2,000+ annually compared to equivalent Make plans.
