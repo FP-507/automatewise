@@ -101,7 +101,7 @@ export default async function ArticlePage({
   };
 
   const faqEntries: { q: string; a: string }[] = [];
-  if (article.category === "tool-comparisons" || article.category === "getting-started") {
+  {
     const headings = article.content.match(/<h2>(.*?)<\/h2>/g) || [];
     const sections = article.content.split(/<h2>/);
     sections.slice(1).forEach((section, i) => {
@@ -111,7 +111,7 @@ export default async function ArticlePage({
       if (!heading) return;
       const isQuestion =
         heading.includes("?") ||
-        /^(What|Why|How|When|Which|Is|Can|Do|Should|Where)/i.test(heading);
+        /^(What|Why|How|When|Which|Is|Are|Can|Do|Does|Should|Where|Will)/i.test(heading);
       if (isQuestion) {
         const text = section
           .split(/<h[23]>/)[0]
@@ -142,6 +142,48 @@ export default async function ArticlePage({
         }
       : null;
 
+  const howToSteps: { name: string; text: string }[] = [];
+  if (article.category === "how-to") {
+    const headings = article.content.match(/<h2>(.*?)<\/h2>/g) || [];
+    const sections = article.content.split(/<h2>/);
+    sections.slice(1).forEach((section, i) => {
+      const heading = headings[i]
+        ?.replace(/<\/?h2>/g, "")
+        .replace(/<[^>]*>/g, "");
+      if (!heading) return;
+      const isStep =
+        /^(step\s*\d|phase\s*\d|\d+[\.\):])/i.test(heading) ||
+        /^(set up|install|create|build|connect|configure|add|enable|import|export)/i.test(heading);
+      if (isStep) {
+        const text = section
+          .split(/<h[23]>/)[0]
+          .replace(/<[^>]*>/g, "")
+          .replace(/\s+/g, " ")
+          .trim()
+          .slice(0, 300);
+        if (text.length > 30) {
+          howToSteps.push({ name: heading, text });
+        }
+      }
+    });
+  }
+
+  const howToJsonLd =
+    howToSteps.length >= 3
+      ? {
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          name: article.title,
+          description: article.description,
+          step: howToSteps.slice(0, 10).map((step, i) => ({
+            "@type": "HowToStep",
+            position: i + 1,
+            name: step.name,
+            text: step.text,
+          })),
+        }
+      : null;
+
   const contentWithIds = article.content.replace(
     /<h([23])>(.*?)<\/h[23]>/g,
     (_, level: string, text: string) => {
@@ -164,6 +206,12 @@ export default async function ArticlePage({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
+      {howToJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
         />
       )}
 
