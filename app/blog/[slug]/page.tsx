@@ -152,8 +152,8 @@ export default async function ArticlePage({
         .replace(/<[^>]*>/g, "");
       if (!heading) return;
       const isStep =
-        /^(step\s*\d|phase\s*\d|\d+[\.\):])/i.test(heading) ||
-        /^(set up|install|create|build|connect|configure|add|enable|import|export)/i.test(heading);
+        /^(step\s*\d|phase\s*\d|method\s*\d|tier\s*\d|part\s*\d|stage\s*\d|option\s*\d|way\s*\d|week\s*\d|day\s*\d|\d+[\.\):\-])/i.test(heading) ||
+        /^(set up|setting up|install|create|build|connect|configure|add|enable|import|export|choose|automate|implement|define|use|integrate|monitor|test|deploy|launch|start|prepare|design|plan|gather|collect|measure|calculate|review|optimize|track|write|run|open|select|click|navigate|sign|log in|download|upload|register|map|assign|schedule|trigger|send|check|verify|validate|format|parse|transform|process|handle|manage|update|delete|remove|migrate|sync|link|embed|customize|adjust|modify)/i.test(heading);
       if (isStep) {
         const text = section
           .split(/<h[23]>/)[0]
