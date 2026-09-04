@@ -1,7 +1,8 @@
 ---
-title: "AI Email Automation: Write, Sort, and Respond to Emails Automatically"
-description: "Learn how to use AI to automate email writing, sorting, prioritization, and responses. Build smart email workflows with ChatGPT, n8n, and automation platforms."
+title: "AI Email Automation: Write & Respond Smarter"
+description: "Use AI to write, sort, and respond to emails automatically. Build smart email workflows with ChatGPT, n8n, and Make."
 date: "2026-08-15"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["AI email", "email automation", "ChatGPT email", "smart email workflows"]
 keywords: ["AI email automation", "automate emails with AI", "ChatGPT email automation"]

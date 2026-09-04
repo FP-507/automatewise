@@ -1,7 +1,8 @@
 ---
-title: "Workflow Automation for Freelancers: Save 10+ Hours Per Week"
-description: "Discover how freelancers can save 10+ hours weekly with workflow automation. Automate client onboarding, invoicing, social media, and project management."
+title: "Automation for Freelancers: Save 10+ Hours/Week"
+description: "Save 10+ hours weekly as a freelancer. Automate invoicing, client onboarding, social media, and project management — free tools included."
 date: "2026-03-15"
+updated: "2026-09-03"
 category: "use-cases"
 tags: ["freelancers", "productivity", "invoicing", "client management", "time saving"]
 keywords: ["automation for freelancers", "freelance workflow automation", "freelancer productivity tools"]

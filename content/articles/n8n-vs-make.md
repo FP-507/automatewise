@@ -1,7 +1,8 @@
 ---
-title: "n8n vs Make (Integromat): Self-Hosted vs Cloud Automation Compared"
-description: "n8n vs Make compared in depth. Self-hosted vs cloud automation, pricing, workflow builders, data privacy, and which platform fits your needs best."
+title: "n8n vs Make: Self-Hosted vs Cloud (2026)"
+description: "n8n vs Make compared: self-hosted vs cloud, pricing, features, data privacy, and which automation platform fits your needs."
 date: "2026-01-05"
+updated: "2026-09-03"
 category: "tool-comparisons"
 tags: ["n8n", "make", "integromat", "self-hosted automation", "workflow automation"]
 keywords: ["n8n vs make", "n8n vs integromat", "self-hosted automation"]

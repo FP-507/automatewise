@@ -1,7 +1,8 @@
 ---
-title: "Make Advanced Scenarios: Routers, Iterators, and Error Handling"
+title: "Make Advanced Scenarios: Full Guide"
 description: "Master Make's advanced features. Build scenarios with routers, iterators, aggregators, error handlers, and data transformation modules."
 date: "2026-09-01"
+updated: "2026-09-03"
 category: "advanced"
 tags: ["Make", "Integromat", "advanced", "routers", "error handling"]
 keywords: ["make advanced scenarios", "make routers", "make iterators", "integromat advanced", "make error handling"]

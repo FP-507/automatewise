@@ -1,7 +1,8 @@
 ---
-title: "How to Automate Recurring Tasks: Daily, Weekly, and Monthly Workflows"
-description: "Stop doing the same tasks manually every day. Learn how to identify and automate your recurring daily, weekly, and monthly workflows with no-code tools."
+title: "Automate Recurring Tasks: Daily & Weekly Workflows"
+description: "Stop repeating the same tasks daily. Identify and automate your recurring workflows with no-code tools — set up once, run forever."
 date: "2026-08-12"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["recurring tasks", "task automation", "scheduled automation", "productivity"]
 keywords: ["automate recurring tasks", "recurring task automation", "automate repetitive tasks"]

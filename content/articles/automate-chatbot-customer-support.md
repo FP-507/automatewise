@@ -1,7 +1,8 @@
 ---
-title: "How to Build an Automated Customer Support Chatbot Without Code"
+title: "Build a Support Chatbot: No-Code Guide"
 description: "Build a no-code customer support chatbot that answers FAQs, routes tickets, and escalates to humans. Use AI and automation platforms for 24/7 support."
 date: "2026-08-11"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["chatbot automation", "customer support bot", "AI chatbot", "support automation"]
 keywords: ["automate customer support chatbot", "no-code chatbot", "AI customer support automation"]

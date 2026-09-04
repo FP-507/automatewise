@@ -1,7 +1,8 @@
 ---
-title: "Restaurant Automation: Streamline Orders, Inventory, and Staff Management"
-description: "Discover how restaurants use workflow automation to manage online orders, track inventory, schedule staff, and automate customer communications."
+title: "Restaurant Automation: Orders & Inventory Guide"
+description: "How restaurants automate orders, inventory tracking, staff scheduling, and customer comms. Real workflows you can set up today."
 date: "2026-08-07"
+updated: "2026-09-03"
 category: "use-cases"
 tags: ["restaurant automation", "food service workflow", "inventory automation", "order management"]
 keywords: ["restaurant automation", "restaurant workflow automation", "automate restaurant operations"]

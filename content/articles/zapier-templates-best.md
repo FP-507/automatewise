@@ -1,7 +1,8 @@
 ---
-title: "20 Best Zapier Templates for Small Business Automation"
+title: "20 Best Zapier Templates (2026)"
 description: "The most useful pre-built Zaps for small businesses. Lead capture, email, CRM, invoicing, social media, and team communication."
 date: "2026-09-01"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["Zapier", "templates", "small business", "Zaps", "automation"]
 keywords: ["best zapier templates", "zapier zaps small business", "zapier templates 2025", "best zaps", "zapier automation examples"]

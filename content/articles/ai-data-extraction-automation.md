@@ -1,7 +1,8 @@
 ---
-title: "How to Extract Data from Documents Automatically with AI"
+title: "AI Data Extraction: Automate Documents"
 description: "Automate data extraction from invoices, receipts, contracts, and forms using AI and OCR. Build document processing pipelines with no-code tools."
 date: "2026-08-14"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["AI data extraction", "document processing", "OCR automation", "invoice extraction"]
 keywords: ["AI data extraction", "automate document data extraction", "AI OCR automation"]

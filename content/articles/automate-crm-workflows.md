@@ -1,7 +1,8 @@
 ---
-title: "How to Automate Your CRM: HubSpot, Salesforce, and Pipedrive Workflows"
-description: "Step-by-step guide to automating CRM workflows. Automate lead capture, deal management, follow-ups, and reporting in HubSpot, Salesforce, and Pipedrive."
+title: "Automate Your CRM: HubSpot, Salesforce & More"
+description: "Automate CRM workflows step by step: lead capture, deal management, follow-ups, and reporting in HubSpot, Salesforce, and Pipedrive."
 date: "2026-06-04"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["CRM", "HubSpot", "Salesforce", "Pipedrive", "sales automation"]
 keywords: ["automate crm", "crm automation", "hubspot automation", "salesforce automation", "pipedrive automation"]

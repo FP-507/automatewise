@@ -1,7 +1,8 @@
 ---
-title: "Personal Productivity Automation: 20 Workflows to Reclaim Your Time"
-description: "Automate your personal productivity with 20 practical workflows. From email management to habit tracking, save hours every week with no-code tools."
+title: "20 Productivity Automations to Save Hours Weekly"
+description: "20 personal automation workflows you can set up today. Email, habits, finances, health tracking, and more — no coding needed."
 date: "2026-08-05"
+updated: "2026-09-03"
 category: "use-cases"
 tags: ["personal automation", "productivity workflows", "life automation", "time management"]
 keywords: ["personal productivity automation", "automate personal tasks", "productivity workflow automation"]

@@ -1,7 +1,8 @@
 ---
-title: "Trello Automation Guide: Butler Rules, Commands, and External Integrations"
-description: "Learn how to automate Trello boards with Butler automation, card rules, scheduled commands, and integrations with Zapier, Make, and n8n."
+title: "Trello Automation: Butler Rules & Integrations"
+description: "Automate Trello boards with Butler rules, card automation, scheduled commands, and integrations with Zapier, Make, and n8n."
 date: "2026-08-12"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["Trello automation", "Trello Butler", "project management automation", "board automation"]
 keywords: ["Trello automation", "Trello Butler automation", "automate Trello"]

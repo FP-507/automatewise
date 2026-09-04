@@ -1,7 +1,8 @@
 ---
-title: "How to Automate Project Management Workflows With No-Code Tools"
+title: "Automate Project Management (No Code)"
 description: "Learn how to automate task assignments, status updates, deadline reminders, and team notifications in your project management workflow."
 date: "2026-08-09"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["project management automation", "task automation", "team workflow", "productivity"]
 keywords: ["automate project management", "project management automation", "automate task management"]

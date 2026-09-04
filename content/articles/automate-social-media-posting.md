@@ -1,7 +1,8 @@
 ---
-title: "How to Automate Social Media Posting with No-Code Tools"
+title: "Automate Social Media Posting (2026)"
 description: "Learn how to automate social media posting across platforms using no-code tools. Build content calendars, RSS workflows, and cross-platform posting systems."
 date: "2026-01-25"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["social media", "automation", "no-code", "content scheduling"]
 keywords: ["automate social media posting", "social media automation", "schedule posts automatically"]

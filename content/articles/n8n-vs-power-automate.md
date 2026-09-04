@@ -1,8 +1,8 @@
 ---
-title: "n8n vs Power Automate: Open Source vs Microsoft Ecosystem"
-description: "n8n vs Power Automate: compare pricing, features, self-hosting, and use cases to choose the right automation platform for your needs."
+title: "n8n vs Power Automate: Comparison (2026)"
+description: "n8n vs Power Automate: pricing, features, self-hosting, and use cases compared. Find the right automation platform for you."
 date: "2026-05-22"
-updated: "2026-09-01"
+updated: "2026-09-03"
 category: "tool-comparisons"
 tags: ["n8n", "Power Automate", "Microsoft", "open source", "comparison"]
 keywords: ["n8n vs power automate", "power automate alternative", "n8n or power automate", "open source automation vs microsoft", "power automate comparison"]

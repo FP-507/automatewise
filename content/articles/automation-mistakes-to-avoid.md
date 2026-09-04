@@ -1,7 +1,8 @@
 ---
-title: "15 Automation Mistakes That Waste Time and Money (And How to Fix Them)"
-description: "Avoid the most common workflow automation mistakes. Learn what goes wrong with automations and how to build reliable, efficient workflows from the start."
+title: "15 Automation Mistakes (And How to Fix Them)"
+description: "The 15 most common automation mistakes that waste time and money. Learn what goes wrong and how to build reliable workflows from day one."
 date: "2026-08-09"
+updated: "2026-09-03"
 category: "getting-started"
 tags: ["automation mistakes", "automation best practices", "workflow tips", "automation pitfalls"]
 keywords: ["automation mistakes", "workflow automation mistakes", "automation best practices"]

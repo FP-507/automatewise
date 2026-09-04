@@ -1,7 +1,8 @@
 ---
-title: "Automate Notion for Project Management: Tasks, Status, and Updates"
-description: "Set up Notion automations for project management. Auto-assign tasks, update statuses, send reminders, and sync with external tools."
+title: "Notion for Project Management: Automation Guide"
+description: "Automate Notion project management: auto-assign tasks, update statuses, send reminders, and sync with Slack, Jira, and more."
 date: "2026-09-01"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["Notion", "project management", "automation", "databases", "productivity"]
 keywords: ["notion project management automation", "notion automate tasks", "notion workflow automation", "notion project tracking", "automate notion database"]

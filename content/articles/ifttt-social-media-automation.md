@@ -1,7 +1,8 @@
 ---
-title: "Automate Social Media with IFTTT: Posts, Saves, and Cross-Platform Sharing"
-description: "Use IFTTT to automate social media posting, content saving, cross-platform sharing, and brand monitoring. Free and Pro applets."
+title: "IFTTT Social Media Automation: Free Guide"
+description: "Automate social media with IFTTT: cross-posting, content saving, brand monitoring, and scheduling. Free and Pro applets included."
 date: "2026-09-01"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["IFTTT", "social media", "automation", "cross-posting", "content sharing"]
 keywords: ["ifttt social media automation", "ifttt auto post", "ifttt cross post", "automate social media ifttt", "ifttt instagram twitter"]

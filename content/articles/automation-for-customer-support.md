@@ -1,7 +1,8 @@
 ---
-title: "Automate Customer Support: AI-Powered Workflows That Scale"
-description: "Build scalable customer support automation with AI chatbots, smart ticket routing, SLA monitoring, and multi-channel workflows using no-code tools."
+title: "Customer Support Automation: AI Workflows"
+description: "Build AI-powered support: chatbots, smart ticket routing, SLA monitoring, and multi-channel workflows. No coding needed."
 date: "2026-05-02"
+updated: "2026-09-03"
 category: "use-cases"
 tags: ["customer support", "AI automation", "ticket routing", "chatbot", "helpdesk automation"]
 keywords: ["automate customer support", "customer service automation", "support workflow automation"]

@@ -1,7 +1,8 @@
 ---
-title: "Automation for Nonprofits: Do More With Less Using No-Code Tools"
-description: "Discover how nonprofits automate donor management, volunteer coordination, grant tracking, and fundraising campaigns with free and low-cost tools."
+title: "Nonprofit Automation: Do More With Less"
+description: "How nonprofits automate donors, volunteers, grants, and fundraising with free no-code tools. Real workflows you can set up today."
 date: "2026-08-04"
+updated: "2026-09-03"
 category: "use-cases"
 tags: ["nonprofit automation", "donor management", "volunteer coordination", "fundraising automation"]
 keywords: ["nonprofit automation", "automate nonprofit workflows", "nonprofit workflow tools"]

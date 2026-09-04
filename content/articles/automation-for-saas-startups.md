@@ -1,7 +1,8 @@
 ---
-title: "Automation Strategies for SaaS Startups: Scale Without Hiring"
-description: "Learn which workflows SaaS startups should automate first. From lead nurturing to churn prevention, build systems that scale your startup without scaling headcount."
+title: "SaaS Automation: Scale Without Hiring"
+description: "Which workflows SaaS startups should automate first. Lead nurturing, onboarding, churn prevention — scale without scaling headcount."
 date: "2026-05-30"
+updated: "2026-09-03"
 category: "use-cases"
 tags: ["SaaS", "startups", "growth", "scaling", "automation strategy"]
 keywords: ["saas automation", "startup automation", "saas workflow automation", "automate saas", "startup growth automation"]

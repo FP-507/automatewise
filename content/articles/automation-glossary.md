@@ -1,7 +1,8 @@
 ---
-title: "Workflow Automation Glossary: 50 Terms Every Beginner Should Know"
-description: "Master the language of automation with this glossary of 50 essential terms. Clear definitions and real-world examples for every concept."
+title: "Automation Glossary: 50 Essential Terms"
+description: "50 automation terms explained with real-world examples. Master the language of workflow automation — from triggers to webhooks."
 date: "2025-11-05"
+updated: "2026-09-03"
 category: "getting-started"
 tags: ["glossary", "automation terminology", "reference", "beginner guide"]
 keywords: ["workflow automation glossary", "automation terminology", "automation terms explained"]

@@ -2,6 +2,7 @@
 title: "How to Automate HR Onboarding with No-Code Tools"
 description: "Build a complete automated onboarding workflow using no-code tools. Cover document collection, account setup, training schedules, and 90-day check-ins."
 date: "2026-04-22"
+updated: "2026-09-03"
 category: "use-cases"
 tags: ["hr automation", "employee onboarding", "no-code workflow", "human resources", "onboarding checklist"]
 keywords: ["automate hr onboarding", "onboarding automation", "employee onboarding workflow"]

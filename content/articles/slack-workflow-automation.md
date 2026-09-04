@@ -1,7 +1,8 @@
 ---
-title: "Slack Automation Guide: Workflows, Bots, and External Integrations"
-description: "Master Slack automation with Workflow Builder, custom bots, and external platform integrations. Automate notifications, approvals, and team processes."
+title: "Slack Automation: Workflows & Bots Guide (2026)"
+description: "Master Slack Workflow Builder, custom bots, and external integrations. Automate notifications, approvals, and team processes."
 date: "2026-08-13"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["Slack automation", "Slack Workflow Builder", "Slack bots", "team automation"]
 keywords: ["Slack automation", "Slack workflow automation", "automate Slack"]

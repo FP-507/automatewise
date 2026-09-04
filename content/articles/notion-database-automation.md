@@ -1,7 +1,8 @@
 ---
-title: "Advanced Notion Database Automations: Triggers, Templates, and External Integrations"
-description: "Master advanced Notion database automations. Learn triggers, template generation, status-based workflows, and how to connect Notion with external tools."
+title: "Notion Database Automation: Advanced Guide"
+description: "Master Notion database automations: triggers, templates, status workflows, and external integrations with Make, Zapier, and n8n."
 date: "2026-08-15"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["Notion automation", "Notion database", "Notion workflows", "Notion integrations"]
 keywords: ["Notion database automation", "Notion automations advanced", "automate Notion database"]

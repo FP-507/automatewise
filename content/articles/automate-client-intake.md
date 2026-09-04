@@ -1,7 +1,8 @@
 ---
-title: "How to Automate Client Intake for Service Businesses"
+title: "Automate Client Intake: Free Guide"
 description: "Build an automated client intake workflow that collects information, schedules consultations, sends contracts, and onboards new clients seamlessly."
 date: "2026-08-10"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["client intake automation", "service business workflow", "client onboarding", "intake forms"]
 keywords: ["automate client intake", "client intake automation", "automated client onboarding"]

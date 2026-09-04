@@ -1,7 +1,8 @@
 ---
-title: "How to Build Smart Notification and Alert Systems With Automation"
-description: "Learn how to create automated notification systems using Slack, email, SMS, and webhooks. Build alert workflows that notify the right people at the right time."
+title: "Automate Notifications & Alerts: Setup Guide"
+description: "Build automated alerts via Slack, email, SMS, and webhooks. Notify the right people at the right time — no coding needed."
 date: "2026-08-07"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["notification automation", "alert system", "Slack notifications", "automated alerts"]
 keywords: ["automate notifications", "automated alert system", "notification workflow automation"]

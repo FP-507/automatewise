@@ -1,7 +1,8 @@
 ---
-title: "Automation for Content Creators and YouTubers"
-description: "Learn how content creators automate video publishing, social media distribution, sponsorship management, analytics tracking, and audience engagement."
+title: "Content Creator Automation: YouTube & More"
+description: "Automate video publishing, social media, sponsorships, analytics, and audience engagement. Workflows for creators and YouTubers."
 date: "2026-05-26"
+updated: "2026-09-03"
 category: "use-cases"
 tags: ["content creators", "YouTube", "social media", "creator economy", "video automation"]
 keywords: ["content creator automation", "youtube automation", "creator workflow automation", "automate content creation", "content distribution automation"]

@@ -1,7 +1,8 @@
 ---
-title: "How to Automate Meeting Scheduling: Eliminate Back-and-Forth Emails"
-description: "Learn how to automate meeting scheduling with Calendly, Cal.com, and workflow automation tools. Set up auto-booking, reminders, and follow-ups."
+title: "Automate Meeting Scheduling: No More Emails"
+description: "Automate meeting booking with Calendly, Cal.com, and no-code tools. Set up auto-scheduling, reminders, and follow-ups in minutes."
 date: "2026-08-14"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["meeting scheduling", "Calendly automation", "calendar automation", "meeting reminders"]
 keywords: ["automate meeting scheduling", "automated meeting booking", "meeting scheduling automation"]

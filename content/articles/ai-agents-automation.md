@@ -1,7 +1,8 @@
 ---
-title: "AI Agents and Workflow Automation: The Future of No-Code"
+title: "AI Agents in Automation: No-Code Guide (2026)"
 description: "Explore how AI agents are transforming workflow automation. Learn to build intelligent automations that think, decide, and act using no-code platforms."
 date: "2026-08-10"
+updated: "2026-09-03"
 category: "advanced"
 tags: ["AI agents", "intelligent automation", "AI workflow", "autonomous agents"]
 keywords: ["AI agents automation", "AI workflow automation", "intelligent automation no-code"]

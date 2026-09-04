@@ -1,7 +1,8 @@
 ---
-title: "How to Build an Automated Sales Pipeline Without Code"
+title: "Automated Sales Pipeline: No-Code Guide"
 description: "Learn to build a fully automated sales pipeline using no-code tools. Cover lead capture, qualification, nurturing, CRM integration, and deal tracking step by step."
 date: "2026-06-02"
+updated: "2026-09-03"
 category: "advanced"
 tags: ["sales pipeline", "automation", "CRM", "lead management"]
 keywords: ["automated sales pipeline", "sales automation workflow", "no-code sales pipeline", "automate sales process"]

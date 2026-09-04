@@ -1,7 +1,8 @@
 ---
-title: "How to Automate File Organization Across Cloud Storage"
+title: "Automate File Organization (Cloud Guide)"
 description: "Stop wasting time sorting files manually. Learn how to automate file organization across Google Drive, Dropbox, and OneDrive with practical workflows."
 date: "2026-04-12"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["file organization", "cloud storage", "Google Drive", "Dropbox", "productivity"]
 keywords: ["automate file organization", "cloud storage automation", "automatic file sorting"]

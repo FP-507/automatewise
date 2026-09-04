@@ -1,7 +1,8 @@
 ---
-title: "IFTTT Smart Home Automation: Connect and Control Every Device"
+title: "IFTTT Smart Home: Setup Guide (2026)"
 description: "Set up IFTTT smart home automations for lights, thermostats, cameras, and locks. Step-by-step applets for Google Home, Alexa, and more."
 date: "2026-09-01"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["IFTTT", "smart home", "Google Home", "Alexa", "home automation"]
 keywords: ["ifttt smart home", "ifttt home automation", "ifttt smart home devices", "automate smart home ifttt", "ifttt google home"]

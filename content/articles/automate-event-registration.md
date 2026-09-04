@@ -1,7 +1,8 @@
 ---
-title: "How to Automate Event Registration and Attendee Management"
+title: "Automate Event Registration & Attendees"
 description: "Step-by-step guide to automating event sign-ups, confirmations, reminders, check-ins, and post-event follow-ups with no-code tools."
 date: "2026-08-12"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["event automation", "event registration", "attendee management", "virtual events"]
 keywords: ["automate event registration", "event registration automation", "automated event management"]

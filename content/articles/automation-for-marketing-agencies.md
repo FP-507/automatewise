@@ -1,7 +1,8 @@
 ---
-title: "Automation for Digital Marketing Agencies: The Complete Playbook"
-description: "Learn how digital marketing agencies use workflow automation to scale client work, streamline reporting, and boost profitability without hiring more staff."
+title: "Marketing Agency Automation: Complete Playbook"
+description: "How agencies automate client work, reporting, and campaigns. Scale profitability without hiring — real workflows you can copy."
 date: "2026-04-10"
+updated: "2026-09-03"
 category: "use-cases"
 tags: ["marketing agencies", "client management", "reporting automation", "social media automation", "agency workflow"]
 keywords: ["automation for marketing agencies", "digital agency automation", "marketing automation workflow"]

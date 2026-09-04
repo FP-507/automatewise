@@ -1,7 +1,8 @@
 ---
-title: "How to Automate Customer Feedback Collection and Analysis"
+title: "Automate Customer Feedback Collection"
 description: "Build automated workflows to collect, organize, analyze, and act on customer feedback using surveys, reviews, and NPS scores."
 date: "2026-08-07"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["customer feedback automation", "survey automation", "NPS automation", "review management"]
 keywords: ["automate customer feedback", "automated survey workflows", "feedback collection automation"]

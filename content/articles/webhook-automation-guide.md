@@ -1,7 +1,8 @@
 ---
-title: "Webhooks Explained: How to Use Them in Your Automations"
+title: "Webhooks Explained: Automation Guide"
 description: "Learn what webhooks are, how they work, and how to use them to trigger automations in n8n, Make, and Zapier. Practical examples and troubleshooting tips."
 date: "2026-06-06"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["webhooks", "API", "automation triggers", "real-time", "integration"]
 keywords: ["webhook automation", "what are webhooks", "webhook tutorial", "webhook trigger", "how to use webhooks"]

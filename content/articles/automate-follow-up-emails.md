@@ -1,7 +1,8 @@
 ---
-title: "How to Automate Follow-Up Emails That Actually Get Responses"
+title: "Automate Follow-Up Emails That Convert"
 description: "Build automated follow-up email sequences for sales, support, and networking. Learn timing, personalization, and multi-channel follow-up strategies."
 date: "2026-08-13"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["follow-up automation", "email sequences", "sales follow-up", "drip campaigns"]
 keywords: ["automate follow-up emails", "automated email follow-up", "follow-up email automation"]

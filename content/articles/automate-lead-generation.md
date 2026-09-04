@@ -2,6 +2,7 @@
 title: "How to Build an Automated Lead Generation Workflow"
 description: "Learn how to automate lead generation with step-by-step workflows. Capture, score, and nurture leads automatically using n8n, HubSpot, and Zapier."
 date: "2026-04-01"
+updated: "2026-09-03"
 category: "how-to"
 tags: ["lead generation", "CRM automation", "sales automation", "n8n", "marketing automation"]
 keywords: ["automate lead generation", "automated lead capture", "lead generation workflow"]
