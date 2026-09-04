@@ -206,3 +206,15 @@ Different AI tasks need different models:
 **Using AI where rules suffice.** If you can solve it with a simple filter or conditional, do not use AI. AI adds cost, latency, and unpredictability. Reserve it for tasks that genuinely require language understanding.
 
 **Forgetting about data privacy.** When you send data through AI APIs, that data leaves your servers. For sensitive customer data, financial records, or health information, use self-hosted models or ensure your AI provider's data handling meets your compliance requirements. See our [automation security guide](/blog/automation-security-best-practices).
+
+## Can I use AI without coding?
+
+Yes. No-code platforms like [Zapier](/blog/getting-started-with-zapier) and [Make](/blog/getting-started-with-make) offer built-in AI modules that connect to OpenAI, Claude, and other models without writing code. You configure prompts, input data, and output mapping through visual interfaces. n8n provides AI nodes for classification, summarization, and extraction that work like any other drag-and-drop module.
+
+## What are the best no-code AI automation tools?
+
+[Make](/blog/getting-started-with-make) offers the most flexible AI integration with modules for OpenAI, Claude, Google AI, and custom HTTP connections to any AI API. Zapier provides a simpler ChatGPT integration for basic text processing. [n8n](/blog/getting-started-with-n8n) offers AI agent nodes with tool-use capabilities for advanced workflows. For specific tasks, dedicated tools like Jasper (content), Otter.ai (transcription), and Beautiful.ai (presentations) handle AI automation within their domains.
+
+## How much does no-code AI automation cost?
+
+Most no-code AI setups cost $20-50 per month total. The automation platform (Make at $10.59/month or Zapier at $19.99/month) plus AI API costs (GPT-4o-mini at $1-5/month for typical usage) keep the total manageable. Self-hosting [n8n](/blog/getting-started-with-n8n) eliminates the platform cost entirely, leaving only the AI API fees and hosting costs ($5-10/month on a basic VPS).

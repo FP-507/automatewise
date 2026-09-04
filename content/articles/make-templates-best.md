@@ -166,3 +166,15 @@ Templates are starting points, not final products. Common customizations:
 For most people, starting with a template and modifying it is faster than building from zero. The template gives you the correct module sequence and data mapping -- you just adjust it to your specific accounts and requirements.
 
 Compare Make's template approach with [Zapier's pre-built Zaps](/blog/getting-started-with-zapier) and [n8n's community workflows](/blog/getting-started-with-n8n) in our [platform comparison guide](/blog/best-automation-tools-2025).
+
+## What are the best Make templates for beginners?
+
+Start with these five templates: (1) Gmail-to-Google Sheets email logger — saves specific emails as spreadsheet rows. (2) Slack notification from Google Forms — sends form submissions to a Slack channel. (3) Social media cross-poster — publishes content across multiple platforms simultaneously. (4) CRM contact sync — keeps Google Contacts and your CRM synchronized. (5) Invoice generator — creates invoices from spreadsheet data and emails them to clients. Each template takes under 15 minutes to customize.
+
+## How do I customize a Make template?
+
+Open a template in [Make](/blog/getting-started-with-make), click "Use template," then connect your accounts for each service. Modify the trigger conditions to match your specific needs (e.g., filter emails by sender or subject). Adjust data mapping between modules — click each module to see input fields and map them to outputs from previous modules. Add filters between modules for conditional logic. Test with sample data before activating. Save as your own scenario for future modifications.
+
+## Are Make templates free to use?
+
+Yes, all Make templates are free to browse and clone. However, running them consumes operations from your plan. The free plan includes 1,000 operations per month, which handles most templates at low volume. Templates using premium apps (like Salesforce or HubSpot) require a paid Make plan starting at $10.59/month. Browse templates at make.com/en/templates and filter by app or use case.

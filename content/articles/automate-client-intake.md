@@ -277,3 +277,15 @@ Automated client intake transforms the first impression your service business ma
 Start with the core loop: intake form connected to your CRM with automatic consultation scheduling. Then add contract generation with e-signature, and finally the welcome package and internal team assignment. Each layer reduces the time from inquiry to active client and increases the conversion rate at every stage.
 
 For the scheduling foundation that powers consultation booking, see our [appointment scheduling guide](/blog/automate-appointment-scheduling). To extend into full client lifecycle automation, explore our [customer onboarding guide](/blog/automate-customer-onboarding) and [document processing automation](/blog/automate-document-processing).
+
+## What is automated client intake?
+
+Automated client intake replaces manual onboarding paperwork with digital forms, automatic data routing, and triggered workflows. When a new client fills out an intake form, automation creates their record in your CRM, sends welcome materials, schedules an initial meeting, collects required documents, and notifies your team — all without manual data entry or email follow-ups.
+
+## How do I automate client intake forms?
+
+Create a digital intake form using Google Forms, Typeform, or JotForm. Connect it to your CRM and project management tool via [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make). When submitted, the automation creates a client record, sends a welcome email with next steps, creates a project folder, and notifies the assigned team member. The entire flow runs in under 60 seconds after submission.
+
+## What information should a client intake form collect?
+
+Essential fields include: contact information (name, email, phone), company or organization details, project scope or service needed, budget range, timeline expectations, and how they found you. For service businesses, add specific questions about their current situation and goals. Keep the form under 15 fields — longer forms reduce completion rates. Use conditional logic to show relevant questions based on earlier answers.

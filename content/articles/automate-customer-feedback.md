@@ -162,3 +162,15 @@ Start with the highest-impact, lowest-effort workflow: post-purchase survey auto
 Once that is running, add review monitoring for your top two review platforms. Then implement sentiment-based routing. Then layer on NPS collection.
 
 Each addition builds on the same centralized feedback database, and each gives you more complete picture of what your customers actually think. The goal is not to automate the relationship itself but to automate the listening so that every piece of feedback gets heard, categorized, and routed to someone who can act on it.
+
+## How do I automate customer feedback collection?
+
+Set up trigger-based surveys using tools like Typeform, Google Forms, or dedicated platforms (Delighted, SurveyMonkey). Use [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make) to trigger surveys after key events — purchase completion, support ticket resolution, or onboarding milestone. Automate the routing: positive feedback triggers review requests, negative feedback alerts the support team for immediate follow-up.
+
+## When should I send automated feedback requests?
+
+Send feedback requests at key moments: 24 hours after purchase (product satisfaction), immediately after support resolution (service quality), 7 days after onboarding (initial experience), and 30-90 days after signup (ongoing satisfaction). Avoid survey fatigue — limit to one request per customer per month. The highest response rates come from in-app surveys (15-25%) followed by email (5-15%) and SMS (10-20%).
+
+## How do I act on customer feedback automatically?
+
+Create a feedback triage workflow: NPS scores of 9-10 trigger automated review requests on Google or G2. Scores of 7-8 receive a follow-up asking what would make their experience better. Scores of 0-6 create a support ticket and alert the account manager within 5 minutes. This ensures every piece of feedback generates an appropriate action without manual review of each response.

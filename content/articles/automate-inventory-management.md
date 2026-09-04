@@ -162,3 +162,15 @@ If stockouts are the bigger problem, start with the low-stock alert automation. 
 If overselling is the bigger problem, start with multi-channel stock synchronization. Pick your highest-volume sales channel as the hub and build the sync workflow to your secondary channels. Monitor for a few weeks and refine your buffer strategy.
 
 Once the foundational automation is running, layer on purchase order generation, supplier communication, and reporting. Each addition builds on the data infrastructure you already have. The compound effect of these automations turns inventory management from a constant fire-fighting exercise into a system that largely runs itself.
+
+## How do I automate inventory management?
+
+Connect your sales channels (Shopify, WooCommerce, Amazon) to your inventory database using [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make). Set up automated workflows for: real-time stock level updates after each sale, low-stock alerts when inventory drops below threshold, automatic purchase order generation to suppliers, and multi-channel inventory syncing. Most businesses reduce stockouts by 30-50% with basic automation.
+
+## What inventory tasks should I automate first?
+
+Start with low-stock alerts — set threshold notifications for your top 20% products (which typically generate 80% of revenue). Next, automate stock level syncing across sales channels to prevent overselling. Then add automated purchase order creation when stock hits reorder points. Finally, implement automated reporting: daily stock summaries, weekly sales velocity reports, and monthly demand forecasting.
+
+## Can I automate inventory management without expensive software?
+
+Yes. Google Sheets or [Airtable](/blog/airtable-automation-guide) serve as free inventory databases. Connect them to your sales channels via [Make](/blog/getting-started-with-make) (1,000 free operations/month) or [n8n](/blog/getting-started-with-n8n) (free self-hosted). Use Google Forms for manual stock intake logging. This setup handles inventory for businesses with up to 500 SKUs at minimal cost — under $20/month total.

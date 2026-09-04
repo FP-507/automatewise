@@ -228,3 +228,15 @@ The Notion API has rate limits (currently 3 requests per second per integration)
 Connect only the databases and properties that need external automation. Every integration is a potential point of failure. A broken automation that corrupts your project database is worse than no automation at all.
 
 Start with one integration, let it run for a week, verify it works correctly, then add the next one. Building incrementally reduces the debugging surface when something goes wrong.
+
+## How do I use the Notion API for automation?
+
+Create an integration at notion.so/my-integrations, copy the API token, and share your target databases/pages with the integration. The Notion API supports creating, reading, updating, and searching pages and databases via REST endpoints. For no-code automation, pass the API token to [n8n](/blog/getting-started-with-n8n) or [Make](/blog/getting-started-with-make) as a credential — both have dedicated Notion nodes that wrap the API into visual workflow steps.
+
+## What can I build with the Notion API?
+
+Popular Notion API integrations include: CRM systems that sync contacts between Notion and external tools, content pipelines that publish Notion pages to WordPress or CMS platforms, project dashboards that aggregate data from multiple Notion databases, automated task creation from email or Slack messages, and reporting systems that pull Notion data into Google Sheets. The API supports all database operations plus rich text content manipulation.
+
+## What are the Notion API rate limits?
+
+The Notion API allows approximately 3 requests per second per integration token. For bulk operations (importing 500+ records), implement request queuing with 350ms delays between calls. Use batch strategies: read multiple pages with the Search endpoint instead of individual Get requests, and minimize redundant lookups by caching database schemas locally. If you hit rate limits consistently, consider using multiple integration tokens for different workflows.

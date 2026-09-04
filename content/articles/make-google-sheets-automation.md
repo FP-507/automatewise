@@ -200,3 +200,15 @@ Google Sheets has limits: 10 million cells per spreadsheet, and performance degr
 **Keep a raw data sheet:** Write automation data to a "Raw" sheet and use IMPORTRANGE or references in formatted report sheets. This separates data entry from data presentation and prevents formatting from being overwritten by automation.
 
 For n8n-based Google Sheets automation, see our dedicated [Google Sheets + n8n guide](/blog/connect-google-sheets-n8n). For a comparison of automation approaches, our [best automation tools guide](/blog/best-automation-tools-2025) covers all platforms.
+
+## How do I automate Google Sheets with Make?
+
+In [Make](/blog/getting-started-with-make), add a Google Sheets module and connect your Google account via OAuth. Available modules include: Watch Rows (trigger on new/updated rows), Search Rows, Get a Row, Add a Row, Update a Row, Delete a Row, and Clear a Row. Use the Watch Rows trigger to start workflows when spreadsheet data changes, or use action modules to write results from other apps into Sheets.
+
+## What are the best Google Sheets automations?
+
+The highest-value automations are: (1) Form-to-CRM pipeline — Google Forms submissions populate Sheets, then Make creates CRM contacts and sends welcome emails. (2) Financial reporting — Make pulls data from Stripe, QuickBooks, and PayPal into a consolidated Sheets dashboard daily. (3) Inventory tracking — sales from Shopify/WooCommerce auto-update stock levels in Sheets with low-stock alerts. (4) Content calendar — Sheets-based editorial calendar triggers publishing workflows across platforms.
+
+## Can Make handle large Google Sheets with thousands of rows?
+
+Make handles large spreadsheets but requires optimization. Use the Search Rows module with filters instead of Watch Rows to avoid processing every row. Implement pagination for datasets over 500 rows. Use the "Get a Row" module for targeted lookups rather than scanning entire sheets. For very large datasets (10,000+ rows), consider migrating to [Airtable](/blog/airtable-automation-guide) or a database, as Sheets performance degrades with heavy automation at scale.

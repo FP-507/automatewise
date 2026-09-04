@@ -181,3 +181,15 @@ IFTTT handles simple social media automation well, but has clear limits:
 **Basic formatting** -- IFTTT pastes text and links. It cannot create custom graphics, carousels, or platform-specific formats.
 
 For businesses spending $0-50/month on social media management, IFTTT handles the automation layer while you use free platform tools for analytics. When you outgrow it, [Zapier](/blog/getting-started-with-zapier) and [Make](/blog/getting-started-with-make) offer deeper social integrations with data transformation and conditional logic.
+
+## How do I automate social media with IFTTT?
+
+IFTTT connects social media platforms through simple trigger-action applets. Common setups: auto-post Instagram photos to Twitter, save liked tweets to a spreadsheet, cross-post WordPress blogs to social media, and auto-share RSS feed content. Create an IFTTT account, connect your social media accounts, and choose from thousands of pre-built applets or create custom ones with the "If This Then That" builder.
+
+## What social media tasks should I automate?
+
+Automate repetitive distribution tasks: cross-posting content across platforms, saving engagement data (likes, mentions, shares) to spreadsheets for analysis, archiving your content to cloud storage, and sending team notifications when brand mentions appear. Avoid automating engagement (comments, replies, DMs) — authentic interaction drives algorithm performance. Automate the logistics, personalize the conversations.
+
+## Is IFTTT enough for social media automation?
+
+IFTTT handles basic cross-posting and logging well, but lacks scheduling, analytics, and multi-step workflows. For professional social media management, pair IFTTT with a scheduling tool (Buffer, Hootsuite, Later) or upgrade to [Make](/blog/getting-started-with-make) or [Zapier](/blog/getting-started-with-zapier) for conditional posting, audience-based routing, and performance-triggered workflows. See our [social media automation guide](/blog/automate-social-media-posting) for advanced strategies.

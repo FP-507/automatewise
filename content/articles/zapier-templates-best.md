@@ -120,3 +120,15 @@ Connect your application monitoring (UptimeRobot, Datadog, or simple HTTP checks
 **Use Zapier's Formatter.** Between trigger and action, add a Formatter step to clean data: format dates, capitalize names, split full names into first/last, convert currencies. Clean data prevents errors downstream.
 
 For a full comparison of template ecosystems across platforms, see our [best automation tools guide](/blog/best-automation-tools-2025).
+
+## What are the best Zapier templates for beginners?
+
+The five most popular Zapier templates are: (1) Gmail attachments to Google Drive — automatically saves email attachments to organized folders. (2) New Google Forms responses to Slack — notifies a channel when forms are submitted. (3) New Trello cards from Gmail — creates project cards from starred emails. (4) Shopify orders to Google Sheets — logs every sale for reporting. (5) Calendar events to Slack reminders — posts upcoming meeting reminders to team channels. Each takes under 5 minutes to set up.
+
+## How many Zaps can I run for free?
+
+Zapier's free plan includes 100 tasks per month and 5 active Zaps (single-step only). A "task" is one successful action execution — a Zap that runs 10 times uses 10 tasks. Multi-step Zaps, filters, and premium app integrations require a paid plan starting at $19.99/month (750 tasks). For high-volume automation, consider [Make](/blog/getting-started-with-make) (1,000 free operations) or self-hosted [n8n](/blog/getting-started-with-n8n) (unlimited) as cost-effective alternatives.
+
+## How do I choose between Zapier templates and custom Zaps?
+
+Start with templates when a pre-built solution matches your use case — they save setup time and follow proven patterns. Build custom Zaps when you need specific filters, multiple steps, or app combinations not covered by templates. Templates are essentially pre-configured Zaps that you can customize after cloning. Browse templates at zapier.com/apps and filter by the apps you use. See our [Zapier vs Make comparison](/blog/make-vs-zapier) for platform selection guidance.

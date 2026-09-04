@@ -194,3 +194,15 @@ Total modules: ~15. Operations per lead: ~5-8. Fully automatic from form submiss
 **Make vs [Power Automate](/blog/make-vs-power-automate):** Power Automate handles similar complexity but is optimized for Microsoft ecosystem. Choose based on your tech stack.
 
 For a full comparison of all platforms' advanced capabilities, see our [best automation tools guide](/blog/best-automation-tools-2025).
+
+## What are advanced Make scenarios?
+
+Advanced Make scenarios use features beyond basic trigger-action pairs: routers (split data into multiple paths based on conditions), iterators (loop through arrays), aggregators (combine multiple items into one), error handlers (catch and retry failures), and sub-scenarios (reusable workflow modules). These features let you build enterprise-grade automations that handle complex business logic, data transformations, and multi-system orchestration.
+
+## How do I use routers and filters in Make?
+
+Add a Router module after your trigger to split the workflow into parallel paths. Each path gets a filter with conditions (e.g., "if deal value > $10,000, route to enterprise path; otherwise, route to standard path"). Filters use AND/OR logic with operators like equals, contains, greater than, and regex matching. Unfiltered paths run for every input. This pattern replaces long if-else chains with visual, maintainable branching.
+
+## How many operations does a complex Make scenario use?
+
+Operation count depends on scenario structure. Each module execution counts as one operation. A scenario with trigger → router → 3 paths × 2 modules each = 7 operations per execution. Iterator modules multiply: processing 10 array items through 3 modules = 30 operations. Monitor usage in Make's dashboard and optimize by filtering early (reduce items before iterators) and using aggregators to batch API calls. [Make's free plan](/blog/getting-started-with-make) includes 1,000 operations/month.

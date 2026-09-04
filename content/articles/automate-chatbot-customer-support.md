@@ -260,3 +260,15 @@ For more on building AI-powered agent systems, see our guide on [AI agents in au
 A no-code support chatbot is not a weekend project that you set and forget. It is a system that requires a solid knowledge base, thoughtful conversation design, reliable human handoff, and continuous measurement. But the payoff is substantial: 24/7 coverage, consistent answers, faster resolution times, and significant cost savings as your bot handles a growing share of routine queries.
 
 Start simple. Build a rule-based FAQ bot with 20-30 of your most common questions, deploy it on one channel, and measure the resolution rate. Once you hit 50% resolution, add AI capabilities for better question understanding. Then expand to more channels, add proactive support, and connect to your help desk for seamless handoff. The technology is ready — the work is in curating your knowledge and designing flows that respect your customers' time.
+
+## How much does a customer support chatbot cost?
+
+Basic rule-based chatbots using platforms like Tidio or Tawk.to start free for small volumes. AI-powered chatbots using OpenAI or Claude APIs cost $10-50 per month in API fees for most small businesses. Enterprise chatbot platforms (Intercom, Drift, Zendesk) range from $50-500 per month. Building a custom chatbot with [n8n](/blog/getting-started-with-n8n) and an AI API is the most cost-effective option for businesses wanting full control.
+
+## How long does it take to set up a support chatbot?
+
+A basic FAQ chatbot with 20-30 pre-written responses takes 2-4 hours to set up using platforms like Tidio or Chatfuel. An AI-powered chatbot connected to your knowledge base takes 1-2 days to configure and test. A fully integrated chatbot with CRM connection, ticket creation, and human handoff typically takes 1-2 weeks to deploy and refine. Start simple and iterate based on customer interactions.
+
+## What percentage of support queries can chatbots handle?
+
+Well-configured chatbots resolve 30-50% of customer support inquiries without human intervention. The most commonly automated queries include order status checks, password resets, FAQ answers, business hours and location info, and basic troubleshooting steps. Complex issues, complaints, and emotionally charged interactions should always route to human agents for the best customer experience.

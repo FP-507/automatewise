@@ -201,3 +201,15 @@ Google Sheets combined with n8n gives you a powerful, flexible, and affordable a
 The key is to start with a simple, one-direction workflow — like our form-to-Sheets example — and expand from there as you get comfortable. n8n's visual builder makes it easy to see exactly what your automation does, and Google Sheets provides a familiar interface for managing the data.
 
 For more ideas on what to automate, explore our guides on [data entry automation](/blog/automate-data-entry), [lead generation workflows](/blog/automate-lead-generation), and [the best free automation tools](/blog/best-free-automation-tools) to complement your setup.
+
+## How do I connect Google Sheets to n8n?
+
+In n8n, add a Google Sheets credential using OAuth2 (recommended) or a service account. Select the Google Sheets node, choose your credential, then select the spreadsheet and sheet tab by name or ID. n8n supports reading rows, appending rows, updating rows by row number or lookup, and deleting rows. For triggers, use the Google Sheets Trigger node to watch for new or updated rows at configurable intervals.
+
+## What can I automate between Google Sheets and n8n?
+
+Common automations include: importing form submissions into Sheets for reporting, syncing CRM data bidirectionally between Sheets and other tools, generating automated reports from multiple data sources into Sheets, triggering workflows when specific cells change (price thresholds, status updates), and creating dashboards that update in real-time from external APIs. See our [Google Sheets automation guide](/blog/make-google-sheets-automation) for additional patterns.
+
+## Is n8n better than Zapier for Google Sheets automation?
+
+[n8n](/blog/getting-started-with-n8n) offers more flexibility for complex Sheets operations — batch processing thousands of rows, custom JavaScript transformations, and unlimited executions when self-hosted. [Zapier](/blog/getting-started-with-zapier) is simpler for basic triggers (new row → action) and requires zero setup. Choose n8n for high-volume data processing or complex transformations; choose Zapier for simple one-to-one integrations where setup speed matters most.

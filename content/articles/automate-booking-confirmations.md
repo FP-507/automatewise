@@ -251,3 +251,15 @@ Booking confirmation, reminder, and follow-up automation creates a consistent cl
 Start with the confirmation email and a single 24-hour reminder. Once that runs reliably, add SMS reminders, no-show detection, and post-appointment feedback collection. The compounding effect of these automated touchpoints reduces no-shows, increases rebooking rates, and generates reviews on autopilot.
 
 For the full scheduling automation foundation, see our [appointment scheduling guide](/blog/automate-appointment-scheduling). To connect these workflows to your broader business automation, explore our [webhook automation guide](/blog/webhook-automation-guide) and [customer feedback automation](/blog/automate-customer-feedback).
+
+## How do I automate booking confirmation emails?
+
+Most booking platforms (Calendly, Acuity, Cal.com) send automatic confirmations natively. For custom confirmation workflows, connect your booking system to an email platform via [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make). The trigger is "new booking created" and the action sends a branded email with appointment details, preparation instructions, and a calendar link. Add SMS confirmations through Twilio for higher open rates.
+
+## Do automated confirmations reduce no-shows?
+
+Yes. Automated confirmation emails reduce no-shows by 10-15%. Adding SMS reminders 24 hours and 1 hour before the appointment reduces no-shows by an additional 25-40%. The combination of email confirmation, SMS reminder, and calendar invitation typically achieves no-show rates under 5%, compared to 15-30% for businesses relying on manual reminders alone.
+
+## What should a booking confirmation include?
+
+An effective booking confirmation includes: appointment date, time, and duration; location or video meeting link; practitioner or contact name; preparation instructions or required documents; reschedule and cancellation links (with your cancellation policy); and a calendar file (.ics) for one-click addition to the client's calendar. Keep it concise — the most important information should be visible without scrolling.

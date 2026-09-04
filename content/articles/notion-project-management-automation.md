@@ -173,3 +173,15 @@ If you are setting up Notion project management automation for the first time, s
 3. **New project → Template population.** Standardizes project setup and reduces setup time from 15 minutes to 15 seconds.
 
 Get these three running for two weeks before adding complexity. The goal is consistency -- automations that run reliably create trust in the system, which leads to team adoption.
+
+## How do I automate project management in Notion?
+
+Build a project database with Status (select), Priority (select), Assignee (person), Due Date (date), and Sprint (relation) properties. Set up automations for: auto-assigning tasks when moved to "In Progress," sending Slack notifications on status changes, creating weekly sprint reports from database filters, and generating recurring tasks on schedules. Use [Make](/blog/getting-started-with-make) or [n8n](/blog/getting-started-with-n8n) for cross-tool workflows that connect Notion to GitHub, Slack, and calendar apps.
+
+## What Notion project templates work best with automation?
+
+Templates with structured properties automate best. Use a Kanban board with consistent status values (Backlog, To Do, In Progress, Review, Done) — these map directly to automation triggers. Add a Sprint database related to tasks for sprint planning automation. Include a Meetings database with action item relations to auto-generate tasks from meeting notes. Avoid heavily nested page structures — flat databases with relations are easier to automate than deep page hierarchies.
+
+## Can Notion replace Jira or Asana for project management?
+
+Notion works well for teams under 50 people with straightforward workflows. It offers more flexibility in documentation and wiki features alongside project tracking. However, Notion lacks built-in sprint velocity charts, time tracking, dependency mapping, and advanced reporting that Jira provides. For automation, Notion's API covers basic CRUD operations but lacks the webhook reliability of Jira or Asana. Use Notion for teams prioritizing documentation alongside task management; use dedicated tools for complex engineering workflows.

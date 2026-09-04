@@ -274,3 +274,15 @@ Event registration automation transforms a chaotic manual process into a reliabl
 Start with the basics: registration confirmation with a calendar invite and a 24-hour reminder. Then add check-in tracking, post-event surveys, and segmented follow-ups. Each addition compounds the value of your event program by ensuring no attendee interaction is missed and no lead is wasted.
 
 For the scheduling foundation these workflows build on, see our [appointment scheduling guide](/blog/automate-appointment-scheduling). To connect event registration to your broader marketing automation, explore our [email marketing automation guide](/blog/automate-email-marketing) and [customer onboarding workflows](/blog/automate-customer-onboarding).
+
+## How do I automate event registration?
+
+Create a registration form (Google Forms, Typeform, or Eventbrite), then connect it to your automation platform via [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make). Set up automated workflows for: confirmation emails with event details, calendar invitations, reminder sequences (7 days, 1 day, 1 hour before), post-event follow-ups, and attendee list syncing to your CRM. The entire registration-to-follow-up cycle runs without manual intervention.
+
+## What should automated registration emails include?
+
+Send four automated emails: (1) Immediate confirmation with event details, calendar link, and preparation instructions. (2) Reminder 24 hours before with logistics and any pre-event materials. (3) Day-of reminder with meeting link or directions. (4) Post-event follow-up with recordings, slides, feedback survey, and next event announcements. Each email should have clear calls-to-action and mobile-friendly formatting.
+
+## Can I automate event registration for free?
+
+Yes. Google Forms handles registration at no cost. Eventbrite is free for free events. [Make](/blog/getting-started-with-make) provides 1,000 operations per month free for automation workflows. Google Calendar's appointment scheduling feature creates event bookings for free. Combined, these tools handle registration, confirmation, reminders, and basic follow-ups for small events without any subscription cost.

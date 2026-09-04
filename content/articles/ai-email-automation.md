@@ -227,3 +227,15 @@ Track these metrics to know if your AI email automation is working:
 AI email automation is not about removing humans from email — it is about removing the repetitive parts so you spend your email time on conversations that actually matter. Start with classification and sorting, which requires no trust in AI-generated content. Add draft generation once you are comfortable with the quality. Layer in digests, sentiment routing, and smart follow-ups as your confidence grows.
 
 The tools are mature enough to start today. Whether you build in [n8n](/blog/getting-started-with-n8n), Zapier, or Make, the pattern is the same: capture the email, classify it with AI, route it intelligently, and act on it automatically. For more ways to automate your email ecosystem, explore our guides on [email marketing automation](/blog/automate-email-marketing) and [Google Workspace automation](/blog/automate-google-workspace).
+
+## How does AI automate email processing?
+
+AI automates email by classifying incoming messages (support request, sales inquiry, newsletter), extracting key data (names, dates, amounts, action items), generating draft responses based on email content, and routing messages to the right team or workflow. The entire pipeline runs automatically: email arrives, AI processes it, and the appropriate action triggers — all without human intervention for routine messages.
+
+## Is AI email automation reliable?
+
+For classification and routing, AI achieves 90-95% accuracy on well-defined categories. For response drafting, AI produces usable first drafts 70-80% of the time that require minor editing. The key is starting with clear, limited categories (5-10 email types) and expanding as accuracy improves. Always include a human review step for high-stakes responses (client-facing, financial, legal) while letting routine acknowledgments and internal routing run fully automated.
+
+## What is the cost of AI email automation?
+
+Processing 100 emails per day through GPT-4o for classification and extraction costs approximately $5-15 per month in API fees. Using lighter models like GPT-4o-mini reduces this to $1-3 per month. The automation platform cost ([n8n](/blog/getting-started-with-n8n) self-hosted is free, [Make](/blog/getting-started-with-make) starts at $10.59/month) is the larger expense. Combined, most businesses spend $15-30 per month to fully automate email processing.

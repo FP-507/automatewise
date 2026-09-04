@@ -184,3 +184,15 @@ When IFTTT's voice capabilities are not enough, consider:
 **Custom Alexa Skills:** For businesses, custom Alexa Skills provide branded voice experiences. "Alexa, ask [Your Company] about my order status" -- though this requires development work beyond no-code tools.
 
 For most homes and small businesses, IFTTT's voice integration handles the 80% use case: connecting your voice assistant to devices and services across ecosystems at minimal cost. Start with 3-5 essential voice commands, use them for a week, then expand based on what you actually need.
+
+## Can I automate Google Assistant and Alexa with IFTTT?
+
+Yes. IFTTT connects both voice assistants to 800+ services. Google Home triggers include custom voice commands ("OK Google, trigger morning routine"), while Alexa triggers work through IFTTT-compatible Alexa skills. Common automations: voice-activated smart home scenes, adding items to shopping lists via voice, logging voice notes to Google Sheets, and triggering automation workflows with spoken commands.
+
+## What is the best IFTTT automation for smart home?
+
+The highest-impact smart home automation is a "leaving home" routine: when your phone disconnects from home Wi-Fi (IFTTT location trigger), automatically turn off lights (Hue/LIFX), lower thermostat (Nest/Ecobee), lock doors (August/Yale), arm security system (Ring/SimpliSafe), and turn off smart plugs. This single automation saves energy and improves security with zero daily effort.
+
+## Is IFTTT still worth using in 2026?
+
+IFTTT remains valuable for simple one-trigger-one-action automations, especially smart home and voice assistant integrations. Its free plan includes 2 applets. However, for multi-step workflows, conditional logic, or business automation, platforms like [Make](/blog/getting-started-with-make) or [Zapier](/blog/getting-started-with-zapier) are significantly more capable. See our [IFTTT vs Zapier vs Make comparison](/blog/ifttt-vs-zapier-vs-make) for a detailed breakdown.

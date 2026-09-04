@@ -264,3 +264,15 @@ For more on automating CRM workflows, see our [CRM automation guide](/blog/autom
 Notion database automations scale from simple property updates to sophisticated multi-tool workflows that span your entire toolchain. The combination of built-in triggers, formula-driven logic, and external platform integrations through [n8n](/blog/getting-started-with-n8n), [Zapier](/blog/getting-started-with-zapier), or Make means you can build nearly any workflow on top of a Notion database.
 
 Start with the pipeline that causes the most friction for your team. Automate the status transitions and notifications first — those deliver the fastest return. Then layer on template generation, cross-database workflows, and external integrations as your confidence grows. For project management automation patterns that complement these Notion setups, see our [project management automation guide](/blog/automate-project-management).
+
+## How do I automate Notion databases?
+
+Use Notion's built-in automations (lightning bolt icon in any database view) for simple trigger-action rules: when a page is added or a property changes, automatically update other properties, send Slack notifications, or create pages in linked databases. For complex multi-step workflows, connect Notion to [Make](/blog/getting-started-with-make) or [n8n](/blog/getting-started-with-n8n) using the Notion API to trigger external actions when database records change.
+
+## What Notion database properties work best for automation?
+
+Select/Status properties are the most automation-friendly because they have discrete values that trigger reliably. Date properties enable deadline-based automations (reminders, overdue alerts). Checkbox properties work well as completion triggers. Relation properties enable cross-database automations (updating a project status can auto-update linked tasks). Avoid automating based on rich text or title changes — they trigger too frequently and lack clear conditions for filtering.
+
+## Can I sync Notion databases with other tools?
+
+Yes. Use [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make) for bidirectional sync between Notion and tools like Google Sheets, Airtable, CRMs (HubSpot, Salesforce), project managers (Asana, Jira), and communication tools (Slack, email). The key challenge is deduplication — add a unique identifier field (email, ID number) to both systems and use lookup/search steps before creating records to avoid duplicates.

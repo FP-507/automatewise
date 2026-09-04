@@ -464,3 +464,15 @@ Self-hosting n8n is one of the best investments you can make in your automation 
 The setup process takes a few hours if you follow this guide step by step: install Docker, configure Docker Compose with PostgreSQL, set up a reverse proxy with automatic SSL, implement backups, and harden security. Once running, maintenance is minimal, just periodic updates and backup verification.
 
 Whether you are a freelancer automating client work, a startup building internal tools, or an enterprise team with data sovereignty requirements, self-hosted n8n provides a robust, cost-effective automation platform that scales with your needs.
+
+## How do I self-host n8n?
+
+The fastest method is Docker: run `docker run -d --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n n8nio/n8n` to start n8n locally. For production, use Docker Compose with PostgreSQL (instead of SQLite), configure a reverse proxy (Nginx or Caddy) with SSL, and set environment variables for encryption key, webhook URL, and timezone. Cloud hosting options include DigitalOcean ($5/month droplet), Railway, or any VPS with Docker support.
+
+## Is self-hosting n8n worth it?
+
+Self-hosting [n8n](/blog/getting-started-with-n8n) is worth it if you need: unlimited workflow executions (cloud plans charge per execution), full data control (sensitive data stays on your servers), custom nodes or modifications, or you process high volumes that would cost $100+/month on cloud plans. The tradeoff is maintenance responsibility — updates, backups, uptime monitoring, and security patches. For teams without DevOps capacity, n8n Cloud ($24/month starter) eliminates this overhead.
+
+## What are the system requirements for self-hosting n8n?
+
+Minimum requirements: 1 CPU core, 2GB RAM, 20GB storage, and Docker installed. This handles 50-100 active workflows comfortably. For production workloads (500+ workflows, high-frequency triggers), upgrade to 2+ CPU cores, 4GB+ RAM, PostgreSQL database (instead of SQLite), and Redis for queue mode. A $10-20/month VPS from DigitalOcean, Hetzner, or Contabo covers most small-to-medium automation needs.

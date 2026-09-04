@@ -221,3 +221,15 @@ Apply the [error handling patterns](/blog/error-handling-automation) from your o
 Begin with a single notification workflow for your most critical use case. If you are using n8n, start with our [n8n getting started guide](/blog/getting-started-with-n8n) to set up your environment. Build the notification routing for one event source, get it working reliably, then expand to additional sources and channels.
 
 The goal is not to notify more — it is to notify better. Every notification should earn its interruption by delivering actionable information to someone who can act on it.
+
+## How do I set up automated notifications?
+
+Choose your notification channels (Slack, email, SMS, push notifications), define trigger events (threshold crossed, status changed, task overdue), and connect them via [Zapier](/blog/getting-started-with-zapier), [Make](/blog/getting-started-with-make), or [n8n](/blog/getting-started-with-n8n). Include contextual information in every notification: what happened, why it matters, and what action to take. Route critical alerts to SMS/push and informational updates to email or Slack.
+
+## How many notifications are too many?
+
+If your team ignores more than 20% of automated notifications, you have too many. Audit notification volume weekly during the first month. Use tiered urgency: critical alerts go to SMS and dedicated Slack channels (max 2-3 daily), important updates go to email digests (daily or weekly), and informational items go to a dashboard or low-priority channel. Batch non-urgent notifications into scheduled digests to reduce interruption.
+
+## What is the best tool for automated alerts?
+
+For team notifications, Slack with [n8n](/blog/getting-started-with-n8n) or [Make](/blog/getting-started-with-make) provides the most flexibility — rich formatting, buttons, threads, and channel routing. For customer-facing alerts, email via SendGrid or Postmark combined with automation platforms handles transactional notifications reliably. For urgent alerts requiring immediate attention, use PagerDuty or Opsgenie integrated through webhooks.

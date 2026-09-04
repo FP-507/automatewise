@@ -233,3 +233,15 @@ For broader data entry automation strategies, see our guide on [automating data 
 AI document extraction has moved from experimental to practical. The tools are affordable, the accuracy is production-ready for most document types, and the time savings are immediate. Start with your highest-volume, most standardized document type — usually invoices — and build a pipeline with validation and a manual fallback queue. Once that is running reliably, expand to receipts, contracts, and forms.
 
 The most important principle is to never trust extraction output without validation. Build math checks, format verification, and duplicate detection into every pipeline. Treat AI extraction as a highly capable assistant that needs supervision, not as a replacement for human judgment. As your pipelines mature and your prompts improve, the percentage of documents requiring human review will shrink steadily — but the review queue should never be eliminated entirely.
+
+## What is AI data extraction?
+
+AI data extraction uses machine learning and natural language processing to automatically pull structured data (names, amounts, dates, line items) from unstructured sources like PDFs, emails, images, and documents. Unlike traditional OCR that just reads text, AI extraction understands context — it knows that "$1,250" next to "Total" on an invoice is the total amount, not just a number on a page.
+
+## How accurate is AI data extraction?
+
+Modern AI extraction achieves 90-98% accuracy on well-formatted documents like invoices, receipts, and forms. Accuracy depends on document quality (clear scans vs blurry photos), consistency (standardized templates vs varied layouts), and the AI model used. Implementing validation rules (math checks, format verification, cross-referencing) catches most errors. Human review remains necessary for edge cases and high-value documents.
+
+## What tools are best for AI data extraction?
+
+For document processing, Rossum, ABBYY, and Google Document AI specialize in high-accuracy extraction from invoices and forms. For general text extraction, OpenAI's GPT-4o and Anthropic's Claude handle diverse document types through API calls. Automation platforms like [n8n](/blog/getting-started-with-n8n) and [Make](/blog/getting-started-with-make) orchestrate the full pipeline — receiving documents, sending them to extraction APIs, validating results, and routing data to your destination systems.

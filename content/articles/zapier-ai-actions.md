@@ -187,3 +187,15 @@ Zapier AI Actions are the easiest way to add AI to automations, but not the only
 **Make + AI modules:** Visual AI integration with Make's powerful data transformation. Good middle ground between simplicity and control.
 
 For a complete comparison of AI automation approaches across platforms, see our [AI workflow automation guide](/blog/ai-workflow-automation).
+
+## What are Zapier AI Actions?
+
+Zapier AI Actions let AI assistants (ChatGPT, Claude, custom AI apps) trigger Zapier automations through natural language. Instead of building specific Zaps for every scenario, AI Actions expose your connected apps as tools that AI can use dynamically. For example, an AI assistant can send emails, create CRM contacts, update spreadsheets, or post Slack messages by describing the action in plain English — Zapier handles the execution.
+
+## How do I set up Zapier AI Actions?
+
+Go to actions.zapier.com, enable the actions you want AI to access (Gmail send, Google Sheets append, Slack message, etc.), and configure permissions for each action. Connect to your AI platform: ChatGPT via the Zapier plugin, or custom apps via the AI Actions API. Each action has configurable parameters and confirmation settings — you can require human approval before execution for sensitive actions like sending emails or updating CRM records.
+
+## Are Zapier AI Actions secure?
+
+Zapier AI Actions include multiple security layers: OAuth authentication for each connected app, action-level permissions (you choose which actions AI can trigger), optional human-in-the-loop confirmation before execution, and audit logging of all AI-triggered actions. You control exactly which apps and actions are exposed. For enterprise use, [Zapier](/blog/getting-started-with-zapier) offers SSO, role-based access, and data retention controls on paid plans.

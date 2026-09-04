@@ -216,3 +216,15 @@ Automated report generation is one of the most impactful applications of workflo
 n8n is particularly well-suited for this task because of its flexible data connections, powerful transformation capabilities, and zero per-execution pricing for self-hosted instances. Whether you are generating a simple daily summary or a complex multi-source business review, n8n can handle the entire pipeline from data collection through formatted delivery.
 
 Start with one report, prove the value, and then expand. Once your team experiences the reliability and consistency of automated reporting, there will be no going back to the manual process.
+
+## How do I automate report generation?
+
+Set up a scheduled automation in [Make](/blog/getting-started-with-make) or [n8n](/blog/getting-started-with-n8n) that pulls data from your sources (CRM, analytics, database, spreadsheets) at a fixed interval (daily, weekly, monthly). Use aggregation nodes to calculate metrics, then output to Google Sheets, Google Slides, PDF, or email. Most report automation takes 2-4 hours to set up initially and saves 3-8 hours per reporting cycle permanently.
+
+## What reports should I automate first?
+
+Automate reports you create weekly or more frequently: sales pipeline summaries, marketing campaign performance, project status updates, and financial dashboards. These high-frequency reports offer the largest time savings. A weekly sales report that takes 2 hours manually saves 100+ hours annually when automated. Start with the report your team complains about most.
+
+## Can I automate reports with charts and visualizations?
+
+Yes. Use Google Sheets' chart API to generate charts programmatically, then embed them in Google Slides or email templates via [Make](/blog/getting-started-with-make). For more advanced visualizations, tools like Metabase or Grafana generate dashboard screenshots that automation platforms can capture and distribute. Google Data Studio (Looker Studio) also supports scheduled email delivery of visual reports at no cost.
