@@ -152,7 +152,7 @@ export default async function ArticlePage({
         .replace(/<[^>]*>/g, "");
       if (!heading) return;
       const isStep =
-        /^(step\s*\d|phase\s*\d|method\s*\d|tier\s*\d|part\s*\d|stage\s*\d|option\s*\d|way\s*\d|week\s*\d|day\s*\d|\d+[\.\):\-])/i.test(heading) ||
+        /^(step\s*\d|phase\s*\d|method\s*\d|tier\s*\d|part\s*\d|stage\s*\d|option\s*\d|way\s*\d|week\s*\d|day\s*\d|workflow\s*\d|scenario\s*\d|automation\s*\d|rule\s*\d|journey\s*\d|zap\s*\d|script\s*\d|(flow|external)\s+(workflow|integration)\s*\d|integration\s*\d|\d+[\.\):\-])/i.test(heading) ||
         /^(set up|setting up|install|create|build|connect|configure|add|enable|import|export|choose|automate|implement|define|use|integrate|monitor|test|deploy|launch|start|prepare|design|plan|gather|collect|measure|calculate|review|optimize|track|write|run|open|select|click|navigate|sign|log in|download|upload|register|map|assign|schedule|trigger|send|check|verify|validate|format|parse|transform|process|handle|manage|update|delete|remove|migrate|sync|link|embed|customize|adjust|modify)/i.test(heading);
       if (isStep) {
         const text = section
