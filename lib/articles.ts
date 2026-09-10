@@ -78,12 +78,48 @@ export function getFeaturedArticles(): ArticleMeta[] {
   return getAllArticles().filter((a) => a.featured);
 }
 
+/**
+ * Picks related articles using a rotating window over the category.
+ *
+ * The previous implementation took the first N articles of the category from a
+ * date-sorted list, so every article in a category linked to the same few
+ * newest posts. That concentrated all internal link equity on ~3 articles per
+ * category and left the rest with zero inbound internal links, which starves
+ * them of crawl priority.
+ *
+ * Rotating by the article's own position means the article at index i links to
+ * i+1, i+2, ... (wrapping). Every article receives exactly `limit` inbound
+ * internal links, and the result stays deterministic across builds.
+ */
 export function getRelatedArticles(
   currentSlug: string,
   category: Category,
-  limit = 3
+  limit = 6
 ): ArticleMeta[] {
-  return getAllArticles()
-    .filter((a) => a.slug !== currentSlug && a.category === category)
-    .slice(0, limit);
+  const all = getAllArticles();
+  const pool = all.filter((a) => a.category === category);
+  const index = pool.findIndex((a) => a.slug === currentSlug);
+  const start = index === -1 ? 0 : index;
+
+  const related: ArticleMeta[] = [];
+  // step starts at 1 so the current article is never included.
+  for (let step = 1; step < pool.length && related.length < limit; step++) {
+    related.push(pool[(start + step) % pool.length]);
+  }
+
+  // Categories smaller than `limit` get topped up from the rest of the site,
+  // also rotated by position so the fallback spreads out instead of always
+  // pointing at the same articles.
+  if (related.length < limit) {
+    const others = all.filter(
+      (a) => a.category !== category && a.slug !== currentSlug
+    );
+    const offset = all.findIndex((a) => a.slug === currentSlug);
+    const base = offset === -1 ? 0 : offset;
+    for (let step = 0; step < others.length && related.length < limit; step++) {
+      related.push(others[(base + step) % others.length]);
+    }
+  }
+
+  return related;
 }
