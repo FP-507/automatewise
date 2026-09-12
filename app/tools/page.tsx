@@ -173,6 +173,35 @@ export default function ToolsPage() {
           </p>
         </header>
 
+        {/* Cost calculator promo */}
+        <Link
+          href="/tools/cost-calculator"
+          className="card-hover group mt-10 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-accent/30 bg-accent/5 p-5 sm:p-6"
+        >
+          <div className="min-w-0">
+            <h2 className="font-display text-lg font-bold text-text transition-colors group-hover:text-accent">
+              Automation Cost Calculator
+            </h2>
+            <p className="mt-1.5 text-sm leading-relaxed text-text-secondary">
+              Enter your workflow volume and see what Zapier, Make, n8n,
+              Pipedream and Power Automate would actually charge. Free, no
+              signup.
+            </p>
+          </div>
+          <span className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-accent px-5 py-3 font-semibold text-background">
+            Open calculator
+            <svg
+              viewBox="0 0 16 16"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5"
+            >
+              <path d="M3 8h10M9 4l4 4-4 4" />
+            </svg>
+          </span>
+        </Link>
+
         {/* Quick comparison */}
         <div className="mt-10 overflow-x-auto rounded-xl border border-border">
           <table className="w-full text-sm">

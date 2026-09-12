@@ -15,6 +15,9 @@ import { SITE } from "@/lib/constants";
  */
 const STATIC_PAGE_UPDATED = new Date("2026-09-10T00:00:00.000Z");
 
+/** Pages get their own date so one page changing does not restamp the rest. */
+const COST_CALCULATOR_UPDATED = new Date("2026-09-12T00:00:00.000Z");
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getAllArticles();
   const categories = Object.keys(CATEGORY_INFO);
@@ -62,6 +65,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: STATIC_PAGE_UPDATED,
       changeFrequency: "weekly",
       priority: 0.8,
+    },
+    {
+      url: `${SITE.url}/tools/cost-calculator`,
+      lastModified: COST_CALCULATOR_UPDATED,
+      changeFrequency: "monthly",
+      priority: 0.9,
     },
     // NOTE: /hire is intentionally absent. The route exists locally but is not
     // deployed, so listing it would submit a 404 to Google. Add it back here
