@@ -1,7 +1,7 @@
 ---
 title: "Automate Notifications & Alerts: Setup Guide"
 description: "Build automated alerts via Slack, email, SMS, and webhooks. Notify the right people at the right time — no coding needed."
-date: "2026-08-07"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["notification automation", "alert system", "Slack notifications", "automated alerts"]

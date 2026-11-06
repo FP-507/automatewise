@@ -1,7 +1,7 @@
 ---
 title: "n8n vs Zapier: Full Comparison (2026)"
 description: "n8n vs Zapier compared: pricing, features, ease of use, integrations, and self-hosting. Find the right automation tool for you."
-date: "2025-12-01"
+date: "2026-06-11"
 updated: "2026-09-03"
 category: "tool-comparisons"
 tags: ["n8n", "Zapier", "automation tools", "comparison"]

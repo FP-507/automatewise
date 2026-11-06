@@ -1,7 +1,7 @@
 ---
 title: "How to Connect Google Sheets to Any App Using n8n"
 description: "Learn how to connect Google Sheets to any application using n8n. Step-by-step guide with real workflow examples for Slack, CRM, email, and more."
-date: "2026-03-08"
+date: "2026-06-11"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["Google Sheets", "n8n", "integration", "tutorial"]

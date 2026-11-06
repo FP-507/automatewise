@@ -1,7 +1,7 @@
 ---
 title: "Notion Automation: Workflows & Databases (2026)"
 description: "Automate Notion databases and workflows with built-in features, the API, and no-code tools like Make and Zapier. Free step-by-step guide."
-date: "2026-06-10"
+date: "2026-06-21"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["Notion", "automation", "databases", "productivity", "no-code"]

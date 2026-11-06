@@ -1,7 +1,7 @@
 ---
 title: "Automate Booking Confirmations & Reminders"
 description: "Build automated booking workflows that send confirmations, reminders, reschedule options, and follow-up surveys for any service business."
-date: "2026-08-13"
+date: "2026-08-16"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["booking automation", "confirmation emails", "appointment reminders", "service business"]

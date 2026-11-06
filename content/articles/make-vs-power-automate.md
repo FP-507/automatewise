@@ -1,7 +1,7 @@
 ---
 title: "Make vs Power Automate: Honest Comparison (2026)"
 description: "Make vs Power Automate compared: pricing, features, integrations, and ease of use. Find the right automation platform for your needs."
-date: "2026-05-12"
+date: "2026-06-21"
 updated: "2026-09-03"
 category: "tool-comparisons"
 tags: ["Make", "Power Automate", "comparison", "Microsoft", "automation platform"]

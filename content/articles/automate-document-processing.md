@@ -1,7 +1,7 @@
 ---
 title: "Automate Document Processing & Approvals"
 description: "Learn how to automate document creation, routing, approval chains, e-signatures, and archival with no-code workflow tools."
-date: "2026-08-06"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["document automation", "approval workflow", "document processing", "e-signature automation"]

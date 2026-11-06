@@ -1,7 +1,7 @@
 ---
 title: "IFTTT Social Media Automation: Free Guide"
 description: "Automate social media with IFTTT: cross-posting, content saving, brand monitoring, and scheduling. Free and Pro applets included."
-date: "2026-09-01"
+date: "2026-09-02"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["IFTTT", "social media", "automation", "cross-posting", "content sharing"]

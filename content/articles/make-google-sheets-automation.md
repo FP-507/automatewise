@@ -1,7 +1,7 @@
 ---
 title: "Make + Google Sheets: Automation Guide"
 description: "Use Make to automate Google Sheets workflows. Add rows, update data, generate reports, and sync spreadsheets with other apps."
-date: "2026-09-01"
+date: "2026-09-02"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["Make", "Google Sheets", "automation", "reports", "data sync"]

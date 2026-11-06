@@ -1,7 +1,7 @@
 ---
 title: "How to Automate Airtable Workflows Without Code"
 description: "Learn how to build powerful Airtable automations using built-in triggers, scripts, and external platforms like n8n, Make, and Zapier. Complete guide with examples."
-date: "2026-06-12"
+date: "2026-06-21"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["Airtable", "automation", "no-code", "database", "project management"]

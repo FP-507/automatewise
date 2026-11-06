@@ -1,7 +1,7 @@
 ---
 title: "Scale Automation: 10 to 1,000 Workflows"
 description: "Strategies for scaling automation from 10 to 1,000 workflows. Organization, performance, monitoring, and governance for growth."
-date: "2026-05-14"
+date: "2026-06-21"
 updated: "2026-09-03"
 category: "advanced"
 tags: ["scaling", "performance", "governance", "team collaboration", "automation strategy"]

@@ -1,7 +1,7 @@
 ---
 title: "Automate Invoice Processing (No Code)"
 description: "Learn how to automate invoice processing with no-code tools. Set up receipt capture, data extraction, approval workflows, and payment tracking step by step."
-date: "2026-02-08"
+date: "2026-06-11"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["invoicing", "automation", "no-code", "finance"]

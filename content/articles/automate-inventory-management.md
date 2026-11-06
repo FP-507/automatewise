@@ -1,7 +1,7 @@
 ---
 title: "Automate Inventory & Stock Tracking"
 description: "Step-by-step guide to automating inventory tracking, low-stock alerts, purchase orders, and multi-channel stock sync with no-code automation."
-date: "2026-08-08"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["inventory automation", "stock management", "supply chain", "e-commerce automation"]

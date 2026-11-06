@@ -1,7 +1,7 @@
 ---
 title: "Power Automate: Beginner's Guide (2026)"
 description: "Build your first Power Automate flow in minutes. Connect Microsoft 365 apps and automate repetitive tasks step by step. Free guide."
-date: "2026-08-09"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "getting-started"
 tags: ["Power Automate", "Microsoft automation", "flow builder", "Microsoft 365"]

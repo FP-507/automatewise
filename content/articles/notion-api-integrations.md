@@ -1,7 +1,7 @@
 ---
 title: "Notion API: Connect to 100+ Apps (No Code)"
 description: "Connect Notion to Slack, Sheets, Gmail, and more using the API and no-code platforms. Step-by-step integration guide."
-date: "2026-09-01"
+date: "2026-09-02"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["Notion", "API", "integrations", "no-code", "automation"]

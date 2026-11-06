@@ -1,7 +1,7 @@
 ---
 title: "20 Productivity Automations to Save Hours Weekly"
 description: "20 personal automation workflows you can set up today. Email, habits, finances, health tracking, and more — no coding needed."
-date: "2026-08-05"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "use-cases"
 tags: ["personal automation", "productivity workflows", "life automation", "time management"]

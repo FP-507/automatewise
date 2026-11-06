@@ -1,7 +1,7 @@
 ---
 title: "Healthcare Automation: HIPAA-Compliant Workflows"
 description: "Automate patient scheduling, records, billing, and compliance workflows while staying HIPAA compliant. Real healthcare examples."
-date: "2026-08-08"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "use-cases"
 tags: ["healthcare automation", "HIPAA compliance", "medical workflow", "patient scheduling"]

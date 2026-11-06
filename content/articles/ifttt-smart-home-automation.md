@@ -1,7 +1,7 @@
 ---
 title: "IFTTT Smart Home: Setup Guide (2026)"
 description: "Set up IFTTT smart home automations for lights, thermostats, cameras, and locks. Step-by-step applets for Google Home, Alexa, and more."
-date: "2026-09-01"
+date: "2026-09-02"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["IFTTT", "smart home", "Google Home", "Alexa", "home automation"]

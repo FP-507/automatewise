@@ -1,7 +1,7 @@
 ---
 title: "Automation ROI Calculator (Free Template)"
 description: "Learn how to measure the ROI of workflow automation with a step-by-step framework. Includes formulas, real examples, and a free calculation template."
-date: "2026-05-22"
+date: "2026-06-11"
 updated: "2026-09-03"
 category: "advanced"
 tags: ["ROI", "automation strategy", "business case", "cost analysis"]

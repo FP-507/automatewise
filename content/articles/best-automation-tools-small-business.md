@@ -1,7 +1,7 @@
 ---
 title: "Best Automation Tools for Small Business (2026)"
 description: "Compare the top 8 automation tools for small businesses. Pricing, ease of use, and specific workflows to grow your business in 2026."
-date: "2026-03-01"
+date: "2026-06-11"
 updated: "2026-09-03"
 category: "tool-comparisons"
 tags: ["small business automation", "workflow tools", "automation tools", "SMB automation", "business productivity"]

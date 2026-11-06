@@ -1,7 +1,7 @@
 ---
 title: "Marketing Agency Automation: Complete Playbook"
 description: "How agencies automate client work, reporting, and campaigns. Scale profitability without hiring — real workflows you can copy."
-date: "2026-04-10"
+date: "2026-06-11"
 updated: "2026-09-03"
 category: "use-cases"
 tags: ["marketing agencies", "client management", "reporting automation", "social media automation", "agency workflow"]

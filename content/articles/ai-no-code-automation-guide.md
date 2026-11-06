@@ -1,7 +1,7 @@
 ---
 title: "AI Automations Without Code: Guide (2026)"
 description: "Build AI-powered automations without coding. Use ChatGPT, Claude, and Gemini in n8n, Make, and Zapier for real business workflows."
-date: "2026-09-01"
+date: "2026-09-02"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["AI", "no-code", "ChatGPT", "Claude", "automation"]

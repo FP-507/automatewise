@@ -1,7 +1,7 @@
 ---
 title: "AI Email Automation: Write & Respond Smarter"
 description: "Use AI to write, sort, and respond to emails automatically. Build smart email workflows with ChatGPT, n8n, and Make."
-date: "2026-08-15"
+date: "2026-08-16"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["AI email", "email automation", "ChatGPT email", "smart email workflows"]

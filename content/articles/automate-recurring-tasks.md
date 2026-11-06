@@ -1,7 +1,7 @@
 ---
 title: "Automate Recurring Tasks: Daily & Weekly Workflows"
 description: "Stop repeating the same tasks daily. Identify and automate your recurring workflows with no-code tools — set up once, run forever."
-date: "2026-08-12"
+date: "2026-08-16"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["recurring tasks", "task automation", "scheduled automation", "productivity"]

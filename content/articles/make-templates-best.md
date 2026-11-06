@@ -1,7 +1,7 @@
 ---
 title: "15 Best Make Templates to Start Automating Today"
 description: "The most useful Make (Integromat) templates for business automation. Ready-to-use scenarios for CRM, marketing, sales, and operations."
-date: "2026-09-01"
+date: "2026-09-02"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["Make", "templates", "Integromat", "scenarios", "business automation"]

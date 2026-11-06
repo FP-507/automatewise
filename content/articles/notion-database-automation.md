@@ -1,7 +1,7 @@
 ---
 title: "Notion Database Automation: Advanced Guide"
 description: "Master Notion database automations: triggers, templates, status workflows, and external integrations with Make, Zapier, and n8n."
-date: "2026-08-15"
+date: "2026-08-16"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["Notion automation", "Notion database", "Notion workflows", "Notion integrations"]

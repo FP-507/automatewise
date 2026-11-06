@@ -1,7 +1,7 @@
 ---
 title: "Real Estate Automation: Close More Deals"
 description: "How agents automate lead follow-up, listing management, and transaction coordination. Close more deals with less manual work."
-date: "2026-05-28"
+date: "2026-06-21"
 updated: "2026-09-03"
 category: "use-cases"
 tags: ["real estate", "lead management", "CRM", "client communication", "property management"]

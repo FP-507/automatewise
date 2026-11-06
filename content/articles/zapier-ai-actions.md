@@ -1,7 +1,7 @@
 ---
 title: "Zapier AI Actions: ChatGPT Guide (2026)"
 description: "Use Zapier's built-in AI actions to summarize emails, draft replies, classify data, and generate content. Practical examples included."
-date: "2026-09-01"
+date: "2026-09-02"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["Zapier", "AI", "ChatGPT", "automation", "AI actions"]

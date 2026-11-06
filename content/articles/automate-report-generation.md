@@ -1,7 +1,7 @@
 ---
 title: "How to Automate Report Generation with n8n"
 description: "Build automated reporting workflows with n8n. Connect data sources, create templates, schedule delivery, and generate reports without manual effort."
-date: "2026-04-25"
+date: "2026-06-11"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["n8n", "report automation", "data reporting", "Google Sheets", "business intelligence"]

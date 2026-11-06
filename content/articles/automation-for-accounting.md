@@ -1,7 +1,7 @@
 ---
 title: "Accounting Automation: Bookkeeping Guide"
 description: "Automate bookkeeping: invoices, expenses, bank reconciliation, and financial reports with no-code tools. Save hours weekly."
-date: "2026-05-24"
+date: "2026-06-21"
 updated: "2026-09-03"
 category: "use-cases"
 tags: ["accounting", "bookkeeping", "finance", "invoicing", "expense tracking"]

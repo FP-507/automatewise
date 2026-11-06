@@ -1,7 +1,7 @@
 ---
 title: "IFTTT + Google Home & Alexa Guide"
 description: "Build custom voice commands with IFTTT for Google Home and Alexa. Control any device, trigger workflows, and automate routines."
-date: "2026-09-01"
+date: "2026-09-02"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["IFTTT", "Google Home", "Alexa", "voice assistant", "smart home"]

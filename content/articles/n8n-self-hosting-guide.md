@@ -1,7 +1,7 @@
 ---
 title: "n8n Self-Hosting: Docker Setup Guide (2026)"
 description: "Self-host n8n with Docker step by step. Covers docker-compose, reverse proxy, SSL, backups, security, and cloud comparison."
-date: "2026-05-05"
+date: "2026-06-11"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["n8n", "self-hosting", "Docker", "server setup", "DevOps"]

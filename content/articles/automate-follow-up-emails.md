@@ -1,7 +1,7 @@
 ---
 title: "Automate Follow-Up Emails That Convert"
 description: "Build automated follow-up email sequences for sales, support, and networking. Learn timing, personalization, and multi-channel follow-up strategies."
-date: "2026-08-13"
+date: "2026-08-16"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["follow-up automation", "email sequences", "sales follow-up", "drip campaigns"]

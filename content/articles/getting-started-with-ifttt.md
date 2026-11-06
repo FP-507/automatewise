@@ -1,7 +1,7 @@
 ---
 title: "How to Use IFTTT: Beginner's Guide (2026)"
 description: "Learn to use IFTTT in 10 minutes. Create your first applet, connect 900+ apps, and automate daily tasks — no coding needed. Free step-by-step guide."
-date: "2026-08-08"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "getting-started"
 tags: ["IFTTT", "IFTTT tutorial", "simple automation", "smart home automation"]

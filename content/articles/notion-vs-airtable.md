@@ -1,7 +1,7 @@
 ---
 title: "Notion vs Airtable: Full Comparison (2026)"
 description: "Notion vs Airtable compared: databases, automations, views, pricing, and workflows. Find the right platform for your team."
-date: "2026-09-01"
+date: "2026-09-02"
 updated: "2026-09-03"
 category: "tool-comparisons"
 tags: ["Notion", "Airtable", "comparison", "databases", "automation"]

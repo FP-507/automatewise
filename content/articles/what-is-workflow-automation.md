@@ -1,7 +1,7 @@
 ---
 title: "What Is Workflow Automation? (2026 Guide)"
 description: "Learn what workflow automation is, how it works, and why businesses use it. This beginner's guide covers types, benefits, tools, and how to get started."
-date: "2025-09-15"
+date: "2026-06-11"
 updated: "2026-09-03"
 category: "getting-started"
 tags: ["workflow automation", "automation basics", "beginner guide", "business automation"]

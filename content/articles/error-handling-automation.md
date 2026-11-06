@@ -1,7 +1,7 @@
 ---
 title: "Automation Error Handling: Full Guide"
 description: "Learn how to handle errors in automated workflows. Cover retry strategies, fallback paths, alerting, logging, and best practices for n8n, Make, and Zapier."
-date: "2026-05-18"
+date: "2026-06-21"
 updated: "2026-09-03"
 category: "advanced"
 tags: ["error handling", "reliability", "debugging", "monitoring", "best practices"]

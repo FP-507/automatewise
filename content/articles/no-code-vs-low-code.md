@@ -1,7 +1,7 @@
 ---
 title: "No-Code vs Low-Code: Which Is Right for You?"
 description: "No-code vs low-code automation compared. Tools, use cases, and how to pick the right approach for your team and budget."
-date: "2026-08-04"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "getting-started"
 tags: ["no-code", "low-code", "automation platforms", "citizen development"]

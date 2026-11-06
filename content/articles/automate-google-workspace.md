@@ -1,7 +1,7 @@
 ---
 title: "Automate Google Workspace: Full Guide"
 description: "Complete guide to automating Google Workspace workflows. Connect Gmail, Sheets, Drive, Calendar, and Forms with no-code tools."
-date: "2026-08-05"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["Google Workspace automation", "Gmail automation", "Google Sheets automation", "Google Drive automation"]

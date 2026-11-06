@@ -1,7 +1,7 @@
 ---
 title: "How to Use Zapier: First Zap in 10 Minutes (2026)"
 description: "Create your first Zap in under 10 minutes. Connect 7,000+ apps, automate repetitive tasks, and save hours every week. Free guide with examples."
-date: "2026-06-14"
+date: "2026-06-21"
 updated: "2026-09-03"
 category: "getting-started"
 tags: ["Zapier", "beginner guide", "tutorial", "no-code", "automation basics"]

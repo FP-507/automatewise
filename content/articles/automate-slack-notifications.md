@@ -1,7 +1,7 @@
 ---
 title: "Automate Slack Notifications for Teams"
 description: "Learn how to automate Slack notifications using n8n, Zapier, and webhooks. Set up sales alerts, monitoring notifications, and team updates step by step."
-date: "2026-03-20"
+date: "2026-06-11"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["Slack", "notifications", "automation", "team communication"]

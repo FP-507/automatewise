@@ -1,7 +1,7 @@
 ---
 title: "Security Best Practices for Workflow Automations"
 description: "Learn how to secure your automated workflows. Cover API key management, webhook security, data privacy, access control, and compliance considerations."
-date: "2026-05-16"
+date: "2026-06-21"
 updated: "2026-09-03"
 category: "advanced"
 tags: ["security", "best practices", "API keys", "data privacy", "compliance"]

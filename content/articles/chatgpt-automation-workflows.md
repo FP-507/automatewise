@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT Automation: Integration Guide"
 description: "Step-by-step guide to adding ChatGPT and GPT-4 to your automations. Build AI-powered email responders, content generators, data extractors, and more."
-date: "2026-06-16"
+date: "2026-06-21"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["ChatGPT", "GPT-4", "OpenAI", "AI automation", "no-code AI"]

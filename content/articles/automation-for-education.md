@@ -1,7 +1,7 @@
 ---
 title: "Education Automation: Save Hours Every Week"
 description: "How educators automate enrollment, grading, student comms, and content delivery with no-code tools. Free workflows included."
-date: "2026-08-06"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "use-cases"
 tags: ["education automation", "online course automation", "LMS automation", "student engagement"]

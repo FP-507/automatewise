@@ -1,7 +1,7 @@
 ---
 title: "Automation for Freelancers: Save 10+ Hours/Week"
 description: "Save 10+ hours weekly as a freelancer. Automate invoicing, client onboarding, social media, and project management — free tools included."
-date: "2026-03-15"
+date: "2026-06-11"
 updated: "2026-09-03"
 category: "use-cases"
 tags: ["freelancers", "productivity", "invoicing", "client management", "time saving"]

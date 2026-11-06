@@ -1,7 +1,7 @@
 ---
 title: "HubSpot Automation: Workflows & Sequences Guide"
 description: "Master HubSpot workflows, sequences, and integrations. Automate lead nurturing, deals, and marketing campaigns step by step."
-date: "2026-08-11"
+date: "2026-08-16"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["HubSpot automation", "CRM automation", "marketing automation", "lead nurturing"]

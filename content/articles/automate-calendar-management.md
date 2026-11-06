@@ -1,7 +1,7 @@
 ---
 title: "Automate Calendar Management (2026)"
 description: "Automate calendar syncing, availability sharing, time blocking, and scheduling across Google Calendar, Outlook, and third-party tools."
-date: "2026-08-11"
+date: "2026-08-16"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["calendar automation", "calendar sync", "time management", "scheduling tools"]

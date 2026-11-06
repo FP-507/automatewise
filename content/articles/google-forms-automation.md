@@ -1,7 +1,7 @@
 ---
 title: "Google Forms Automation: Auto-Process Responses"
 description: "Automate Google Forms: instant notifications, CRM entries, conditional workflows, and data pipelines. No coding needed."
-date: "2026-08-14"
+date: "2026-08-16"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["Google Forms automation", "form automation", "survey automation", "Google Workspace"]

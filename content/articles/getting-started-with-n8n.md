@@ -1,7 +1,7 @@
 ---
 title: "How to Use n8n: First Workflow in 15 Min (2026)"
 description: "Set up n8n and build your first automated workflow in 15 minutes. Step-by-step tutorial for complete beginners — free and open source."
-date: "2025-10-20"
+date: "2026-06-11"
 updated: "2026-09-03"
 category: "getting-started"
 tags: ["n8n", "tutorial", "beginner guide", "workflow builder", "first automation"]

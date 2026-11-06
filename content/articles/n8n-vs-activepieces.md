@@ -1,7 +1,7 @@
 ---
 title: "n8n vs Activepieces: Open-Source Compared (2026)"
 description: "n8n vs Activepieces compared: features, self-hosting, integrations, and community. Which open-source automation platform wins?"
-date: "2026-08-06"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "tool-comparisons"
 tags: ["n8n", "Activepieces", "open source automation", "self-hosted automation"]

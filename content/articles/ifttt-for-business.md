@@ -1,7 +1,7 @@
 ---
 title: "IFTTT for Business: Complete Guide"
 description: "Use IFTTT to automate business workflows on a budget. Lead capture, social monitoring, CRM updates, and team notifications."
-date: "2026-09-01"
+date: "2026-09-02"
 updated: "2026-09-03"
 category: "use-cases"
 tags: ["IFTTT", "business automation", "small business", "marketing automation", "operations"]

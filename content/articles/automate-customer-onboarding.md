@@ -1,7 +1,7 @@
 ---
 title: "Automate Customer Onboarding (2026)"
 description: "Learn how to automate customer onboarding with welcome emails, account setup, training sequences, and check-ins using n8n, Make, and Zapier."
-date: "2026-06-08"
+date: "2026-06-21"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["customer onboarding", "automation", "email sequences", "CRM", "customer success"]

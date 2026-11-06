@@ -1,7 +1,7 @@
 ---
 title: "Law Firm Automation: Streamline Operations"
 description: "How law firms automate client intake, documents, billing, and case management. No-code workflows for legal teams."
-date: "2026-08-05"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "use-cases"
 tags: ["legal automation", "law firm workflow", "legal tech", "case management automation"]
