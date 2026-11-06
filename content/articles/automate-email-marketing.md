@@ -158,14 +158,16 @@ The tools are accessible, the setup is straightforward, and the ROI is proven. W
 
 For a broader view of how automation can transform your business operations beyond email, explore our guide on [workflow automation benefits](/blog/workflow-automation-benefits) and discover how [freelancers](/blog/automation-for-freelancers) and [small businesses](/blog/best-automation-tools-small-business) are using these same principles across their entire operations.
 
-## What email marketing tasks can be automated?
+## Frequently Asked Questions
+
+### What email marketing tasks can be automated?
 
 Welcome sequences, abandoned cart recovery, drip campaigns, birthday and anniversary emails, re-engagement campaigns, post-purchase follow-ups, lead nurture sequences, and newsletter scheduling can all be fully automated. Set them up once and they run continuously — a well-built welcome sequence can generate revenue for months or years without any manual intervention.
 
-## How effective are automated email campaigns?
+### How effective are automated email campaigns?
 
 Automated emails generate 320% more revenue per email than non-automated campaigns, according to Campaign Monitor data. Welcome sequences have average open rates of 50-60% (versus 20-25% for regular newsletters). Abandoned cart emails recover 5-15% of lost sales. The key advantage is timing — automated emails arrive at exactly the right moment in the customer journey rather than whenever you remember to send them.
 
-## What is the best tool for email automation?
+### What is the best tool for email automation?
 
 For beginners, Mailchimp offers a visual automation builder with a free plan for up to 500 contacts. For advanced users, ActiveCampaign and ConvertKit provide more sophisticated segmentation and conditional logic. For maximum flexibility, combine any ESP with [Zapier](/blog/getting-started-with-zapier) or [n8n](/blog/getting-started-with-n8n) to trigger emails based on events from your CRM, ecommerce platform, or other tools.

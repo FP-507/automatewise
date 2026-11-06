@@ -198,14 +198,16 @@ The key is approaching automation with HIPAA compliance as a foundational requir
 
 Start with the low-risk operational workflows, prove the value, build your team's skills, and then systematically expand into scheduling, billing, and clinical communication workflows. The practices that automate thoughtfully today will have a significant operational advantage as healthcare continues to evolve.
 
-## Is healthcare automation HIPAA compliant?
+## Frequently Asked Questions
+
+### Is healthcare automation HIPAA compliant?
 
 It can be, but compliance depends on the platform and implementation. Self-hosted tools like [n8n](/blog/getting-started-with-n8n) give you full control over data handling, which simplifies HIPAA compliance. Cloud platforms require a Business Associate Agreement (BAA) before processing Protected Health Information (PHI). Zapier and Make do not sign BAAs on standard plans, so they should only handle non-PHI data like appointment times and administrative tasks.
 
-## What healthcare workflows can be automated?
+### What healthcare workflows can be automated?
 
 The safest automations to start with are appointment reminders, patient intake form collection, insurance verification requests, billing and claims submission, prescription refill notifications, and internal staff scheduling. These are primarily administrative workflows that do not involve clinical decision-making. More advanced automations include lab result routing, referral tracking, and care coordination notifications.
 
-## How much can healthcare practices save with automation?
+### How much can healthcare practices save with automation?
 
 A typical medical practice spends 15-20 hours per week on appointment scheduling, reminders, and follow-ups alone. Automating these tasks reduces no-show rates by 20-30% (which directly impacts revenue) and frees up 2-3 staff members' time for patient-facing work. Practices report saving $3,000-5,000 per month in staff time within the first 90 days of implementing automation.

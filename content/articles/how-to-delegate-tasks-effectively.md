@@ -120,14 +120,16 @@ Reduce ambiguity with templates for every deliverable: email templates, report t
 
 **Taking tasks back at the first mistake.** Mistakes are part of learning. Fix the process, retrain, and try again — do not reclaim the task.
 
-## How do I know what tasks to delegate?
+## Frequently Asked Questions
+
+### How do I know what tasks to delegate?
 
 Use two filters: (1) Does this task require my specific expertise, authority, or relationships? If not, it is delegable. (2) Is this task repeatable with a documentable process? If yes, it is delegable — and possibly [automatable](/blog/what-is-workflow-automation). Everything that passes both filters should be delegated. Common delegable tasks: scheduling, invoicing, data entry, first-draft writing, research, customer support tier 1, social media management, and report compilation. Keep strategic decisions, key relationships, and crisis management.
 
-## How do I delegate without micromanaging?
+### How do I delegate without micromanaging?
 
 Define the outcome and quality standard upfront, document the process in an [SOP](/blog/how-to-create-sops-for-business), then set check-in points that decrease over time — review the first instance together, the next two after completion, then shift to weekly spot checks. Establish explicit escalation rules so the person knows exactly when to involve you. Use [automated status notifications](/blog/automate-notifications-alerts) to see progress without asking. If you find yourself checking daily after the first month, the problem is the process documentation, not the person.
 
-## What is the difference between delegation and automation?
+### What is the difference between delegation and automation?
 
 Delegation transfers a task to another person. Automation transfers a task to software. Automate first: data entry, notifications, scheduling, report generation, and follow-ups are handled faster and more reliably by [automation tools](/blog/best-automation-tools-small-business) than by people. Delegate what remains — tasks requiring judgment, creativity, relationship management, or physical presence. The most effective leaders automate operational work and delegate judgment-heavy work, keeping only strategic decisions for themselves.

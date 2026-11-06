@@ -155,14 +155,16 @@ Start with email capture and OCR extraction, as these two steps alone eliminate 
 
 The tools are ready, the cost is accessible, and the process outlined here works for businesses at every scale. For more ways to eliminate manual work from your operations, explore our guides on [automating data entry](/blog/automate-data-entry) and [building automated report generation](/blog/automate-report-generation) workflows.
 
-## How does automated invoice processing work?
+## Frequently Asked Questions
+
+### How does automated invoice processing work?
 
 Automated invoice processing captures invoices from email or uploads, uses OCR (optical character recognition) to extract key data (vendor name, amount, date, line items), validates the data against your records, routes the invoice through approval workflows, and logs everything in your accounting system. The entire cycle — from invoice receipt to payment — runs with minimal manual intervention.
 
-## How much does invoice automation save?
+### How much does invoice automation save?
 
 Manual invoice processing costs $12-20 per invoice. Automation reduces this to $2-5 per invoice. A business processing 200 invoices per month saves $1,400-3,000 monthly — $16,800-36,000 annually. Additional savings come from eliminated late payment fees (averaging $50-100 per incident), faster early payment discounts (typically 1-2% for paying within 10 days), and reduced accounting errors.
 
-## What tools are needed for invoice automation?
+### What tools are needed for invoice automation?
 
 A complete invoice automation setup requires an OCR tool (Rossum, ABBYY, or Google Document AI), an automation platform like [n8n](/blog/getting-started-with-n8n) or [Make](/blog/getting-started-with-make) for workflow orchestration, and your accounting software (QuickBooks, Xero, or NetSuite) as the destination. Simpler setups using Dext or Hubdoc handle capture and extraction in one tool, then integrate directly with your accounting platform.

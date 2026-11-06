@@ -180,14 +180,16 @@ Only hire when you have maximized automation and still have more revenue-generat
 
 For a broader look at growing through automation, see our [scaling automation workflows](/blog/scaling-automation-workflows) guide.
 
-## What tools does a solopreneur need?
+## Frequently Asked Questions
+
+### What tools does a solopreneur need?
 
 A profitable one-person business runs on five core tools: CRM for client tracking (HubSpot free), scheduling tool for bookings (Calendly free tier), invoicing and payments (Wave free or Stripe), project and knowledge management (Notion), and an automation platform to connect them all ([Make](/blog/getting-started-with-make) at $10.59/month). This stack costs $0-20/month total and handles client management, billing, project delivery, and marketing for most service-based solopreneurs.
 
-## How do I automate my solopreneur business?
+### How do I automate my solopreneur business?
 
 Start with three automations: (1) lead capture to CRM — when someone fills your contact form, automatically create a CRM contact and start a nurture email sequence. (2) Client onboarding — when a deal closes, auto-send welcome materials, create a project workspace, and schedule the kickoff call. (3) Invoicing — auto-generate invoices on milestones and send payment reminders. These three cover the highest-friction operational tasks and save 5-10 hours monthly. Use [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make) to build them without coding.
 
-## Can a solopreneur make six figures?
+### Can a solopreneur make six figures?
 
 Yes — solopreneurs earning $100K+ typically share three characteristics: (1) they sell high-value services ($2,000+ per project or $100+/hour) rather than competing on price, (2) they have systems for lead generation (content marketing, referrals, partnerships) that bring consistent inbound leads, and (3) they automate operations so 70%+ of their working hours go to billable client work rather than admin. The bottleneck is usually operational overhead, not demand — which is why [automation](/blog/workflow-automation-benefits) and SOPs are the most reliable path to scaling solo income.

@@ -16,7 +16,11 @@
  */
 
 const KEY = "8bf3a12d7ade080f09a04cdb1d285d96";
-const HOST = "automatewise-six.vercel.app";
+// Same source of truth as lib/constants.ts: set NEXT_PUBLIC_SITE_URL when the
+// site moves to its own domain.
+const HOST = new URL(
+  process.env.NEXT_PUBLIC_SITE_URL || "https://automatewise-six.vercel.app"
+).host;
 const ORIGIN = `https://${HOST}`;
 const ENDPOINT = "https://api.indexnow.org/indexnow";
 const BATCH_SIZE = 10_000; // protocol maximum per request

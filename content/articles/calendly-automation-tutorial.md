@@ -158,14 +158,16 @@ For more on meeting workflows, see our [meeting scheduling automation guide](/bl
 
 **Set buffer times.** 15 minutes after each meeting gives you time to fill out the notes form before the next call.
 
-## How do I connect Calendly to my CRM?
+## Frequently Asked Questions
+
+### How do I connect Calendly to my CRM?
 
 Use [Zapier](/blog/getting-started-with-zapier), [Make](/blog/getting-started-with-make), or [n8n](/blog/getting-started-with-n8n) with the Calendly "Invitee Created" trigger. Search your CRM for an existing contact by the invitee's email; update it if found, create it if not. Then create a deal or opportunity linked to that contact with the meeting date and event type. Calendly also has native integrations with HubSpot, Salesforce, and Pipedrive on paid plans that sync bookings directly, but external automation gives you more control over deal stages and notifications.
 
-## Does Calendly have built-in automation?
+### Does Calendly have built-in automation?
 
 Yes — Calendly Workflows (Standard plan and above) send automated emails and SMS before and after meetings: confirmations, reminders at custom intervals, post-meeting follow-ups, and no-show messages. Workflows are limited to email and SMS actions. For CRM updates, document creation, team notifications, or conditional routing based on booking answers, connect Calendly to an [automation platform](/blog/best-automation-tools-small-business). Most businesses use both: native Workflows for invitee communication, external automation for internal processes.
 
-## Can Calendly automatically create Google Docs or prep notes?
+### Can Calendly automatically create Google Docs or prep notes?
 
 Not natively, but easily through automation. Connect Calendly's "Invitee Created" trigger to Google Docs "Create from Template" in [Make](/blog/getting-started-with-make) or Zapier. Build a template Doc with placeholders for name, company, booking answers, and meeting time. The automation fills the template and saves it to a Drive folder — then optionally appends the doc link to the calendar event description. Setup takes 15 minutes and generates a prep document for every future booking automatically.

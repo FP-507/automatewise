@@ -91,14 +91,16 @@ ClickUp Docs sit alongside tasks, sprints, goals, and dashboards, consolidating 
 
 If speed is the only complaint, try archiving old pages and reducing database view complexity before migrating. Large workspaces often recover most of their responsiveness.
 
-## What is the best free Notion alternative?
+## Frequently Asked Questions
+
+### What is the best free Notion alternative?
 
 Obsidian is free for personal use and stores notes as local Markdown files, which makes it faster than Notion and fully offline. Anytype is free, local-first, and end-to-end encrypted with a structure closer to Notion's objects and relations. For teams, Confluence is free up to ten users and ClickUp's free tier includes docs alongside project management. Choose Obsidian for personal knowledge work and Anytype if you want Notion's database model without the cloud dependency.
 
-## Is Obsidian better than Notion?
+### Is Obsidian better than Notion?
 
 For personal knowledge management, speed, and privacy, yes. Obsidian opens pages instantly, works fully offline, and stores plain Markdown you own permanently. For team collaboration, Notion is clearly better: Obsidian has no real-time multi-user editing, no comments, and no permissions model. The honest split is that Obsidian is a personal tool and Notion is a team tool. Many people use both, keeping personal notes in Obsidian and shared documentation in Notion.
 
-## Can I export my data out of Notion?
+### Can I export my data out of Notion?
 
 Yes, though imperfectly. Notion exports to Markdown, CSV, HTML, and PDF from workspace settings. Databases become CSV files and pages become Markdown. What breaks is internal linking, nested page structure, and database relations, which typically need manual repair after import. Obsidian and Anytype both offer Notion importers that handle much of this automatically. Export before you need it so you know what your data actually looks like outside Notion.

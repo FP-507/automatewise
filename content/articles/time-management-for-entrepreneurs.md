@@ -116,14 +116,16 @@ Entrepreneurs lose 2-3 hours daily to interruptions — Slack messages, emails, 
 - **Automated triage:** Set up [notification routing](/blog/automate-notifications-alerts) so only truly urgent items reach you in real time. Everything else goes to a digest.
 - **Decision documentation:** Many interruptions are the same question asked by different people. Document decisions in a searchable place so people find answers without asking.
 
-## How many hours should an entrepreneur work?
+## Frequently Asked Questions
+
+### How many hours should an entrepreneur work?
 
 Sustainable high performance requires 45-55 hours weekly, not 70-80. Beyond 55 hours, cognitive quality declines and decision-making suffers — the marginal hours produce negative value. The entrepreneurs who work 80-hour weeks typically have 30+ hours of automatable, delegable, or eliminable work in their schedule. The goal is not working less; it is working only on tasks that require you specifically. Apply the [elimination hierarchy](#framework-1-the-elimination-hierarchy) before adding hours.
 
-## What is the best time management method for founders?
+### What is the best time management method for founders?
 
 Time blocking combined with weekly planning works best for entrepreneurs. Block 2-3 hours of deep work in your peak energy hours (usually morning), batch meetings into a single window, and batch admin into low-energy afternoons. Plan on Monday, review on Friday. Supplement with automation for operational tasks — most founders can reclaim 10+ hours weekly by [automating invoicing, CRM updates, reporting, and scheduling](/blog/automation-for-personal-productivity). The method matters less than the discipline of protecting deep work time.
 
-## How do I stop working on low-value tasks?
+### How do I stop working on low-value tasks?
 
 Track your time for one week and categorize every task by value: Revenue, Growth, Operations, or Reactive. Anything in Operations or Reactive that recurs weekly is a candidate for elimination, automation, or delegation. Start by [automating data transfer and notifications](/blog/what-is-workflow-automation) (the highest-volume low-value work), then document and delegate the remaining operational tasks. Set a weekly cap on Operations/Reactive time — 20% of your week maximum — and treat anything above it as a system failure to fix, not a personal failing to power through.

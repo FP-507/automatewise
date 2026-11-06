@@ -144,14 +144,16 @@ Reduce operations by filtering early (before iterators), using Search instead of
 - [Make vs Zapier](/blog/make-vs-zapier) if comparing platforms
 - [Make Google Sheets automation](/blog/make-google-sheets-automation) for spreadsheet-heavy workflows
 
-## Is Make harder to learn than Zapier?
+## Frequently Asked Questions
+
+### Is Make harder to learn than Zapier?
 
 Slightly, but the visual model pays off quickly. Zapier's linear form-based interface is faster for a first single-step automation (10 minutes vs 20). Make's flowchart interface takes an extra hour to feel natural but makes multi-step workflows with branching and loops much easier to build and debug. If you plan to build anything beyond simple trigger-action pairs, Make's learning investment returns within the first week. Most users are comfortable with modules, routers, and iterators within 3-5 hours of practice.
 
-## What is a Make scenario?
+### What is a Make scenario?
 
 A scenario is Make's term for an automation workflow — the equivalent of a Zap in Zapier. It consists of modules (circles) connected by lines showing data flow. A scenario starts with a trigger module (watch for events or scheduled run), passes data through processing modules (filters, routers, transformations), and ends with action modules (create records, send messages). Scenarios can be run manually for testing, scheduled at intervals, or triggered instantly by webhooks.
 
-## How many operations does a Make scenario use?
+### How many operations does a Make scenario use?
 
 Each module execution counts as one operation. A scenario with 3 modules that runs once uses 3 operations. If a module processes 10 items (iterating), it uses 10 operations. The free plan includes 1,000 operations monthly; Core plan offers 10,000 for $10.59/month. Optimize by filtering early (reduce items before expensive modules), using Search Rows instead of Watch Rows when you only need specific records, and running scheduled scenarios less frequently when real-time processing is not required.

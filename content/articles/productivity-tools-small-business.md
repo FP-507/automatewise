@@ -188,14 +188,16 @@ The biggest mistake small businesses make with tools is adopting too many. Every
 
 The automation layer is arguably the most important category because it connects everything else. A $10/month [Make](/blog/getting-started-with-make) subscription that connects your CRM, email, and project management tool eliminates more manual work than any individual tool upgrade.
 
-## What are the must-have tools for a small business?
+## Frequently Asked Questions
+
+### What are the must-have tools for a small business?
 
 Every small business needs five core tools: email and calendar (Google Workspace or Microsoft 365), a project management system (Notion, Trello, or Asana), a CRM for customer tracking (HubSpot free tier is sufficient for most), accounting software (QuickBooks or Wave), and an automation platform ([Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make)) to connect them. This stack covers 90% of operational needs for under $50/month total.
 
-## How much should a small business spend on software tools?
+### How much should a small business spend on software tools?
 
 A reasonable benchmark is $50-150 per employee per month for the complete tool stack. Solo operators can run on free tiers ($0-30/month). Teams of 5-10 typically spend $75-100 per person per month. The key is calculating ROI: if a $20/month tool saves each team member 5 hours per month, that is a return of 10x or more at any reasonable hourly rate. See our [automation ROI guide](/blog/workflow-automation-roi) for calculating specific tool returns.
 
-## How do I reduce the number of tools my team uses?
+### How do I reduce the number of tools my team uses?
 
 Audit your current tools by listing every app your team uses weekly. Identify overlap (two tools doing the same job), underuse (tools with less than 50% feature adoption), and silos (tools not connected to anything else). Consolidate by choosing platforms that cover multiple needs — Notion can replace separate wiki, project management, and CRM tools for small teams. Connect remaining tools with an [automation platform](/blog/best-automation-tools-small-business) so data flows automatically instead of requiring manual transfer between apps.

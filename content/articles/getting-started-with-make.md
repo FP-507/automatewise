@@ -283,14 +283,16 @@ Start with the form-to-spreadsheet scenario above, then progressively tackle mor
 
 For more automation guides, explore our [getting started section](/categories/getting-started) or compare Make with other platforms in our [tool comparisons](/categories/tool-comparisons).
 
-## Is Make better than Zapier?
+## Frequently Asked Questions
+
+### Is Make better than Zapier?
 
 Make and Zapier serve different audiences. Make offers a visual drag-and-drop builder with routers, iterators, and error handling that gives more control over complex workflows at a lower price. Zapier is simpler to learn and has 7,000+ integrations versus Make's 2,000+. For straightforward automations, Zapier wins on ease. For multi-branch, data-heavy workflows, Make delivers more value. See our full [Make vs Zapier comparison](/blog/make-vs-zapier).
 
-## How many free operations does Make offer?
+### How many free operations does Make offer?
 
 Make's free plan includes 1,000 operations per month with up to 2 active scenarios. One operation equals one module execution, so a 3-module scenario uses 3 operations per run. This means roughly 333 scenario executions per month on the free plan. Paid plans start at $10.59 per month for 10,000 operations with unlimited active scenarios.
 
-## Does Make require coding knowledge?
+### Does Make require coding knowledge?
 
 No. Make is designed for non-technical users. Its visual builder uses a drag-and-drop canvas where you connect modules (app actions) with lines showing data flow. You configure each module by mapping fields from previous steps — no code required. For advanced users, Make does offer a built-in JavaScript module and the ability to make custom HTTP requests, but these are optional power features.

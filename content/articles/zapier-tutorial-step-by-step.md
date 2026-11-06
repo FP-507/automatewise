@@ -162,14 +162,16 @@ Once these five patterns are comfortable, you can build almost any automation. E
 - [Zapier AI Actions](/blog/zapier-ai-actions) for AI-powered workflows
 - [Make vs Zapier](/blog/make-vs-zapier) if you hit plan limits or need more complex logic
 
-## How long does it take to learn Zapier?
+## Frequently Asked Questions
+
+### How long does it take to learn Zapier?
 
 Most people build their first working Zap in 15-20 minutes and become comfortable with triggers, actions, and filters within 1-2 hours. Multi-step Zaps, Formatter, and Paths take another 2-3 hours of practice. Within a week of regular use, you can build any workflow Zapier supports. The interface is designed for non-technical users — the main learning is understanding how data flows from trigger to action, which the mapping interface makes visual.
 
-## What is the difference between a Zap trigger and action?
+### What is the difference between a Zap trigger and action?
 
 A trigger is the event that starts a Zap — "when a new email arrives," "when a form is submitted," "every day at 9 AM." Every Zap has exactly one trigger. An action is what Zapier does in response — "create a spreadsheet row," "send a Slack message," "add a CRM contact." A Zap can have one action (single-step, available on free plan) or many actions in sequence (multi-step, requires paid plan). Data from the trigger flows into every action that follows.
 
-## Can I build Zaps for free?
+### Can I build Zaps for free?
 
 Yes. Zapier's free plan includes 100 tasks per month and unlimited single-step Zaps (one trigger, one action). Each time a Zap runs successfully, it consumes one task. Multi-step Zaps, Filters, Formatter, and Paths require a paid plan starting at $19.99/month. If you need multi-step workflows at no cost, [Make](/blog/getting-started-with-make) offers 1,000 free operations per month with no step limits, and [n8n](/blog/getting-started-with-n8n) is completely free when self-hosted.

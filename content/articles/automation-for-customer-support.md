@@ -189,14 +189,16 @@ Customer support automation is not about removing humans from the equation. It i
 
 Start with smart routing and basic auto-responses for your top 10 most common ticket types. Add the chatbot layer once your knowledge base is robust enough to support it. Layer in SLA monitoring and satisfaction surveys to measure the impact. Each automation you add reduces pressure on your team and improves the customer experience. The goal is not fewer support interactions. It is better ones.
 
-## Can customer support be fully automated?
+## Frequently Asked Questions
+
+### Can customer support be fully automated?
 
 No — and it should not be. The goal is automating 40-60% of interactions (password resets, order status checks, FAQs) so human agents handle the complex, emotional, and nuanced cases that require empathy. Fully automated support frustrates customers with non-standard issues and damages brand trust. The best approach is a tiered system where automation handles tier-1 questions and escalates everything else to humans.
 
-## What is the ROI of support automation?
+### What is the ROI of support automation?
 
 Companies typically see 30-50% reduction in average response time, 20-40% fewer tickets reaching human agents, and 15-25% improvement in customer satisfaction scores within the first 3 months. A team handling 1,000 tickets per month at $8 per ticket can save $2,400-4,000 monthly by automating common inquiries. The setup investment is typically recovered within the first month.
 
-## Which tools are best for support automation?
+### Which tools are best for support automation?
 
 Zendesk, Freshdesk, and Intercom offer the strongest built-in automation features for customer support. For connecting your helpdesk to other tools (CRM, Slack, project management), [Zapier](/blog/getting-started-with-zapier) and [Make](/blog/getting-started-with-make) are the most popular integration platforms. [n8n](/blog/getting-started-with-n8n) is ideal for teams that need custom logic or self-hosted infrastructure.

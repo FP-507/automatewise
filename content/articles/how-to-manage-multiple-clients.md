@@ -140,14 +140,16 @@ When you consistently have more demand than capacity, three options:
 
 For scaling strategies specific to solo operators, see our [solopreneur systems guide](/blog/solopreneur-tools-and-systems). For agencies, see [agency operations](/blog/digital-agency-operations-guide).
 
-## How many clients can one person manage?
+## Frequently Asked Questions
+
+### How many clients can one person manage?
 
 For service businesses, 5-8 active clients is the practical ceiling for one person delivering the work directly. Beyond that, either quality drops or the person works unsustainable hours. The number varies by engagement intensity — 3-4 clients for deep, high-touch projects; 10-15 for lightweight retainers with minimal weekly hours. The constraint is usually not skill but operational overhead: communication, coordination, and admin per client. [Automating that overhead](/blog/automation-for-freelancers) can increase capacity by 30-50% without adding hours.
 
-## What is the best tool for managing multiple clients?
+### What is the best tool for managing multiple clients?
 
 A project management tool with cross-project views is essential — Notion, ClickUp, or Asana. Notion works best for freelancers and small teams who want client records, projects, and notes in one place. ClickUp offers the most powerful cross-client task views. Pair it with a CRM (HubSpot free) if you need sales pipeline tracking, and an [automation platform](/blog/best-automation-tools-small-business) ([Make](/blog/getting-started-with-make) or [Zapier](/blog/getting-started-with-zapier)) to handle status updates, reminders, and task creation automatically.
 
-## How do I keep clients from feeling neglected?
+### How do I keep clients from feeling neglected?
 
 Consistent proactive communication is the answer — not more communication, but predictable communication. Send a weekly status update to every client on the same day in the same format. Schedule recurring check-in calls so they never have to ask for a meeting. Respond to every message within 4 business hours (even a brief acknowledgment). [Automate the status updates](/blog/automate-slack-notifications) so consistency does not depend on your memory. Clients who know exactly when they will hear from you stop worrying between updates.

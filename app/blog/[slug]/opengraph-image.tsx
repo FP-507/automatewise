@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 import { getArticleMeta, getAllArticleSlugs } from "@/lib/articles";
 import { CATEGORY_INFO } from "@/lib/types";
+import { SITE } from "@/lib/constants";
 
 export const alt = "AutomateWise Article";
 export const size = { width: 1200, height: 630 };
@@ -145,7 +146,7 @@ export default async function Image({
             </span>
           </div>
           <span style={{ fontSize: "16px", color: "#71717a" }}>
-            automatewise-six.vercel.app
+            {new URL(SITE.url).host}
           </span>
         </div>
       </div>

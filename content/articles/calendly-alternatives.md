@@ -91,14 +91,16 @@ Acuity handles intake forms, packages, memberships, deposits, and class scheduli
 - **You need team routing.** Round-robin, collective availability, and routing forms are mature here and half-built elsewhere.
 - **One event type is enough.** Many solo users never hit the free limit.
 
-## What is the best free alternative to Calendly?
+## Frequently Asked Questions
+
+### What is the best free alternative to Calendly?
 
 Cal.com's free tier allows unlimited event types, which directly solves Calendly free's single biggest limitation, and it can be self-hosted at no cost beyond a server. If you use Google Workspace, appointment schedules are already included and require no new tool. Microsoft 365 users have Bookings included similarly. Cal.com is the best choice when you need real scheduling features free; Google and Microsoft options are best when basic booking suffices.
 
-## Is Cal.com really open source?
+### Is Cal.com really open source?
 
 Yes. Cal.com's code is publicly available and self-hostable under the AGPLv3 license, with a commercial license available for organizations that need different terms. Self-hosting gives unlimited users and event types for the cost of a server, roughly $10 to $20 monthly, and keeps booking data on your own infrastructure. The hosted version at $15 per user monthly is a convenience product; the savings come from self-hosting or from the generous free tier.
 
-## Can I use Google Calendar instead of Calendly?
+### Can I use Google Calendar instead of Calendly?
 
 For basic booking, yes. Google Calendar's appointment schedules let you publish availability, share a booking link, and have meetings created automatically with Google Meet links, at no additional cost with a Google account or Workspace plan. What it lacks is conditional routing, custom branding, payment collection, team round-robin, and reminder workflows. If your scheduling is one person offering a small number of meeting types, it fully replaces Calendly's free tier.

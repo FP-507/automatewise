@@ -89,14 +89,16 @@ Monday's board model, automation recipes, and dashboards suit work management be
 - **Interfaces earn their keep.** Interface Designer produces usable internal apps without code.
 - **The team is small.** Under five people, $20 each is cheaper than the hours spent migrating and self-hosting.
 
-## What is the best free Airtable alternative?
+## Frequently Asked Questions
+
+### What is the best free Airtable alternative?
 
 NocoDB and Baserow are both free to self-host with unlimited records and users, and NocoDB deliberately mirrors Airtable's interface, which makes migration straightforward. Both need a server, roughly $10 monthly. Without self-hosting, SeaTable offers 25,000 rows free and Notion's free plan is generous for personal use. Google Sheets remains free and connects to every [automation platform](/blog/best-automation-tools-small-business), though it lacks relations and field-type enforcement.
 
-## Why is Airtable so expensive?
+### Why is Airtable so expensive?
 
 Airtable charges per user, and that includes people who only view data. A ten-person team on the Team plan pays $200 monthly, or $2,400 annually, even if seven of them never edit anything. Alternatives avoid this in two ways: self-hosted tools like NocoDB and Baserow have no per-user cost, and platforms like Supabase charge a flat rate regardless of team size. Audit how many of your seats actually edit records before assuming you need Airtable's pricing model.
 
-## Can Notion replace Airtable?
+### Can Notion replace Airtable?
 
 For most small-team use, yes. Notion databases support relations, rollups, filters, and multiple views, and cost $10 per user monthly against Airtable's $20. The advantage is that records are also pages, so documentation lives with the data. Airtable remains stronger for complex formulas, strict field types, larger datasets, and its built-in automation with scripting. Choose Notion when context and documentation matter more than data rigor. See [Notion vs Airtable](/blog/notion-vs-airtable).

@@ -99,14 +99,16 @@ Honest answer: most small teams should stay.
 
 Migration is not free. Rebuilding twenty workflows takes days, and none of these platforms import Zaps directly.
 
-## What is the best Zapier alternative?
+## Frequently Asked Questions
+
+### What is the best Zapier alternative?
 
 For most teams it is [Make](/blog/getting-started-with-make), because it replaces Zapier's core function at roughly a fifth of the cost with a more capable visual builder. If data residency or execution volume drives your decision, self-hosted [n8n](/blog/getting-started-with-n8n) is better since it removes execution limits entirely. Developers get more from Pipedream. There is no single best alternative, only the best match for why you are leaving.
 
-## Is there a free alternative to Zapier?
+### Is there a free alternative to Zapier?
 
 Yes, several. Self-hosted [n8n](/blog/n8n-self-hosting-guide) and Activepieces are free with unlimited executions; you pay only for a server, typically $10 to $20 monthly. [Make](/blog/getting-started-with-make) offers 1,000 operations per month free, which covers light use. Pipedream's free tier of 10,000 invocations is the most generous cloud option. Google Apps Script is completely free for automation that stays inside Google Workspace, as covered in our [Apps Script tutorial](/blog/google-apps-script-tutorial).
 
-## Why is Zapier so expensive?
+### Why is Zapier so expensive?
 
 Zapier charges per task, and every step in a multi-step Zap counts as a separate task. A five-step workflow running 400 times monthly consumes 2,000 tasks, which exceeds the $49.99 Professional plan. Competitors either count differently, as Make does with cheaper operations, or charge per workflow run regardless of step count, as Pipedream does. The pricing reflects Zapier's integration breadth and support, which is a fair trade for some teams and poor value for others, depending entirely on workflow complexity and volume.

@@ -86,14 +86,16 @@ UiPath is the established leader in robotic process automation, with better reco
 
 Before switching, audit which flows actually need premium connectors. Teams often find that two or three flows drive the entire licensing cost and can be rebuilt with standard connectors.
 
-## Is Power Automate free with Microsoft 365?
+## Frequently Asked Questions
+
+### Is Power Automate free with Microsoft 365?
 
 A limited version is included with most Microsoft 365 business plans, covering standard connectors like Outlook, SharePoint, Teams, and OneDrive. Premium connectors such as Dataverse, SQL Server, Salesforce, and generic HTTP requests require a paid plan: $15 per user monthly, or around $100 monthly per flow for process plans. Most teams discover this after building something important, which is the most common reason they start comparing alternatives. Audit which flows need premium connectors before assuming you must upgrade.
 
-## What is the best Power Automate alternative for small business?
+### What is the best Power Automate alternative for small business?
 
 [Make](/blog/getting-started-with-make) at $10.59 monthly, because every integration is included on every plan, which eliminates the premium-connector problem entirely. For teams larger than about ten people, self-hosted [n8n](/blog/n8n-self-hosting-guide) is cheaper still since it has no per-user cost. Choose [Zapier](/blog/getting-started-with-zapier) instead if your team is non-technical or you depend on niche apps only it integrates with.
 
-## Can any alternative replace Power Automate Desktop?
+### Can any alternative replace Power Automate Desktop?
 
 Only dedicated RPA tools. UiPath, Automation Anywhere, and Blue Prism automate legacy Windows applications through screen recording and computer vision the way Power Automate Desktop does. Cloud automation platforms like [Make](/blog/getting-started-with-make), [Zapier](/blog/getting-started-with-zapier), and [n8n](/blog/getting-started-with-n8n) work through APIs and cannot drive desktop software that exposes none. If desktop RPA is why you use Power Automate, most alternatives in this guide do not apply to you.

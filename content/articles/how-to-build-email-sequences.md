@@ -159,14 +159,16 @@ Track these metrics for every sequence:
 
 Review performance weekly for new sequences and monthly for established ones. A/B test subject lines and CTAs — small improvements compound across thousands of emails.
 
-## How many emails should be in a sequence?
+## Frequently Asked Questions
+
+### How many emails should be in a sequence?
 
 Most effective sequences have 3-7 emails. Welcome and onboarding sequences work best with 5-7 emails over 2-3 weeks. Sales nurture sequences perform well at 4-6 emails over 3-4 weeks. Re-engagement sequences need only 3 emails over 10-14 days. Longer sequences (8+ emails) risk subscriber fatigue unless each email delivers genuine standalone value. Start with fewer emails and extend the sequence based on engagement data.
 
-## What is the best time gap between sequence emails?
+### What is the best time gap between sequence emails?
 
 For sales and nurture sequences, 2-4 days between emails is optimal. Shorter gaps (1 day) feel aggressive and increase unsubscribes. Longer gaps (7+ days) lose momentum and the recipient forgets the previous context. Onboarding sequences can use shorter gaps (1-2 days) in the first week when engagement is highest, then extend to 3-7 days as the sequence progresses. Always test timing with your specific audience — B2B contacts typically prefer longer gaps than B2C.
 
-## Should I use plain text or HTML emails?
+### Should I use plain text or HTML emails?
 
 For sales and nurture sequences, plain-text-style emails (minimal formatting, no heavy design) consistently outperform designed HTML emails. They feel personal and bypass promotional tab filtering. For onboarding and transactional emails, light HTML formatting (brand colors, logo, clean layout) builds trust and professionalism. For newsletters and announcements, designed HTML with images and sections works well. The rule: the more personal the message should feel, the simpler the format should be.

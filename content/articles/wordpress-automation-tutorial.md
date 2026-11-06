@@ -168,14 +168,16 @@ If you prefer staying in WordPress:
 
 These handle WordPress-internal automation. For cross-tool workflows, external platforms are more flexible.
 
-## Can I automate WordPress posting?
+## Frequently Asked Questions
+
+### Can I automate WordPress posting?
 
 Yes, through the REST API or automation platforms. Connect [Make](/blog/getting-started-with-make), [Zapier](/blog/getting-started-with-zapier), or [n8n](/blog/getting-started-with-n8n) to WordPress using an Application Password (Users → Profile → Application Passwords). Then create posts from any source: Notion pages, Google Docs, Airtable records, RSS feeds, or AI-generated content. Set status to "draft" for human review or "publish" for fully automated posting. Include categories, tags, featured images (upload via media endpoint first), and scheduled dates.
 
-## How do I connect WordPress to Zapier?
+### How do I connect WordPress to Zapier?
 
 In Zapier, add WordPress as a trigger or action and click Sign in. Enter your site URL (with https://), your WordPress username, and an Application Password — not your login password. Generate the Application Password in WordPress Admin → Users → Your Profile → Application Passwords section. Zapier's WordPress integration supports triggers (New Post, New Comment, New User) and actions (Create Post, Create User, Upload Media). If your host blocks REST API access, check security plugins (Wordfence, iThemes) for REST API restrictions.
 
-## What WordPress plugins support webhooks?
+### What WordPress plugins support webhooks?
 
 Form plugins: WPForms (Pro), Gravity Forms (Webhooks add-on), Fluent Forms (built-in), Formidable Forms, Ninja Forms (add-on). General purpose: WP Webhooks (sends webhooks for 100+ WordPress events and receives incoming webhooks to trigger actions), Uncanny Automator (webhook triggers and actions as part of its automation builder). WooCommerce has native webhooks under WooCommerce → Settings → Advanced → Webhooks for order, product, and customer events. Webhooks are faster than polling and let external platforms react instantly to WordPress events.

@@ -165,14 +165,16 @@ Build this dashboard with our [business dashboard guide](/blog/how-to-create-bus
 
 **Not tracking stage conversions.** If you only know traffic and revenue, you cannot find the leak.
 
-## What is a sales funnel in simple terms?
+## Frequently Asked Questions
+
+### What is a sales funnel in simple terms?
 
 A sales funnel is the step-by-step path a stranger takes to become a customer: they discover you (awareness), give you their contact info (interest), learn to trust you through content and follow-up (consideration), buy (decision), and ideally come back and refer others (retention). Each stage has fewer people than the last — hence the funnel shape. Building a funnel means designing and automating each stage so leads move through predictably without you manually pushing every one.
 
-## How much does it cost to build a sales funnel?
+### How much does it cost to build a sales funnel?
 
 A functional sales funnel costs $30-100 per month using no-code tools: landing page builder ($0-20/mo), email automation platform ($0-30/mo depending on list size), CRM (HubSpot free), scheduling tool ($0-12/mo), and an [automation platform](/blog/best-automation-tools-small-business) ($10-20/mo) to connect everything. The time investment is 10-20 hours to set up initially. Compare this to agencies that charge $5,000-20,000 to build the same funnel — the tools are accessible; the work is defining your offer and writing your emails.
 
-## How long does it take for a sales funnel to work?
+### How long does it take for a sales funnel to work?
 
 Expect 30-90 days to see consistent results from a new funnel. The first 30 days establish baseline metrics (traffic, conversion rates). Days 30-60 involve optimization based on where leads drop off. Days 60-90 show whether the funnel converts profitably. Paid traffic accelerates testing (results in days) but costs money; organic traffic (SEO, social) takes 3-6 months to build volume but compounds. Most funnels need 2-3 rounds of optimization before hitting target conversion rates.

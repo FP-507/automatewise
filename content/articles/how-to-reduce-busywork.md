@@ -118,14 +118,16 @@ Most busywork dies at Step 1 or 2.
 
 **Monthly:** Re-run the busywork audit. New busywork always emerges — the goal is catching it early.
 
-## What counts as busywork?
+## Frequently Asked Questions
+
+### What counts as busywork?
 
 Busywork is any task that consumes time without changing outcomes: status reports nobody acts on, meetings without decisions, manual data entry between tools, searching for information that should be organized, responding to non-urgent notifications in real time, reformatting documents, and repeatedly explaining the same things. The test: if this task disappeared, would anything important change? If not, it is busywork. Track your time for one week and categorize every task — most people find 40-60% falls into this category.
 
-## How do I stop doing busywork at work?
+### How do I stop doing busywork at work?
 
 Run a one-week audit, then apply the elimination protocol in order: eliminate (does anyone need this?), automate ([integration platforms](/blog/what-is-workflow-automation) handle data transfer, notifications, and reporting), template (make repetitive manual tasks faster), batch (do remaining tasks in dedicated blocks), and delegate (hand off what requires judgment but not yours). Protect 2-3 hours of daily deep work by blocking notifications and meetings. The biggest wins are usually [automating manual data transfer](/blog/reduce-manual-data-entry) and cancelling decision-free recurring meetings.
 
-## Why does busywork feel productive?
+### Why does busywork feel productive?
 
 Busywork produces visible activity — a cleared inbox, a completed checklist, a sent report — which triggers the same sense of accomplishment as meaningful work. It is also lower-risk: responding to emails cannot fail the way a strategic project can. And it is often socially reinforced: being responsive and visibly busy is rewarded in many workplaces even when it produces nothing. The fix is measuring outcomes (what shipped, what changed) rather than activity (hours worked, messages sent). When you track outcomes, busywork becomes obviously expensive.

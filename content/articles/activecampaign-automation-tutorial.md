@@ -154,14 +154,16 @@ ActiveCampaign has 900+ native integrations plus webhooks in both directions.
 
 **Example:** Deal Won → Webhook → Make → [create onboarding tasks](/blog/automate-customer-onboarding), send to accounting, notify team.
 
-## Does ActiveCampaign have a free plan?
+## Frequently Asked Questions
+
+### Does ActiveCampaign have a free plan?
 
 No. ActiveCampaign offers a 14-day free trial but no permanent free tier. Plans start at $29/month (Starter, 1,000 contacts, basic automation), $49/month (Plus, adds CRM and lead scoring), and $79/month (Pro, adds site tracking, predictive sending, and split automations). For businesses needing sales CRM + marketing automation in one tool, the Plus plan is the entry point. If budget is the constraint, Mailchimp (free tier) or ConvertKit (free up to 10,000 subscribers) cover basic sequences without CRM features.
 
-## What is lead scoring in ActiveCampaign?
+### What is lead scoring in ActiveCampaign?
 
 Lead scoring assigns points to contacts based on behavior and attributes: email opens, link clicks, page visits, form submissions, custom field values, and tags. You define the rules (e.g., +10 for visiting pricing, +25 for demo request, -10 for 30 days inactivity). When a contact's score crosses a threshold, an automation triggers — typically creating a deal, tagging as MQL, and notifying sales. Scoring turns passive email lists into prioritized sales queues. Available on Plus plan and above.
 
-## How does ActiveCampaign compare to HubSpot?
+### How does ActiveCampaign compare to HubSpot?
 
 ActiveCampaign is stronger in automation depth and price for small businesses: its builder handles more complex branching, goals, and behavioral triggers at $29-79/month. [HubSpot](/blog/hubspot-automation-guide) offers a generous free CRM but its comparable automation features (workflows, lead scoring, sequences) require Marketing Hub Professional at $800+/month. Choose ActiveCampaign for automation-heavy marketing with lightweight CRM needs; choose HubSpot if you want a free CRM foundation and plan to grow into its full platform. See our [CRM comparison](/blog/best-crm-for-small-business).

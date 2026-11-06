@@ -168,14 +168,16 @@ Use Code when expressions get unwieldy, when you need loops or complex logic, or
 - [Error handling in automation](/blog/error-handling-automation) for production patterns
 - [Self-hosting n8n](/blog/n8n-self-hosting-guide) for production deployment
 
-## Is n8n good for beginners?
+## Frequently Asked Questions
+
+### Is n8n good for beginners?
 
 n8n is approachable for beginners who are comfortable with basic technical concepts (what a webhook is, what JSON looks like). The visual editor is intuitive, and most workflows use only drag-and-drop nodes. The learning curve is steeper than Zapier because n8n exposes more options and expects you to understand data structure. Expect 2-3 hours to build your first meaningful workflow and 1-2 weeks to feel comfortable. The payoff is a platform with no execution limits (self-hosted) and unlimited flexibility as your needs grow.
 
-## What programming language does n8n use?
+### What programming language does n8n use?
 
 n8n workflows use JavaScript expressions inside `{{ }}` for dynamic values, and the Code node supports full JavaScript or Python. You do not need to write code for most workflows — native nodes handle common apps with dropdown configuration. Expressions become useful for formatting dates, combining strings, or simple conditions. The Code node is for complex transformations. n8n itself is built in TypeScript and can be extended with custom nodes if you need integrations that do not exist.
 
-## How do I debug an n8n workflow?
+### How do I debug an n8n workflow?
 
 Execute nodes one at a time using the "Execute node" button to inspect output at each step — the right panel shows exactly what data each node produces. Use the Executions list (left sidebar) to review past runs, including failed ones with error details. Add a Set node between steps to inspect intermediate data. For webhooks, use the Test URL with "Listen for test event" to capture real payloads. Enable "Save execution data" in workflow settings so you can replay failed executions after fixing the issue.

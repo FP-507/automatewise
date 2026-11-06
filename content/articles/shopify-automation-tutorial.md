@@ -166,14 +166,16 @@ See our [social media automation guide](/blog/automate-social-media-posting) for
 
 For the broader e-commerce operations picture, see our [e-commerce automation guide](/blog/automation-for-ecommerce) and [e-commerce operations guide](/blog/ecommerce-operations-guide).
 
-## Is Shopify Flow free?
+## Frequently Asked Questions
+
+### Is Shopify Flow free?
 
 Yes. Shopify Flow became free on all plans (Basic, Shopify, Advanced, Plus) in 2023. Previously it was Plus-only. Install it from the Shopify App Store at no cost. There are no workflow or execution limits on standard plans, though Plus offers additional triggers and actions (like scheduled triggers and more connectors). For most merchants, the free version handles all internal store automation — tagging, inventory management, order routing, and fraud flagging.
 
-## What can I automate in Shopify?
+### What can I automate in Shopify?
 
 Inside Shopify with Flow: order tagging by value or risk, customer segmentation by purchase behavior, product visibility based on inventory, low-stock alerts, fulfillment holds, and internal emails. With external platforms like [Make](/blog/getting-started-with-make) or [Zapier](/blog/getting-started-with-zapier): CRM syncing, accounting entries, SMS notifications, multi-channel marketing, abandoned cart recovery across channels, support ticket integration, and custom reporting. Most stores use Flow for internal logic and external automation for connecting Shopify to the rest of their business.
 
-## How do I connect Shopify to Zapier or Make?
+### How do I connect Shopify to Zapier or Make?
 
 In [Make](/blog/getting-started-with-make) or [Zapier](/blog/getting-started-with-zapier), add a Shopify module and click "Create connection." You will be redirected to Shopify to authorize — log in to your store admin and approve the requested permissions. Some platforms ask for your store URL (yourstore.myshopify.com). Once connected, you can use triggers (Watch Orders, Watch Customers, Watch Products, Watch Fulfillments) and actions (Create/Update Order, Customer, Product, Fulfillment). For [n8n](/blog/getting-started-with-n8n), create a custom app in Shopify Admin to get an Admin API access token.

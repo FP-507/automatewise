@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllArticleSlugs, getArticle, getRelatedArticles } from "@/lib/articles";
 import { CATEGORY_INFO } from "@/lib/types";
-import { SITE } from "@/lib/constants";
+import { SITE, AUTHOR, hasAuthor } from "@/lib/constants";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CategoryBadge } from "@/components/CategoryBadge";
 import { TableOfContents } from "@/components/TableOfContents";
@@ -10,6 +11,16 @@ import { ShareButtons } from "@/components/ShareButtons";
 import { AdSlot } from "@/components/AdSlot";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { NewsletterSignup } from "@/components/NewsletterSignup";
+
+/** remark-html escapes &, quotes and angle brackets; schema text wants them plain. */
+function decodeEntities(text: string): string {
+  return text
+    .replace(/&#x26;|&amp;/g, "&")
+    .replace(/&#x22;|&quot;/g, '"')
+    .replace(/&#x27;|&#39;/g, "'")
+    .replace(/&#x3C;|&lt;/gi, "<")
+    .replace(/&#x3E;|&gt;/gi, ">");
+}
 
 export async function generateStaticParams() {
   return getAllArticleSlugs().map((slug) => ({ slug }));
@@ -33,7 +44,7 @@ export async function generateMetadata({
         type: "article",
         publishedTime: article.date,
         ...(article.updated ? { modifiedTime: article.updated } : {}),
-        authors: [SITE.author],
+        authors: [hasAuthor ? AUTHOR.name : SITE.author],
         tags: article.tags,
       },
       twitter: {
@@ -76,54 +87,62 @@ export default async function ArticlePage({
     ? new Date(article.updated).toLocaleDateString("en-US", dateFormatOptions)
     : null;
 
+  const articleUrl = `${SITE.url}/blog/${slug}`;
+  const organization = {
+    "@type": "Organization",
+    name: SITE.name,
+    url: SITE.url,
+    logo: { "@type": "ImageObject", url: `${SITE.url}/icon.svg` },
+  };
+  const authorSchema = hasAuthor
+    ? {
+        "@type": "Person",
+        name: AUTHOR.name,
+        url: `${SITE.url}/about`,
+        sameAs: [AUTHOR.linkedin, ...AUTHOR.sameAs].filter(Boolean),
+      }
+    : organization;
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: article.title,
     description: article.description,
+    image: `${articleUrl}/opengraph-image`,
     datePublished: article.date,
-    ...(article.updated ? { dateModified: article.updated } : {}),
-    author: {
-      "@type": "Organization",
-      name: SITE.author,
-      url: SITE.url,
-    },
-    publisher: {
-      "@type": "Organization",
-      name: SITE.name,
-      url: SITE.url,
-    },
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": `${SITE.url}/blog/${slug}`,
-    },
+    dateModified: article.updated || article.date,
+    author: authorSchema,
+    publisher: organization,
+    mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
     keywords: article.keywords.join(", "),
   };
 
+  // FAQ schema comes only from the explicit "Frequently Asked Questions"
+  // section, whose questions are H3s. Inferring questions from any heading
+  // that starts with "What" or "How" marked up body sections that are not
+  // FAQs, which is exactly the mismatch Google's structured-data policy
+  // penalises.
   const faqEntries: { q: string; a: string }[] = [];
   {
-    const headings = article.content.match(/<h2>(.*?)<\/h2>/g) || [];
-    const sections = article.content.split(/<h2>/);
-    sections.slice(1).forEach((section, i) => {
-      const heading = headings[i]
-        ?.replace(/<\/?h2>/g, "")
-        .replace(/<[^>]*>/g, "");
-      if (!heading) return;
-      const isQuestion =
-        heading.includes("?") ||
-        /^(What|Why|How|When|Which|Is|Are|Can|Do|Does|Should|Where|Will)/i.test(heading);
-      if (isQuestion) {
-        const text = section
-          .split(/<h[23]>/)[0]
-          .replace(/<[^>]*>/g, "")
-          .replace(/\s+/g, " ")
-          .trim()
-          .slice(0, 300);
-        if (text.length > 50) {
-          faqEntries.push({ q: heading, a: text });
-        }
+    const faqStart = article.content.search(
+      /<h2>Frequently Asked Questions<\/h2>/i
+    );
+    if (faqStart !== -1) {
+      const rest = article.content.slice(faqStart).replace(/^<h2>.*?<\/h2>/, "");
+      const faqSection = rest.split(/<h2>/)[0];
+      for (const block of faqSection.split(/<h3>/).slice(1)) {
+        const [rawQ, ...body] = block.split("</h3>");
+        const q = decodeEntities(rawQ.replace(/<[^>]*>/g, "").trim());
+        const a = decodeEntities(
+          body
+            .join("")
+            .replace(/<[^>]*>/g, "")
+            .replace(/\s+/g, " ")
+            .trim()
+        );
+        if (q && a.length > 50) faqEntries.push({ q, a });
       }
-    });
+    }
   }
 
   const faqJsonLd =
@@ -131,55 +150,10 @@ export default async function ArticlePage({
       ? {
           "@context": "https://schema.org",
           "@type": "FAQPage",
-          mainEntity: faqEntries.slice(0, 6).map((faq) => ({
+          mainEntity: faqEntries.map((faq) => ({
             "@type": "Question",
             name: faq.q,
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: faq.a,
-            },
-          })),
-        }
-      : null;
-
-  const howToSteps: { name: string; text: string }[] = [];
-  if (article.category === "how-to") {
-    const headings = article.content.match(/<h2>(.*?)<\/h2>/g) || [];
-    const sections = article.content.split(/<h2>/);
-    sections.slice(1).forEach((section, i) => {
-      const heading = headings[i]
-        ?.replace(/<\/?h2>/g, "")
-        .replace(/<[^>]*>/g, "");
-      if (!heading) return;
-      const isStep =
-        /^(step\s*\d|phase\s*\d|method\s*\d|tier\s*\d|part\s*\d|stage\s*\d|option\s*\d|way\s*\d|week\s*\d|day\s*\d|workflow\s*\d|scenario\s*\d|automation\s*\d|rule\s*\d|journey\s*\d|zap\s*\d|script\s*\d|(flow|external)\s+(workflow|integration)\s*\d|integration\s*\d|\d+[\.\):\-])/i.test(heading) ||
-        /^(set up|setting up|install|create|build|connect|configure|add|enable|import|export|choose|automate|implement|define|use|integrate|monitor|test|deploy|launch|start|prepare|design|plan|gather|collect|measure|calculate|review|optimize|track|write|run|open|select|click|navigate|sign|log in|download|upload|register|map|assign|schedule|trigger|send|check|verify|validate|format|parse|transform|process|handle|manage|update|delete|remove|migrate|sync|link|embed|customize|adjust|modify)/i.test(heading);
-      if (isStep) {
-        const text = section
-          .split(/<h[23]>/)[0]
-          .replace(/<[^>]*>/g, "")
-          .replace(/\s+/g, " ")
-          .trim()
-          .slice(0, 300);
-        if (text.length > 30) {
-          howToSteps.push({ name: heading, text });
-        }
-      }
-    });
-  }
-
-  const howToJsonLd =
-    howToSteps.length >= 3
-      ? {
-          "@context": "https://schema.org",
-          "@type": "HowTo",
-          name: article.title,
-          description: article.description,
-          step: howToSteps.slice(0, 10).map((step, i) => ({
-            "@type": "HowToStep",
-            position: i + 1,
-            name: step.name,
-            text: step.text,
+            acceptedAnswer: { "@type": "Answer", text: faq.a },
           })),
         }
       : null;
@@ -208,12 +182,6 @@ export default async function ArticlePage({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
         />
       )}
-      {howToJsonLd && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
-        />
-      )}
 
       <article className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
         <Breadcrumbs
@@ -237,6 +205,21 @@ export default async function ArticlePage({
             {article.description}
           </p>
           <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-text-muted">
+            {hasAuthor && (
+              <>
+                <span>
+                  By{" "}
+                  <Link
+                    href="/about"
+                    rel="author"
+                    className="font-medium text-text hover:text-accent"
+                  >
+                    {AUTHOR.name}
+                  </Link>
+                </span>
+                <span className="h-1 w-1 rounded-full bg-text-muted" />
+              </>
+            )}
             <span className="inline-flex items-center gap-1.5">
               <svg viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5 opacity-60">
                 <path d="M4.684 2.926a.5.5 0 00-.868 0L.453 8.596A.5.5 0 00.886 9.25h6.727a.5.5 0 00.434-.654L4.684 2.926zM8.5 8a2.5 2.5 0 115 0 2.5 2.5 0 01-5 0zm2.5-1.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3zM.75 11.25a.75.75 0 000 1.5h14.5a.75.75 0 000-1.5H.75z" />

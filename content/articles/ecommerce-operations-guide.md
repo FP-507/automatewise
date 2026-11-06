@@ -174,14 +174,16 @@ For stores under $1M annual revenue:
 
 Total: $100-500/month. The automation platform connects everything and typically saves 15-25 hours weekly for stores at 50+ orders daily.
 
-## How do I manage e-commerce operations efficiently?
+## Frequently Asked Questions
+
+### How do I manage e-commerce operations efficiently?
 
 Build systems for five functions before you need them: order management (automated status updates and fulfillment queue), inventory (real-time sync and low-stock alerts), fulfillment (batched processing or 3PL), customer service (tiered with self-service and automated responses), and finance (daily dashboard, automated reconciliation). Connect all tools with an [automation platform](/blog/best-automation-tools-small-business) so data flows without manual entry. The stores that scale are the ones where the owner reviews exceptions, not every order.
 
-## What should I automate first in my online store?
+### What should I automate first in my online store?
 
 Start with three highest-impact automations: (1) abandoned cart email sequence — recovers 5-15% of lost sales with zero ongoing effort. (2) Order status notifications — shipping and delivery updates eliminate 40% of "where is my order" tickets. (3) Low-stock alerts — prevents stockouts that lose sales and customers. All three take under an hour to set up with platform native features or [Zapier](/blog/getting-started-with-zapier)/[Make](/blog/getting-started-with-make). Then add review requests, post-purchase sequences, and inventory-to-purchase-order automation.
 
-## When should an e-commerce store outsource fulfillment?
+### When should an e-commerce store outsource fulfillment?
 
 Outsource to a 3PL when fulfillment consumes 20+ hours weekly, when you need to ship from multiple locations to reduce delivery times, or when order volume exceeds what your space can handle (typically 100+ orders daily). Below that threshold, in-house fulfillment with shipping software and batched processing is more cost-effective. Run the numbers: 3PL costs $2-5 per order plus storage; if your fully loaded in-house cost per order (labor, space, materials) is higher, switch. Most stores hit this point between $500K-1M annual revenue.

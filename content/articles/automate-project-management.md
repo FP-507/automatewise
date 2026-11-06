@@ -177,14 +177,16 @@ Build one of these, run it for two weeks, get team feedback, and iterate. Once t
 
 Project management automation is not about removing the human element from your projects. It is about removing the busywork so your team can focus on the work that requires human creativity, judgment, and collaboration. Start small, measure the impact, and scale what works.
 
-## What project management tasks can be automated?
+## Frequently Asked Questions
+
+### What project management tasks can be automated?
 
 The most impactful automations include task creation from templates (new projects auto-populate with standard tasks), status update notifications to Slack or email, deadline reminders, time tracking reports, workload balancing alerts, and cross-tool synchronization between your PM tool and CRM, calendar, or communication platforms. These eliminate 5-10 hours per week of administrative overhead per project manager.
 
-## Which project management tool has the best automation?
+### Which project management tool has the best automation?
 
 Asana and Monday.com offer the strongest built-in automation with visual rule builders that require no coding. ClickUp provides extensive automation plus custom fields and formulas. Notion has basic automation but excels when connected to external tools via [Make](/blog/getting-started-with-make) or [Zapier](/blog/getting-started-with-zapier). For developer teams, Jira and Linear offer powerful automation through rules and workflow configurations.
 
-## How do I start automating project management?
+### How do I start automating project management?
 
 Begin with one high-frequency manual task — typically sending status updates or creating recurring tasks. Build a simple automation using your PM tool's built-in rules or connect it to [Zapier](/blog/getting-started-with-zapier). Run it for 2 weeks, measure the time saved, and iterate. Most teams see 30% reduction in administrative overhead within the first month of implementing basic automations.

@@ -163,14 +163,16 @@ To start building these automations yourself, see our guide on [workflow automat
 
 **Writing SOPs for everything.** Not every task needs documentation. One-off tasks, creative work, and highly variable processes are poor candidates. Focus on repeatable, structured tasks with consistent expected outcomes.
 
-## How do I create an SOP template?
+## Frequently Asked Questions
+
+### How do I create an SOP template?
 
 Start with five sections: title, purpose, tools needed, numbered steps, and quality check. Keep steps under 15 per SOP — if you have more, split the process into sub-procedures. Use screenshots for every software-related step. Store templates in a shared location (Notion, Google Drive, Confluence) and include a "Last Updated" date and owner name at the top. Test every template with someone unfamiliar with the process before finalizing.
 
-## What is the difference between an SOP and a process map?
+### What is the difference between an SOP and a process map?
 
 An SOP provides step-by-step instructions for executing a specific task — it is an instruction manual. A process map is a visual diagram showing how multiple tasks, decisions, and handoffs connect within a larger workflow. You need both: process maps for understanding the big picture, SOPs for executing individual steps within that picture. Create the process map first to identify which steps need SOPs, then write SOPs for the critical ones.
 
-## How many SOPs does a small business need?
+### How many SOPs does a small business need?
 
 Most small businesses (under 50 employees) need 15-30 core SOPs covering their most critical repeatable processes. Start with 5: client onboarding, invoicing, hiring, customer support handling, and your core service delivery process. Add SOPs as you identify recurring problems ("we keep doing this differently") or as you hire new people who need to learn processes. Quality matters more than quantity — 10 well-maintained SOPs beat 50 outdated ones.

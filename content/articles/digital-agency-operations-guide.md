@@ -144,14 +144,16 @@ Track these on your [agency dashboard](/blog/how-to-create-business-dashboard):
 
 **Manual reporting.** Compiling monthly reports by hand is 5-10 hours per client per month. [Automate it](/blog/automate-report-generation).
 
-## How do I scale a digital agency?
+## Frequently Asked Questions
+
+### How do I scale a digital agency?
 
 Scale through systems, not headcount. First, document every recurring process as an SOP. Second, [automate the operational layer](/blog/best-automation-tools-small-business): lead capture, onboarding, status updates, invoicing, and reporting. Third, separate roles — the founder moves out of delivery into sales and strategy. Fourth, productize services into repeatable packages with fixed scopes and prices. Agencies that do these four things scale from 5 to 20 clients without proportional headcount growth. Agencies that skip them hit a ceiling at 8-12 clients.
 
-## What tools does a digital agency need?
+### What tools does a digital agency need?
 
 Core stack for agencies of 2-20 people: CRM for sales (HubSpot free), project management (Notion, Asana, or ClickUp), communication (Slack with Connect for client channels), file sharing (Google Drive), time tracking (Harvest or Toggl), accounting (QuickBooks or Xero), and an [automation platform](/blog/best-automation-tools-small-business) ([Make](/blog/getting-started-with-make) or [Zapier](/blog/getting-started-with-zapier)) connecting everything. Budget $30-60 per team member monthly for the full stack. The automation platform is the highest-ROI component — it eliminates the manual coordination that consumes 20-30% of agency time.
 
-## How much should an agency automate?
+### How much should an agency automate?
 
 Automate every task that follows a predictable pattern and does not require creative or strategic judgment: data transfer between tools, client notifications, invoice generation, report compilation, task creation from templates, follow-up reminders, and onboarding sequences. Keep human: creative work, client relationships, strategy, quality review, and escalation handling. A well-automated agency reduces operational overhead from 30-40% of team time to 10-15%, freeing 15-25% more capacity for billable work without hiring.

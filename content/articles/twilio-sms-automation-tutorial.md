@@ -126,14 +126,16 @@ Twilio Studio is a drag-and-drop flow builder inside Twilio for IVR menus, SMS c
 
 For messaging platforms, see our [WhatsApp](/blog/whatsapp-business-automation) and [Telegram](/blog/telegram-bot-automation-tutorial) automation guides.
 
-## Can I use Twilio without coding?
+## Frequently Asked Questions
+
+### Can I use Twilio without coding?
 
 Yes. [Make](/blog/getting-started-with-make), [Zapier](/blog/getting-started-with-zapier), and [n8n](/blog/getting-started-with-n8n) all have native Twilio modules for sending SMS, making calls, and (with a webhook configured on your Twilio number) receiving messages. Twilio Studio provides a visual flow builder inside Twilio itself for conversational SMS and voice menus. You need your Account SID and Auth Token from the Twilio Console — no code. The only technical step is registering for A2P 10DLC compliance (a form, not code) to send business SMS in the US.
 
-## How much does Twilio SMS cost?
+### How much does Twilio SMS cost?
 
 US outbound SMS costs about $0.0079 per segment (160 characters); inbound is $0.0079 as well. A phone number costs $1.15/month for a local number, $2.15 for toll-free. Sending 1,000 messages per month runs roughly $9 including the number. International rates vary from $0.01 to $0.20+ per message. Twilio Verify (OTP service) is $0.05 per verification. The free trial includes $15 credit but adds a trial prefix to messages and only sends to verified numbers.
 
-## What is A2P 10DLC and do I need it?
+### What is A2P 10DLC and do I need it?
 
 A2P 10DLC (Application-to-Person, 10-Digit Long Code) is the US carrier registration system for businesses sending SMS from standard local numbers. It is mandatory for any business messaging in the US since 2023 — unregistered traffic is filtered or blocked. Register in Twilio Console under Messaging → Regulatory Compliance: create a Brand (your business details, EIN), then a Campaign (use case, sample messages). Approval takes 1-7 days and costs a one-time $4 brand fee plus $1.50-10/month per campaign. Toll-free numbers use a separate verification process; both are free of code.

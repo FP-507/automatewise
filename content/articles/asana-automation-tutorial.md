@@ -136,14 +136,16 @@ See our [report generation automation guide](/blog/automate-report-generation).
 
 For workflows exceeding these, orchestrate via external platforms. See our [project management automation guide](/blog/automate-project-management).
 
-## Does Asana have automation on the free plan?
+## Frequently Asked Questions
+
+### Does Asana have automation on the free plan?
 
 No. Asana Rules, Forms, and custom fields require the Starter plan ($10.99/user/month). The free Personal plan supports basic task management without automation. If you need automation at no cost, [Trello](/blog/trello-automation-guide) includes Butler automation on its free tier, or use an external platform like [Make](/blog/getting-started-with-make) (free 1,000 ops/month) to automate task creation and updates in free Asana via the API — though this cannot replicate in-app Rules like auto-assign on section move.
 
-## How do I create a rule in Asana?
+### How do I create a rule in Asana?
 
 Open a project, click Customize in the top right, select Rules, then Add rule. Choose a trigger (task moved to section, custom field changed, due date approaching, etc.), optionally add conditions (Advanced plan), and select up to 5 actions (assign, move, set field, add comment, create subtasks). Name the rule and save. Rules run automatically for all future tasks matching the trigger. Test by creating a sample task and triggering the condition. Rules are project-specific — create them in each project where needed, or save the project as a template with rules included.
 
-## Can Asana integrate with other tools?
+### Can Asana integrate with other tools?
 
 Yes. Asana has native integrations with Slack, Google Workspace, Microsoft Teams, Zoom, Salesforce, Adobe, and 200+ apps (Asana → Apps). For anything not covered natively, [Zapier](/blog/getting-started-with-zapier), [Make](/blog/getting-started-with-make), and [n8n](/blog/getting-started-with-n8n) support Asana triggers (new task, task updated, task completed) and actions (create, update, search tasks, projects, and comments). Common integrations: form submissions to tasks, CRM deals to projects, completed tasks to spreadsheets, and Asana events to Slack channels.

@@ -128,14 +128,16 @@ Automate a quick weekly survey to measure remote team health:
 
 Compile results automatically and flag drops in scores for manager review.
 
-## How do I manage a remote team effectively?
+## Frequently Asked Questions
+
+### How do I manage a remote team effectively?
 
 Focus on three systems: (1) clear communication channels — Slack for real-time, Notion for documentation, Loom for async explanations, with explicit rules for which channel to use when. (2) Visible project tracking — every task has an owner, a deadline, and a status visible to the team without asking. (3) Automated operations — standup collection, status updates, and notifications handled by [automation tools](/blog/best-automation-tools-small-business) instead of manual coordination. Process clarity matters more than surveillance — trust people with the outcome and track results, not hours.
 
-## What tools does every remote team need?
+### What tools does every remote team need?
 
 Five categories, minimum: (1) Chat — Slack or Teams for real-time communication. (2) Video — Zoom or Google Meet for synchronous meetings. (3) Project management — Notion, Linear, Asana, or [Trello](/blog/trello-automation-guide) for task tracking. (4) Documentation — Notion or Confluence for knowledge management. (5) Automation — [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make) to connect everything and automate status updates, notifications, and handoffs. Budget $20-50/user/month for the full stack.
 
-## How do I prevent remote team burnout?
+### How do I prevent remote team burnout?
 
 Set boundaries through systems, not willpower: configure Slack to suppress notifications outside work hours, block meeting-free focus days (many teams use "No Meeting Wednesdays"), and automate weekly pulse surveys to detect burnout early. Encourage async communication as the default — reducing real-time meetings by 30% typically shows the biggest improvement in remote team satisfaction. Most importantly, measure output (completed work) not input (hours online or response time).

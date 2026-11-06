@@ -201,14 +201,16 @@ Automated onboarding transforms one of HR's most time-consuming and error-prone 
 
 Start with document collection and account provisioning, since those are the highest-impact automations with the clearest ROI. Then layer in the welcome sequences, training schedules, and check-in automations. Within a month, you will have an onboarding system that works better than most enterprise HR software, built entirely with no-code tools and running on autopilot.
 
-## How long should automated onboarding take?
+## Frequently Asked Questions
+
+### How long should automated onboarding take?
 
 A well-designed automated onboarding program runs over 30-90 days, not just the first week. The first day covers accounts, access, and welcome messages. Week one handles orientation, team introductions, and initial training. Weeks 2-4 deliver role-specific training and check-ins. Months 2-3 include performance milestones and feedback collection. Automation handles the scheduling and delivery so nothing falls through the cracks.
 
-## What tools are needed for HR onboarding automation?
+### What tools are needed for HR onboarding automation?
 
 Most HR teams use a combination of BambooHR or Gusto for employee records, Google Workspace or Microsoft 365 for account provisioning, Slack for team communication, and a learning management system for training. Connect these with [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make) to create automated workflows that trigger based on hire dates and onboarding milestones. No coding is required.
 
-## Does onboarding automation improve retention?
+### Does onboarding automation improve retention?
 
 Yes. Companies with structured onboarding programs see 82% improvement in new hire retention and 70% improvement in productivity, according to SHRM data. Automated onboarding ensures every new hire receives the same comprehensive experience regardless of their manager's availability or organizational skills. Consistent onboarding directly correlates with higher engagement and lower early turnover.

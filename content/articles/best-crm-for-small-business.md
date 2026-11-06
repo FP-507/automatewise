@@ -170,14 +170,16 @@ Regardless of which CRM you choose, automate these workflows:
 
 Set these up with your CRM's native automation or with [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make) for cross-tool workflows.
 
-## What is the best free CRM for small business?
+## Frequently Asked Questions
+
+### What is the best free CRM for small business?
 
 HubSpot CRM is the best free option — it includes unlimited contacts, deal pipelines, email tracking, meeting scheduling, and live chat with no time limit. Zoho CRM (free for 3 users) and Freshsales (free for 3 users) are strong alternatives with slightly different strengths. For solo operators who already use Notion, a Notion database works as a lightweight CRM at no additional cost. Avoid CRMs with trial-only free tiers if budget is a concern.
 
-## Do I really need a CRM for a small business?
+### Do I really need a CRM for a small business?
 
 Yes, once you have more than 20-30 active prospects or customers. The tipping point is when you cannot remember every conversation, follow-up date, and deal status without looking it up. A CRM prevents leads from going cold, logs every interaction automatically, and lets you see your entire pipeline at a glance. Even a free CRM like HubSpot dramatically improves follow-up consistency — which is where most small businesses lose deals.
 
-## How much does a CRM cost for a small business?
+### How much does a CRM cost for a small business?
 
 Most small businesses spend $0-30 per user per month on CRM. HubSpot's free tier handles most needs for teams under 10. When you need advanced automation, reporting, or marketing features, expect $14-50 per user monthly (Pipedrive, Zoho, Freshsales). Enterprise-grade CRMs like Salesforce start at $25/user/month but typically cost $75-150 per user with the features small businesses actually use. Start free and upgrade only when a specific feature limit blocks you.

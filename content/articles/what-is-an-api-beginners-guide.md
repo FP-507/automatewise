@@ -129,14 +129,16 @@ For custom needs that automation platforms do not cover, you can make API calls 
 
 This requires reading the API documentation for the specific tool you want to connect, but it is more learnable than you might think.
 
-## What is an API in simple terms?
+## Frequently Asked Questions
+
+### What is an API in simple terms?
 
 An API (Application Programming Interface) is a set of rules that lets two software applications share data and functionality. Think of it as a translator between apps — when your CRM needs to send data to your email marketing tool, the API defines how to ask, what format to use, and what the response looks like. You interact with APIs constantly without realizing it: every time you log in with Google, check the weather, or pay online, APIs handle the communication between services.
 
-## Do I need to know coding to use APIs?
+### Do I need to know coding to use APIs?
 
 No. Automation platforms like [Zapier](/blog/getting-started-with-zapier), [Make](/blog/getting-started-with-make), and [n8n](/blog/getting-started-with-n8n) provide visual interfaces that handle API connections without code. You select apps, choose triggers and actions, and the platform manages the technical details (authentication, request formatting, error handling). These tools cover 90% of business API integration needs. Direct API access requires some technical knowledge but not full programming skills — tools like Postman make direct API calls accessible to semi-technical users.
 
-## How do I check if a tool has an API?
+### How do I check if a tool has an API?
 
 Search "[tool name] API" or "[tool name] integrations" on Google. Most modern SaaS tools publish API documentation (usually at docs.[toolname].com or developer.[toolname].com). You can also check if the tool appears in [Zapier's app directory](https://zapier.com/apps) or [Make's integrations page](https://www.make.com/en/integrations) — if it is listed there, it has an API that no-code platforms can access. A tool without an API or integrations page is a red flag for future connectivity.

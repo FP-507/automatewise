@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Bricolage_Grotesque, DM_Sans, Lora, Geist_Mono } from "next/font/google";
+import { Bricolage_Grotesque, DM_Sans, Lora } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Analytics } from "@/components/Analytics";
-import { SITE } from "@/lib/constants";
+import { SITE, AUTHOR, hasAuthor } from "@/lib/constants";
 import "./globals.css";
 
 const bricolage = Bricolage_Grotesque({
@@ -20,12 +20,6 @@ const dmSans = DM_Sans({
 
 const lora = Lora({
   variable: "--font-lora",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
   subsets: ["latin"],
   display: "swap",
 });
@@ -47,7 +41,11 @@ export const metadata: Metadata = {
     "no-code automation",
     "business automation",
   ],
-  authors: [{ name: SITE.author }],
+  authors: [
+    hasAuthor
+      ? { name: AUTHOR.name, url: `${SITE.url}/about` }
+      : { name: SITE.author },
+  ],
   openGraph: {
     type: "website",
     locale: SITE.locale,
@@ -101,7 +99,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${bricolage.variable} ${dmSans.variable} ${lora.variable} ${geistMono.variable}`}
+      className={`${bricolage.variable} ${dmSans.variable} ${lora.variable}`}
     >
       <body className="min-h-dvh flex flex-col antialiased">
         <script

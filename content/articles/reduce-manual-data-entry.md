@@ -140,14 +140,16 @@ Beyond cost savings, eliminating manual data entry also:
 
 For a detailed breakdown of automation ROI, see our [workflow automation ROI guide](/blog/workflow-automation-roi).
 
-## How do I stop manually entering data between apps?
+## Frequently Asked Questions
+
+### How do I stop manually entering data between apps?
 
 Use an integration platform like [Zapier](/blog/getting-started-with-zapier), [Make](/blog/getting-started-with-make), or [n8n](/blog/getting-started-with-n8n) to connect your apps. These tools watch for events in one app (new email, form submission, payment received) and automatically create or update records in another app. Most connections take 5-15 minutes to set up and run indefinitely. Start with your highest-frequency data transfer — the one you do most often every day.
 
-## What is the error rate of manual data entry?
+### What is the error rate of manual data entry?
 
 Industry studies report a 1-4% error rate for manual data entry, meaning 1-4 mistakes per 100 entries. For high-volume operations (1,000+ entries per month), that translates to 10-40 errors monthly — each potentially causing incorrect invoices, missed follow-ups, or reporting inaccuracies. Automated data transfer has near-zero error rates because it copies data exactly as the source provides it, with no typos or transposition mistakes.
 
-## Can AI replace manual data entry?
+### Can AI replace manual data entry?
 
 AI handles roughly 70-85% of routine data entry tasks today. AI-powered OCR reads invoices and receipts with 95%+ accuracy. Natural language processing extracts data from emails and documents. Machine learning categorizes and routes incoming information. The remaining 15-30% involves ambiguous or complex data that still benefits from human review. The most effective approach combines AI extraction with human verification — AI does the heavy lifting, humans handle exceptions. See our [AI data extraction guide](/blog/ai-data-extraction-automation) for specific tools and methods.

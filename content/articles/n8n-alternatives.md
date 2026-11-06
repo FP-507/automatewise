@@ -88,14 +88,16 @@ Temporal is a durable execution engine, not an automation tool. It guarantees th
 
 If maintenance is your only objection, n8n Cloud at $24 monthly removes it while keeping the platform. That is usually a smaller change than migrating. See [scaling automation workflows](/blog/scaling-automation-workflows).
 
-## What is the best open source alternative to n8n?
+## Frequently Asked Questions
+
+### What is the best open source alternative to n8n?
 
 Activepieces is the closest match, offering a visual builder, self-hosting, and an MIT license that permits commercial redistribution, which n8n's Sustainable Use License restricts. Windmill suits engineering teams better because it treats scripts as the primary unit and adds visual flows on top. Both are free to self-host with unlimited executions. Choose Activepieces for approachability and app connectors, Windmill for code-heavy automation. See [n8n vs Activepieces](/blog/n8n-vs-activepieces) for a direct comparison.
 
-## Is n8n really free?
+### Is n8n really free?
 
 Self-hosted n8n is free with unlimited workflows and executions under its Sustainable Use License, which allows internal business use but restricts reselling n8n as a service. Your real costs are the server, typically $10 to $20 monthly, plus maintenance time for updates, backups, and monitoring. n8n Cloud starts at $24 monthly and removes the operational work. The license distinction matters mainly to agencies and SaaS builders; for internal automation it is effectively free. See our [self-hosting guide](/blog/n8n-self-hosting-guide).
 
-## Which is easier, n8n or Make?
+### Which is easier, n8n or Make?
 
 [Make](/blog/getting-started-with-make) is easier for most people. Its interface is more polished, its error messages clearer, and its learning materials more structured. n8n expects comfort with JSON, expressions, and data shapes, which rewards technical users and frustrates others. Expect a working Make scenario in about twenty minutes against two to three hours for a comparable n8n workflow if you are new to both. n8n pays that back later through unlimited execution and unrestricted API access.
