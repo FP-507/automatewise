@@ -186,7 +186,7 @@ For businesses spending $0-50/month on social media management, IFTTT handles th
 
 ### How do I automate social media with IFTTT?
 
-IFTTT connects social media platforms through simple trigger-action applets. Common setups: auto-post Instagram photos to Twitter, save liked tweets to a spreadsheet, cross-post WordPress blogs to social media, and auto-share RSS feed content. Create an IFTTT account, connect your social media accounts, and choose from thousands of pre-built applets or create custom ones with the "If This Then That" builder.
+IFTTT connects social media platforms through simple trigger-action applets. Common setups: auto-post Instagram photos to Twitter, save liked tweets to a spreadsheet, cross-post [WordPress](/blog/wordpress-automation-tutorial) blogs to social media, and auto-share RSS feed content. Create an IFTTT account, connect your social media accounts, and choose from thousands of pre-built applets or create custom ones with the "If This Then That" builder.
 
 ### What social media tasks should I automate?
 

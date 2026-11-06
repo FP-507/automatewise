@@ -214,7 +214,7 @@ Build a reporting workflow that tracks these metrics automatically and pushes we
 
 Automated follow-up sequences are one of the highest-ROI automations you can build. The math is straightforward: if you are only sending one email, you are reaching less than half the people who would eventually say yes. A well-designed five-touch sequence with smart timing, genuine personalization, and multi-channel touchpoints doubles or triples your response rates without doubling your workload.
 
-Start with your highest-value follow-up need — usually sales outreach or [lead generation](/blog/automate-lead-generation) — and build a five-email sequence in Zapier, Make, or n8n. Measure the results over a month, optimize the timing and content, then expand to support, networking, and customer success follow-ups. For more on building complete [CRM workflows](/blog/automate-crm-workflows) around these sequences, see our dedicated guide.
+Start with your highest-value follow-up need — usually sales outreach or [lead generation](/blog/automate-lead-generation) — and build a five-email sequence in [Zapier, Make, or n8n](/blog/zapier-vs-make-vs-n8n). Measure the results over a month, optimize the timing and content, then expand to support, networking, and customer success follow-ups. For more on building complete [CRM workflows](/blog/automate-crm-workflows) around these sequences, see our dedicated guide.
 
 ## Frequently Asked Questions
 

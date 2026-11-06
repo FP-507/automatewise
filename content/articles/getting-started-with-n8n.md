@@ -367,6 +367,8 @@ n8n's community is one of its greatest strengths. The forum, workflow templates 
 
 Ready to explore more? Our [no-code automation guide](/blog/no-code-automation-explained) covers the broader landscape of building without code, and the [automation glossary](/blog/automation-glossary) will help you navigate the terminology as you dive deeper.
 
+If you decide n8n is not the right fit, see our comparison of the [best n8n alternatives](/blog/n8n-alternatives).
+
 ## Frequently Asked Questions
 
 ### Is n8n free to use?

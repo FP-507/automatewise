@@ -157,7 +157,7 @@ For connecting Salesforce to external tools, use n8n, Make, or Zapier with the S
 
 ### Pipedrive Automation
 
-Pipedrive's built-in automation:
+[Pipedrive](/blog/pipedrive-automation-tutorial)'s built-in automation:
 
 1. Go to **Automations** in the sidebar
 2. Choose a trigger: deal created, deal updated, activity completed, etc.

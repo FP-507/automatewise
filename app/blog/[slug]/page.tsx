@@ -74,7 +74,7 @@ export default async function ArticlePage({
     notFound();
   }
 
-  const related = getRelatedArticles(slug, article.category);
+  const related = getRelatedArticles(slug);
   const categoryInfo = CATEGORY_INFO[article.category];
 
   const dateFormatOptions: Intl.DateTimeFormatOptions = {

@@ -138,7 +138,7 @@ In Make/Zapier, answers are flattened to their question titles for easy mapping.
 | $29+/mo for 100 responses | Free; $29/mo Pro | Free |
 | 100+ native integrations | Webhooks + Zapier/Make | Sheets only + Apps Script |
 
-For budget-conscious teams, Tally offers most Typeform features free. See our [Google Forms automation guide](/blog/google-forms-automation) for the free alternative.
+For budget-conscious teams, [Tally](/blog/typeform-alternatives) offers most Typeform features free. See our [Google Forms automation guide](/blog/google-forms-automation) for the free alternative.
 
 ## Frequently Asked Questions
 

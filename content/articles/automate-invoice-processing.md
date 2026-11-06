@@ -97,7 +97,7 @@ After approval, tracking payments through to completion closes the loop on your 
 
 ### Connecting to Accounting Software
 
-The most common integration point is QuickBooks, Xero, or FreshBooks. All three offer APIs that accept invoice data and payment schedules.
+The most common integration point is [QuickBooks](/blog/quickbooks-automation-tutorial), Xero, or FreshBooks. All three offer APIs that accept invoice data and payment schedules.
 
 In a QuickBooks integration, your n8n workflow takes the approved invoice data and creates a bill in QuickBooks via the QuickBooks API node. Set the payment terms based on the vendor's standard terms (Net 30, Net 60, etc.). QuickBooks then handles the actual payment scheduling and execution.
 

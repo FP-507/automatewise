@@ -76,7 +76,7 @@ A CRM (Customer Relationship Management) system does all of that. And in 2026, t
 - Good automation even in lower tiers
 
 **Weaknesses:**
-- Interface feels dated compared to HubSpot and Pipedrive
+- Interface feels dated compared to HubSpot and [Pipedrive](/blog/pipedrive-automation-tutorial)
 - Learning curve is steeper
 - Support quality varies
 

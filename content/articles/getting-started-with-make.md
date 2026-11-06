@@ -388,6 +388,8 @@ Start with the form-to-spreadsheet scenario above, then progressively tackle mor
 
 For more automation guides, explore our [getting started section](/categories/getting-started) or compare Make with other platforms in our [tool comparisons](/categories/tool-comparisons).
 
+Want a head start? Browse the [best Make templates](/blog/make-templates-best) and adapt one instead of building from a blank canvas. And if Make turns out not to fit your team, compare the [best Make alternatives](/blog/make-alternatives).
+
 ## Frequently Asked Questions
 
 ### Is Make better than Zapier?

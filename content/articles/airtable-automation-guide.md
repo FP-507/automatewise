@@ -147,7 +147,7 @@ Make offers a dedicated Airtable module with extensive operations.
 
 1. **Airtable Watch** — Monitors the Content Calendar table for records with "Status" = "Approved"
 2. **Router** — Branches based on the "Platform" field
-3. **Path 1 (Blog)** — Creates a draft in WordPress using the title, content, and category from Airtable
+3. **Path 1 (Blog)** — Creates a draft in [WordPress](/blog/wordpress-automation-tutorial) using the title, content, and category from Airtable
 4. **Path 2 (Social)** — Schedules a social media post using Buffer or Hootsuite
 5. **Path 3 (Email)** — Creates an email draft in Mailchimp with the newsletter content
 6. **Airtable Update** — Changes status to "Scheduled" with the publish date
@@ -213,6 +213,8 @@ For platform comparison help, see our [Make vs Zapier guide](/blog/make-vs-zapie
 Airtable's flexibility as a database makes it an ideal automation hub. Whether you use built-in automations for simple notifications or connect to n8n, Make, or Zapier for complex multi-tool workflows, the goal is the same: eliminate manual data handling so your team can focus on work that matters.
 
 Start with one high-value automation — usually the task your team does most frequently — and expand from there. For more automation ideas, explore our [how-to guides](/categories/how-to) and [use case examples](/categories/use-cases).
+
+If Airtable's record limits or pricing are holding you back, compare the [best Airtable alternatives](/blog/airtable-alternatives) before rebuilding your base somewhere else.
 
 ## Frequently Asked Questions
 

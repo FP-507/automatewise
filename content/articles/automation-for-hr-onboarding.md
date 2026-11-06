@@ -201,6 +201,8 @@ Automated onboarding transforms one of HR's most time-consuming and error-prone 
 
 Start with document collection and account provisioning, since those are the highest-impact automations with the clearest ROI. Then layer in the welcome sequences, training schedules, and check-in automations. Within a month, you will have an onboarding system that works better than most enterprise HR software, built entirely with no-code tools and running on autopilot.
 
+For businesses with hourly staff and high turnover, such as [restaurants](/blog/automation-for-restaurants), the same onboarding workflow saves even more time because it runs far more often.
+
 ## Frequently Asked Questions
 
 ### How long should automated onboarding take?

@@ -11,7 +11,7 @@ featured: false
 
 ## Automation Is Not Just for Business
 
-Most automation content focuses on business workflows — lead nurturing, invoice processing, customer onboarding. But the same tools that power business operations can eliminate the repetitive tasks that consume your personal time every day.
+Most automation content focuses on business workflows — lead nurturing, invoice processing, customer onboarding. But the same tools that power [business operations](/blog/how-to-streamline-business-operations) can eliminate the repetitive tasks that consume your personal time every day.
 
 The average knowledge worker spends two to three hours daily on repetitive digital tasks: sorting email, updating spreadsheets, scheduling meetings, organizing files, and tracking personal data. Automating even half of that reclaims ten or more hours per week.
 
@@ -216,6 +216,8 @@ Do not try to build all twenty automations at once. Start with the ones that add
 **Build as needed:** Social media scheduling, habit tracking, and specialized automations depend on your personal workflow. Build them only if they address a real friction point in your routine.
 
 The common thread across all twenty automations is the same: identify a repetitive task, define the trigger and desired outcome, build the simplest workflow that achieves it, and iterate based on how well it works in practice. Personal productivity automation is not about building complex systems — it is about reclaiming small chunks of time that compound into meaningful freedom.
+
+Automations work best on top of a lean setup: our list of the best [productivity tools for small business](/blog/productivity-tools-small-business) covers the apps worth connecting.
 
 ## Frequently Asked Questions
 

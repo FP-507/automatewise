@@ -10,7 +10,7 @@ featured: false
 
 ## Calendly Books the Meeting. Automation Handles Everything Else.
 
-Calendly solves one problem well: eliminating the back-and-forth of finding a meeting time. But a booking is the start of a workflow, not the end. Someone books a discovery call — now you need a CRM record, a prep document, a reminder sequence, a post-meeting follow-up, and a plan for when they do not show up.
+Calendly solves one problem well: eliminating the back-and-forth of finding a meeting time. But a booking is the start of a workflow, not the end. Someone books a discovery call — now you need a CRM record, a prep document, a [reminder sequence](/blog/automate-booking-confirmations), a post-meeting follow-up, and a plan for when they do not show up.
 
 This tutorial builds the complete booking-to-follow-up workflow around Calendly using its native features plus external automation.
 

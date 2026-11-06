@@ -45,7 +45,7 @@ Beyond scheduled reports, set up real-time anomaly detection. If a client's cost
 
 ## Campaign Management at Scale
 
-Managing campaigns across multiple clients and platforms creates complexity that grows exponentially. Automation tames this complexity.
+Managing campaigns across [multiple clients](/blog/how-to-manage-multiple-clients) and platforms creates complexity that grows exponentially. Automation tames this complexity.
 
 ### Campaign Launch Checklists
 

@@ -49,7 +49,7 @@ That is the ceiling. For anything triggered by external events, you need the API
 5. Get the Access Token and Phone Number ID
 
 **Option B: Business Solution Provider (BSP)**
-Twilio, 360dialog, MessageBird, Wati, Respond.io — they handle Meta approval, hosting, and provide friendlier dashboards. Costs slightly more per message. Recommended for non-developers.
+[Twilio](/blog/twilio-sms-automation-tutorial), 360dialog, MessageBird, Wati, Respond.io — they handle Meta approval, hosting, and provide friendlier dashboards. Costs slightly more per message. Recommended for non-developers.
 
 **Option C: Automation platform native**
 [Make](/blog/getting-started-with-make) and [n8n](/blog/getting-started-with-n8n) have WhatsApp Business Cloud modules that connect directly to Meta's API with your token — no BSP needed.

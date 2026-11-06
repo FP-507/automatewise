@@ -15,7 +15,7 @@ No-code automation eliminates most of that overhead. You can wire up task creati
 
 ## Why Project Management Is Ripe for Automation
 
-Project management tools like Asana, Trello, Monday.com, and ClickUp already provide structured data: tasks have statuses, assignees, due dates, and labels. This structure makes them ideal automation targets because no-code tools can read and write to these fields through APIs.
+Project management tools like [Asana](/blog/asana-automation-tutorial), Trello, Monday.com, and ClickUp already provide structured data: tasks have statuses, assignees, due dates, and labels. This structure makes them ideal automation targets because no-code tools can read and write to these fields through APIs.
 
 The repetitive patterns are obvious. Every time a task moves to "In Review," someone needs to be notified. Every Monday, someone generates a sprint summary. Every time a deadline is 48 hours away, someone needs a reminder. These patterns follow the same logic every time, which means they can be automated with simple trigger-action rules.
 
@@ -175,7 +175,7 @@ If you are starting from scratch, pick one pain point and automate it well befor
 
 Build one of these, run it for two weeks, get team feedback, and iterate. Once the first workflow is running smoothly, expand to more complex automations. If you have not used no-code tools before, start with the [Make beginner guide](/blog/getting-started-with-make) to learn the fundamentals before tackling project management workflows.
 
-Project management automation is not about removing the human element from your projects. It is about removing the busywork so your team can focus on the work that requires human creativity, judgment, and collaboration. Start small, measure the impact, and scale what works.
+Project management automation is not about removing the human element from your projects. It is about removing the [busywork](/blog/how-to-reduce-busywork) so your team can focus on the work that requires human creativity, judgment, and collaboration. Start small, measure the impact, and scale what works.
 
 ## Frequently Asked Questions
 

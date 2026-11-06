@@ -282,6 +282,8 @@ Start with Phase 1 — even a basic capture-and-notify workflow will demonstrate
 
 The tools are accessible, the ROI is proven, and the competitive advantage is real. Start building your automated pipeline today.
 
+A pipeline only converts the leads it receives, so pair it with a [sales funnel](/blog/how-to-build-sales-funnel) that moves prospects from first contact to booked call. The same pipeline pattern works well in lead-driven industries like [real estate](/blog/automation-for-real-estate).
+
 ## Frequently Asked Questions
 
 ### What is an automated sales pipeline?

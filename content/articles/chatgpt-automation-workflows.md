@@ -19,7 +19,7 @@ This guide shows you how to integrate ChatGPT/GPT-4 into workflows on every majo
 
 ## Getting Your OpenAI API Key
 
-Before integrating ChatGPT into any platform, you need an OpenAI API key:
+Before integrating ChatGPT into any platform, you need an [OpenAI API](/blog/openai-api-automation-tutorial) key:
 
 1. Go to **platform.openai.com** and create an account (or sign in)
 2. Navigate to **API keys** in the sidebar

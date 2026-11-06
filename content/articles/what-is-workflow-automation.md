@@ -185,7 +185,7 @@ While workflow automation is powerful, beginners often stumble in predictable wa
 
 **Not testing thoroughly** before going live can cause real problems. Always run your workflow with test data first. Check edge cases. Verify that every branch and condition works as expected.
 
-**Forgetting about maintenance** is an overlooked pitfall. Apps update their APIs, business processes change, and new team members join. Review your workflows periodically to ensure they still align with your current needs.
+**Forgetting about maintenance** is an overlooked pitfall. Apps update their [APIs](/blog/what-is-an-api-beginners-guide), business processes change, and new team members join. Review your workflows periodically to ensure they still align with your current needs.
 
 ## Conclusion
 

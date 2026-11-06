@@ -41,7 +41,7 @@ A booking automation handles everything around the appointment, not just the sch
 
 ### Pre-Booking
 
-1. **Prospect visits your booking page** (Calendly, Cal.com, or embedded on your website)
+1. **Prospect visits your booking page** (Calendly, [Cal.com](/blog/calendly-alternatives), or embedded on your website)
 2. **Intake form** collects relevant information (name, company, reason for meeting)
 3. **Availability is checked** against your calendar in real-time
 4. **Prospect selects a time** and submits
@@ -291,7 +291,7 @@ Log these to a spreadsheet or dashboard automatically using your scheduling webh
 
 Automated scheduling eliminates the administrative friction that slows down customer interactions. From the moment a prospect decides to meet, through reminders, preparation, and follow-up, every step can run without manual intervention.
 
-Start with the core workflow — booking confirmation, CRM update, and team notification — then add reminder sequences and post-meeting follow-ups. The reduction in no-shows alone typically justifies the setup time.
+Start with the core workflow — [booking confirmation](/blog/automate-booking-confirmations), CRM update, and team notification — then add reminder sequences and post-meeting follow-ups. The reduction in no-shows alone typically justifies the setup time.
 
 For more workflow ideas, explore our guides on [CRM automation](/blog/automate-crm-workflows), [lead generation](/blog/automate-lead-generation), and [customer onboarding](/blog/automate-customer-onboarding).
 

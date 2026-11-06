@@ -154,7 +154,7 @@ The challenge is avoiding infinite loops. Add a "Last Synced By" field to both s
 Every Monday, automatically create a fresh set of weekly tasks:
 
 1. **Schedule Trigger** — Every Monday at 8 AM
-2. **Static data or template database** — A "Task Templates" database with recurring tasks defined
+2. **Static data or template database** — A "Task Templates" database with [recurring tasks](/blog/automate-recurring-tasks) defined
 3. **Loop** — For each template task:
 4. **Notion Create** — Create a new task in the "This Week" database with the template's title, description, and assignee
 5. **Set due date** — Calculate the due date based on the day offset in the template

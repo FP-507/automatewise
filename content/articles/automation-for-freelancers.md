@@ -85,7 +85,7 @@ For more on automating financial workflows, our guide on [automating invoice pro
 
 ## Automating Project Management
 
-Project management is where many freelancers lose hours to busywork: updating statuses, sending progress updates, moving tasks between stages, and tracking deadlines.
+Project management is where many freelancers lose hours to [busywork](/blog/how-to-reduce-busywork): updating statuses, sending progress updates, moving tasks between stages, and tracking deadlines.
 
 ### Automated Status Updates
 

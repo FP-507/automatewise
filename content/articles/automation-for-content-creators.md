@@ -90,7 +90,7 @@ When someone subscribes to your newsletter:
 1. **Email trigger** — New subscriber
 2. **Welcome email** — Introduce yourself, set expectations for content frequency
 3. **Day 3** — Send your best-performing content ("In case you missed these")
-4. **Day 7** — Invite them to your community (Discord, Slack, Circle)
+4. **Day 7** — Invite them to your community ([Discord](/blog/discord-bot-automation-tutorial), Slack, Circle)
 5. **Day 14** — Ask what topics they are most interested in (feedback survey)
 
 ### Content Digest

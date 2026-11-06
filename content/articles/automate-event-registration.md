@@ -275,6 +275,8 @@ Start with the basics: registration confirmation with a calendar invite and a 24
 
 For the scheduling foundation these workflows build on, see our [appointment scheduling guide](/blog/automate-appointment-scheduling). To connect event registration to your broader marketing automation, explore our [email marketing automation guide](/blog/automate-email-marketing) and [customer onboarding workflows](/blog/automate-customer-onboarding).
 
+These registration workflows are especially useful for [nonprofits](/blog/automation-for-nonprofits) running fundraisers and volunteer events, and for [schools and training programs](/blog/automation-for-education) managing enrollments.
+
 ## Frequently Asked Questions
 
 ### How do I automate event registration?

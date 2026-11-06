@@ -30,7 +30,7 @@ For a comparison with other platforms, see our guides on [Zapier vs Make](/blog/
 1. Visit **zapier.com** and click "Sign up free"
 2. Create an account with email, Google, Facebook, or Microsoft
 3. Answer the onboarding questions about your role and tools you use
-4. Zapier suggests relevant templates based on your answers — browse or skip to start building
+4. Zapier suggests relevant [templates](/blog/zapier-templates-best) based on your answers — browse or skip to start building
 
 The free plan includes 100 tasks per month with 5 active Zaps — enough to learn and automate a few key workflows. No credit card needed.
 

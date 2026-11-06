@@ -29,7 +29,7 @@ When your business receives invoices from vendors:
 2. **Attachment extraction** — Pull the PDF or image attachment
 3. **AI data extraction** — Use an AI node to extract vendor name, invoice number, amount, due date, line items, and payment terms. See our [AI automation guide](/blog/ai-workflow-automation)
 4. **Validation** — Cross-reference vendor name against your approved vendor list
-5. **Accounting software** — Create a bill in QuickBooks, Xero, or FreshBooks
+5. **Accounting software** — Create a bill in [QuickBooks](/blog/quickbooks-automation-tutorial), Xero, or FreshBooks
 6. **Approval routing** — If amount exceeds threshold, send for manager approval via Slack or email
 7. **Google Sheets log** — Record the invoice in your tracking spreadsheet
 8. **Payment scheduling** — Add to the payment calendar based on due date and payment terms

@@ -256,7 +256,7 @@ For the full scheduling automation foundation, see our [appointment scheduling g
 
 ### How do I automate booking confirmation emails?
 
-Most booking platforms (Calendly, Acuity, Cal.com) send automatic confirmations natively. For custom confirmation workflows, connect your booking system to an email platform via [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make). The trigger is "new booking created" and the action sends a branded email with appointment details, preparation instructions, and a calendar link. Add SMS confirmations through Twilio for higher open rates.
+Most booking platforms (Calendly, Acuity, Cal.com) send automatic confirmations natively. For custom confirmation workflows, connect your booking system to an email platform via [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make). The trigger is "new booking created" and the action sends a branded email with appointment details, preparation instructions, and a calendar link. Add SMS confirmations through [Twilio](/blog/twilio-sms-automation-tutorial) for higher open rates.
 
 ### Do automated confirmations reduce no-shows?
 

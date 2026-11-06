@@ -221,3 +221,5 @@ Here are some recommended next steps:
 - Try connecting a non-Microsoft app to see how third-party connectors work.
 
 If you want to compare Power Automate against other automation platforms before committing, read our comparisons: [Power Automate vs Zapier](/blog/power-automate-vs-zapier), [Make vs Power Automate](/blog/make-vs-power-automate), and [n8n vs Power Automate](/blog/n8n-vs-power-automate). And if you are still exploring what [no-code automation](/blog/no-code-automation-explained) means and whether it is the right approach, we have a dedicated guide for that too.
+
+If you are not tied to Microsoft 365, compare the [best Power Automate alternatives](/blog/power-automate-alternatives) before committing.

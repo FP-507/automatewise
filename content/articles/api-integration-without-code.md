@@ -17,7 +17,7 @@ In this guide, we demystify APIs for non-developers, explain the essential conce
 
 ## What Is an API? A Simple Explanation
 
-An API (Application Programming Interface) is a structured way for two software systems to communicate. Think of it as a restaurant menu: the menu tells you what dishes are available and how to order them. You do not need to know how the kitchen works — you just need to know the menu.
+An [API (Application Programming Interface)](/blog/what-is-an-api-beginners-guide) is a structured way for two software systems to communicate. Think of it as a restaurant menu: the menu tells you what dishes are available and how to order them. You do not need to know how the kitchen works — you just need to know the menu.
 
 Similarly, an API tells your automation tool what data is available and how to request it. Every API provides:
 
