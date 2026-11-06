@@ -13,7 +13,10 @@ import { SITE } from "@/lib/constants";
  *
  * Bump this by hand when you actually edit /about, /tools or /privacy.
  */
-const STATIC_PAGE_UPDATED = new Date("2026-09-10T00:00:00.000Z");
+const STATIC_PAGE_UPDATED = new Date("2026-11-06T00:00:00.000Z");
+
+/** Category pages gained hand-written intros and pillar lists on this date. */
+const CATEGORY_PAGES_UPDATED = new Date("2026-11-06T00:00:00.000Z");
 
 /** Pages get their own date so one page changing does not restamp the rest. */
 const COST_CALCULATOR_UPDATED = new Date("2026-09-12T00:00:00.000Z");
@@ -42,7 +45,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const categoryEntries: MetadataRoute.Sitemap = categories.map((cat) => ({
     url: `${SITE.url}/categories/${cat}`,
-    lastModified: newestOf(articles.filter((a) => a.category === cat)),
+    lastModified: new Date(
+      Math.max(
+        newestOf(articles.filter((a) => a.category === cat)).getTime(),
+        CATEGORY_PAGES_UPDATED.getTime()
+      )
+    ),
     changeFrequency: "weekly",
     priority: 0.6,
   }));

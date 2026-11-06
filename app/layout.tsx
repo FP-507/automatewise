@@ -58,6 +58,11 @@ export const metadata: Metadata = {
     title: `${SITE.name} — ${SITE.tagline}`,
     description: SITE.description,
   },
+  alternates: {
+    types: {
+      "application/rss+xml": [{ url: "/feed.xml", title: `${SITE.name} RSS` }],
+    },
+  },
   verification: {
     google: "VvriME5lIipeFtdXCqN6qg1bYtPmjBqFaORGSzfmrxg",
   },

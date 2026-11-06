@@ -7,6 +7,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SITE } from "@/lib/constants";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog" },
   title: "Blog — All Articles",
   description: `Browse all workflow automation articles, tutorials, and tool comparisons on ${SITE.name}.`,
   openGraph: {

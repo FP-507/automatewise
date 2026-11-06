@@ -123,6 +123,14 @@ export function Footer() {
                   Sitemap
                 </Link>
               </li>
+              <li>
+                <a
+                  href="/feed.xml"
+                  className="text-sm text-text-muted transition-colors duration-200 hover:text-accent"
+                >
+                  RSS Feed
+                </a>
+              </li>
             </ul>
           </div>
         </div>

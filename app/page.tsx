@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { getAllArticles, getFeaturedArticles } from "@/lib/articles";
 import { ArticleCard } from "@/components/ArticleCard";
 import { AdSlot } from "@/components/AdSlot";
@@ -32,6 +33,15 @@ const CATEGORY_ICONS: Record<string, React.ReactNode> = {
       <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   ),
+};
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+    types: {
+      "application/rss+xml": [{ url: "/feed.xml", title: "AutomateWise RSS" }],
+    },
+  },
 };
 
 export default function HomePage() {

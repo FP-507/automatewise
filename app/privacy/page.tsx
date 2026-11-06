@@ -3,6 +3,7 @@ import { SITE } from "@/lib/constants";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/privacy" },
   title: "Privacy Policy",
   description: `Privacy Policy for ${SITE.name}. Learn how we collect, use, and protect your information.`,
   robots: { index: false, follow: true },
