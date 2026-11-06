@@ -1,7 +1,7 @@
 ---
 title: "What Is Workflow Automation? (2026 Guide)"
 description: "Learn what workflow automation is, how it works, and why businesses use it. This beginner's guide covers types, benefits, tools, and how to get started."
-date: "2025-09-15"
+date: "2026-06-11"
 updated: "2026-09-03"
 category: "getting-started"
 tags: ["workflow automation", "automation basics", "beginner guide", "business automation"]
@@ -73,7 +73,7 @@ Document automation handles the creation, routing, approval, and storage of docu
 
 ### Notification Automation
 
-This type ensures the right people get the right information at the right time. Instead of checking dashboards or asking colleagues for status updates, automated notifications push relevant information to you via email, Slack, SMS, or other channels. Our guide on [automating Slack notifications](/blog/automate-slack-notifications) covers this in detail.
+This type ensures the right people get the right information at the right time. Instead of checking dashboards or asking colleagues for status updates, automated notifications push relevant information to you via email, Slack, SMS, or other channels. Our guide on [automating Slack notifications](/blog/slack-workflow-automation) covers this in detail.
 
 ## Common Use Cases for Workflow Automation
 
@@ -185,7 +185,7 @@ While workflow automation is powerful, beginners often stumble in predictable wa
 
 **Not testing thoroughly** before going live can cause real problems. Always run your workflow with test data first. Check edge cases. Verify that every branch and condition works as expected.
 
-**Forgetting about maintenance** is an overlooked pitfall. Apps update their APIs, business processes change, and new team members join. Review your workflows periodically to ensure they still align with your current needs.
+**Forgetting about maintenance** is an overlooked pitfall. Apps update their [APIs](/blog/what-is-an-api-beginners-guide), business processes change, and new team members join. Review your workflows periodically to ensure they still align with your current needs.
 
 ## Conclusion
 

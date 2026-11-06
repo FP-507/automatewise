@@ -78,7 +78,7 @@ See our [Airtable automation guide](/blog/airtable-automation-guide).
 
 **Migration path:** Import CSV. Set property types. Create relations between databases.
 
-See our [Notion database automation guide](/blog/notion-database-automation) and [Notion vs Airtable comparison](/blog/notion-vs-airtable).
+See our [Notion database automation guide](/blog/notion-automation-guide) and [Notion vs Airtable comparison](/blog/notion-vs-airtable).
 
 ### Google Sheets + Automation (The Middle Path)
 
@@ -128,14 +128,16 @@ Not every spreadsheet needs to become a database. Stay in Sheets when:
 
 The right question is not "spreadsheet or database?" but "record system or calculation tool?" Record systems (tracking ongoing entities) belong in databases. Calculation tools belong in spreadsheets.
 
-## When should I switch from a spreadsheet to a database?
+## Frequently Asked Questions
+
+### When should I switch from a spreadsheet to a database?
 
 Switch when three or more of these apply: duplicate data across tabs, heavy reliance on VLOOKUP/INDEX-MATCH to link data, multiple simultaneous editors causing conflicts, constant data validation problems, need for different views per team, file slowness past 10,000 rows, or inability to track who changed what. The most common tipping point is when a spreadsheet becomes a shared system of record for a team rather than a personal analysis tool. [Airtable](/blog/airtable-automation-guide) is the easiest migration path from Google Sheets.
 
-## Is Airtable a database or a spreadsheet?
+### Is Airtable a database or a spreadsheet?
 
 Airtable is a database with a spreadsheet interface. Under the hood, it enforces field types, supports relational links between tables, handles concurrent editing properly, and provides multiple views of the same data — all database characteristics. The grid view looks like a spreadsheet, which makes it approachable for non-technical users. The key difference from Google Sheets: Airtable cells are typed (a date field only accepts dates), records can link to records in other tables, and views (kanban, calendar, gallery) are built in rather than simulated with formulas.
 
-## What is the easiest database for non-technical users?
+### What is the easiest database for non-technical users?
 
-Airtable is the easiest transition from spreadsheets — familiar grid interface, drag-and-drop field creation, and automatic type detection on import. [Notion](/blog/notion-database-automation) is close behind for teams already using Notion for documentation. Both require zero SQL knowledge, offer free tiers, and support forms, views, and automation without code. Avoid traditional databases (PostgreSQL, MySQL) unless you have developers — they are more powerful but require technical setup and query language knowledge that most business users do not need.
+Airtable is the easiest transition from spreadsheets — familiar grid interface, drag-and-drop field creation, and automatic type detection on import. [Notion](/blog/notion-automation-guide) is close behind for teams already using Notion for documentation. Both require zero SQL knowledge, offer free tiers, and support forms, views, and automation without code. Avoid traditional databases (PostgreSQL, MySQL) unless you have developers — they are more powerful but require technical setup and query language knowledge that most business users do not need.

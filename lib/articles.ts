@@ -79,47 +79,97 @@ export function getFeaturedArticles(): ArticleMeta[] {
 }
 
 /**
- * Picks related articles using a rotating window over the category.
+ * Related articles, chosen by topic and balanced across the site.
  *
- * The previous implementation took the first N articles of the category from a
- * date-sorted list, so every article in a category linked to the same few
- * newest posts. That concentrated all internal link equity on ~3 articles per
- * category and left the rest with zero inbound internal links, which starves
- * them of crawl priority.
- *
- * Rotating by the article's own position means the article at index i links to
- * i+1, i+2, ... (wrapping). Every article receives exactly `limit` inbound
- * internal links, and the result stays deterministic across builds.
+ * Picking purely by similarity would funnel most links to a handful of hub
+ * articles; the previous position-based rotation spread links evenly but
+ * paired unrelated topics. This does both: every article first receives
+ * MIN_INBOUND links from the articles most similar to it, then the remaining
+ * slots are filled by similarity with a penalty for articles that already
+ * have plenty of inbound links. Deterministic across builds.
  */
-export function getRelatedArticles(
-  currentSlug: string,
-  category: Category,
-  limit = 6
-): ArticleMeta[] {
-  const all = getAllArticles();
-  const pool = all.filter((a) => a.category === category);
-  const index = pool.findIndex((a) => a.slug === currentSlug);
-  const start = index === -1 ? 0 : index;
+const RELATED_LIMIT = 6;
+const MIN_INBOUND = 3;
 
-  const related: ArticleMeta[] = [];
-  // step starts at 1 so the current article is never included.
-  for (let step = 1; step < pool.length && related.length < limit; step++) {
-    related.push(pool[(start + step) % pool.length]);
+const STOPWORDS = new Set([
+  "with", "your", "from", "that", "this", "best", "guide", "tutorial",
+  "tools", "tool", "free", "using", "what", "2026", "vs", "and", "for",
+  "the", "how", "automation", "automate", "automated", "workflow", "workflows",
+]);
+
+function topicTokens(a: ArticleMeta): Set<string> {
+  const words = [...a.keywords, ...a.tags, a.title]
+    .join(" ")
+    .toLowerCase()
+    .split(/[^a-z0-9.]+/)
+    .filter((w) => w.length > 2 && !STOPWORDS.has(w));
+  return new Set(words);
+}
+
+function similarity(
+  a: ArticleMeta,
+  b: ArticleMeta,
+  tokens: Map<string, Set<string>>
+): number {
+  const tagsA = new Set(a.tags.map((t) => t.toLowerCase()));
+  const sharedTags = b.tags.filter((t) => tagsA.has(t.toLowerCase())).length;
+  const tokA = tokens.get(a.slug)!;
+  let sharedTokens = 0;
+  for (const t of tokens.get(b.slug)!) if (tokA.has(t)) sharedTokens++;
+  return sharedTags * 3 + sharedTokens * 2 + (a.category === b.category ? 2 : 0);
+}
+
+let relatedCache: Map<string, string[]> | null = null;
+
+function buildRelatedMap(): Map<string, string[]> {
+  const all = [...getAllArticles()].sort((a, b) => a.slug.localeCompare(b.slug));
+  const tokens = new Map(all.map((a) => [a.slug, topicTokens(a)]));
+  const sim = new Map<string, Map<string, number>>();
+  for (const a of all) {
+    const row = new Map<string, number>();
+    for (const b of all) if (a.slug !== b.slug) row.set(b.slug, similarity(a, b, tokens));
+    sim.set(a.slug, row);
   }
+  const byScore = (row: Map<string, number>) =>
+    [...row.entries()].sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0]));
 
-  // Categories smaller than `limit` get topped up from the rest of the site,
-  // also rotated by position so the fallback spreads out instead of always
-  // pointing at the same articles.
-  if (related.length < limit) {
-    const others = all.filter(
-      (a) => a.category !== category && a.slug !== currentSlug
-    );
-    const offset = all.findIndex((a) => a.slug === currentSlug);
-    const base = offset === -1 ? 0 : offset;
-    for (let step = 0; step < others.length && related.length < limit; step++) {
-      related.push(others[(base + step) % others.length]);
+  const out = new Map<string, string[]>(all.map((a) => [a.slug, []]));
+  const inbound = new Map<string, number>(all.map((a) => [a.slug, 0]));
+  const link = (from: string, to: string) => {
+    out.get(from)!.push(to);
+    inbound.set(to, inbound.get(to)! + 1);
+  };
+
+  // Pass 1: guarantee each article MIN_INBOUND links from its closest peers.
+  for (const target of all) {
+    for (const [source] of byScore(sim.get(target.slug)!)) {
+      if (inbound.get(target.slug)! >= MIN_INBOUND) break;
+      const list = out.get(source)!;
+      if (list.length < RELATED_LIMIT && !list.includes(target.slug)) {
+        link(source, target.slug);
+      }
     }
   }
 
-  return related;
+  // Pass 2: fill remaining slots by similarity, damping already-popular pages.
+  for (const source of all) {
+    const list = out.get(source.slug)!;
+    const candidates = byScore(sim.get(source.slug)!)
+      .filter(([slug]) => !list.includes(slug))
+      .map(([slug, score]) => [slug, score - inbound.get(slug)! * 1.5] as const)
+      .sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0]));
+    for (const [slug] of candidates) {
+      if (list.length >= RELATED_LIMIT) break;
+      link(source.slug, slug);
+    }
+    // Show the closest matches first.
+    const row = sim.get(source.slug)!;
+    list.sort((x, y) => row.get(y)! - row.get(x)! || x.localeCompare(y));
+  }
+  return out;
+}
+
+export function getRelatedArticles(currentSlug: string): ArticleMeta[] {
+  relatedCache ??= buildRelatedMap();
+  return (relatedCache.get(currentSlug) ?? []).map(getArticleMeta);
 }

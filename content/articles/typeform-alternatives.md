@@ -92,14 +92,16 @@ Point a form's action at Formspree and it handles storage, spam filtering, and n
 
 For most teams, Tally delivers ninety percent of Typeform at zero cost, and that trade is easy.
 
-## What is the best free Typeform alternative?
+## Frequently Asked Questions
+
+### What is the best free Typeform alternative?
 
 Tally, without much competition. Its free plan allows unlimited responses, plus conditional logic, calculations, file uploads, and payments, most of which Typeform restricts to paid tiers. Google Forms is also unlimited and free but noticeably plainer, which suits internal use more than public lead capture. Fillout offers 1,000 responses monthly free with the strongest conditional logic of the three. Start with Tally unless you need Fillout's database integrations.
 
-## Why is Typeform so expensive?
+### Why is Typeform so expensive?
 
 Typeform charges by response volume, and its free tier caps at ten responses monthly with Basic at $29 allowing one hundred. A form receiving modest website traffic exhausts that quickly, pushing users to $59 or higher. The pricing reflects Typeform's design quality and conversational format, which genuinely improve completion rates on longer forms. Whether that is worth it depends on whether your forms drive revenue; for internal surveys and simple contact forms it rarely is.
 
-## Can I connect Tally or Google Forms to my CRM?
+### Can I connect Tally or Google Forms to my CRM?
 
 Yes. Both support webhooks and native integrations, and both connect through [Make](/blog/getting-started-with-make), [Zapier](/blog/getting-started-with-zapier), or [n8n](/blog/getting-started-with-n8n) to any CRM. The usual pattern is: form submission triggers the automation, it searches the CRM for an existing contact by email, then creates or updates the record and notifies your team. Setup takes about fifteen minutes. See our [lead generation automation guide](/blog/automate-lead-generation) for the full workflow.

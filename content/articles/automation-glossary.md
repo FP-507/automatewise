@@ -1,7 +1,7 @@
 ---
 title: "Automation Glossary: 50 Essential Terms"
 description: "50 automation terms explained with real-world examples. Master the language of workflow automation — from triggers to webhooks."
-date: "2025-11-05"
+date: "2026-06-11"
 updated: "2026-09-03"
 category: "getting-started"
 tags: ["glossary", "automation terminology", "reference", "beginner guide"]
@@ -69,7 +69,7 @@ A development approach that lets you build software, workflows, and automations 
 
 ### 9. Low-Code
 
-Similar to no-code, but includes the option to write code for custom logic when the visual builder is not enough. n8n is a good example of a low-code platform -- visual by default, but with code nodes available when needed.
+Similar to no-code, but includes the option to write code for custom logic when the visual builder is not enough. n8n is a good example of a [low-code](/blog/no-code-vs-low-code) platform -- visual by default, but with code nodes available when needed.
 
 *Example: Using n8n's visual builder for most steps but adding a JavaScript code node to perform a custom data transformation.*
 

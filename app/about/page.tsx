@@ -1,17 +1,41 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { SITE } from "@/lib/constants";
+import { SITE, AUTHOR, hasAuthor } from "@/lib/constants";
+import { getAllArticles } from "@/lib/articles";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/about" },
   title: "About",
   description: `Learn about ${SITE.name} — your guide to mastering workflow automation and no-code tools.`,
 };
 
 export default function AboutPage() {
+  const articleCount = getAllArticles().length;
+  const profileJsonLd = hasAuthor
+    ? {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        url: `${SITE.url}/about`,
+        mainEntity: {
+          "@type": "Person",
+          name: AUTHOR.name,
+          description: AUTHOR.bio || undefined,
+          url: `${SITE.url}/about`,
+          sameAs: [AUTHOR.linkedin, ...AUTHOR.sameAs].filter(Boolean),
+        },
+      }
+    : null;
+
   return (
     <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6">
+      {profileJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(profileJsonLd) }}
+        />
+      )}
       <Breadcrumbs items={[{ label: "About" }]} />
 
       <div className="animate-slide-up mt-8">
@@ -47,7 +71,7 @@ export default function AboutPage() {
 
         <h2>What We Cover</h2>
         <p>
-          With <strong>100+ in-depth articles</strong> across five categories,
+          With <strong>{articleCount} in-depth articles</strong> across five categories,
           we cover the full spectrum of workflow automation:
         </p>
         <ul>
@@ -87,17 +111,36 @@ export default function AboutPage() {
           </li>
         </ul>
 
-        <h2>Why Trust Us?</h2>
+        {hasAuthor && (
+          <>
+            <h2>Who Writes AutomateWise</h2>
+            <p>
+              AutomateWise is written and maintained by{" "}
+              <strong>{AUTHOR.name}</strong>.
+              {AUTHOR.bio ? <> {AUTHOR.bio}</> : null}
+            </p>
+            {AUTHOR.linkedin && (
+              <p>
+                You can find me on{" "}
+                <a href={AUTHOR.linkedin} rel="me noopener" target="_blank">
+                  LinkedIn
+                </a>
+                . Corrections and suggestions are always welcome.
+              </p>
+            )}
+          </>
+        )}
+
+        <h2>How We Write</h2>
         <p>
-          We&apos;re practitioners, not just writers. Our team has hands-on
-          experience building hundreds of automation workflows for businesses
-          of all sizes. Every article we publish is based on real-world
-          testing, not press releases or spec sheets.
+          Every guide is checked against the tool&apos;s current documentation
+          and pricing page, and we update articles when a platform changes how
+          it works or what it costs. When an article is revised, the
+          &ldquo;Updated&rdquo; date at the top changes with it.
         </p>
         <p>
-          We don&apos;t get paid by the tools we review. Our recommendations
-          are based on actual performance, pricing, and usability — not
-          sponsorship deals.
+          We don&apos;t get paid by the tools we review. Recommendations are
+          based on features, pricing, and usability, not sponsorship deals.
         </p>
 
         <h2>Get Started</h2>

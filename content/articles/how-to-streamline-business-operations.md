@@ -41,7 +41,7 @@ Look for these categories of waste in your mapped processes:
 
 **Handoffs:** Every time work passes between people or systems, there is risk of delay, miscommunication, or data loss. Reduce handoffs wherever possible.
 
-**Manual data transfer:** Moving information between tools by hand. This is the most automatable category of waste — see our [guide to reducing manual data entry](/blog/reduce-manual-data-entry).
+**Manual data transfer:** Moving information between tools by hand. This is the most automatable category of waste — see our [guide to reducing manual data entry](/blog/automate-data-entry).
 
 ### Step 3: Eliminate, Simplify, Then Automate
 
@@ -123,14 +123,16 @@ Track operational metrics before and after streamlining:
 
 Review these monthly. For ROI calculations, see our [workflow automation ROI guide](/blog/workflow-automation-roi).
 
-## How do I identify bottlenecks in my business?
+## Frequently Asked Questions
+
+### How do I identify bottlenecks in my business?
 
 Look for three signals: (1) where work queues build up (tasks waiting for approval, emails waiting for response, tickets waiting for assignment), (2) where errors occur most frequently (manual data entry, handoff points between people or systems), and (3) where employees express frustration ("I spend all day on X instead of doing real work"). Map each process end-to-end, measure the time between steps, and the bottleneck is wherever the gap is longest or the error rate is highest.
 
-## What is the fastest way to improve business efficiency?
+### What is the fastest way to improve business efficiency?
 
-Connect your existing tools with an [automation platform](/blog/best-automation-tools-small-business). Most efficiency loss comes from manual data transfer between disconnected systems. A single afternoon setting up 5-10 automations between your CRM, email, project management, and invoicing tools can eliminate 5-15 hours of weekly manual work. Start with the task your team does most frequently and automate the data transfer steps first — see our [data entry reduction guide](/blog/reduce-manual-data-entry).
+Connect your existing tools with an [automation platform](/blog/best-automation-tools-small-business). Most efficiency loss comes from manual data transfer between disconnected systems. A single afternoon setting up 5-10 automations between your CRM, email, project management, and invoicing tools can eliminate 5-15 hours of weekly manual work. Start with the task your team does most frequently and automate the data transfer steps first — see our [data entry reduction guide](/blog/automate-data-entry).
 
-## Should I hire or automate first?
+### Should I hire or automate first?
 
 Automate first, then hire. If you hire before automating, the new person inherits your manual processes and becomes a human automation layer — expensive and error-prone. Automation first means: (1) you quantify exactly how much work remains after automation, (2) the role you define is focused on judgment-heavy work that technology cannot handle, and (3) the new hire has systems and tools that make them productive immediately rather than drowning in manual tasks.

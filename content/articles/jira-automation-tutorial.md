@@ -152,14 +152,16 @@ Rule executions count when the rule runs (not per action). Scheduled rules with 
 
 For agile team workflows beyond Jira, see our [project management automation guide](/blog/automate-project-management).
 
-## Is Jira automation free?
+## Frequently Asked Questions
+
+### Is Jira automation free?
 
 Yes. Every Jira Cloud plan including Free includes Automation. Single-project rules are unlimited on all plans. Multi-project and global rules have monthly execution limits: 100 on Free, 1,700 on Standard, 1,000 per user on Premium, unlimited on Enterprise. Most teams never hit these limits if they scope rules to projects. Jira Data Center (self-hosted) includes Automation for Jira as a bundled app. There is no separate cost for triggers, actions, or smart values.
 
-## What are smart values in Jira automation?
+### What are smart values in Jira automation?
 
 Smart values are placeholders like `{{issue.key}}` or `{{issue.assignee.displayName}}` that pull live data from the triggering issue, related issues, the sprint, or the system into your rule actions. Use them in comments, emails, field edits, and web requests. They support formatting and logic: date math (`{{now.plusDays(2)}}`), text functions (`{{issue.summary.toUpperCase()}}`), lists (`{{#lookupIssues}}...{{/}}`), and conditionals. Access custom fields by name (`{{issue.Story Points}}`) or ID. Use the "Log action" to debug what a smart value returns.
 
-## How do I connect Jira to Slack or other tools?
+### How do I connect Jira to Slack or other tools?
 
 For Slack, install the Jira Cloud for Slack app (creates issues, unfurls links, channel subscriptions) and use the "Send Slack message" action in rules with an incoming webhook URL. For any other tool, use the "Send web request" action to POST issue data to [Make](/blog/getting-started-with-make), [Zapier](/blog/getting-started-with-zapier), or [n8n](/blog/getting-started-with-n8n), which then update CRMs, sheets, docs, or support desks. In reverse, the "Incoming webhook" trigger accepts POSTs from external tools to create or update Jira issues. Native Marketplace apps also cover GitHub, Confluence, Figma, Zendesk, and hundreds more.

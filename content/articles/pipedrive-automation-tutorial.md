@@ -152,14 +152,16 @@ Beyond workflows, enable:
 
 For comparison with other CRMs, see our [CRM comparison](/blog/best-crm-for-small-business) and [CRM workflow automation guide](/blog/automate-crm-workflows).
 
-## Does Pipedrive have workflow automation?
+## Frequently Asked Questions
+
+### Does Pipedrive have workflow automation?
 
 Yes, on the Advanced plan ($34/user/month) and above. Pipedrive Workflow Automation lets you build trigger-condition-action sequences: when a deal changes stage, create activities, send email templates, update fields, change owners, add notes, wait for delays, and send webhooks. Essential plan ($14/user) does not include automation. The Advanced plan includes 30 active automations per user; Professional ($49/user) allows 60; Enterprise offers 180. For teams needing automation on a tighter budget, [HubSpot's free CRM](/blog/hubspot-automation-guide) with external tools is an alternative.
 
-## How do I automate follow-ups in Pipedrive?
+### How do I automate follow-ups in Pipedrive?
 
 Use Workflow Automation triggered by deal stage changes or activity completion: "When deal enters Proposal Sent, create activity 'Follow up' due in 3 days" and "When that activity is completed, create the next follow-up activity due in 5 days." For email follow-ups, use the Send Email action with templates, or the Campaigns add-on for multi-step sequences that stop when the prospect replies. Pair with "rotting" alerts (deals turning red after X inactive days) and stalled-deal automations to catch anything that slips. See our [follow-up automation guide](/blog/automate-follow-up-emails).
 
-## Can Pipedrive integrate with Zapier and Make?
+### Can Pipedrive integrate with Zapier and Make?
 
 Yes. [Zapier](/blog/getting-started-with-zapier) and [Make](/blog/getting-started-with-make) have comprehensive Pipedrive modules: triggers (new deal, deal stage updated, deal won/lost, new person, activity completed) and actions (create/update/search deals, persons, organizations, activities, notes). Connect via API token (Pipedrive → Settings → Personal preferences → API). Pipedrive also has a native Marketplace with 400+ app integrations and supports outbound webhooks (Settings → Tools → Webhooks) that fire instantly on deal, person, or activity events — useful for triggering [n8n](/blog/getting-started-with-n8n) or Make workflows without polling.

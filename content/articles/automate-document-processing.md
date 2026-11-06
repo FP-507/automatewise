@@ -1,7 +1,7 @@
 ---
 title: "Automate Document Processing & Approvals"
 description: "Learn how to automate document creation, routing, approval chains, e-signatures, and archival with no-code workflow tools."
-date: "2026-08-06"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["document automation", "approval workflow", "document processing", "e-signature automation"]
@@ -155,14 +155,16 @@ Start with the template. If you do not have a standardized template for the docu
 
 The compound impact of document automation is significant. A contract that used to take two weeks from creation to signature can be completed in two days. An invoice that sat in approval queues for a month gets approved in 48 hours. These time savings are not abstract: they directly affect cash flow, customer satisfaction, and team productivity.
 
-## What is automated document processing?
+## Frequently Asked Questions
+
+### What is automated document processing?
 
 Automated document processing uses OCR and AI to extract data from documents (invoices, contracts, forms, receipts), classify them by type, validate the extracted data, and route information to your business systems. Instead of manually reading and typing data from documents, automation handles the entire pipeline from document receipt to data entry in seconds.
 
-## What types of documents can be processed automatically?
+### What types of documents can be processed automatically?
 
 The most commonly automated documents include invoices and receipts (amount, vendor, date extraction), contracts (key terms, dates, party identification), forms and applications (structured field extraction), bank statements (transaction categorization), purchase orders, shipping documents, and medical records. Structured documents with consistent layouts achieve 95%+ accuracy; unstructured documents may require AI-powered extraction with human review.
 
-## How do I start automating document processing?
+### How do I start automating document processing?
 
 Begin with your highest-volume document type — usually invoices or receipts. Use a document processing tool (Rossum, Nanonets, or Google Document AI) connected to [n8n](/blog/getting-started-with-n8n) or [Make](/blog/getting-started-with-make). Set up validation rules to catch extraction errors and route exceptions for human review. Start with 50-100 test documents to calibrate accuracy before processing production volumes.

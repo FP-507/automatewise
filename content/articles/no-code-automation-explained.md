@@ -1,7 +1,7 @@
 ---
 title: "No-Code Automation Explained (2026 Guide)"
 description: "What is no-code automation? How visual builders work, top platforms compared, real limitations, and who should use them."
-date: "2025-10-02"
+date: "2026-06-11"
 updated: "2026-09-03"
 category: "getting-started"
 tags: ["no-code", "automation tools", "visual workflow builder", "beginner guide"]

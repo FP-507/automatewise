@@ -160,14 +160,16 @@ Typical costs: 1,000 email classifications ≈ $0.10. 100 document extractions �
 
 See our [error handling guide](/blog/error-handling-automation) and [security best practices](/blog/automation-security-best-practices).
 
-## Do I need to code to use the OpenAI API?
+## Frequently Asked Questions
+
+### Do I need to code to use the OpenAI API?
 
 No. [Make](/blog/getting-started-with-make), [n8n](/blog/getting-started-with-n8n), and [Zapier](/blog/getting-started-with-zapier) all have native OpenAI modules — you paste your API key, choose a model, and write prompts in text fields. The "programming" is prompt writing: describing the task, providing the input via mapped fields, and specifying the output format. Parsing JSON responses requires a JSON module (Make) or a Set/Code node (n8n) but no actual coding. Most AI automations are one OpenAI step between a trigger and an action.
 
-## How much does the OpenAI API cost for automation?
+### How much does the OpenAI API cost for automation?
 
 Very little for typical business automation. gpt-4o-mini costs about $0.15 per million input tokens and $0.60 per million output tokens — a 500-word email classification costs roughly $0.0001. A workflow classifying 1,000 emails monthly costs around $0.10-0.20. Document extraction with gpt-4o runs $0.005-0.02 per page. Content generation (1,200-word article) costs $0.02-0.06 with gpt-4o. Most small businesses spend $1-20/month on API usage across all automations. Set a budget cap in the OpenAI dashboard to prevent surprises.
 
-## What is the difference between ChatGPT and the OpenAI API?
+### What is the difference between ChatGPT and the OpenAI API?
 
 ChatGPT is the consumer chat interface (web and app) for manual conversation. The OpenAI API is the programmatic access that lets software — including no-code automation platforms — send prompts and receive responses automatically. The API is billed per token used, while ChatGPT Plus is a flat $20/month subscription. For automation, you need the API: it runs without a human typing, returns structured output, and integrates into workflows. ChatGPT's "GPTs" and [Zapier AI Actions](/blog/zapier-ai-actions) bridge the two for interactive use, but scheduled or event-triggered workflows require the API.

@@ -1,7 +1,7 @@
 ---
 title: "Scale Automation: 10 to 1,000 Workflows"
 description: "Strategies for scaling automation from 10 to 1,000 workflows. Organization, performance, monitoring, and governance for growth."
-date: "2026-05-14"
+date: "2026-06-21"
 updated: "2026-09-03"
 category: "advanced"
 tags: ["scaling", "performance", "governance", "team collaboration", "automation strategy"]
@@ -282,14 +282,16 @@ The organizations that get the most value from automation are not the ones that 
 
 For related topics, see [error handling in automation](/blog/error-handling-automation), [security best practices](/blog/automation-security-best-practices), and [automation ROI](/blog/workflow-automation-roi).
 
-## When should I scale my automations?
+## Frequently Asked Questions
+
+### When should I scale my automations?
 
 Scale when you hit platform limits (task quotas, execution timeouts, rate limiting), when manual oversight becomes a bottleneck (spending more time monitoring than the automation saves), or when business growth demands higher throughput. Warning signs include frequent failures, increasing error rates, and workflows taking longer to complete. Address these proactively rather than waiting for failures.
 
-## How do I handle high-volume automation?
+### How do I handle high-volume automation?
 
 For high volume, implement queuing (process items in batches rather than individually), use webhook-based triggers instead of polling (eliminates unnecessary API calls), add rate limiting to respect API quotas, and implement retry logic with exponential backoff. [n8n](/blog/getting-started-with-n8n) self-hosted handles unlimited volume, while cloud platforms like [Make](/blog/getting-started-with-make) and Zapier scale through higher-tier plans with increased operation limits.
 
-## Should I use one automation platform or multiple?
+### Should I use one automation platform or multiple?
 
 Use one platform as your primary orchestration layer and add a second only when the first cannot handle a specific requirement (e.g., self-hosting requirements, specific integrations, or cost optimization at scale). Running workflows across multiple platforms increases debugging complexity, monitoring overhead, and the risk of cascading failures. If you must use multiple, designate clear ownership for which workflows run where.

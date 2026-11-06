@@ -129,14 +129,16 @@ For implementation details, see our [client intake automation guide](/blog/autom
 
 **Bookkeeping/Accounting:** Add bank account connection, prior-year financials review, chart of accounts setup, and software migration.
 
-## What should a client onboarding checklist include?
+## Frequently Asked Questions
+
+### What should a client onboarding checklist include?
 
 Six phases: (1) pre-contract expectation setting, (2) immediate post-signature acknowledgment (welcome email, invoice, intake form, project setup), (3) information gathering (assets, credentials, stakeholders), (4) kickoff call with agenda and follow-up notes, (5) first deliverable within 2 weeks, and (6) rhythm establishment with regular updates and a 30-day satisfaction check. Total: roughly 35 steps, of which 80% can be [automated](/blog/automate-customer-onboarding) with tools like Make or Zapier so every client receives the same consistent experience.
 
-## How long should client onboarding take?
+### How long should client onboarding take?
 
 Target 14 days from contract signature to first deliverable, with the kickoff call within 3-5 days. Longer onboarding periods create anxiety — clients wonder if they made the right choice. Faster is better but should not skip information gathering. The first 24 hours are critical: welcome email, invoice, and intake form should go out within hours of signing, ideally [automated](/blog/automate-client-intake) so the client experiences immediate momentum regardless of when they sign.
 
-## How do I automate client onboarding?
+### How do I automate client onboarding?
 
 Connect your CRM or contract tool to an [automation platform](/blog/best-automation-tools-small-business). When a deal is marked "Won" or a contract is signed, trigger a sequence: send welcome email, create project from template, generate shared folder, send intake form, notify the team, and send a scheduling link. Intake form completion triggers brief generation and team notification. Kickoff completion triggers task assignment and recurring meeting creation. Each automation takes 10-20 minutes to set up and eliminates 2-4 hours of manual work per client. See our [step-by-step onboarding automation guide](/blog/automate-customer-onboarding).

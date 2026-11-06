@@ -60,7 +60,7 @@ Routines cover voice-triggered and scheduled actions across Google-compatible de
 
 Make gives you branching, loops, error handling, and data transformation that IFTTT simply does not have, at $10.59 monthly for 10,000 operations. For anyone running applets that move customer data, log form submissions, or sync tools, this is the correct destination.
 
-**What you give up:** IFTTT's simplicity. Make asks you to think in flowcharts. See the [Make tutorial](/blog/make-tutorial-step-by-step) and [IFTTT vs Zapier vs Make](/blog/ifttt-vs-zapier-vs-make).
+**What you give up:** IFTTT's simplicity. Make asks you to think in flowcharts. See the [Make tutorial](/blog/getting-started-with-make) and [IFTTT vs Zapier vs Make](/blog/ifttt-vs-zapier-vs-make).
 
 ### 5. Zapier — When You Need Every App
 
@@ -96,14 +96,16 @@ At $3.49 monthly, IFTTT remains the cheapest automation subscription available, 
 
 Do not keep business-critical workflows there. IFTTT has no meaningful error handling, no retry logic, and no way to tell you an applet silently stopped firing. See our [best IFTTT applets guide](/blog/best-ifttt-applets) for getting the most from the free tier before deciding.
 
-## What is the best free alternative to IFTTT?
+## Frequently Asked Questions
+
+### What is the best free alternative to IFTTT?
 
 For smart home, Home Assistant is free, self-hosted, unlimited, and considerably more capable, though it requires setup effort. Apple Shortcuts is free and already installed if you use iPhone or Mac. For business automation, [Make](/blog/getting-started-with-make) offers 1,000 operations monthly free, which covers far more than IFTTT's two applets, and self-hosted [n8n](/blog/n8n-self-hosting-guide) is unlimited for the cost of a server. Google Home routines cover basic device control at no cost.
 
-## Is IFTTT still worth paying for in 2026?
+### Is IFTTT still worth paying for in 2026?
 
 For personal and smart home automation, yes. At $3.49 monthly IFTTT Pro is the cheapest subscription in the category and covers voice assistants and consumer devices better than business platforms do. For business use, no. It lacks conditional logic, error handling, retries, and failure notifications, which means workflows can stop silently. Businesses should use [Make](/blog/getting-started-with-make) or [Zapier](/blog/getting-started-with-zapier) instead, as covered in our [IFTTT for business guide](/blog/ifttt-for-business).
 
-## Can I replace IFTTT with Home Assistant?
+### Can I replace IFTTT with Home Assistant?
 
 For smart home automation, yes, and you gain considerably. Home Assistant controls devices locally so automations survive internet outages, supports far more device types, and handles conditions, loops, and time windows IFTTT cannot express. It is free and runs on a Raspberry Pi. The tradeoff is setup: expect a weekend to get comfortable and ongoing maintenance. Home Assistant does not replace IFTTT for web service automation like posting to social media, where [Make](/blog/getting-started-with-make) or Zapier fit better.

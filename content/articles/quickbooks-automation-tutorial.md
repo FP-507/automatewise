@@ -143,14 +143,16 @@ Use external automation for cross-tool logic these do not cover.
 
 For broader patterns, see our [accounting automation guide](/blog/automation-for-accounting).
 
-## Can QuickBooks be automated?
+## Frequently Asked Questions
+
+### Can QuickBooks be automated?
 
 Yes, extensively. QuickBooks Online has a full API supported by [Make](/blog/getting-started-with-make), [Zapier](/blog/getting-started-with-zapier), and [n8n](/blog/getting-started-with-n8n). Common automations: create invoices from CRM deals, record payments from Stripe/PayPal, log expenses from receipt emails, send overdue reminders, generate usage-based recurring invoices, and pull weekly financial reports. QBO also includes native automation — bank rules, recurring transactions, and invoice reminders. QuickBooks Desktop has limited API access; migrate to Online for automation.
 
-## How do I automatically create invoices in QuickBooks?
+### How do I automatically create invoices in QuickBooks?
 
 Connect your trigger source (CRM deal won, form submission, Stripe checkout, project milestone in Asana/ClickUp) to QuickBooks via an [automation platform](/blog/best-automation-tools-small-business). The workflow: search for the customer by email or name (create if not found), create the invoice with line items mapped from the source (product, quantity, rate), set the due date, then use the Send Invoice action to email it through QBO. Store the invoice number back in the source system for tracking. Setup takes 20-30 minutes and eliminates manual invoice creation permanently.
 
-## Does QuickBooks integrate with Stripe?
+### Does QuickBooks integrate with Stripe?
 
 Yes, in three ways. (1) QuickBooks Payments — Intuit's own processor, records payments automatically. (2) The Stripe app in the Intuit App Store — syncs Stripe charges, fees, and payouts to QBO with basic mapping. (3) Custom automation via [Make](/blog/getting-started-with-make) or Zapier — watch Stripe events, then create QBO sales receipts or apply payments to invoices with full control over accounts, fee handling, and customer matching. Option 3 is best when you need specific categorization, multi-currency, or want to link Stripe payments to CRM-generated invoices.

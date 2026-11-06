@@ -80,7 +80,7 @@ Webhooks are faster and do not consume polling operations. Use them for anything
 5. **Aggregator** → back to single bundle
 6. **Gmail** → Send order confirmation to customer with all items listed
 
-**Result:** Orders appear in your fulfillment board instantly. See our [e-commerce operations guide](/blog/ecommerce-operations-guide) for the full picture.
+**Result:** Orders appear in your fulfillment board instantly. See our [e-commerce operations guide](/blog/automation-for-ecommerce) for the full picture.
 
 ## Workflow 3: Failed Payment Recovery (Dunning)
 
@@ -171,14 +171,16 @@ See our [customer onboarding automation guide](/blog/automate-customer-onboardin
 
 See our [automation security best practices](/blog/automation-security-best-practices).
 
-## How do I automate Stripe payments?
+## Frequently Asked Questions
+
+### How do I automate Stripe payments?
 
 Connect Stripe to an [automation platform](/blog/best-automation-tools-small-business) via native trigger (polling) or webhook (real-time). Choose the events to watch — `payment_intent.succeeded` for payments, `customer.subscription.created` for new subscriptions, `invoice.payment_failed` for dunning. Each event carries customer, amount, and product data that flows into actions: update CRM, notify team, create fulfillment task, sync to accounting, or start an email sequence. Start with payment-to-CRM sync and failed payment recovery — these two have the highest impact on revenue.
 
-## What is a Stripe webhook?
+### What is a Stripe webhook?
 
 A webhook is a message Stripe sends to a URL you specify the instant an event happens in your account — a payment succeeds, a subscription renews, a refund is issued. Instead of your automation checking Stripe every few minutes (polling), Stripe pushes the event to you in real time. Set up webhooks in Stripe Dashboard → Developers → Webhooks by adding your automation platform's webhook URL and selecting which events to send. Webhooks are faster than polling and do not consume operations when nothing is happening.
 
-## Can I automate failed payment recovery in Stripe?
+### Can I automate failed payment recovery in Stripe?
 
 Yes, in two layers. Stripe's built-in Smart Retries automatically retries failed subscription payments at optimized times over 1-4 weeks, and Stripe can send dunning emails (enable in Settings → Billing). Supplement with custom automation: when `invoice.payment_failed` fires, update your CRM, alert your team, and send a personalized email from a real person with a direct link to update payment details. Businesses that add personal outreach to Stripe's automatic retries recover 20-40% more failed payments than retries alone.

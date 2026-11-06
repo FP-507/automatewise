@@ -1,7 +1,7 @@
 ---
 title: "Automation Error Handling: Full Guide"
 description: "Learn how to handle errors in automated workflows. Cover retry strategies, fallback paths, alerting, logging, and best practices for n8n, Make, and Zapier."
-date: "2026-05-18"
+date: "2026-06-21"
 updated: "2026-09-03"
 category: "advanced"
 tags: ["error handling", "reliability", "debugging", "monitoring", "best practices"]
@@ -347,14 +347,16 @@ Start with the Error Trigger pattern (a single workflow that catches all failure
 
 For related guides, see [workflow automation best practices](/blog/workflow-automation-benefits), [automation security](/blog/automation-security-best-practices), and the [automation ROI guide](/blog/workflow-automation-roi).
 
-## How do I handle errors in automation workflows?
+## Frequently Asked Questions
+
+### How do I handle errors in automation workflows?
 
 Add error-handling nodes after every critical step: try-catch blocks in [n8n](/blog/getting-started-with-n8n), error handlers in [Make](/blog/getting-started-with-make), or error paths in Zapier. Log errors to a Google Sheet or database with timestamp, workflow name, error message, and input data. Send immediate Slack or email alerts for critical workflow failures. Implement retry logic with exponential backoff (wait 1s, 4s, 16s between retries) for transient API errors.
 
-## What are the most common automation errors?
+### What are the most common automation errors?
 
 The top 5 automation errors are: (1) API rate limiting — too many requests too fast (fix: add delays between calls). (2) Authentication expiration — OAuth tokens expire after 30-90 days (fix: implement token refresh). (3) Data format mismatches — API expects number but receives string (fix: add data validation nodes). (4) Missing required fields — null values in mandatory parameters (fix: add conditional checks). (5) Timeout errors — operations exceed time limits (fix: break large operations into batches).
 
-## Should I build retry logic into every automation?
+### Should I build retry logic into every automation?
 
 No. Add retry logic only for operations with transient failure modes: API calls (rate limits, temporary outages), webhook deliveries, and external service connections. Do not retry operations that fail due to bad data — retrying an invalid email address or malformed request wastes resources and may trigger rate limits. Limit retries to 3 attempts with exponential backoff, and alert after the final failure.

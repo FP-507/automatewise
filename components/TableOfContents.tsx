@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 interface TOCItem {
   id: string;
@@ -10,41 +10,24 @@ interface TOCItem {
 
 export function TableOfContents({ content }: { content: string }) {
   const [activeId, setActiveId] = useState("");
-  const [headings, setHeadings] = useState<TOCItem[]>([]);
-
-  useEffect(() => {
-    const matches = content.matchAll(/<h([23])[^>]*id="([^"]*)"[^>]*>(.*?)<\/h[23]>/g);
-    const items: TOCItem[] = [];
-    for (const match of matches) {
-      items.push({
-        level: parseInt(match[1]),
-        id: match[2],
-        text: match[3].replace(/<[^>]*>/g, ""),
-      });
-    }
-
-    if (items.length === 0) {
-      const parser = new DOMParser();
-      const doc = parser.parseFromString(content, "text/html");
-      const els = doc.querySelectorAll("h2, h3");
-      els.forEach((el) => {
-        const id =
-          el.id ||
-          el.textContent
-            ?.toLowerCase()
-            .replace(/[^a-z0-9]+/g, "-")
-            .replace(/(^-|-$)/g, "") ||
-          "";
-        items.push({
-          level: parseInt(el.tagName[1]),
-          id,
-          text: el.textContent || "",
-        });
-      });
-    }
-
-    setHeadings(items);
-  }, [content]);
+  // The article page adds ids to every h2/h3 on the server, so the list can
+  // be derived during render. That also puts the table of contents in the
+  // prerendered HTML instead of only appearing after hydration.
+  const headings = useMemo<TOCItem[]>(
+    () =>
+      [...content.matchAll(/<h([23])[^>]*id="([^"]*)"[^>]*>(.*?)<\/h[23]>/g)].map(
+        (match) => ({
+          level: parseInt(match[1]),
+          id: match[2],
+          text: match[3]
+            .replace(/<[^>]*>/g, "")
+            .replace(/&#x26;|&amp;/g, "&")
+            .replace(/&#x27;|&#39;/g, "'")
+            .replace(/&#x22;|&quot;/g, '"'),
+        })
+      ),
+    [content]
+  );
 
   useEffect(() => {
     const observer = new IntersectionObserver(

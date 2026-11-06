@@ -74,14 +74,16 @@ You will learn more from where each one frustrates you than from any feature lis
 
 For head-to-head detail, see [Make vs Zapier](/blog/make-vs-zapier), [n8n vs Make](/blog/n8n-vs-make), and [n8n vs Zapier](/blog/n8n-vs-zapier). If none of the three fit, our [Zapier alternatives](/blog/zapier-alternatives) guide covers the wider field.
 
-## Which is better, Zapier, Make, or n8n?
+## Frequently Asked Questions
+
+### Which is better, Zapier, Make, or n8n?
 
 None is universally better; they suit different buyers. [Zapier](/blog/getting-started-with-zapier) wins for non-technical teams and niche integrations. [Make](/blog/getting-started-with-make) wins on capability per dollar and suits anyone comfortable with visual logic. [n8n](/blog/getting-started-with-n8n) wins for technical teams, high volume, and data control, since self-hosting removes execution limits entirely. Decide with two questions: who maintains these workflows, and how many operations will you run monthly. Those answers select the platform more reliably than any feature comparison.
 
-## Is n8n cheaper than Zapier and Make?
+### Is n8n cheaper than Zapier and Make?
 
 Self-hosted n8n is dramatically cheaper at volume, since unlimited executions cost only a server, roughly $10 to $20 monthly, against Zapier's $169 or more and Make's $29 or more at 50,000 steps. Below roughly 2,000 steps monthly the difference is small and n8n's maintenance time outweighs the saving. The break-even generally arrives when your Make bill would reach about $50 monthly. n8n Cloud at $24 monthly removes maintenance but also removes most of the cost advantage.
 
-## Can I switch between these platforms later?
+### Can I switch between these platforms later?
 
 Yes, but expect to rebuild rather than import. None of the three offers direct migration from another, so workflows are recreated manually. Simple two-step automations take minutes each; complex scenarios with branching and data transformation take hours. Plan roughly a day per twenty workflows. Because switching is expensive, test with your genuinely difficult workflow before committing, not the easy one. Document each workflow's purpose and logic as you build so a future migration starts from a specification rather than reverse-engineering.

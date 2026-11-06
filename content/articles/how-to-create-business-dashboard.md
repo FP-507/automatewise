@@ -179,14 +179,16 @@ Automate the delivery: set up a scheduled workflow that screenshots or exports t
 - Pipeline (leads and proposals out)
 - Cash flow forecast (next 30 days)
 
-## How do I make a dashboard without coding?
+## Frequently Asked Questions
+
+### How do I make a dashboard without coding?
 
 Use Google Sheets or Looker Studio (both free) — no code required. Set up a Sheets tab with your data, use SUMIF/COUNTIF/QUERY formulas to calculate your metrics, and add charts. For automatic data feeds, connect an automation platform like [Make](/blog/getting-started-with-make) or [Zapier](/blog/getting-started-with-zapier) to pull data from your CRM, payment processor, and other tools into your Sheets on a schedule. Looker Studio can then visualize the Sheets data with interactive charts. Total setup time: 2-4 hours.
 
-## What metrics should a small business dashboard include?
+### What metrics should a small business dashboard include?
 
 Five core metrics for most small businesses: (1) Revenue this month compared to last month and target. (2) Cash position — how much runway you have. (3) Sales pipeline value and lead count. (4) Customer count and churn or retention rate. (5) One operational metric specific to your business (utilization for services, orders for e-commerce, active users for SaaS). Add metrics only when they change a decision you make regularly — more metrics means less attention per metric.
 
-## How often should a dashboard update?
+### How often should a dashboard update?
 
 Automate updates to match how often decisions are made. Revenue and sales metrics: daily (updated overnight). Operational metrics (tasks, tickets, projects): hourly or real-time if your tools support it. Strategic metrics (churn, CAC, LTV): weekly or monthly. Set automated refresh with [workflow automation tools](/blog/best-automation-tools-small-business) rather than manual updates — if updating the dashboard is a chore, it will fall behind and lose credibility.

@@ -49,7 +49,7 @@ That is the ceiling. For anything triggered by external events, you need the API
 5. Get the Access Token and Phone Number ID
 
 **Option B: Business Solution Provider (BSP)**
-Twilio, 360dialog, MessageBird, Wati, Respond.io — they handle Meta approval, hosting, and provide friendlier dashboards. Costs slightly more per message. Recommended for non-developers.
+[Twilio](/blog/twilio-sms-automation-tutorial), 360dialog, MessageBird, Wati, Respond.io — they handle Meta approval, hosting, and provide friendlier dashboards. Costs slightly more per message. Recommended for non-developers.
 
 **Option C: Automation platform native**
 [Make](/blog/getting-started-with-make) and [n8n](/blog/getting-started-with-n8n) have WhatsApp Business Cloud modules that connect directly to Meta's API with your token — no BSP needed.
@@ -163,14 +163,16 @@ Conversation-based pricing, per 24-hour session, varies by country:
 
 A store sending 2,000 order updates monthly pays roughly $10-40.
 
-## Can I automate WhatsApp messages for free?
+## Frequently Asked Questions
+
+### Can I automate WhatsApp messages for free?
 
 Only basic auto-replies (greeting, away message) via the free WhatsApp Business App. Anything event-triggered (order updates, reminders, CRM-linked responses) requires the WhatsApp Business Platform API, which charges per conversation (roughly $0.005-0.10 depending on country and message category). The first 1,000 user-initiated service conversations per month are free. Combined with [Make](/blog/getting-started-with-make) (free tier) or self-hosted [n8n](/blog/getting-started-with-n8n), a small business can run WhatsApp automation for $5-30/month.
 
-## How do I get WhatsApp Business API access?
+### How do I get WhatsApp Business API access?
 
 Two paths: (1) Direct via Meta — create a Meta Business account, register an app at developers.facebook.com, add the WhatsApp product, verify your business, and add a phone number not currently on WhatsApp. Takes 1-3 days including verification. (2) Through a Business Solution Provider (Twilio, 360dialog, Wati) — they handle Meta setup and give you a dashboard; faster for non-technical teams but slightly higher per-message cost. [Make](/blog/getting-started-with-make) and [n8n](/blog/getting-started-with-n8n) connect to either path.
 
-## What is a WhatsApp message template?
+### What is a WhatsApp message template?
 
 A template is a pre-approved message format required for business-initiated messages sent outside the 24-hour customer service window. You create templates in Meta Business Manager with placeholders ({{1}}, {{2}}) for dynamic values like name and order number, assign a category (Utility, Marketing, Authentication), and submit for approval — typically minutes to 24 hours. Once approved, your automation sends the template with variable values filled in. Free-form messages are only allowed within 24 hours of the customer's last message to you.

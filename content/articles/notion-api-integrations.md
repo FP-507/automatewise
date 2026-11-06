@@ -1,7 +1,7 @@
 ---
 title: "Notion API: Connect to 100+ Apps (No Code)"
 description: "Connect Notion to Slack, Sheets, Gmail, and more using the API and no-code platforms. Step-by-step integration guide."
-date: "2026-09-01"
+date: "2026-09-02"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["Notion", "API", "integrations", "no-code", "automation"]
@@ -15,7 +15,7 @@ The Notion API turns your Notion workspace into a programmable database that any
 
 You do not need to write code to use the Notion API. Automation platforms like [Zapier](/blog/getting-started-with-zapier), [Make](/blog/getting-started-with-make), and [n8n](/blog/getting-started-with-n8n) have built-in Notion integrations that handle the API calls for you. You configure the connection visually, map your data, and the platform handles the technical details.
 
-For foundational Notion automation concepts, see our [Notion automation guide](/blog/notion-automation-guide). For database-specific patterns, see our [Notion database automation guide](/blog/notion-database-automation).
+For foundational Notion automation concepts, see our [Notion automation guide](/blog/notion-automation-guide). For database-specific patterns, see our [Notion database automation guide](/blog/notion-automation-guide).
 
 ## Setting Up Notion API Access
 
@@ -229,14 +229,16 @@ Connect only the databases and properties that need external automation. Every i
 
 Start with one integration, let it run for a week, verify it works correctly, then add the next one. Building incrementally reduces the debugging surface when something goes wrong.
 
-## How do I use the Notion API for automation?
+## Frequently Asked Questions
+
+### How do I use the Notion API for automation?
 
 Create an integration at notion.so/my-integrations, copy the API token, and share your target databases/pages with the integration. The Notion API supports creating, reading, updating, and searching pages and databases via REST endpoints. For no-code automation, pass the API token to [n8n](/blog/getting-started-with-n8n) or [Make](/blog/getting-started-with-make) as a credential — both have dedicated Notion nodes that wrap the API into visual workflow steps.
 
-## What can I build with the Notion API?
+### What can I build with the Notion API?
 
 Popular Notion API integrations include: CRM systems that sync contacts between Notion and external tools, content pipelines that publish Notion pages to WordPress or CMS platforms, project dashboards that aggregate data from multiple Notion databases, automated task creation from email or Slack messages, and reporting systems that pull Notion data into Google Sheets. The API supports all database operations plus rich text content manipulation.
 
-## What are the Notion API rate limits?
+### What are the Notion API rate limits?
 
 The Notion API allows approximately 3 requests per second per integration token. For bulk operations (importing 500+ records), implement request queuing with 350ms delays between calls. Use batch strategies: read multiple pages with the Search endpoint instead of individual Get requests, and minimize redundant lookups by caching database schemas locally. If you hit rate limits consistently, consider using multiple integration tokens for different workflows.

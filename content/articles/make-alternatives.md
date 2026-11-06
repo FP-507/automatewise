@@ -86,14 +86,16 @@ Workato targets large organizations with governance requirements. Pricing is quo
 
 Before switching, try optimizing instead. Filtering earlier, using Search modules instead of Watch, and batching API calls routinely cut operation consumption by half. Our [advanced Make scenarios guide](/blog/make-advanced-scenarios) covers those techniques.
 
-## What is the best alternative to Make?
+## Frequently Asked Questions
+
+### What is the best alternative to Make?
 
 It depends on why you are leaving. For missing integrations, [Zapier](/blog/getting-started-with-zapier) is the answer despite costing several times more. For unpredictable operation consumption or data residency requirements, self-hosted [n8n](/blog/getting-started-with-n8n) removes metering entirely. For Microsoft-centric organizations, Power Automate may already be paid for. Identify the specific constraint first, because these platforms solve different problems and switching for the wrong reason means paying more for less.
 
-## Is Make cheaper than its alternatives?
+### Is Make cheaper than its alternatives?
 
 Among managed cloud platforms, yes. Make's Core plan provides 10,000 operations for $10.59 monthly, while Zapier's comparable Professional plan costs $49.99 for 2,000 tasks. Only self-hosted options undercut Make: [n8n](/blog/n8n-self-hosting-guide) and Activepieces run unlimited executions for the price of a server, roughly $10 to $20 monthly. That is cheaper at high volume but adds maintenance work, so the real comparison is Make's subscription against your time.
 
-## Why did Integromat become Make?
+### Why did Integromat become Make?
 
 Integromat was acquired by Celonis in 2020 and rebranded to Make in 2022. The platform kept its scenario-based architecture, visual builder, and operations pricing model, so existing workflows carried over. Searches for "Integromat alternatives" and "Make alternatives" now refer to the same product. If you are reading older tutorials that mention Integromat, the concepts still apply, though interface details and module names have changed. See our [Make getting started guide](/blog/getting-started-with-make) for the current interface.

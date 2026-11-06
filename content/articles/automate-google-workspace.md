@@ -1,7 +1,7 @@
 ---
 title: "Automate Google Workspace: Full Guide"
 description: "Complete guide to automating Google Workspace workflows. Connect Gmail, Sheets, Drive, Calendar, and Forms with no-code tools."
-date: "2026-08-05"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["Google Workspace automation", "Gmail automation", "Google Sheets automation", "Google Drive automation"]
@@ -171,14 +171,16 @@ Then connect a second app. The cross-app workflows are where the real efficiency
 
 Google Workspace automation is a compounding investment. Each workflow you build makes the ecosystem more connected, and each connection creates opportunities for additional automations that were not obvious before. Start with the simple wins and let the connections emerge naturally.
 
-## What can I automate in Google Workspace?
+## Frequently Asked Questions
+
+### What can I automate in Google Workspace?
 
 The most impactful Google Workspace automations include: Gmail filters and auto-labeling, Google Sheets data collection from forms, Google Drive file organization and sharing, Google Calendar event creation from emails, Google Docs template generation, and cross-app workflows (new calendar event creates a meeting notes doc and shares it with attendees). Google Apps Script handles internal automation for free, while [Zapier](/blog/getting-started-with-zapier) connects Workspace to external tools.
 
-## Is Google Workspace automation free?
+### Is Google Workspace automation free?
 
 Google Apps Script is completely free for Google Workspace users and handles most internal automation needs — email processing, spreadsheet updates, document generation, and calendar management. External automation platforms add cost: [Make](/blog/getting-started-with-make) starts at $10.59/month, Zapier at $19.99/month. For most users, Apps Script covers 60-70% of automation needs at zero cost, with external tools handling the cross-platform workflows that Apps Script cannot reach.
 
-## How do I use Google Apps Script for automation?
+### How do I use Google Apps Script for automation?
 
 Open any Google Sheets, Docs, or Slides file and click Extensions → Apps Script. Write JavaScript-based functions that interact with Google services (Gmail, Drive, Calendar, Sheets). Set time-based triggers to run scripts on schedules (hourly, daily, weekly) or event-based triggers (form submission, spreadsheet edit). Apps Script runs on Google's servers — no hosting required. Start with simple tasks like sending automated emails from spreadsheet data.

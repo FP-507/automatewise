@@ -1,7 +1,7 @@
 ---
 title: "n8n Self-Hosting: Docker Setup Guide (2026)"
 description: "Self-host n8n with Docker step by step. Covers docker-compose, reverse proxy, SSL, backups, security, and cloud comparison."
-date: "2026-05-05"
+date: "2026-06-11"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["n8n", "self-hosting", "Docker", "server setup", "DevOps"]
@@ -455,7 +455,7 @@ Monitor CPU, RAM, and disk usage on your server. Tools like htop, Netdata, or Gr
 
 ### Execution Monitoring
 
-Periodically review the n8n execution log for failed workflows. Build a monitoring workflow within n8n itself that checks for failed executions daily and sends you a summary via [Slack notifications](/blog/automate-slack-notifications) or email.
+Periodically review the n8n execution log for failed workflows. Build a monitoring workflow within n8n itself that checks for failed executions daily and sends you a summary via [Slack notifications](/blog/slack-workflow-automation) or email.
 
 ## Conclusion
 
@@ -465,14 +465,16 @@ The setup process takes a few hours if you follow this guide step by step: insta
 
 Whether you are a freelancer automating client work, a startup building internal tools, or an enterprise team with data sovereignty requirements, self-hosted n8n provides a robust, cost-effective automation platform that scales with your needs.
 
-## How do I self-host n8n?
+## Frequently Asked Questions
+
+### How do I self-host n8n?
 
 The fastest method is Docker: run `docker run -d --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n n8nio/n8n` to start n8n locally. For production, use Docker Compose with PostgreSQL (instead of SQLite), configure a reverse proxy (Nginx or Caddy) with SSL, and set environment variables for encryption key, webhook URL, and timezone. Cloud hosting options include DigitalOcean ($5/month droplet), Railway, or any VPS with Docker support.
 
-## Is self-hosting n8n worth it?
+### Is self-hosting n8n worth it?
 
 Self-hosting [n8n](/blog/getting-started-with-n8n) is worth it if you need: unlimited workflow executions (cloud plans charge per execution), full data control (sensitive data stays on your servers), custom nodes or modifications, or you process high volumes that would cost $100+/month on cloud plans. The tradeoff is maintenance responsibility — updates, backups, uptime monitoring, and security patches. For teams without DevOps capacity, n8n Cloud ($24/month starter) eliminates this overhead.
 
-## What are the system requirements for self-hosting n8n?
+### What are the system requirements for self-hosting n8n?
 
 Minimum requirements: 1 CPU core, 2GB RAM, 20GB storage, and Docker installed. This handles 50-100 active workflows comfortably. For production workloads (500+ workflows, high-frequency triggers), upgrade to 2+ CPU cores, 4GB+ RAM, PostgreSQL database (instead of SQLite), and Redis for queue mode. A $10-20/month VPS from DigitalOcean, Hetzner, or Contabo covers most small-to-medium automation needs.

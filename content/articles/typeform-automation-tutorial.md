@@ -138,16 +138,18 @@ In Make/Zapier, answers are flattened to their question titles for easy mapping.
 | $29+/mo for 100 responses | Free; $29/mo Pro | Free |
 | 100+ native integrations | Webhooks + Zapier/Make | Sheets only + Apps Script |
 
-For budget-conscious teams, Tally offers most Typeform features free. See our [Google Forms automation guide](/blog/google-forms-automation) for the free alternative.
+For budget-conscious teams, [Tally](/blog/typeform-alternatives) offers most Typeform features free. See our [Google Forms automation guide](/blog/google-forms-automation) for the free alternative.
 
-## How do I connect Typeform to other apps?
+## Frequently Asked Questions
+
+### How do I connect Typeform to other apps?
 
 Three options: (1) Native Connect panel (form → Connect) for direct one-to-one integrations with Google Sheets, Slack, HubSpot, Mailchimp, Notion, and 100+ apps — fastest for simple use. (2) Webhooks (Connect → Webhooks) to push every response to [Make](/blog/getting-started-with-make), [Zapier](/blog/getting-started-with-zapier), or [n8n](/blog/getting-started-with-n8n) for multi-step logic. (3) Polling triggers in those platforms (Typeform → Watch Responses) if you prefer not to set up webhooks. Webhooks are instant; polling checks every 15 minutes.
 
-## Can Typeform score responses automatically?
+### Can Typeform score responses automatically?
 
 Yes, two ways. Typeform's built-in Calculator (Logic → Add calculation) assigns points to answers and totals them — the score is included in the response payload and can drive Logic Jumps within the form (show different ending based on score). For dynamic scoring that references external data (CRM history, company enrichment), compute the score in your automation platform after submission. Use the score to route: high scores to sales immediately, medium to nurture, low to newsletter. See our [lead generation automation guide](/blog/automate-lead-generation).
 
-## Is Typeform free?
+### Is Typeform free?
 
 Typeform's free plan allows 10 responses per month with unlimited forms — enough for testing, not production. Basic ($29/month) allows 100 responses, Plus ($59) allows 1,000, Business ($99) allows 10,000. All paid plans include integrations and webhooks. For higher volume at lower cost, Tally (free unlimited responses) or Google Forms (free) with an [automation platform](/blog/best-automation-tools-small-business) handle the same workflows, though with less polished respondent experience.

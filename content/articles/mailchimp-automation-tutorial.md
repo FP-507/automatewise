@@ -150,14 +150,16 @@ Use segments as journey starting points (Standard plan) or as send filters for c
 
 For deeper marketing automation, see our [email marketing automation guide](/blog/automate-email-marketing).
 
-## Does Mailchimp have automation on the free plan?
+## Frequently Asked Questions
+
+### Does Mailchimp have automation on the free plan?
 
 Limited. The free plan (up to 500 contacts, 1,000 sends/month) includes single-step automations: welcome email on signup, birthday email, and basic abandoned cart (with connected store). Multi-step Customer Journeys with waits, branching, and conditions require the Standard plan ($20/month for 500 contacts). If you need multi-step sequences at no cost, ConvertKit's free tier (up to 10,000 subscribers as of 2024) offers visual automations, or use an [automation platform](/blog/best-automation-tools-small-business) to orchestrate Mailchimp sends with timing logic.
 
-## How do I trigger a Mailchimp journey from another app?
+### How do I trigger a Mailchimp journey from another app?
 
 Two methods: (1) Tag-based trigger — set the journey starting point to "Tag added," then use [Make](/blog/getting-started-with-make), [Zapier](/blog/getting-started-with-zapier), or n8n to add that tag when an event happens in your CRM, store, or form tool. (2) API trigger — Mailchimp's "Customer Journeys API" starting point accepts a POST request with the subscriber email; call it from any automation platform's HTTP module. Tag-based is simpler and works on Standard plan; API triggers offer more control. Both let external events start Mailchimp sequences.
 
-## Can Mailchimp sync with my CRM automatically?
+### Can Mailchimp sync with my CRM automatically?
 
 Yes. Mailchimp has native integrations with HubSpot, Salesforce, Pipedrive, and Zoho that sync contacts bidirectionally. For other CRMs or custom field mapping, use [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make): watch for CRM contact changes, search Mailchimp by email, then add/update the subscriber with tags matching CRM lifecycle stages. This keeps Mailchimp segments aligned with sales pipeline stages so marketing sequences match where each contact is in the buying process. See our [CRM automation guide](/blog/automate-crm-workflows).

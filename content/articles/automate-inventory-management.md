@@ -1,7 +1,7 @@
 ---
 title: "Automate Inventory & Stock Tracking"
 description: "Step-by-step guide to automating inventory tracking, low-stock alerts, purchase orders, and multi-channel stock sync with no-code automation."
-date: "2026-08-08"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["inventory automation", "stock management", "supply chain", "e-commerce automation"]
@@ -71,7 +71,7 @@ Store these reorder points in your central inventory hub. Each product should ha
 
 ### Setting Up Alert Workflows
 
-In n8n, create a workflow that runs on a schedule (every hour during business hours, for example). The workflow queries your central inventory for all products where current stock is at or below the reorder point. For each product that triggers the alert, the workflow sends a notification via [Slack](/blog/automate-slack-notifications), email, or both, including the product name, current stock level, reorder point, average daily sales, and the estimated days until stockout.
+In n8n, create a workflow that runs on a schedule (every hour during business hours, for example). The workflow queries your central inventory for all products where current stock is at or below the reorder point. For each product that triggers the alert, the workflow sends a notification via [Slack](/blog/slack-workflow-automation), email, or both, including the product name, current stock level, reorder point, average daily sales, and the estimated days until stockout.
 
 Group alerts by urgency. Products within two days of stockout get flagged as critical. Products within seven days get flagged as a warning. This prevents every alert from feeling equally urgent, which leads to alert fatigue and ignored notifications.
 
@@ -163,14 +163,16 @@ If overselling is the bigger problem, start with multi-channel stock synchroniza
 
 Once the foundational automation is running, layer on purchase order generation, supplier communication, and reporting. Each addition builds on the data infrastructure you already have. The compound effect of these automations turns inventory management from a constant fire-fighting exercise into a system that largely runs itself.
 
-## How do I automate inventory management?
+## Frequently Asked Questions
+
+### How do I automate inventory management?
 
 Connect your sales channels (Shopify, WooCommerce, Amazon) to your inventory database using [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make). Set up automated workflows for: real-time stock level updates after each sale, low-stock alerts when inventory drops below threshold, automatic purchase order generation to suppliers, and multi-channel inventory syncing. Most businesses reduce stockouts by 30-50% with basic automation.
 
-## What inventory tasks should I automate first?
+### What inventory tasks should I automate first?
 
 Start with low-stock alerts — set threshold notifications for your top 20% products (which typically generate 80% of revenue). Next, automate stock level syncing across sales channels to prevent overselling. Then add automated purchase order creation when stock hits reorder points. Finally, implement automated reporting: daily stock summaries, weekly sales velocity reports, and monthly demand forecasting.
 
-## Can I automate inventory management without expensive software?
+### Can I automate inventory management without expensive software?
 
 Yes. Google Sheets or [Airtable](/blog/airtable-automation-guide) serve as free inventory databases. Connect them to your sales channels via [Make](/blog/getting-started-with-make) (1,000 free operations/month) or [n8n](/blog/getting-started-with-n8n) (free self-hosted). Use Google Forms for manual stock intake logging. This setup handles inventory for businesses with up to 500 SKUs at minimal cost — under $20/month total.

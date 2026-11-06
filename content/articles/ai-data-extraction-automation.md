@@ -1,7 +1,7 @@
 ---
 title: "AI Data Extraction: Automate Documents"
 description: "Automate data extraction from invoices, receipts, contracts, and forms using AI and OCR. Build document processing pipelines with no-code tools."
-date: "2026-08-14"
+date: "2026-08-16"
 updated: "2026-09-03"
 category: "how-to"
 tags: ["AI data extraction", "document processing", "OCR automation", "invoice extraction"]
@@ -234,14 +234,16 @@ AI document extraction has moved from experimental to practical. The tools are a
 
 The most important principle is to never trust extraction output without validation. Build math checks, format verification, and duplicate detection into every pipeline. Treat AI extraction as a highly capable assistant that needs supervision, not as a replacement for human judgment. As your pipelines mature and your prompts improve, the percentage of documents requiring human review will shrink steadily — but the review queue should never be eliminated entirely.
 
-## What is AI data extraction?
+## Frequently Asked Questions
+
+### What is AI data extraction?
 
 AI data extraction uses machine learning and natural language processing to automatically pull structured data (names, amounts, dates, line items) from unstructured sources like PDFs, emails, images, and documents. Unlike traditional OCR that just reads text, AI extraction understands context — it knows that "$1,250" next to "Total" on an invoice is the total amount, not just a number on a page.
 
-## How accurate is AI data extraction?
+### How accurate is AI data extraction?
 
 Modern AI extraction achieves 90-98% accuracy on well-formatted documents like invoices, receipts, and forms. Accuracy depends on document quality (clear scans vs blurry photos), consistency (standardized templates vs varied layouts), and the AI model used. Implementing validation rules (math checks, format verification, cross-referencing) catches most errors. Human review remains necessary for edge cases and high-value documents.
 
-## What tools are best for AI data extraction?
+### What tools are best for AI data extraction?
 
 For document processing, Rossum, ABBYY, and Google Document AI specialize in high-accuracy extraction from invoices and forms. For general text extraction, OpenAI's GPT-4o and Anthropic's Claude handle diverse document types through API calls. Automation platforms like [n8n](/blog/getting-started-with-n8n) and [Make](/blog/getting-started-with-make) orchestrate the full pipeline — receiving documents, sending them to extraction APIs, validating results, and routing data to your destination systems.

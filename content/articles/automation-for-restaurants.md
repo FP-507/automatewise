@@ -1,7 +1,7 @@
 ---
 title: "Restaurant Automation: Orders & Inventory Guide"
 description: "How restaurants automate orders, inventory tracking, staff scheduling, and customer comms. Real workflows you can set up today."
-date: "2026-08-07"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "use-cases"
 tags: ["restaurant automation", "food service workflow", "inventory automation", "order management"]
@@ -58,7 +58,7 @@ Effective inventory management is the difference between a profitable restaurant
 2. **Recipe lookup** — Map each menu item sold to its recipe and ingredient quantities
 3. **Inventory deduction** — Subtract ingredient quantities from current stock levels
 4. **Threshold check** — Compare remaining quantities against par levels for each ingredient
-5. **Low-stock alert** — When an ingredient drops below par level, send an alert to the kitchen manager via SMS or Slack. For a detailed guide on setting up notification automation, check our [Slack notification guide](/blog/automate-slack-notifications)
+5. **Low-stock alert** — When an ingredient drops below par level, send an alert to the kitchen manager via SMS or Slack. For a detailed guide on setting up notification automation, check our [Slack notification guide](/blog/slack-workflow-automation)
 6. **Critical stock** — When an ingredient drops below critical level (enough for less than one service period), automatically add it to the 86'd list and update the kitchen display
 
 ### Automated Purchase Orders
@@ -192,14 +192,16 @@ Restaurant automation is not about removing the personal touch that defines grea
 
 Start with the workflow that causes the most daily frustration. For most restaurants, that is multi-platform order management or inventory tracking. Build confidence with one successful automation, then expand systematically. The restaurants that thrive on thin margins are the ones that eliminate waste — of ingredients, of time, and of staff energy spent on tasks that software handles better.
 
-## What restaurant tasks can be automated?
+## Frequently Asked Questions
+
+### What restaurant tasks can be automated?
 
 The most impactful restaurant automations include multi-platform order management (consolidating DoorDash, Uber Eats, and Grubhub orders into one system), inventory tracking with low-stock alerts, reservation confirmations and reminders, staff scheduling, review monitoring and response, tip pool calculations, and daily sales report generation. These cover the core operational tasks that consume manager time.
 
-## How much does restaurant automation cost?
+### How much does restaurant automation cost?
 
 Most restaurant automation can be implemented for $50-150 per month total. Tools like Toast or Square handle POS and basic automation natively. MarketMan or BlueCart automate inventory for $100-300 per month. [Zapier](/blog/getting-started-with-zapier) or [Make](/blog/getting-started-with-make) connect these systems for $20-50 per month. The time saved (typically 10-15 manager hours per week) far exceeds the tool costs.
 
-## Can small restaurants benefit from automation?
+### Can small restaurants benefit from automation?
 
 Yes — small restaurants often benefit the most because they have fewer staff to handle administrative tasks. A single-location restaurant can automate online review monitoring, reservation reminders, inventory alerts, and daily reporting without any technical expertise. These automations save the owner or manager 1-2 hours daily, which directly translates to better service, more menu development time, or reduced overtime costs.

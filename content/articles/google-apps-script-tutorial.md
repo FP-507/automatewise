@@ -231,14 +231,16 @@ Many teams use both: Apps Script for Google-internal automation, an [automation 
 
 **Running in the wrong timezone.** Script timezone is set in Project Settings. Match it to your users.
 
-## Is Google Apps Script free?
+## Frequently Asked Questions
+
+### Is Google Apps Script free?
 
 Yes, completely free with any Google account. Quotas apply: free Gmail accounts can send 100 emails/day via script, Workspace accounts get 1,500/day. Scripts can run for up to 6 minutes per execution and have daily limits on trigger runs and API calls that most small-business automations never hit. There is no subscription, no per-execution charge, and no server cost — scripts run on Google's infrastructure. This makes Apps Script the most cost-effective option for automation that stays within Google Workspace.
 
-## Do I need to know JavaScript for Google Apps Script?
+### Do I need to know JavaScript for Google Apps Script?
 
 Basic familiarity helps but is not required to start. Apps Script uses JavaScript syntax, but most automation scripts follow simple patterns: read data, loop through it, do something for each row, write results back. If you can modify the examples in this tutorial (changing column numbers, email text, conditions), you can build useful automations. Copy working scripts, modify them for your needs, and learn the syntax gradually. The Apps Script documentation and community forums cover almost every common task with example code.
 
-## How do I run a Google Apps Script automatically?
+### How do I run a Google Apps Script automatically?
 
 Set up a trigger: in the Apps Script editor, click the clock icon (Triggers) in the left sidebar, then Add Trigger. Choose your function, select the event source (time-driven for schedules; from spreadsheet for edit/form-submit events; from calendar for calendar changes), and configure the timing. Time-driven triggers run every minute, hour, day, week, or month. Event triggers run instantly when the event occurs. Once set, the script runs automatically without you opening the editor or the spreadsheet.

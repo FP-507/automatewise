@@ -157,14 +157,16 @@ For interactive bots (commands, buttons), use n8n or a webhook-based setup. For 
 
 See our [WhatsApp Business automation guide](/blog/whatsapp-business-automation) for the customer-facing side.
 
-## Is the Telegram Bot API free?
+## Frequently Asked Questions
+
+### Is the Telegram Bot API free?
 
 Yes, completely. There are no fees, no message limits for normal use (rate limits exist: ~30 messages/second overall, 20/minute to the same group), and no approval process. Create a bot via @BotFather in seconds and start sending. This makes Telegram the cheapest messaging channel for automation — pair it with self-hosted [n8n](/blog/getting-started-with-n8n) and the total cost is zero. The only constraint is that recipients must have Telegram and must start a conversation with your bot first (bots cannot message users who have not messaged them).
 
-## How do I get my Telegram chat ID?
+### How do I get my Telegram chat ID?
 
 Message your bot (or add it to a group and send a message there), then open `https://api.telegram.org/bot<YOUR_TOKEN>/getUpdates` in a browser. The JSON response includes `"chat":{"id":123456789,...}` — that number is the chat ID. Group IDs are negative (e.g., -100123456789). Alternatively, message @userinfobot or @getidsbot on Telegram to get your personal ID. In [n8n](/blog/getting-started-with-n8n), the Telegram Trigger node shows the chat ID in its output, so you can grab it from the first test message.
 
-## Can a Telegram bot read messages in a group?
+### Can a Telegram bot read messages in a group?
 
 By default, bots in groups only see commands (messages starting with /) and messages that mention them, due to Privacy Mode. To see all messages, either make the bot a group admin or disable Privacy Mode via @BotFather → /setprivacy → Disable (then remove and re-add the bot to the group). Once it sees all messages, use [n8n](/blog/getting-started-with-n8n)'s Telegram Trigger to react to keywords, links, new members, or any content for moderation, logging, or auto-responses.

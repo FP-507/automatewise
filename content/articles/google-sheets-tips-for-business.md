@@ -199,14 +199,16 @@ Sheets is powerful, but it has limits. Consider moving to a dedicated tool when:
 
 For a comparison of spreadsheets vs databases, Sheets vs Airtable is the most common decision point for small businesses looking to upgrade their data management.
 
-## What Google Sheets formulas should every business know?
+## Frequently Asked Questions
+
+### What Google Sheets formulas should every business know?
 
 Five essential formulas: (1) VLOOKUP/INDEX-MATCH for cross-referencing data between sheets. (2) QUERY for filtering and aggregating data with SQL-like syntax. (3) SUMIFS/COUNTIFS for conditional calculations across multiple criteria. (4) ARRAYFORMULA for applying calculations to entire columns without dragging. (5) IMPORTRANGE for pulling live data from other spreadsheets into dashboards. Master these five and you can handle 90% of business spreadsheet needs.
 
-## How do I create a dashboard in Google Sheets?
+### How do I create a dashboard in Google Sheets?
 
 Create a "Dashboard" tab as the first sheet in your workbook. Use QUERY, SUMIF, and COUNTIF formulas to pull summary metrics from your data sheets. Add SPARKLINE formulas for inline trend visualization. Create charts linked to your data ranges so they update automatically. Apply conditional formatting to highlight KPIs that are above or below target. Keep the dashboard to one screen — if stakeholders need to scroll, move details to separate sheets and link to them.
 
-## Can Google Sheets replace a database?
+### Can Google Sheets replace a database?
 
 For small businesses with under 5,000 records and simple data relationships, Google Sheets works well as a lightweight database, especially when connected to automation tools. Beyond that, Sheets struggles with performance, relational data (linking customers to orders to payments), concurrent editing, and granular permissions. [Airtable](/blog/airtable-automation-guide) is the most natural upgrade from Sheets — it looks like a spreadsheet but works like a database with relational fields, views, and built-in automation.

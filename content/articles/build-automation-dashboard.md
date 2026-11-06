@@ -1,7 +1,7 @@
 ---
 title: "How to Build an Automation Monitoring Dashboard"
 description: "Learn how to build a dashboard that monitors all your automations in one place. Track success rates, failures, execution times, and usage across platforms."
-date: "2026-08-03"
+date: "2026-08-10"
 updated: "2026-09-03"
 category: "advanced"
 tags: ["automation dashboard", "monitoring", "automation analytics", "workflow monitoring"]

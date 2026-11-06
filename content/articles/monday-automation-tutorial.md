@@ -132,14 +132,16 @@ Check Integrations Center before building external workflows — native may alre
 
 For broader patterns, see our [project management automation guide](/blog/automate-project-management).
 
-## Does Monday.com have free automations?
+## Frequently Asked Questions
+
+### Does Monday.com have free automations?
 
 The Free plan does not include automations. Basic plan ($9/user/month) includes 250 automation actions monthly; Standard ($12/user) includes 25,000 — the practical starting point for teams that rely on automation. Each action (notify, change status, set date) counts separately, so a single trigger firing 3 actions uses 3 of your monthly allocation. Pro ($19/user) offers 250,000. For heavy automation on a budget, [ClickUp](/blog/clickup-automation-tutorial) offers more generous limits at similar pricing.
 
-## What is a Monday.com automation recipe?
+### What is a Monday.com automation recipe?
 
 A recipe is a pre-built automation template written as a sentence with fill-in-the-blank parts: "When [status] changes to [something], [notify someone]." Monday offers 200+ recipes in the Automations Center covering status changes, dates, assignments, notifications, and cross-board actions. Click a recipe, fill in the specifics (which status, which person, which board), and activate. Custom recipes let you combine any trigger with any action for workflows the templates do not cover. Recipes make automation accessible without understanding triggers and actions as abstract concepts.
 
-## Can Monday.com integrate with Zapier and Make?
+### Can Monday.com integrate with Zapier and Make?
 
 Yes. [Zapier](/blog/getting-started-with-zapier) and [Make](/blog/getting-started-with-make) both have Monday.com integrations with triggers (item created, column value changed, status changed, update posted) and actions (create item, update column values, create update, search items). Connect via API token (Monday → Profile → Developers → My Access Tokens). Monday also supports outbound webhooks as an automation action on Standard plan and above, which push item data to external URLs instantly — faster than polling and useful for triggering [Make](/blog/getting-started-with-make) or [n8n](/blog/getting-started-with-n8n) workflows.

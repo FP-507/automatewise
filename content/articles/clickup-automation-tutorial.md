@@ -135,14 +135,16 @@ Webhook actions (for external integration) require Business plan. On lower plans
 
 For broader project workflows, see our [project management automation guide](/blog/automate-project-management).
 
-## Is ClickUp automation free?
+## Frequently Asked Questions
+
+### Is ClickUp automation free?
 
 ClickUp's Free Forever plan includes 100 automation executions per month — enough for light use in a small workspace. Unlimited plan ($7/user/month) raises this to 1,000, Business ($12/user) to 10,000, and Enterprise removes the limit. Each time an automation fires counts as one execution. Free plan automations cover basic triggers and actions (status changes, assignments, due dates) but not webhook actions, which require Business. For most teams under 10 people, the Unlimited plan's 1,000 monthly automations handle daily operations comfortably.
 
-## How do I set up ClickUp automations?
+### How do I set up ClickUp automations?
 
 Open the List, Folder, or Space you want to automate, click the lightning bolt icon in the top right, and select Add Automation. Choose a trigger (when status changes, when assignee changes, when due date arrives, etc.), optionally add conditions (if priority is Urgent, if custom field equals X), then pick actions (change status, assign, set due date, add comment, create task, send webhook). Name it, save, and it runs on all future matching events. Start at the Space level to apply automations across all Lists inside it.
 
-## Can ClickUp connect to Zapier and Make?
+### Can ClickUp connect to Zapier and Make?
 
 Yes. Both [Zapier](/blog/getting-started-with-zapier) and [Make](/blog/getting-started-with-make) have full ClickUp integrations with triggers (task created, updated, status changed, comment added) and actions (create, update, search tasks; create comments, lists, folders). Connect via OAuth (Make, Zapier) or API token (n8n, found in ClickUp → Settings → Apps → API Token). Additionally, ClickUp's native Webhook automation action (Business plan) pushes task events to external URLs instantly, which is faster than polling triggers.

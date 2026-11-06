@@ -145,14 +145,16 @@ This is developer-adjacent; for most communities, reactions and buttons via exis
 
 For team-internal automation, see our [Slack automation guide](/blog/slack-workflow-automation).
 
-## Can I automate Discord without coding?
+## Frequently Asked Questions
+
+### Can I automate Discord without coding?
 
 Yes. Discord webhooks let any automation platform post messages by sending data to a URL — no bot code needed. [Make](/blog/getting-started-with-make), [Zapier](/blog/getting-started-with-zapier), and [n8n](/blog/getting-started-with-n8n) all have native Discord modules for sending messages, creating threads, and managing roles. For reading messages and reacting to events (joins, reactions), n8n has a Discord Trigger node that uses a bot token you create in the Discord Developer Portal — still no code, just a token. Pre-built bots (MEE6, Carl-bot) cover standard community features via dashboards.
 
-## What is a Discord webhook?
+### What is a Discord webhook?
 
 A webhook is a unique URL tied to a specific channel. Any application that sends an HTTP POST request with a JSON body to that URL will post a message in the channel, appearing as a custom-named bot. Create one in Channel Settings → Integrations → Webhooks. Webhooks are one-way (post only, cannot read messages) and need no bot setup, which makes them the fastest way to pipe external notifications — deploys, sales, form submissions, RSS items — into Discord. Rich embeds with titles, colors, fields, and images are supported.
 
-## How do I make a Discord bot assign roles automatically?
+### How do I make a Discord bot assign roles automatically?
 
 Create a bot in the Discord Developer Portal, invite it to your server with Manage Roles permission, and ensure the bot's role is above the roles it will assign. Then use [n8n](/blog/getting-started-with-n8n) or [Make](/blog/getting-started-with-make)'s Discord "Add Role" action triggered by your event — a Stripe subscription, a form submission with the user's Discord ID, or a reaction on a roles message. For reaction-based self-assignment without external tools, Carl-bot and MEE6 offer reaction roles through their dashboards.

@@ -26,6 +26,7 @@ export async function generateMetadata({
   return {
     title: `${info.label} — Automation Guides`,
     description: info.description,
+    alternates: { canonical: `/categories/${category}` },
     openGraph: {
       title: `${info.label} — ${SITE.name}`,
       description: info.description,
@@ -45,9 +46,35 @@ export default async function CategoryPage({
 
   const info = CATEGORY_INFO[category as Category];
   const articles = getArticlesByCategory(category as Category);
+  const pillars = info.pillars
+    .map((slug) => articles.find((a) => a.slug === slug))
+    .filter((a): a is NonNullable<typeof a> => Boolean(a));
+  const pageUrl = `${SITE.url}/categories/${category}`;
+  const collectionJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `${info.label} — ${SITE.name}`,
+    description: info.description,
+    url: pageUrl,
+    isPartOf: { "@type": "WebSite", name: SITE.name, url: SITE.url },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: articles.length,
+      itemListElement: articles.map((a, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: `${SITE.url}/blog/${a.slug}`,
+        name: a.title,
+      })),
+    },
+  };
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
+      />
       <Breadcrumbs
         items={[
           { label: "Blog", href: "/blog" },
@@ -85,7 +112,47 @@ export default async function CategoryPage({
         </div>
       </div>
 
+      <div className="mt-8 max-w-3xl space-y-4 text-base leading-relaxed text-text-secondary">
+        {info.intro.map((paragraph) => (
+          <p key={paragraph.slice(0, 32)}>{paragraph}</p>
+        ))}
+      </div>
+
+      {pillars.length > 0 && (
+        <section className="mt-10">
+          <h2 className="font-display text-xl font-bold text-text">
+            Start with these guides
+          </h2>
+          <ol className="mt-4 grid gap-3 sm:grid-cols-2">
+            {pillars.map((article, i) => (
+              <li key={article.slug}>
+                <Link
+                  href={`/blog/${article.slug}`}
+                  className="card-hover group flex h-full gap-4 rounded-xl border border-border bg-surface p-4"
+                >
+                  <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-accent/10 font-display text-sm font-bold text-accent">
+                    {i + 1}
+                  </span>
+                  <span>
+                    <span className="block font-display font-semibold leading-snug text-text transition-colors group-hover:text-accent">
+                      {article.title}
+                    </span>
+                    <span className="mt-1 block text-sm text-text-muted">
+                      {article.description}
+                    </span>
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+
       <AdSlot position="header" className="my-8" />
+
+      <h2 className="mb-5 mt-12 font-display text-xl font-bold text-text">
+        All {info.label.toLowerCase()} ({articles.length})
+      </h2>
 
       {articles.length === 0 ? (
         <div className="rounded-xl border border-dashed border-border bg-surface/50 py-16 text-center">
