@@ -58,7 +58,7 @@ Effective inventory management is the difference between a profitable restaurant
 2. **Recipe lookup** — Map each menu item sold to its recipe and ingredient quantities
 3. **Inventory deduction** — Subtract ingredient quantities from current stock levels
 4. **Threshold check** — Compare remaining quantities against par levels for each ingredient
-5. **Low-stock alert** — When an ingredient drops below par level, send an alert to the kitchen manager via SMS or Slack. For a detailed guide on setting up notification automation, check our [Slack notification guide](/blog/automate-slack-notifications)
+5. **Low-stock alert** — When an ingredient drops below par level, send an alert to the kitchen manager via SMS or Slack. For a detailed guide on setting up notification automation, check our [Slack notification guide](/blog/slack-workflow-automation)
 6. **Critical stock** — When an ingredient drops below critical level (enough for less than one service period), automatically add it to the 86'd list and update the kitchen display
 
 ### Automated Purchase Orders

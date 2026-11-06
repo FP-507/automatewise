@@ -35,7 +35,7 @@ When someone fills out your contact form, this template creates a CRM contact, s
 
 Every payment is logged to a spreadsheet with customer name, email, amount, and date. The customer receives a personalized thank-you email. Your bookkeeping spreadsheet stays current without manual updates.
 
-**Customization:** Add conditional logic to send different emails based on purchase amount or product. Add a [Slack notification](/blog/automate-slack-notifications) for payments above a threshold.
+**Customization:** Add conditional logic to send different emails based on purchase amount or product. Add a [Slack notification](/blog/slack-workflow-automation) for payments above a threshold.
 
 ### 3. CRM Deal Stage Change to Team Notification
 
@@ -113,7 +113,7 @@ When HR submits a new hire form, this template creates an onboarding checklist (
 
 Before each meeting, this template creates a Google Doc with the meeting title, date, attendees, and a structured template for notes and action items. After the meeting, action items are extracted and created as tasks in your project management tool.
 
-**Tip:** Pair with our [meeting scheduling automation guide](/blog/automate-meeting-scheduling) to automate the full meeting lifecycle from scheduling through follow-up.
+**Tip:** Pair with our [meeting scheduling automation guide](/blog/automate-appointment-scheduling) to automate the full meeting lifecycle from scheduling through follow-up.
 
 ### 14. File Organization and Backup
 
@@ -165,7 +165,7 @@ Templates are starting points, not final products. Common customizations:
 
 For most people, starting with a template and modifying it is faster than building from zero. The template gives you the correct module sequence and data mapping -- you just adjust it to your specific accounts and requirements.
 
-Compare Make's template approach with [Zapier's pre-built Zaps](/blog/getting-started-with-zapier) and [n8n's community workflows](/blog/getting-started-with-n8n) in our [platform comparison guide](/blog/best-automation-tools-2025).
+Compare Make's template approach with [Zapier's pre-built Zaps](/blog/getting-started-with-zapier) and [n8n's community workflows](/blog/getting-started-with-n8n) in our [platform comparison guide](/blog/best-automation-tools-small-business).
 
 ## Frequently Asked Questions
 

@@ -37,7 +37,7 @@ For a deeper dive on setting up webhook-based triggers, the [webhook automation 
 
 When team members type a message in a designated Slack channel or use a specific emoji reaction, a task is automatically created. This is especially useful for bug reports, feature requests, or quick ideas that would otherwise get buried in the conversation history.
 
-In Zapier, use a Slack trigger for "New Reaction Added" filtered to a specific emoji (like a checkmark). The Zap creates a task in your project tool with the original message as the description and a link back to the Slack thread for context. Check out how to set up more advanced [Slack notification automations](/blog/automate-slack-notifications) for additional patterns.
+In Zapier, use a Slack trigger for "New Reaction Added" filtered to a specific emoji (like a checkmark). The Zap creates a task in your project tool with the original message as the description and a link back to the Slack thread for context. Check out how to set up more advanced [Slack notification automations](/blog/slack-workflow-automation) for additional patterns.
 
 ### Form Submissions to Tasks
 

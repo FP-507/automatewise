@@ -167,7 +167,7 @@ Common assignment strategies:
 
 **Step 2 — Update CRM**: Assign the lead to the selected rep in your CRM and set the deal stage to "New"
 
-**Step 3 — Notify Immediately**: Send a [Slack notification](/blog/automate-slack-notifications) to the rep with:
+**Step 3 — Notify Immediately**: Send a [Slack notification](/blog/slack-workflow-automation) to the rep with:
 - Lead name, company, and contact info
 - Lead score and qualification details
 - Enrichment data (company size, industry)

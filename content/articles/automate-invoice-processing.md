@@ -83,7 +83,7 @@ Set up rules based on your organization's policies. Common routing logic include
 
 In n8n, use Switch nodes to implement your routing logic. Each branch ends at a notification step that alerts the appropriate approver. For notifications, you have several options.
 
-Email notifications work but get lost in busy inboxes. Slack messages are faster and more visible, especially if you set up a dedicated approvals channel. You can learn how to configure these in our guide on [automating Slack notifications](/blog/automate-slack-notifications). For the most streamlined experience, build a simple approval dashboard using Google Sheets or Airtable where approvers can review pending invoices and click to approve or reject.
+Email notifications work but get lost in busy inboxes. Slack messages are faster and more visible, especially if you set up a dedicated approvals channel. You can learn how to configure these in our guide on [automating Slack notifications](/blog/slack-workflow-automation). For the most streamlined experience, build a simple approval dashboard using Google Sheets or Airtable where approvers can review pending invoices and click to approve or reject.
 
 ### Handling Approvals and Rejections
 
@@ -107,7 +107,7 @@ For Zapier, the QuickBooks integration is available as a native connection. Crea
 
 Build a centralized tracking sheet that records every invoice from receipt through payment. Key fields include invoice number, vendor, amount, date received, date approved, approver, payment due date, payment status, and payment date. Your automation should update this tracker at each stage of the process.
 
-Set up weekly automated reports that summarize outstanding payables, upcoming payments, and overdue invoices. Push these to a [Google Sheets dashboard](/blog/connect-google-sheets-n8n) that stakeholders can review at any time, or deliver them as automated [Slack notifications](/blog/automate-slack-notifications) to your finance team.
+Set up weekly automated reports that summarize outstanding payables, upcoming payments, and overdue invoices. Push these to a [Google Sheets dashboard](/blog/connect-google-sheets-n8n) that stakeholders can review at any time, or deliver them as automated [Slack notifications](/blog/slack-workflow-automation) to your finance team.
 
 ### Cash Flow Forecasting
 

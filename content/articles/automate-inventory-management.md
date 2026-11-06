@@ -71,7 +71,7 @@ Store these reorder points in your central inventory hub. Each product should ha
 
 ### Setting Up Alert Workflows
 
-In n8n, create a workflow that runs on a schedule (every hour during business hours, for example). The workflow queries your central inventory for all products where current stock is at or below the reorder point. For each product that triggers the alert, the workflow sends a notification via [Slack](/blog/automate-slack-notifications), email, or both, including the product name, current stock level, reorder point, average daily sales, and the estimated days until stockout.
+In n8n, create a workflow that runs on a schedule (every hour during business hours, for example). The workflow queries your central inventory for all products where current stock is at or below the reorder point. For each product that triggers the alert, the workflow sends a notification via [Slack](/blog/slack-workflow-automation), email, or both, including the product name, current stock level, reorder point, average daily sales, and the estimated days until stockout.
 
 Group alerts by urgency. Products within two days of stockout get flagged as critical. Products within seven days get flagged as a warning. This prevents every alert from feeling equally urgent, which leads to alert fatigue and ignored notifications.
 

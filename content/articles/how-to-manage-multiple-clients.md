@@ -78,7 +78,7 @@ You need one view showing every task across all clients, sortable by deadline an
 - A "Today" or "This Week" view that pulls tasks across all projects
 - Deadline-based sorting so the most urgent is always visible
 
-[Notion](/blog/notion-project-management-automation), [Trello](/blog/trello-automation-guide), Asana, and ClickUp all support this. Automate task creation from templates when projects start. See our [project management automation guide](/blog/automate-project-management).
+[Notion](/blog/notion-automation-guide), [Trello](/blog/trello-automation-guide), Asana, and ClickUp all support this. Automate task creation from templates when projects start. See our [project management automation guide](/blog/automate-project-management).
 
 ### 5. Automated Reminders and Alerts
 
@@ -138,7 +138,7 @@ When you consistently have more demand than capacity, three options:
 
 **3. Add team members.** Only after 1 and 2. Hiring while your systems are broken multiplies the chaos.
 
-For scaling strategies specific to solo operators, see our [solopreneur systems guide](/blog/solopreneur-tools-and-systems). For agencies, see [agency operations](/blog/digital-agency-operations-guide).
+For scaling strategies specific to solo operators, see our [solopreneur systems guide](/blog/solopreneur-tools-and-systems). For agencies, see [agency operations](/blog/automation-for-marketing-agencies).
 
 ## Frequently Asked Questions
 
@@ -152,4 +152,4 @@ A project management tool with cross-project views is essential — Notion, Clic
 
 ### How do I keep clients from feeling neglected?
 
-Consistent proactive communication is the answer — not more communication, but predictable communication. Send a weekly status update to every client on the same day in the same format. Schedule recurring check-in calls so they never have to ask for a meeting. Respond to every message within 4 business hours (even a brief acknowledgment). [Automate the status updates](/blog/automate-slack-notifications) so consistency does not depend on your memory. Clients who know exactly when they will hear from you stop worrying between updates.
+Consistent proactive communication is the answer — not more communication, but predictable communication. Send a weekly status update to every client on the same day in the same format. Schedule recurring check-in calls so they never have to ask for a meeting. Respond to every message within 4 business hours (even a brief acknowledgment). [Automate the status updates](/blog/slack-workflow-automation) so consistency does not depend on your memory. Clients who know exactly when they will hear from you stop worrying between updates.

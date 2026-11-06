@@ -84,7 +84,7 @@ Simultaneously alert your team:
 - **Task creation** for the customer success manager to schedule an intro call
 - **Spreadsheet log** for tracking and reporting
 
-See our [Slack notification guide](/blog/automate-slack-notifications) for detailed setup instructions.
+See our [Slack notification guide](/blog/slack-workflow-automation) for detailed setup instructions.
 
 ### Step 3: Account Setup
 

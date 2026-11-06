@@ -34,7 +34,7 @@ Make counts operations rather than tasks, and it counts them more efficiently. A
 
 The visual builder is the other reason people move. Routers, iterators, aggregators, and error handlers are first-class, so branching logic that becomes awkward in Zapier's Paths stays readable in Make.
 
-**What you give up:** roughly 1,800 native integrations against Zapier's 7,000-plus. Check your niche apps before committing. Our [Make vs Zapier comparison](/blog/make-vs-zapier) covers the differences in detail, and the [Make tutorial](/blog/make-tutorial-step-by-step) walks through building scenarios.
+**What you give up:** roughly 1,800 native integrations against Zapier's 7,000-plus. Check your niche apps before committing. Our [Make vs Zapier comparison](/blog/make-vs-zapier) covers the differences in detail, and the [Make tutorial](/blog/getting-started-with-make) walks through building scenarios.
 
 ## 2. n8n — For Data Control and Volume
 

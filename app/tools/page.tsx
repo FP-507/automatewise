@@ -234,7 +234,7 @@ export default function ToolsPage() {
 
         <div className="mt-4 text-center">
           <Link
-            href="/blog/best-automation-tools-2025"
+            href="/blog/best-automation-tools-small-business"
             className="text-sm font-medium text-accent hover:underline"
           >
             Read our full 2025 comparison guide &rarr;
@@ -324,7 +324,7 @@ export default function ToolsPage() {
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <Link
-              href="/blog/best-automation-tools-2025"
+              href="/blog/best-automation-tools-small-business"
               className="btn-primary inline-flex items-center gap-2 rounded-xl bg-accent px-6 py-3 font-semibold text-background"
             >
               2025 Complete Guide

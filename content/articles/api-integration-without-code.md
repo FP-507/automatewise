@@ -185,7 +185,7 @@ Data from multiple sources is combined into a single destination.
 
 Workflows trigger in response to specific events via webhooks, processing data in real time.
 
-**Example**: Payment webhook from Stripe → Update order status → Send [Slack notification](/blog/automate-slack-notifications) → Generate invoice
+**Example**: Payment webhook from Stripe → Update order status → Send [Slack notification](/blog/slack-workflow-automation) → Generate invoice
 
 ## Debugging API Issues
 

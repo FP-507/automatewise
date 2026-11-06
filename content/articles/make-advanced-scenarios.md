@@ -193,7 +193,7 @@ Total modules: ~15. Operations per lead: ~5-8. Fully automatic from form submiss
 
 **Make vs [Power Automate](/blog/make-vs-power-automate):** Power Automate handles similar complexity but is optimized for Microsoft ecosystem. Choose based on your tech stack.
 
-For a full comparison of all platforms' advanced capabilities, see our [best automation tools guide](/blog/best-automation-tools-2025).
+For a full comparison of all platforms' advanced capabilities, see our [best automation tools guide](/blog/best-automation-tools-small-business).
 
 ## Frequently Asked Questions
 

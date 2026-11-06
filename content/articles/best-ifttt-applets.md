@@ -175,7 +175,7 @@ Follow topics relevant to your industry by monitoring specific sources. IFTTT wa
 **Trigger:** Any IFTTT trigger (email, calendar, smart home, weather)
 **Action:** Post message to a Slack channel
 
-Route important notifications from any service into Slack. New customer email? Slack. Server down? Slack. Package delivered? Slack. Centralizes your notifications into the tool you already watch all day. For more, see our [Slack automation guide](/blog/automate-slack-notifications).
+Route important notifications from any service into Slack. New customer email? Slack. Server down? Slack. Package delivered? Slack. Centralizes your notifications into the tool you already watch all day. For more, see our [Slack automation guide](/blog/slack-workflow-automation).
 
 ### 23. Emergency Contact Alert
 
@@ -220,7 +220,7 @@ The applet runs immediately. Test it by triggering the condition manually (press
 
 ## Beyond IFTTT: When to Level Up
 
-If you find yourself wanting more than IFTTT offers -- complex logic, data transformation, error handling, or business-grade reliability -- it is time to explore more powerful platforms. Our [best automation tools guide](/blog/best-automation-tools-2025) compares all the options, and specific comparisons like [IFTTT vs Zapier vs Make](/blog/ifttt-vs-zapier-vs-make) help you decide which direction to go.
+If you find yourself wanting more than IFTTT offers -- complex logic, data transformation, error handling, or business-grade reliability -- it is time to explore more powerful platforms. Our [best automation tools guide](/blog/best-automation-tools-small-business) compares all the options, and specific comparisons like [IFTTT vs Zapier vs Make](/blog/ifttt-vs-zapier-vs-make) help you decide which direction to go.
 
 For smart home specifically, IFTTT remains the best balance of simplicity and capability. For business workflows, platforms like [Zapier](/blog/getting-started-with-zapier), [Make](/blog/getting-started-with-make), or [n8n](/blog/getting-started-with-n8n) offer the depth you need.
 

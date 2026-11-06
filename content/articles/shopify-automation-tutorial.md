@@ -164,7 +164,7 @@ See our [social media automation guide](/blog/automate-social-media-posting) for
 | Real-time triggers on Shopify events | SMS, custom email, Slack rich messages |
 | Simple conditions on order/customer/product data | Complex logic, loops, data transformation |
 
-For the broader e-commerce operations picture, see our [e-commerce automation guide](/blog/automation-for-ecommerce) and [e-commerce operations guide](/blog/ecommerce-operations-guide).
+For the broader e-commerce operations picture, see our [e-commerce automation guide](/blog/automation-for-ecommerce) and [e-commerce operations guide](/blog/automation-for-ecommerce).
 
 ## Frequently Asked Questions
 

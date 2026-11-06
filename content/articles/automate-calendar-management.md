@@ -15,7 +15,7 @@ Most professionals juggle multiple calendars: a work Google Calendar, a personal
 
 Calendar automation solves this by treating your calendar as a system rather than a passive record. Calendars sync bidirectionally. Time blocks generate from task lists. Availability pages always reflect your true schedule. Meeting buffers enforce themselves. And reporting happens automatically so you know where your time actually goes.
 
-For scheduling automation that connects directly to calendar management, see our guide on [automating meeting scheduling](/blog/automate-meeting-scheduling).
+For scheduling automation that connects directly to calendar management, see our guide on [automating meeting scheduling](/blog/automate-appointment-scheduling).
 
 ## Multi-Calendar Syncing
 
@@ -251,7 +251,7 @@ Automated calendar management transforms your calendar from a passive record int
 
 Start with multi-calendar sync to establish a single source of truth. Then add buffer automation and time blocking from your task list. Once the basics run reliably, layer on reporting, recurring meeting audits, and OOO automation.
 
-For the scheduling workflows that depend on accurate calendar management, see our [meeting scheduling automation guide](/blog/automate-meeting-scheduling) and [appointment scheduling guide](/blog/automate-appointment-scheduling). To extend calendar automation into your broader productivity stack, explore our [Google Workspace automation guide](/blog/automate-google-workspace) and [project management automation](/blog/automate-project-management).
+For the scheduling workflows that depend on accurate calendar management, see our [meeting scheduling automation guide](/blog/automate-appointment-scheduling) and [appointment scheduling guide](/blog/automate-appointment-scheduling). To extend calendar automation into your broader productivity stack, explore our [Google Workspace automation guide](/blog/automate-google-workspace) and [project management automation](/blog/automate-project-management).
 
 ## Frequently Asked Questions
 

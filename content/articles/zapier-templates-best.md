@@ -87,7 +87,7 @@ React to a Slack message with a specific emoji (📋 or ✅) and Zapier creates 
 
 ### 16. Google Calendar Event → Meeting Notes Template
 
-When a meeting appears on your calendar, Zapier creates a Google Doc with the meeting name, date, attendees, and a structured template for notes and action items. Walk into every meeting with a prepared document. Pairs with our [meeting scheduling guide](/blog/automate-meeting-scheduling).
+When a meeting appears on your calendar, Zapier creates a Google Doc with the meeting name, date, attendees, and a structured template for notes and action items. Walk into every meeting with a prepared document. Pairs with our [meeting scheduling guide](/blog/automate-appointment-scheduling).
 
 ### 17. Daily Standup Bot
 
@@ -119,7 +119,7 @@ Connect your application monitoring (UptimeRobot, Datadog, or simple HTTP checks
 
 **Use Zapier's Formatter.** Between trigger and action, add a Formatter step to clean data: format dates, capitalize names, split full names into first/last, convert currencies. Clean data prevents errors downstream.
 
-For a full comparison of template ecosystems across platforms, see our [best automation tools guide](/blog/best-automation-tools-2025).
+For a full comparison of template ecosystems across platforms, see our [best automation tools guide](/blog/best-automation-tools-small-business).
 
 ## Frequently Asked Questions
 

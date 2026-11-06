@@ -132,7 +132,7 @@ Automate the prep so the team member walks into the consultation informed:
 3. **Generate prep document** — Create a brief with the prospect's needs, questions to ask, and relevant case studies or examples
 4. **Deliver** — Send the prep document to the assigned team member via email or Slack 24 hours before the consultation
 
-For meeting scheduling automation patterns, see our guide on [automating meeting scheduling](/blog/automate-meeting-scheduling).
+For meeting scheduling automation patterns, see our guide on [automating meeting scheduling](/blog/automate-appointment-scheduling).
 
 ## Contract and Proposal Generation
 

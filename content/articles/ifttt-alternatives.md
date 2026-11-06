@@ -60,7 +60,7 @@ Routines cover voice-triggered and scheduled actions across Google-compatible de
 
 Make gives you branching, loops, error handling, and data transformation that IFTTT simply does not have, at $10.59 monthly for 10,000 operations. For anyone running applets that move customer data, log form submissions, or sync tools, this is the correct destination.
 
-**What you give up:** IFTTT's simplicity. Make asks you to think in flowcharts. See the [Make tutorial](/blog/make-tutorial-step-by-step) and [IFTTT vs Zapier vs Make](/blog/ifttt-vs-zapier-vs-make).
+**What you give up:** IFTTT's simplicity. Make asks you to think in flowcharts. See the [Make tutorial](/blog/getting-started-with-make) and [IFTTT vs Zapier vs Make](/blog/ifttt-vs-zapier-vs-make).
 
 ### 5. Zapier — When You Need Every App
 

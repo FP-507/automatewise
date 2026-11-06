@@ -1,11 +1,11 @@
 ---
-title: "How to Use n8n: First Workflow in 15 Min (2026)"
-description: "Set up n8n and build your first automated workflow in 15 minutes. Step-by-step tutorial for complete beginners — free and open source."
+title: "n8n Tutorial for Beginners: First Workflow to Production"
+description: "Learn n8n step by step: cloud vs self-hosted, your first workflow, then five hands-on builds covering expressions, IF, loops, HTTP requests and error handling."
 date: "2026-06-11"
-updated: "2026-09-03"
+updated: "2026-11-06"
 category: "getting-started"
 tags: ["n8n", "tutorial", "beginner guide", "workflow builder", "first automation"]
-keywords: ["getting started with n8n", "n8n tutorial", "n8n beginner guide", "first n8n workflow"]
+keywords: ["getting started with n8n", "n8n tutorial", "n8n beginner guide", "first n8n workflow", "how to use n8n", "n8n workflow tutorial", "n8n for beginners", "n8n step by step"]
 featured: true
 ---
 
@@ -194,19 +194,156 @@ As your automations grow complex, you can break them into smaller, reusable sub-
 
 Webhook nodes let your workflow respond to external events in real time. Instead of polling for changes on a schedule, other services can push data directly to your workflow's webhook URL. This is essential for building responsive automations that react instantly.
 
-## Five Workflow Ideas for Your Next Project
+## Hands-On: Five Workflows From Zero to Production
 
-Now that you know the basics, here are five practical workflows to build next, each teaching you new n8n features.
+Once your first workflow runs, these five builds take you through the n8n features you will use most: expressions, the IF node, looping over items, the HTTP Request node and error handling. Build them in order — each one adds a single new concept.
 
-1. **New lead notification pipeline** -- When a form is submitted on your website, create a contact in your CRM and notify your team on Slack. This teaches you webhook triggers and multi-step workflows. See our guide on [automating lead generation](/blog/automate-lead-generation).
+### Workflow 1: Scheduled Report Email (Nodes and Expressions)
 
-2. **Daily report automation** -- Pull data from Google Analytics, format it into a summary, and email it to your team every morning. This teaches you scheduled triggers and data transformation. Read more about [automating report generation](/blog/automate-report-generation).
+**Concept:** Nodes are n8n's building blocks. Expressions (in `{{ }}`) inject dynamic data.
 
-3. **Social media cross-poster** -- When you publish a new blog post, automatically share it on Twitter, LinkedIn, and Facebook with platform-optimized messaging. This teaches you parallel execution and content transformation. Check our [social media automation guide](/blog/automate-social-media-posting).
+**What it does:** Every Monday at 8 AM, count rows in a Google Sheet and email the count.
 
-4. **File organization system** -- When a file is uploaded to Google Drive, rename it based on conventions, move it to the correct folder based on file type, and log the action in a spreadsheet. Learn about [automating file organization](/blog/automate-file-organization).
+**Steps:**
 
-5. **Customer support ticket router** -- When a support email arrives, analyze the subject and body to determine the category, assign it to the right team member, and send an acknowledgment email to the customer. This teaches you conditional logic and text analysis.
+1. Click **Add workflow** → name it "Weekly Report"
+2. Click **+** → search **Schedule Trigger**
+   - Trigger Interval: Weeks
+   - Weeks Between Triggers: 1
+   - Trigger on Weekdays: Monday
+   - Hour: 8
+3. Click **+** after Schedule → search **Google Sheets** → **Get Many Rows**
+   - Create credential (OAuth2 or Service Account)
+   - Document: select your spreadsheet
+   - Sheet: select tab
+4. Click **Execute node** to fetch sample data
+5. Click **+** → search **Gmail** → **Send Email**
+   - To: your email
+   - Subject: `Weekly Report - {{ $now.format('yyyy-MM-dd') }}`
+   - Message: `Total rows: {{ $('Google Sheets').all().length }}`
+6. Click **Execute workflow** (bottom) to test end-to-end
+7. Toggle **Active** in the top right
+8. Save
+
+**What you learned:** `$now` gives current datetime. `$('NodeName')` references any previous node's output. `.all()` gets all items; `.length` counts them. Expressions can include full JavaScript.
+
+### Workflow 2: Form to CRM with Conditional Logic (IF Node)
+
+**Concept:** IF node creates true/false branches based on conditions.
+
+**What it does:** When a form is submitted, create a CRM contact — but route enterprise leads (company size > 100) to a Slack alert as well.
+
+**Steps:**
+
+1. New workflow → **Webhook** trigger
+   - HTTP Method: POST
+   - Path: leave auto-generated
+   - Copy the **Test URL**
+2. Send a test payload (use curl, Postman, or connect a form tool):
+   ```
+   curl -X POST [test-url] -H "Content-Type: application/json" -d '{"name":"Jane","email":"jane@corp.com","company_size":250}'
+   ```
+3. Click **Listen for test event**, send the request, see data appear
+4. **+** → **HubSpot** → **Create Contact** (or any CRM)
+   - Map email, first name from `{{ $json.email }}`, `{{ $json.name }}`
+5. **+** → **IF** node
+   - Condition: Number → `{{ $json.company_size }}` → is greater than → 100
+6. On the **true** branch: **+** → **Slack** → **Send Message**
+   - Channel: #enterprise-leads
+   - Text: `Enterprise lead: {{ $json.name }} from company of {{ $json.company_size }}`
+7. On the **false** branch: leave empty (or add to a nurture list)
+8. Execute workflow, test with company_size both above and below 100
+9. Switch webhook to **Production URL** and activate
+
+**What you learned:** `$json` is the current item's data. IF node outputs to true or false branches. Webhooks have separate test and production URLs.
+
+### Workflow 3: Process Every Row (Loop Over Items)
+
+**Concept:** n8n processes items in batches by default. The Loop Over Items node controls batch size when you need one-at-a-time processing.
+
+**What it does:** Read rows from a Sheet, look up each contact in a CRM, update the row with the CRM status.
+
+**Steps:**
+
+1. **Manual Trigger** (for testing; replace with Schedule later)
+2. **Google Sheets** → **Get Many Rows** (columns: Email, Name, CRM_Status)
+3. **+** → **Loop Over Items**
+   - Batch Size: 1
+4. Inside the loop (the "loop" output): **+** → **HubSpot** → **Search Contacts** by email `{{ $json.Email }}`
+5. **+** → **Google Sheets** → **Update Row**
+   - Match on: Email
+   - CRM_Status: `{{ $json.properties.lifecyclestage || 'Not found' }}`
+6. Connect the Update Row output back to the Loop Over Items input (creates the loop)
+7. On the "done" output of Loop: **+** → **Slack** → notify completion with `{{ $items().length }} rows processed`
+8. Execute
+
+**What you learned:** Loop Over Items with batch size 1 processes sequentially — useful for API rate limits. The "done" branch runs after all iterations. Connecting the last node back to the loop is what makes it iterate.
+
+### Workflow 4: Call Any API (HTTP Request Node)
+
+**Concept:** HTTP Request connects to any REST API, including services n8n has no native node for.
+
+**What it does:** When a new company is added to a Sheet, look up its details from a public API and enrich the row.
+
+**Steps:**
+
+1. **Google Sheets Trigger** → **Row Added** (columns: Domain, Company_Name, Description)
+2. **+** → **HTTP Request**
+   - Method: GET
+   - URL: `https://api.example.com/company?domain={{ $json.Domain }}` (substitute a real enrichment API — Clearbit, Apollo, or a free one like `https://api.github.com/orgs/{{ $json.Domain }}`)
+   - Authentication: choose type if required (API Key, Bearer Token, OAuth2)
+   - Headers: add as needed
+3. Execute to see the JSON response
+4. **+** → **Set** node (to clean up the response)
+   - Add fields: Company_Name = `{{ $json.name }}`, Description = `{{ $json.description }}`
+5. **+** → **Google Sheets** → **Update Row** matching on Domain
+6. Activate
+
+**What you learned:** HTTP Request handles GET, POST, PUT, DELETE. Response is automatically parsed as JSON. Set node reshapes data before writing. This pattern works for any API — read the API's documentation for endpoints and auth.
+
+### Workflow 5: Error Handling and Retries (Error Trigger)
+
+**Concept:** n8n has two error handling layers: node-level retry settings and workflow-level Error Trigger workflows.
+
+**What it does:** Retry failed API calls automatically, and if they still fail, log to a Sheet and notify via Slack.
+
+**Part A — Node-level retry:**
+
+1. Open any workflow with an HTTP Request or API node
+2. Click the node → **Settings** tab
+3. **Retry On Fail:** ON
+4. **Max Tries:** 3
+5. **Wait Between Tries:** 2000 (ms)
+6. **On Error:** Continue (using error output) — this creates an error output branch
+7. Connect the error output to a **Google Sheets** → **Append Row** logging the error `{{ $json.error.message }}`
+
+**Part B — Workflow-level error handler:**
+
+1. Create a new workflow named "Error Handler"
+2. Add **Error Trigger** node
+3. **+** → **Slack** → Send Message
+   - Text: `Workflow "{{ $json.workflow.name }}" failed: {{ $json.execution.error.message }}`
+4. Save and activate
+5. Go back to any production workflow → **Settings** (gear icon) → **Error Workflow:** select "Error Handler"
+
+**What you learned:** Node retry handles transient failures (rate limits, timeouts). Error output branches handle expected failures gracefully. Error Trigger workflows catch everything else across all workflows.
+
+### Adding Code When You Need It
+
+The **Code** node runs JavaScript (or Python) with full access to input data:
+
+```javascript
+// Deduplicate items by email
+const seen = new Set();
+return $input.all().filter(item => {
+  const email = item.json.email.toLowerCase();
+  if (seen.has(email)) return false;
+  seen.add(email);
+  return true;
+});
+```
+
+Use Code when expressions get unwieldy, when you need loops or complex logic, or when transforming data structures.
 
 ## Troubleshooting Common Beginner Issues
 
@@ -239,3 +376,15 @@ n8n offers two free options: self-hosted (completely free, unlimited workflows a
 ### How long does it take to learn n8n?
 
 Most users build their first working automation within 1-2 hours. The visual workflow builder is intuitive — drag nodes, connect them, map data fields. Basic proficiency (triggers, conditions, loops, error handling) takes 1-2 weeks of regular use. Advanced features (custom code nodes, sub-workflows, API integrations) take 1-2 months. n8n's community forum and 900+ workflow templates accelerate learning significantly.
+
+### Is n8n good for beginners?
+
+n8n is approachable for beginners who are comfortable with basic technical concepts (what a webhook is, what JSON looks like). The visual editor is intuitive, and most workflows use only drag-and-drop nodes. The learning curve is steeper than Zapier because n8n exposes more options and expects you to understand data structure. Expect 2-3 hours to build your first meaningful workflow and 1-2 weeks to feel comfortable. The payoff is a platform with no execution limits (self-hosted) and unlimited flexibility as your needs grow.
+
+### What programming language does n8n use?
+
+n8n workflows use JavaScript expressions inside `{{ }}` for dynamic values, and the Code node supports full JavaScript or Python. You do not need to write code for most workflows — native nodes handle common apps with dropdown configuration. Expressions become useful for formatting dates, combining strings, or simple conditions. The Code node is for complex transformations. n8n itself is built in TypeScript and can be extended with custom nodes if you need integrations that do not exist.
+
+### How do I debug an n8n workflow?
+
+Execute nodes one at a time using the "Execute node" button to inspect output at each step — the right panel shows exactly what data each node produces. Use the Executions list (left sidebar) to review past runs, including failed ones with error details. Add a Set node between steps to inspect intermediate data. For webhooks, use the Test URL with "Listen for test event" to capture real payloads. Enable "Save execution data" in workflow settings so you can replay failed executions after fixing the issue.

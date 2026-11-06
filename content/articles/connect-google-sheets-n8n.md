@@ -174,7 +174,7 @@ Add error handling to every Google Sheets workflow:
 
 - **Rate Limiting**: Google's API has quotas. Add a delay between batch operations to avoid hitting limits
 - **Retry Logic**: Use n8n's built-in retry feature for transient errors (network timeouts, temporary API failures)
-- **Error Notifications**: Add an error path that sends a [Slack notification](/blog/automate-slack-notifications) when a workflow fails
+- **Error Notifications**: Add an error path that sends a [Slack notification](/blog/slack-workflow-automation) when a workflow fails
 
 ### Performance Optimization
 

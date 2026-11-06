@@ -136,7 +136,7 @@ Share a booking link and let clients pick a time that works for both of you. Cal
 
 **Pricing:** Free for basic use, $12/user/month for Standard.
 
-**Pairs well with:** [Meeting scheduling automation](/blog/automate-meeting-scheduling) for end-to-end booking workflows.
+**Pairs well with:** [Meeting scheduling automation](/blog/automate-appointment-scheduling) for end-to-end booking workflows.
 
 ## File Management and Storage
 

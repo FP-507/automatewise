@@ -15,7 +15,7 @@ The Notion API turns your Notion workspace into a programmable database that any
 
 You do not need to write code to use the Notion API. Automation platforms like [Zapier](/blog/getting-started-with-zapier), [Make](/blog/getting-started-with-make), and [n8n](/blog/getting-started-with-n8n) have built-in Notion integrations that handle the API calls for you. You configure the connection visually, map your data, and the platform handles the technical details.
 
-For foundational Notion automation concepts, see our [Notion automation guide](/blog/notion-automation-guide). For database-specific patterns, see our [Notion database automation guide](/blog/notion-database-automation).
+For foundational Notion automation concepts, see our [Notion automation guide](/blog/notion-automation-guide). For database-specific patterns, see our [Notion database automation guide](/blog/notion-automation-guide).
 
 ## Setting Up Notion API Access
 

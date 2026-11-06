@@ -123,7 +123,7 @@ Most well-built automations require 1-2 hours per month in maintenance. Complex 
 
 **Before automation**: A sales rep manually enters new leads from the website form into the CRM, sends a welcome email, and assigns to the appropriate team member. Takes 8 minutes per lead, 40 leads per week.
 
-**Automation built**: Webhook captures form data → creates CRM contact → sends personalized welcome email → assigns based on territory → notifies team via [Slack](/blog/automate-slack-notifications).
+**Automation built**: Webhook captures form data → creates CRM contact → sends personalized welcome email → assigns based on territory → notifies team via [Slack](/blog/slack-workflow-automation).
 
 | Metric | Value |
 |--------|-------|

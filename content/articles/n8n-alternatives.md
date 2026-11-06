@@ -33,7 +33,7 @@ Make is the closest managed equivalent to n8n's visual model. Routers, iterators
 
 The interface is also markedly more polished, which matters when workflows need to outlive the person who built them.
 
-**What you give up:** metered operations, which get expensive on data-heavy workloads, and no self-hosting option at all. See [n8n vs Make](/blog/n8n-vs-make) and the [Make tutorial](/blog/make-tutorial-step-by-step).
+**What you give up:** metered operations, which get expensive on data-heavy workloads, and no self-hosting option at all. See [n8n vs Make](/blog/n8n-vs-make) and the [Make tutorial](/blog/getting-started-with-make).
 
 ## 2. Activepieces — When the License Actually Matters
 

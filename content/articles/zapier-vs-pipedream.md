@@ -186,7 +186,7 @@ This is a genuinely usable free tier. 10,000 invocations is enough for many smal
 
 ### Free Tier Verdict
 
-Pipedream's free tier is one of the most generous in the automation industry. Zapier's free tier is functional only as a trial. If cost is a primary concern, Pipedream wins this category decisively. For other budget-friendly platforms, see our guide to the [best automation tools for 2025](/blog/best-automation-tools-2025).
+Pipedream's free tier is one of the most generous in the automation industry. Zapier's free tier is functional only as a trial. If cost is a primary concern, Pipedream wins this category decisively. For other budget-friendly platforms, see our guide to the [best automation tools for 2025](/blog/best-automation-tools-small-business).
 
 ## Who Should Use Zapier?
 

@@ -202,7 +202,7 @@ Here is a recommended tool stack for SaaS automation at each budget level:
 
 1. Deployment notifications
 2. Error alerting and routing
-3. Uptime monitoring → [Slack notifications](/blog/automate-slack-notifications)
+3. Uptime monitoring → [Slack notifications](/blog/slack-workflow-automation)
 4. On-call rotation and escalation
 5. Release notes distribution
 

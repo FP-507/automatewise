@@ -73,7 +73,7 @@ Document automation handles the creation, routing, approval, and storage of docu
 
 ### Notification Automation
 
-This type ensures the right people get the right information at the right time. Instead of checking dashboards or asking colleagues for status updates, automated notifications push relevant information to you via email, Slack, SMS, or other channels. Our guide on [automating Slack notifications](/blog/automate-slack-notifications) covers this in detail.
+This type ensures the right people get the right information at the right time. Instead of checking dashboards or asking colleagues for status updates, automated notifications push relevant information to you via email, Slack, SMS, or other channels. Our guide on [automating Slack notifications](/blog/slack-workflow-automation) covers this in detail.
 
 ## Common Use Cases for Workflow Automation
 

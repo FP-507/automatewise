@@ -89,7 +89,7 @@ Once classified, feedback should be automatically routed to the appropriate team
 
 Highly positive feedback goes to marketing for social proof and testimonials. Moderately positive feedback is logged for trend analysis and product improvement ideas. Negative feedback with specific product complaints goes to the product team. Negative feedback with service complaints goes to the customer support manager. Feedback mentioning competitor names goes to the competitive intelligence channel.
 
-Send notifications through your team's primary communication tool, whether that is [Slack](/blog/automate-slack-notifications), Microsoft Teams, or email. Include enough context in the notification that the recipient can act without having to look up additional information.
+Send notifications through your team's primary communication tool, whether that is [Slack](/blog/slack-workflow-automation), Microsoft Teams, or email. Include enough context in the notification that the recipient can act without having to look up additional information.
 
 ## Building a Feedback-to-Action Pipeline
 

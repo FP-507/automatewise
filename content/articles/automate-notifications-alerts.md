@@ -17,7 +17,7 @@ Smart notification systems take the opposite approach. Instead of blasting every
 
 Building this kind of system requires intentional design. This guide covers the architecture, tools, and patterns for notification workflows that inform without overwhelming.
 
-If you are already using Slack for notifications, our [Slack notification automation guide](/blog/automate-slack-notifications) covers platform-specific techniques in detail.
+If you are already using Slack for notifications, our [Slack notification automation guide](/blog/slack-workflow-automation) covers platform-specific techniques in detail.
 
 ## Types of Automated Notifications
 

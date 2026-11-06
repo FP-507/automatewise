@@ -135,4 +135,4 @@ Many teams use Notion and Airtable together, connected through automation platfo
 
 This dual approach gives you the best of both worlds at the cost of maintaining two systems. The automation layer ([Zapier](/blog/getting-started-with-zapier), [Make](/blog/getting-started-with-make), or [n8n](/blog/getting-started-with-n8n)) keeps them synchronized.
 
-For a broader perspective on choosing the right tool, see our [best automation tools comparison](/blog/best-automation-tools-2025).
+For a broader perspective on choosing the right tool, see our [best automation tools comparison](/blog/best-automation-tools-small-business).

@@ -95,7 +95,7 @@ Know instantly when someone mentions your brand:
 **Reddit mentions** → Email alert + spreadsheet log
 **RSS feed mentions** (blogs, news sites) → Push notification
 
-Response time matters for social media. A customer complaint answered in 15 minutes has a very different outcome than one answered in 15 hours. IFTTT ensures you never miss a mention. For team-based monitoring, see our [Slack notification automation guide](/blog/automate-slack-notifications).
+Response time matters for social media. A customer complaint answered in 15 minutes has a very different outcome than one answered in 15 hours. IFTTT ensures you never miss a mention. For team-based monitoring, see our [Slack notification automation guide](/blog/slack-workflow-automation).
 
 ### Negative Sentiment Early Warning
 

@@ -41,7 +41,7 @@ Look for these categories of waste in your mapped processes:
 
 **Handoffs:** Every time work passes between people or systems, there is risk of delay, miscommunication, or data loss. Reduce handoffs wherever possible.
 
-**Manual data transfer:** Moving information between tools by hand. This is the most automatable category of waste — see our [guide to reducing manual data entry](/blog/reduce-manual-data-entry).
+**Manual data transfer:** Moving information between tools by hand. This is the most automatable category of waste — see our [guide to reducing manual data entry](/blog/automate-data-entry).
 
 ### Step 3: Eliminate, Simplify, Then Automate
 
@@ -131,7 +131,7 @@ Look for three signals: (1) where work queues build up (tasks waiting for approv
 
 ### What is the fastest way to improve business efficiency?
 
-Connect your existing tools with an [automation platform](/blog/best-automation-tools-small-business). Most efficiency loss comes from manual data transfer between disconnected systems. A single afternoon setting up 5-10 automations between your CRM, email, project management, and invoicing tools can eliminate 5-15 hours of weekly manual work. Start with the task your team does most frequently and automate the data transfer steps first — see our [data entry reduction guide](/blog/reduce-manual-data-entry).
+Connect your existing tools with an [automation platform](/blog/best-automation-tools-small-business). Most efficiency loss comes from manual data transfer between disconnected systems. A single afternoon setting up 5-10 automations between your CRM, email, project management, and invoicing tools can eliminate 5-15 hours of weekly manual work. Start with the task your team does most frequently and automate the data transfer steps first — see our [data entry reduction guide](/blog/automate-data-entry).
 
 ### Should I hire or automate first?
 

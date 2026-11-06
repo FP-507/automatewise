@@ -137,7 +137,7 @@ Create a workflow that runs weekly and pulls engagement metrics from each platfo
 
 Store this data in a Google Sheets spreadsheet with one tab per platform and a summary tab that calculates cross-platform totals. Over time, this spreadsheet becomes an invaluable dataset for understanding what content resonates with your audience.
 
-For real-time monitoring, set up [automated Slack notifications](/blog/automate-slack-notifications) that alert you when a post gets unusually high engagement. This lets you capitalize on viral moments by engaging with comments and resharing while the momentum is still building.
+For real-time monitoring, set up [automated Slack notifications](/blog/slack-workflow-automation) that alert you when a post gets unusually high engagement. This lets you capitalize on viral moments by engaging with comments and resharing while the momentum is still building.
 
 ### Using Data to Refine Your Schedule
 

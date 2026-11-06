@@ -162,7 +162,7 @@ IFTTT excels at simple trigger-action automations for personal and smart home us
 
 **Complex conditional logic** -- If you need if/else branches, loops, or multi-path workflows, [Make](/blog/getting-started-with-make) or [n8n](/blog/getting-started-with-n8n) handle that better.
 
-**High-volume business automation** -- IFTTT's 2 free applets (or unlimited on Pro at $3.49/month) work for personal use, but business workflows with dozens of automations benefit from platforms designed for that scale. See our [best automation tools comparison](/blog/best-automation-tools-2025).
+**High-volume business automation** -- IFTTT's 2 free applets (or unlimited on Pro at $3.49/month) work for personal use, but business workflows with dozens of automations benefit from platforms designed for that scale. See our [best automation tools comparison](/blog/best-automation-tools-small-business).
 
 **Real-time, latency-critical actions** -- For sub-second response times, you need local processing. A Hubitat hub or Home Assistant running locally executes automations instantly without cloud round-trips.
 

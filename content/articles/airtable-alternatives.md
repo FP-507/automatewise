@@ -48,7 +48,7 @@ Baserow is open source, self-hostable for free, and offers managed cloud from ar
 
 Notion databases support relations, rollups, and multiple views, and every record is also a page that can hold full documentation. For content calendars, CRMs, and project trackers that need notes attached, this consolidates two tools into one at $10 per user monthly.
 
-**What you give up:** Airtable's stronger field types, formula depth, and automation. See [Notion vs Airtable](/blog/notion-vs-airtable) and our [Notion database automation guide](/blog/notion-database-automation).
+**What you give up:** Airtable's stronger field types, formula depth, and automation. See [Notion vs Airtable](/blog/notion-vs-airtable) and our [Notion database automation guide](/blog/notion-automation-guide).
 
 ## 4. Google Sheets — The Honest Downgrade
 

@@ -42,7 +42,7 @@ Most people find 40-60% of their week falls into the busywork category. That is 
 
 **Why it exists:** Tools do not talk to each other by default.
 
-**The fix:** [Integration platforms](/blog/what-is-workflow-automation) connect tools so data flows automatically. The average knowledge worker spends 4-8 hours weekly on this alone. See our [guide to reducing manual data entry](/blog/reduce-manual-data-entry).
+**The fix:** [Integration platforms](/blog/what-is-workflow-automation) connect tools so data flows automatically. The average knowledge worker spends 4-8 hours weekly on this alone. See our [guide to reducing manual data entry](/blog/automate-data-entry).
 
 ### 3. Meetings Without Decisions
 
@@ -101,7 +101,7 @@ If it cannot be automated but is repetitive, reduce effort per occurrence. Email
 If it must be done manually, do it in dedicated blocks rather than scattered throughout the day. Email at 10 AM and 4 PM, not continuously.
 
 **Step 5: Can it be delegated?**
-If it requires human judgment but not yours specifically, hand it off. See our [delegation framework](/blog/how-to-delegate-tasks-effectively).
+If it requires human judgment but not yours specifically, hand it off. See our [delegation framework](/blog/how-to-create-sops-for-business).
 
 Most busywork dies at Step 1 or 2.
 
@@ -126,7 +126,7 @@ Busywork is any task that consumes time without changing outcomes: status report
 
 ### How do I stop doing busywork at work?
 
-Run a one-week audit, then apply the elimination protocol in order: eliminate (does anyone need this?), automate ([integration platforms](/blog/what-is-workflow-automation) handle data transfer, notifications, and reporting), template (make repetitive manual tasks faster), batch (do remaining tasks in dedicated blocks), and delegate (hand off what requires judgment but not yours). Protect 2-3 hours of daily deep work by blocking notifications and meetings. The biggest wins are usually [automating manual data transfer](/blog/reduce-manual-data-entry) and cancelling decision-free recurring meetings.
+Run a one-week audit, then apply the elimination protocol in order: eliminate (does anyone need this?), automate ([integration platforms](/blog/what-is-workflow-automation) handle data transfer, notifications, and reporting), template (make repetitive manual tasks faster), batch (do remaining tasks in dedicated blocks), and delegate (hand off what requires judgment but not yours). Protect 2-3 hours of daily deep work by blocking notifications and meetings. The biggest wins are usually [automating manual data transfer](/blog/automate-data-entry) and cancelling decision-free recurring meetings.
 
 ### Why does busywork feel productive?
 

@@ -134,7 +134,7 @@ Automation without measurement is just guessing. Set up dashboards that automati
 
 ### Automated Reporting
 
-Build a workflow that pulls these metrics from your email platform's API every week and pushes them to a Google Sheet or dashboard tool. You can use [Google Sheets as your reporting hub](/blog/connect-google-sheets-n8n) and even set up [automated Slack notifications](/blog/automate-slack-notifications) that alert your team when key metrics drop below thresholds.
+Build a workflow that pulls these metrics from your email platform's API every week and pushes them to a Google Sheet or dashboard tool. You can use [Google Sheets as your reporting hub](/blog/connect-google-sheets-n8n) and even set up [automated Slack notifications](/blog/slack-workflow-automation) that alert your team when key metrics drop below thresholds.
 
 This reporting automation takes about 30 minutes to set up and saves hours of manual data pulling every month. More importantly, it ensures you catch problems quickly instead of discovering a broken automation three weeks later.
 

@@ -80,7 +80,7 @@ Webhooks are faster and do not consume polling operations. Use them for anything
 5. **Aggregator** → back to single bundle
 6. **Gmail** → Send order confirmation to customer with all items listed
 
-**Result:** Orders appear in your fulfillment board instantly. See our [e-commerce operations guide](/blog/ecommerce-operations-guide) for the full picture.
+**Result:** Orders appear in your fulfillment board instantly. See our [e-commerce operations guide](/blog/automation-for-ecommerce) for the full picture.
 
 ## Workflow 3: Failed Payment Recovery (Dunning)
 

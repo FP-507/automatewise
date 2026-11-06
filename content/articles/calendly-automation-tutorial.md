@@ -146,7 +146,7 @@ Calendly does not automatically detect no-shows — you mark them manually in th
    - Not a fit → Move to closed-lost, send polite closure email
    - Follow-up needed → Create task due in 3 days, send "great chatting" email with a summary
 
-For more on meeting workflows, see our [meeting scheduling automation guide](/blog/automate-meeting-scheduling).
+For more on meeting workflows, see our [meeting scheduling automation guide](/blog/automate-appointment-scheduling).
 
 ## Calendly Setup Tips for Automation
 

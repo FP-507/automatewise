@@ -97,7 +97,7 @@ Use an HTML node to build the report body. Insert the calculated metrics into yo
 
 ### Step 5: Deliver the Report
 
-Add an Email Send node (using Gmail, SMTP, or your preferred email service) to send the formatted report. Set the recipients, subject line with dynamic date, and HTML body. For team visibility, you can also add a Slack node to post a summary to a relevant channel, which ties into [automating Slack notifications](/blog/automate-slack-notifications).
+Add an Email Send node (using Gmail, SMTP, or your preferred email service) to send the formatted report. Set the recipients, subject line with dynamic date, and HTML body. For team visibility, you can also add a Slack node to post a summary to a relevant channel, which ties into [automating Slack notifications](/blog/slack-workflow-automation).
 
 ### Step 6: Archive the Report
 

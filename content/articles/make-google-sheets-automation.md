@@ -199,7 +199,7 @@ Google Sheets has limits: 10 million cells per spreadsheet, and performance degr
 
 **Keep a raw data sheet:** Write automation data to a "Raw" sheet and use IMPORTRANGE or references in formatted report sheets. This separates data entry from data presentation and prevents formatting from being overwritten by automation.
 
-For n8n-based Google Sheets automation, see our dedicated [Google Sheets + n8n guide](/blog/connect-google-sheets-n8n). For a comparison of automation approaches, our [best automation tools guide](/blog/best-automation-tools-2025) covers all platforms.
+For n8n-based Google Sheets automation, see our dedicated [Google Sheets + n8n guide](/blog/connect-google-sheets-n8n). For a comparison of automation approaches, our [best automation tools guide](/blog/best-automation-tools-small-business) covers all platforms.
 
 ## Frequently Asked Questions
 

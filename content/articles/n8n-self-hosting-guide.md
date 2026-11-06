@@ -455,7 +455,7 @@ Monitor CPU, RAM, and disk usage on your server. Tools like htop, Netdata, or Gr
 
 ### Execution Monitoring
 
-Periodically review the n8n execution log for failed workflows. Build a monitoring workflow within n8n itself that checks for failed executions daily and sends you a summary via [Slack notifications](/blog/automate-slack-notifications) or email.
+Periodically review the n8n execution log for failed workflows. Build a monitoring workflow within n8n itself that checks for failed executions daily and sends you a summary via [Slack notifications](/blog/slack-workflow-automation) or email.
 
 ## Conclusion
 

@@ -78,7 +78,7 @@ See our [Airtable automation guide](/blog/airtable-automation-guide).
 
 **Migration path:** Import CSV. Set property types. Create relations between databases.
 
-See our [Notion database automation guide](/blog/notion-database-automation) and [Notion vs Airtable comparison](/blog/notion-vs-airtable).
+See our [Notion database automation guide](/blog/notion-automation-guide) and [Notion vs Airtable comparison](/blog/notion-vs-airtable).
 
 ### Google Sheets + Automation (The Middle Path)
 
@@ -140,4 +140,4 @@ Airtable is a database with a spreadsheet interface. Under the hood, it enforces
 
 ### What is the easiest database for non-technical users?
 
-Airtable is the easiest transition from spreadsheets — familiar grid interface, drag-and-drop field creation, and automatic type detection on import. [Notion](/blog/notion-database-automation) is close behind for teams already using Notion for documentation. Both require zero SQL knowledge, offer free tiers, and support forms, views, and automation without code. Avoid traditional databases (PostgreSQL, MySQL) unless you have developers — they are more powerful but require technical setup and query language knowledge that most business users do not need.
+Airtable is the easiest transition from spreadsheets — familiar grid interface, drag-and-drop field creation, and automatic type detection on import. [Notion](/blog/notion-automation-guide) is close behind for teams already using Notion for documentation. Both require zero SQL knowledge, offer free tiers, and support forms, views, and automation without code. Avoid traditional databases (PostgreSQL, MySQL) unless you have developers — they are more powerful but require technical setup and query language knowledge that most business users do not need.

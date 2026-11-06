@@ -214,4 +214,4 @@ Make and Power Automate are both capable platforms, but they shine in different 
 
 Your decision should be driven by your existing tool stack and your most common automation patterns. If Microsoft is your world, Power Automate is the natural choice. If your tools span multiple ecosystems, Make gives you more flexibility at a better price.
 
-For more platform comparisons, see [Make vs Zapier](/blog/make-vs-zapier), [n8n vs Make](/blog/n8n-vs-make), and our comprehensive [best automation tools guide](/blog/best-automation-tools-2025).
+For more platform comparisons, see [Make vs Zapier](/blog/make-vs-zapier), [n8n vs Make](/blog/n8n-vs-make), and our comprehensive [best automation tools guide](/blog/best-automation-tools-small-business).
