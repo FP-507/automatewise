@@ -11,7 +11,7 @@ featured: false
 
 ## What Makes a Great IFTTT Applet
 
-A great applet saves you real time on a task you actually do repeatedly. The best ones are set-and-forget: you configure them once and they work in the background indefinitely. We tested hundreds of applets and selected these 25 based on reliability, practical value, and ease of setup.
+A great applet saves you real time on a task you actually do repeatedly. The best ones are set-and-forget: you configure them once and they work in the background indefinitely. We reviewed hundreds of applets and selected these 25 based on reliability, practical value, and ease of setup.
 
 If you are new to IFTTT, start with our [getting started guide](/blog/getting-started-with-ifttt) to understand triggers, actions, and how to connect your accounts. Each applet below takes under two minutes to configure.
 
@@ -224,10 +224,12 @@ If you find yourself wanting more than IFTTT offers -- complex logic, data trans
 
 For smart home specifically, IFTTT remains the best balance of simplicity and capability. For business workflows, platforms like [Zapier](/blog/getting-started-with-zapier), [Make](/blog/getting-started-with-make), or [n8n](/blog/getting-started-with-n8n) offer the depth you need.
 
-## What are the most useful IFTTT applets?
+## Frequently Asked Questions
+
+### What are the most useful IFTTT applets?
 
 The top 5 most-used applets are: (1) Auto-save Instagram photos to Google Drive for backup. (2) Turn on smart lights at sunset using weather data. (3) Log work hours to Google Sheets via button widget. (4) Get a notification when the ISS passes over your location. (5) Automatically mute your phone during calendar events. These applets solve daily friction points with zero maintenance once set up.
 
-## How many IFTTT applets can I run for free?
+### How many IFTTT applets can I run for free?
 
 IFTTT's free plan allows 2 active applets with basic trigger-action logic. The Pro plan ($3.49/month) unlocks unlimited applets plus multi-step applets, conditional logic, and faster polling intervals. For most smart home users, the free plan handles 1-2 essential automations. If you need 3+ applets or multi-action routines, Pro is the most affordable automation subscription available.

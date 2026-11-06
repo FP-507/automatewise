@@ -2,15 +2,42 @@
 
 import { useState } from "react";
 
+/**
+ * Form endpoint of the newsletter provider, e.g.
+ * https://buttondown.com/api/emails/embed-subscribe/<username>
+ * Any provider whose embed form accepts a POSTed `email` field works
+ * (Buttondown, Kit/ConvertKit, Beehiiv, Mailchimp embedded forms).
+ *
+ * Until it is set the signup renders nothing: a form that thanks people
+ * without storing their address is worse than no form.
+ */
+const NEWSLETTER_ACTION = process.env.NEXT_PUBLIC_NEWSLETTER_ACTION;
+
 export function NewsletterSignup({ compact }: { compact?: boolean }) {
-  const [email, setEmail] = useState("");
+  if (!NEWSLETTER_ACTION) return null;
+  return <NewsletterForm action={NEWSLETTER_ACTION} compact={compact} />;
+}
+
+function NewsletterForm({
+  action,
+  compact,
+}: {
+  action: string;
+  compact?: boolean;
+}) {
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-    setEmail("");
+  // The provider handles the POST (and any confirmation step) in a new tab;
+  // this only swaps the form for a confirmation message.
+  const handleSubmit = () => {
+    setTimeout(() => setSubmitted(true), 0);
   };
+  const formProps = {
+    action,
+    method: "post",
+    target: "_blank",
+    onSubmit: handleSubmit,
+  } as const;
 
   if (submitted) {
     return (
@@ -25,10 +52,10 @@ export function NewsletterSignup({ compact }: { compact?: boolean }) {
           </svg>
         </div>
         <p className="font-display text-lg font-semibold text-text">
-          Thanks for subscribing!
+          Almost there!
         </p>
         <p className="mt-2 text-sm text-text-secondary">
-          You&apos;ll get our best automation tips delivered weekly.
+          Check your inbox to confirm your subscription.
         </p>
       </div>
     );
@@ -42,16 +69,15 @@ export function NewsletterSignup({ compact }: { compact?: boolean }) {
             <path d="M0 4a2 2 0 012-2h12a2 2 0 012 2v8a2 2 0 01-2 2H2a2 2 0 01-2-2V4zm2-.5a.5.5 0 00-.5.5v.217l6.5 3.827 6.5-3.827V4a.5.5 0 00-.5-.5H2zm13 2.383l-4.758 2.804L15 11.846V5.883zm-.034 7.215L10.93 9.95 8.39 11.447a.75.75 0 01-.78 0L5.07 9.95l-4.036 3.148A.5.5 0 002 13.5h12a.5.5 0 00.966-.402zM1 11.846l4.758-3.159L1 5.883v5.963z" />
           </svg>
           <p className="font-display text-sm font-semibold text-text">
-            Get automation tips weekly
+            Get new automation guides
           </p>
         </div>
-        <form onSubmit={handleSubmit} className="mt-3 flex gap-2">
+        <form {...formProps} className="mt-3 flex gap-2">
           <label htmlFor="newsletter-compact" className="sr-only">Email address</label>
           <input
             id="newsletter-compact"
             type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            name="email"
             placeholder="you@email.com"
             required
             className="flex-1 rounded-lg border border-border bg-background px-3 py-2.5 text-sm text-text placeholder:text-text-muted transition-all duration-200 focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
@@ -83,19 +109,18 @@ export function NewsletterSignup({ compact }: { compact?: boolean }) {
           Level Up Your Automations
         </h2>
         <p className="mx-auto mt-3 max-w-md text-base leading-relaxed text-text-secondary">
-          Join 5,000+ professionals getting weekly no-code automation tips,
-          tutorials, and tool reviews.
+          Get new no-code automation tutorials, tool comparisons and
+          workflow ideas in your inbox.
         </p>
         <form
-          onSubmit={handleSubmit}
+          {...formProps}
           className="mx-auto mt-8 flex max-w-md flex-col gap-3 sm:flex-row"
         >
           <label htmlFor="newsletter-full" className="sr-only">Email address</label>
           <input
             id="newsletter-full"
             type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            name="email"
             placeholder="your@email.com"
             required
             className="flex-1 rounded-xl border border-border bg-surface/80 px-5 py-3.5 text-text placeholder:text-text-muted transition-all duration-200 focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20 backdrop-blur-sm"
